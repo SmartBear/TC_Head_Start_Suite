@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Test_State_Routines" key="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}" path="Test_State_Routines.py" />
+		<child name="Common_Script_Tests" key="{C482B8DF-29AF-4751-918D-B89327C5BB34}" path="Common_Script_Tests.py" />
+	</children>
+</Root>

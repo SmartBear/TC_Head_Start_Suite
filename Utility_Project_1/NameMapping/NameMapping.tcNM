@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{78B0D208-8B18-47EE-BACC-9CA8D63EA0E3}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{138AB5C3-7B46-466C-901A-A2D394328244}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{6EDFC119-C3B7-4946-B028-0BDE68BBA3C3}">
+								<Image FileName="199176502" Left="0" Top="0" Right="1936" Bottom="1015" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLicenseManagementSmartbear" Key="{A957235F-9888-4FBB-95A3-4FD04D46C42B}">
+								<Image FileName="1891625378" Left="0" Top="103" Right="1920" Bottom="999" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://manage.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxUsername" Key="{53911604-2129-4524-BCF9-334C0D992AD2}">
+										<Image FileName="1891625378" Left="757" Top="392" Right="1164" Bottom="446" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;MuiInputBase-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;customized-dialog-content&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogInWithYourSmartbear" Key="{4CC7E96B-6562-45D2-814A-924F5B6DBBC7}">
+										<Image FileName="-1006926179" Left="697" Top="295" Right="1224" Bottom="807" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;deepPaperContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue" Key="{F880FE15-D4A3-49D3-853D-D46CF935DB67}">
+										<Image FileName="52207183" Left="757" Top="492" Right="1164" Bottom="542" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;jss58&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogInWithGithub" Key="{A52B76A3-583E-487C-9866-F9CE15076BE0}">
+										<Image FileName="-1789130412" Left="765" Top="663" Right="1172" Bottom="703" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Log In with GitHub&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;jss62&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{2FB725A1-3B40-4953-938F-316095BE477F}">
+										<Image FileName="582052738" Left="0" Top="103" Right="1920" Bottom="163" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;MuiPaper-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUserProfile" Key="{4A2F49FE-22FD-413A-B054-187EB52B2715}">
+										<Image FileName="-493908936" Left="1739" Top="149" Right="1903" Bottom="323" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;User Profile&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;MuiList-root&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignOut" Key="{A63215C8-1DA7-4B91-BEF2-AAAAC4CA4F30}">
+										<Image FileName="-493908936" Left="1739" Top="236" Right="1903" Bottom="275" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Sign Out&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{7AC5BF92-A4D6-45CC-BDE1-52041C062479}">
+										<Image FileName="1767772853" Left="1868" Top="111" Right="1928" Bottom="171" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTestcompletePro" Key="{EC1996BB-3792-4B9B-BED5-7FC45A636116}">
+										<Image FileName="-315757544" Left="496" Top="266" Right="670" Bottom="301" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;TestComplete PRO&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;TestComplete PRO&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;jss903&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSubscriptionLicenses" Key="{1B637F5C-2CD6-41B8-8207-F28CD0A6F3F1}">
+										<Image FileName="-207173943" Left="434" Top="317" Right="1502" Bottom="338" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Subscription Licenses&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;MuiTypography-root-831&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;panel1a-content&apos;]//div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLicenses" Key="{63A10780-CC48-4EFD-A0A4-3B3F5564FF5B}">
+										<Image FileName="-207173943" Left="8" Top="171" Right="1928" Bottom="1007" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;jss5&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="TestComplete" Key="{891A8B8D-7CC6-4136-9AB9-57C15122BF19}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="TestComplete" />
+							</Property>
+						</Properties>
+					</Child>
+					<Child Name="TestExecute" Key="{2FFD24E4-0E27-4476-9DF2-354680FA0230}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="TestExecute" />
+							</Property>
+						</Properties>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{138AB5C3-7B46-466C-901A-A2D394328244}">
+			<Child Name="BrowserWindow" Owner="{6EDFC119-C3B7-4946-B028-0BDE68BBA3C3}" />
+			<Child Name="pageLicenseManagementSmartbear" Owner="{A957235F-9888-4FBB-95A3-4FD04D46C42B}">
+				<Child Name="textboxUsername" Owner="{53911604-2129-4524-BCF9-334C0D992AD2}" />
+				<Child Name="panelLogInWithYourSmartbear" Owner="{4CC7E96B-6562-45D2-814A-924F5B6DBBC7}" />
+				<Child Name="buttonContinue" Owner="{F880FE15-D4A3-49D3-853D-D46CF935DB67}" />
+				<Child Name="buttonLogInWithGithub" Owner="{A52B76A3-583E-487C-9866-F9CE15076BE0}" />
+				<Child Name="header" Owner="{2FB725A1-3B40-4953-938F-316095BE477F}">
+					<Child Name="button" Owner="{7AC5BF92-A4D6-45CC-BDE1-52041C062479}" />
+				</Child>
+				<Child Name="textnodeUserProfile" Owner="{4A2F49FE-22FD-413A-B054-187EB52B2715}">
+					<Child Name="textnodeSignOut" Owner="{A63215C8-1DA7-4B91-BEF2-AAAAC4CA4F30}" />
+				</Child>
+				<Child Name="panelTestcompletePro" Owner="{EC1996BB-3792-4B9B-BED5-7FC45A636116}" />
+				<Child Name="textnodeSubscriptionLicenses" Owner="{1B637F5C-2CD6-41B8-8207-F28CD0A6F3F1}" />
+				<Child Name="panelLicenses" Owner="{63A10780-CC48-4EFD-A0A4-3B3F5564FF5B}" />
+			</Child>
+		</Child>
+		<Child Name="TestComplete" Owner="{891A8B8D-7CC6-4136-9AB9-57C15122BF19}" />
+		<Child Name="TestExecute" Owner="{2FFD24E4-0E27-4476-9DF2-354680FA0230}" />
+	</LogicalNodes>
+</Root>
