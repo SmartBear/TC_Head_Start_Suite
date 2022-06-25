@@ -1,15 +1,14 @@
 # Head_Start_Suite
-This is a basic suite to demonstrate misc. TestComplete features.
-This intended as a collection of best practice examples. 
+This is a basic TestComplete suite to demonstrate misc. features and techniques.
+This is intended as a collection of best practice examples. 
 Hopefully, these simple samples can assist you as you build out your CI/CD solutions.
-
-This readme file is a basic outline of potential talking points regarding a given project.
 
 No Express or Implied Warranty. Limitation of liability 
 The use of this project or any related application is conducted at your own risk. 
 The Platform is provided on an “as is” and “as available” basis. 
 To the fullest extent possible under applicable law, the Company gives no warranty, express or implied, as to the quality, content and availability or fitness for a specific purpose of the platform.
 
+This readme file is a basic outline of potential talking points regarding a given project.
 
 ## Getting Started
 
