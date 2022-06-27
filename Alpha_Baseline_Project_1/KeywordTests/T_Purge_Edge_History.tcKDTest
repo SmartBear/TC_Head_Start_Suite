@@ -164,11 +164,24 @@
 														</Data>
 													</Operation>
 													<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-														<Data Description="Simulates one or several keypresses." Action="Keys">
+														<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait">
 															<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-																<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]" />
+																<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 															</Parameters>
 															<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageClearbrowserdataEdge;" />
+														</Data>
+													</Operation>
+													<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+														<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+															<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="![Tab]![Tab]![Tab][Enter]" />
+															</Parameters>
+															<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageClearbrowserdataEdge;" />
+														</Data>
+													</Operation>
+													<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+														<Data Description="Maximizes the specified Window object." Action="Maximize">
+															<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
 														</Data>
 													</Operation>
 													<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">

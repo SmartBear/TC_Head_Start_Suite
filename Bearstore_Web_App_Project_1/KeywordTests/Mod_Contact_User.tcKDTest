@@ -83,7 +83,7 @@
 					</Operation>
 					<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
 						<Data VariableType="4" VariableName="Contact_User">
-							<Records FromBegin="False" ToEnd="False" StartRecord="7" StopIndex="10" />
+							<Records FromBegin="False" ToEnd="False" StartRecord="5" StopIndex="8" />
 						</Data>
 						<Children>
 							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -272,8 +272,8 @@
 	<Variables Version="4" Key="{54B24D78-9BDC-4188-8813-4910E5B3AEF9}">
 		<Items>
 			<Variable Name="Contact_User" Type="DB Table" Local="False">
-				<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
-					<ConnectionInfo FileName="..\Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+					<ConnectionInfo FileName="..\..\..\Iso_Speak_Suite\Iso_Speak_Desktop_Training_Project\Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
 				</DefValue>
 			</Variable>
 		</Items>

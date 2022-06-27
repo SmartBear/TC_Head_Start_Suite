@@ -720,6 +720,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelLoginWasUnsuccessfulPlease" Key="{EBC747C3-11B7-4D51-9F88-CF078A04B6AA}">
+										<Image FileName="-1286494000" Left="1100" Top="496" Right="1483" Bottom="588" />
+										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLoginWasUnsuccessfulPlea" Key="{4DA37F32-37AD-4992-BBFC-2BED42D3A821}">
+										<Image FileName="1318773793" Left="1164" Top="509" Right="1442" Bottom="552" />
+										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Login was unsuccessful. Please correct the errors and try again.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageRegister" Key="{1655A722-3D3E-4ABC-B949-ACD70584AFDC}">
@@ -1204,6 +1234,8 @@
 					<Child Name="textboxUsernameoremail" Owner="{C63F1A75-0024-41C6-AC91-19943EF06473}" />
 					<Child Name="passwordboxPassword" Owner="{A4B9F0AD-8317-4F7E-8431-06DA1FF89A0E}" />
 					<Child Name="buttonLogIn" Owner="{987F155D-BD43-4DF2-8C09-6CC44FC3469E}" />
+					<Child Name="panelLoginWasUnsuccessfulPlease" Owner="{EBC747C3-11B7-4D51-9F88-CF078A04B6AA}" />
+					<Child Name="textnodeLoginWasUnsuccessfulPlea" Owner="{4DA37F32-37AD-4992-BBFC-2BED42D3A821}" />
 				</Child>
 				<Child Name="header" Owner="{45DBD49A-6E04-400D-8E82-5173D68878B2}">
 					<Child Name="navUsd" Owner="{81F48E8E-46BD-4660-BD43-6EE9E6A43127}">

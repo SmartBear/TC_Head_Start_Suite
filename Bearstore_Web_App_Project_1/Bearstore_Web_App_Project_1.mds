@@ -131,6 +131,9 @@
 						<ConnectionInfo FileName="Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
 					</DefValue>
 				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100390033004400310046003400440038003800420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320030003200300041003600440044004600" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
