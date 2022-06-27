@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{A4A265B3-53BE-4D38-A513-D28E97545C91}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{1C7D6AD1-BB80-4F11-97B4-58A94632C162}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -17,14 +17,14 @@
 			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 				<Data Description="Replaces the current indicator text with the specified one.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Navigate_To_Home_Page" />
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Login_Negative" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Navigate_To_Home_Page" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Login_Negative" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="This logs into the Bearstore as Jack Power" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
@@ -41,23 +41,14 @@
 				</Data>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Mod_Navigate_To_Home_Page" />
+				<Data GroupName="Mod_Login_Negative" />
 				<Children>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="865" />
-								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="86" />
-								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-									<Values IsEnum="True">
-										<Value Type="1" Value="0" Text="skNoShift" />
-										<Value Type="1" Value="8192" Text="skShift" />
-										<Value Type="1" Value="32768" Text="skAlt" />
-										<Value Type="1" Value="16384" Text="skCtrl" />
-									</Values>
-								</Parameter>
+								<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
+								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -79,16 +70,53 @@
 									</Values>
 								</Parameter>
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop.header.link.imageSmartstore;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop.header.navUsd.linkLogIn.textnodeLogIn;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogin;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Jake Fake" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Password1" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogin.sectionContent.passwordboxPassword;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogin.sectionContent.buttonLogIn;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Short delay to allow window to quite down" />
+							</Parameters>
 						</Data>
 					</Operation>
 					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop.sectionContent.textnodeWelcomeToOurStore" />
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageLogin.sectionContent.textnodeLoginWasUnsuccessfulPlea" />
 								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Welcome to our store" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Login was unsuccessful. Please correct the errors and try again." />
 								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 							</Parameters>
 						</Data>
@@ -103,5 +131,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{82E98497-430C-4F33-99D7-F7A98FCDCB9D}" />
+	<Parameters Key="{3115EF9A-1863-44C1-A7D5-B438646BA950}" />
 </Root>
