@@ -31,6 +31,11 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="Test_Login_Fail" key="{FF3B0063-43D4-4CC2-BDDB-E275170A45F5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 					<testItem name="Test_Register_User" key="{9D36B19C-8CDE-46E2-B5F8-B2F38702EB81}" group="False" parallel="False" enabled="False" testMoniker="KDT\{49DC6DFC-FF2A-4237-BDED-80F7E10AFADC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="UserName" type="1" localVarName="" value="JanSmyth001" />

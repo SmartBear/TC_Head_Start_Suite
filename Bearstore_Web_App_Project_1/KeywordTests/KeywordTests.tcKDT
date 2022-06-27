@@ -15,6 +15,9 @@
 			<child name="Test_New_Feature" key="{62BC2443-E088-4E30-959B-4C046E2BC9C1}" path="Test_New_Feature.tcKDTest" />
 			<child name="Mod_Open_Brower_Chrome_Incognito" key="{99D22201-7288-482A-A7FA-71502E0CD160}" path="Mod_Open_Brower_Chrome_Incognito.tcKDTest" />
 			<child name="Test_Open_Brower_Chrome_Incognito" key="{EDF29591-EA8D-4DE8-A0F8-A96A7C9FBF9E}" path="Test_Open_Brower_Chrome_Incognito.tcKDTest" />
+			<child name="Mod_Login_Fail" key="{6F3CD153-9FCA-4AAA-8AE3-CA93B1D1B4BE}" path="Mod_Login_Fail.tcKDTest" />
+			<child name="Test_Login_Fail" key="{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" path="Test_Login_Fail.tcKDTest" />
+			<child name="Mod_Navigate_To_Home_Page" key="{417316A5-8B60-40F1-AC93-28B86B11F15B}" path="Mod_Navigate_To_Home_Page.tcKDTest" />
 		</folder>
 		<folder name="GeneralEvents">
 			<child name="GeneralEvents_OnStartTest" key="{E1230F69-6011-42FE-BDE6-DF22D2BC94FF}" path="GeneralEvents_OnStartTest.tcKDTest" />
@@ -33,6 +36,5 @@
 			<child name="Script_Temp" key="{0342ACB5-42BA-467F-84C1-6E25698B1052}" path="Script_Temp.tcKDTest" />
 			<child name="Null_Test" key="{490D8434-381F-40ED-A9B7-6918F8E0756D}" path="Null_Test.tcKDTest" />
 		</folder>
-		<child name="Mod_Login_Fail" key="{6F3CD153-9FCA-4AAA-8AE3-CA93B1D1B4BE}" path="Mod_Login_Fail.tcKDTest" />
 	</children>
 </Root>

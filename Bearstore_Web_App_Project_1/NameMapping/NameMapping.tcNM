@@ -268,6 +268,42 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeWelcomeToOurStore2" Key="{716AB6F6-7251-42D4-AE26-D1071DD719CA}">
+										<Image FileName="-1677609432" Left="405" Top="314" Right="1515" Bottom="352" />
+										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{E551A5D8-23CE-460B-A156-528DDCC46A50}">
+										<Image FileName="-495878869" Left="395" Top="172" Right="645" Bottom="217" />
+										<TypeInfo Item0="{F122A207-0B1F-497B-A538-D7C04C5CF244}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{EECD8EDE-0329-4C9B-82F9-B09B7EE0F4A6}">
@@ -1180,6 +1216,7 @@
 				<Child Name="header" Owner="{9D408F6B-6196-4E42-9F39-1FC72D5F8D62}">
 					<Child Name="link" Owner="{453C59AB-12EA-4CAC-8E2C-FBBB84775591}">
 						<Child Name="imageYourStoreName" Owner="{00396360-60BF-49BC-AC5F-88785CC1810D}" />
+						<Child Name="imageSmartstore" Owner="{E551A5D8-23CE-460B-A156-528DDCC46A50}" />
 					</Child>
 					<Child Name="navUsd" Owner="{D0904A50-F00E-436C-B1FF-DD74A572B5BD}">
 						<Child Name="navContactUs" Owner="{01FD1F14-07DD-4B4E-814E-79CC40C34572}">
@@ -1202,6 +1239,7 @@
 				<Child Name="panelContentWrapper" Owner="{0755EAC2-4545-4D14-98EC-56D869836A78}" />
 				<Child Name="sectionContent" Owner="{A1417EBD-3D5F-48C1-B84F-24C3EB7340A7}">
 					<Child Name="textnodeWelcomeToOurStore" Owner="{FCF5B333-291A-4116-8561-6084CCFB7493}" />
+					<Child Name="textnodeWelcomeToOurStore2" Owner="{716AB6F6-7251-42D4-AE26-D1071DD719CA}" />
 				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{EECD8EDE-0329-4C9B-82F9-B09B7EE0F4A6}" />
