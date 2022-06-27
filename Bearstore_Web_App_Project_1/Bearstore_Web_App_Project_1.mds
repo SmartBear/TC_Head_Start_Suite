@@ -31,7 +31,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Login_Fail" key="{FF3B0063-43D4-4CC2-BDDB-E275170A45F5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Login_Negative" key="{3A48AE51-F74A-4307-8382-40183274DADE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
