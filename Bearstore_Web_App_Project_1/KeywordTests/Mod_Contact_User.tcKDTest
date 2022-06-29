@@ -43,6 +43,29 @@
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 				<Data GroupName="Loop through Excel Data" />
 				<Children>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="This test may fail if the target environment does not have the needed data source driver installed or configured properly. --- KMJ 06292022&#13;&#10;&#13;&#10;To read data, make sure to install the 64-bit version of Microsoft Office 12.0 Access Database Engine OLE DB Provider. &#13;&#10;This is part of Microsoft Access Database Engine 2010 Redistributable. &#13;&#10;You can obtain it from the Microsoft website. &#13;&#10;&#13;&#10;Alternatively, you can try using the 32-bit version of TestExecute.&#13;&#10;" />
+					</Operation>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts a warning to the test log." MessageType="2">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="If the needed data source driver for Excel is not installed or is not configured properly, this test will fail" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="9" ValueValue="54006F0020007200650061006400200064006100740061002C00200069006E007300740061006C006C0020007400680065002000360034002D006200690074002000760065007200730069006F006E0020006F00660020004D006900630072006F0073006F006600740020004F00660066006900630065002000310032002E0030002000410063006300650073007300200044006100740061006200610073006500200045006E00670069006E00650020004F004C0045002000440042002000500072006F00760069006400650072002E0020000D000A00490074002000690073002000700061007200740020006F00660020004D006900630072006F0073006F00660074002000410063006300650073007300200044006100740061006200610073006500200045006E00670069006E00650020003200300031003000200052006500640069007300740072006900620075007400610062006C0065002E0020000D000A0059006F0075002000630061006E002000660069006E00640020006900740020006F006E00200074006800650020004D006900630072006F0073006F0066007400200077006500620073006900740065002E00200041006C007400650072006E00610074006900760065006C0079002C00200079006F0075002000630061006E00200074007200790020007500730069006E00670020007400680065002000330032002D006200690074002000760065007200730069006F006E0020006F0066002000540065007300740045007800650063007500740065002E000D000A00" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribWarning" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
 					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
 						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
