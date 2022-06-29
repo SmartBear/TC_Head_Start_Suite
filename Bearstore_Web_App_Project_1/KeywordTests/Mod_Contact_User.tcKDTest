@@ -44,7 +44,7 @@
 				<Data GroupName="Loop through Excel Data" />
 				<Children>
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-						<Data Comment="This test may fail if the target environment does not have the needed data source driver installed or configured properly. --- KMJ 06292022&#13;&#10;&#13;&#10;To read data, make sure to install the 64-bit version of Microsoft Office 12.0 Access Database Engine OLE DB Provider. &#13;&#10;This is part of Microsoft Access Database Engine 2010 Redistributable. &#13;&#10;You can obtain it from the Microsoft website. &#13;&#10;&#13;&#10;Alternatively, you can try using the 32-bit version of TestExecute.&#13;&#10;" />
+						<Data Comment="This test may fail if the target environment does not have the needed data source driver installed or configured properly. --- KMJ 06292022&#13;&#10;&#13;&#10;To read data from Excel for data driven testing, make sure to install the 64-bit version of Microsoft Office 12.0 Access Database Engine OLE DB Provider. &#13;&#10;This is part of Microsoft Access Database Engine 2010 Redistributable. &#13;&#10;You can obtain it from the Microsoft website. Alternatively, you can try using the 32-bit version of TestExecute.&#13;&#10;" />
 					</Operation>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts a warning to the test log." MessageType="2">
