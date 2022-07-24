@@ -67,7 +67,7 @@
 						</Data>
 					</Operation>
 					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
-						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
+						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="current">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/contactus" />
 								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
@@ -296,7 +296,7 @@
 		<Items>
 			<Variable Name="Contact_User" Type="DB Table" Local="False">
 				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-					<ConnectionInfo FileName="..\..\..\Iso_Speak_Suite\Iso_Speak_Desktop_Training_Project\Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
+					<ConnectionInfo FileName="..\Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
 				</DefValue>
 			</Variable>
 		</Items>
