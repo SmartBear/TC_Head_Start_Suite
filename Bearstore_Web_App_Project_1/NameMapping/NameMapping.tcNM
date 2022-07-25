@@ -270,7 +270,6 @@
 									</Child>
 									<Child Name="textnodeWelcomeToOurStore2" Key="{716AB6F6-7251-42D4-AE26-D1071DD719CA}">
 										<Image FileName="-1677609432" Left="405" Top="314" Right="1515" Bottom="352" />
-										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
@@ -288,7 +287,6 @@
 									</Child>
 									<Child Name="imageSmartstore" Key="{E551A5D8-23CE-460B-A156-528DDCC46A50}">
 										<Image FileName="-495878869" Left="395" Top="172" Right="645" Bottom="217" />
-										<TypeInfo Item0="{F122A207-0B1F-497B-A538-D7C04C5CF244}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -758,7 +756,6 @@
 									</Child>
 									<Child Name="panelLoginWasUnsuccessfulPlease" Key="{EBC747C3-11B7-4D51-9F88-CF078A04B6AA}">
 										<Image FileName="-1286494000" Left="1100" Top="496" Right="1483" Bottom="588" />
-										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
@@ -773,7 +770,6 @@
 									</Child>
 									<Child Name="textnodeLoginWasUnsuccessfulPlea" Key="{4DA37F32-37AD-4992-BBFC-2BED42D3A821}">
 										<Image FileName="1318773793" Left="1164" Top="509" Right="1442" Bottom="552" />
-										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Login was unsuccessful. Please correct the errors and try again.&apos;]" />
