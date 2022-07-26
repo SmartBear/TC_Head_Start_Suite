@@ -1,4 +1,5 @@
-# Iso_Speak_Suite
+# TC_Head_Start_Suite
+
 This is a basic TestComplete suite to demonstrate misc. features and techniques.
 This is intended as a collection of best practice examples. 
 Hopefully, these simple samples can assist you as you build out your CI/CD solutions.
