@@ -1,4 +1,4 @@
-#TC Head Start Suite
+# TC_Head_Start_Suite
 
 This is a basic TestComplete suite to demonstrate misc. features and techniques.
 This is intended as a collection of best practice examples. 
