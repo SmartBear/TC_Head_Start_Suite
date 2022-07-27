@@ -16,12 +16,12 @@
 	</children>
 	<testItems key="{746E2B81-9116-449C-BD7E-87D672B7CACE}">
 		<children>
-			<testItem key="{3CA4E8B5-539A-4886-8710-D871B9C6C6CF}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{31452752-7AB4-43FD-A92F-B84E62622560}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{CD1B24DF-8DDF-44CC-8BEB-DADA78A26D0A}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{3CA4E8B5-539A-4886-8710-D871B9C6C6CF}" enabled="True" timeout="0" stopOnError="False" description="Sample Template Project used for Cloning" />
+			<testItem key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" enabled="True" timeout="0" stopOnError="False" description="Sample Web App Project" />
+			<testItem key="{31452752-7AB4-43FD-A92F-B84E62622560}" enabled="True" timeout="0" stopOnError="False" description="Tools for browser functions" />
+			<testItem key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" enabled="True" timeout="0" stopOnError="False" description="Sample Desktop Project" />
+			<testItem key="{CD1B24DF-8DDF-44CC-8BEB-DADA78A26D0A}" enabled="True" timeout="0" stopOnError="False" description="Sample Web App Project" />
+			<testItem key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" enabled="True" timeout="0" stopOnError="False" description="Samples of generic utility scripts" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
