@@ -21,6 +21,13 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Here I am" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -106,7 +113,7 @@
 					</Operation>
 					<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
 						<Data VariableType="4" VariableName="Contact_User">
-							<Records FromBegin="False" ToEnd="False" StartRecord="5" StopIndex="8" />
+							<Records FromBegin="False" ToEnd="False" StartRecord="1" StopIndex="3" />
 						</Data>
 						<Children>
 							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -290,13 +297,16 @@
 			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
 				<Data Description="Restores the previous indicator text." />
 			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="4" Key="{54B24D78-9BDC-4188-8813-4910E5B3AEF9}">
 		<Items>
 			<Variable Name="Contact_User" Type="DB Table" Local="False">
-				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-					<ConnectionInfo FileName="..\..\..\Iso_Speak_Suite\Iso_Speak_Desktop_Training_Project\Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
+				<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+					<ConnectionInfo FileName="..\..\..\Head_Start_Suite\Bearstore_Web_App_Project_1\Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
 				</DefValue>
 			</Variable>
 		</Items>

@@ -11,9 +11,24 @@ To the fullest extent possible under applicable law, the Company gives no warran
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
+## Asset Conventions
+
+The following topics detail asset conventions used for items within the TC_Head_Start_Suite
+
+### Project Suites and Projects
+
+Project suite, and project names within the suite should be brief and descriptive and end with _Suite or _Project as needed
+
+
+### Keyword Test
+
+Keyword tests within the Keyword test collections are divided by type into folders by using a prefix of Test_ or Mod_ as determined by the test developer.
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 
 ### Prerequisites
 
