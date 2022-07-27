@@ -19,11 +19,9 @@ The following topics detail asset conventions used for items within the TC_Head_
 
 Project suite, and project names within the suite should be brief and descriptive and end with _Suite or _Project as needed
 
-
-### Keyword Test
+### Keyword Tests
 
 Keyword tests within the Keyword test collections are divided by type into folders by using a prefix of Test_ or Mod_ as determined by the test developer.
-
 
 ## Getting Started
 
