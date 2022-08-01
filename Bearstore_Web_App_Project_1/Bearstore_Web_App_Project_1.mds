@@ -89,6 +89,11 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="Test_Login_Logout_Data_Driven" key="{B2E60BBE-0BF7-44B7-BE60-ABB7CDCC97C8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="Bearstore_Script" key="{07616BCA-D8D5-4CF9-A337-FFAD84340504}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

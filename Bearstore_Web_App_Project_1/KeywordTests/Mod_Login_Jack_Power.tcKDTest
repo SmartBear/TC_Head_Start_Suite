@@ -114,8 +114,8 @@
 					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 						<Data Description="Delays the test execution for the specified time period.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
-								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="2 second delay before running Checkpoint" />
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="10000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="10 second delay before running Checkpoint" />
 							</Parameters>
 						</Data>
 					</Operation>
