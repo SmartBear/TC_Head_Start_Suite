@@ -109,7 +109,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Browser_Utilities" key="{79A29BE7-C7C0-42B7-B5F9-1F8196F5E8BE}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Browser_Utilities" key="{79A29BE7-C7C0-42B7-B5F9-1F8196F5E8BE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Close_Open_Browsers" key="{4D7D2FC0-EB19-4A3C-807A-808ABB3378BE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1573626A-7358-484D-9693-4B235F618FA4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -173,7 +173,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.40" />
+		<settingsVersion value="15.42" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -295,7 +295,9 @@
 			</data>
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
+		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
 		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to HipTest." />
 		<setting name="HipTest_SaveResults" type="1" value="True" />
