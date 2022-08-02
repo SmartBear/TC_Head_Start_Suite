@@ -18,6 +18,8 @@
 			<child name="Mod_Login_Negative" key="{6F3CD153-9FCA-4AAA-8AE3-CA93B1D1B4BE}" path="Mod_Login_Negative.tcKDTest" />
 			<child name="Test_Login_Negative" key="{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" path="Test_Login_Negative.tcKDTest" />
 			<child name="Mod_Navigate_Home_Page" key="{417316A5-8B60-40F1-AC93-28B86B11F15B}" path="Mod_Navigate_Home_Page.tcKDTest" />
+			<child name="Test_Login_Logout_Data_Driven" key="{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" path="Test_Login_Logout_Data_Driven.tcKDTest" />
+			<child name="Mod_Login_Data_Driven_1" key="{0612601B-BF67-431F-81AE-29BFA0C88A99}" path="Mod_Login_Data_Driven_1.tcKDTest" />
 		</folder>
 		<folder name="GeneralEvents">
 			<child name="GeneralEvents_OnStartTest" key="{E1230F69-6011-42FE-BDE6-DF22D2BC94FF}" path="GeneralEvents_OnStartTest.tcKDTest" />
@@ -25,6 +27,8 @@
 		<folder name="Z_Templates">
 			<child name="Test_Template" key="{BC321DF2-2FDA-4B64-8EA0-0433A8F3D68B}" path="Test_Template.tcKDTest" />
 			<child name="Module_Template" key="{4451B2B6-2CFF-4D81-A63D-C7AFB7A1F27D}" path="Module_Template.tcKDTest" />
+			<child name="Mod_Jira_ID_1" key="{B058A13F-9B23-4A88-A4A0-A3BFAAB7CDE0}" path="Mod_Jira_ID_1.tcKDTest" />
+			<child name="Test_Jira_ID_1" key="{9106AF4E-46A1-41EE-A73A-BEDF0FBA5375}" path="Test_Jira_ID_1.tcKDTest" />
 		</folder>
 		<folder name="Browser_Utilities">
 			<child name="Terminate_Chrome" key="{6C759B17-65BB-421A-9092-2E3E8A203EE8}" path="Terminate_Chrome.tcKDTest" />

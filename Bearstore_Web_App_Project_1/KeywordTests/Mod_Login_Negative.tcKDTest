@@ -44,7 +44,7 @@
 				<Data GroupName="Mod_Login_Negative" />
 				<Children>
 					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
-						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
+						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="current">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
 								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />

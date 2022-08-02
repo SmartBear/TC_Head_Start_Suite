@@ -53,7 +53,7 @@
 						<Children>
 							<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
 								<Data Description="Iterates through the specified browsers.">
-									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="about:blank" />
 										<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 									</Parameters>
@@ -77,7 +77,7 @@
 											</Operation>
 											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 												<Data Description="Maximizes the specified Window object." Action="Maximize">
-													<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
+													<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
 												</Data>
 											</Operation>
 											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
@@ -105,7 +105,7 @@
 													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 														<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="^![Del]" />
 													</Parameters>
-													<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
+													<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
 												</Data>
 											</Operation>
 											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
@@ -182,11 +182,11 @@
 															<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 																<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
 															</Parameters>
-															<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindowClearAllHistory" />
+															<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindowClearAllHistory;" />
 														</Data>
 													</Operation>
 													<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-														<Data LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 															<CommonData Disabled="True" />
 															<Root Type="0" Operator="0">
 																<Expression Type="1" Operator="0">
@@ -202,7 +202,7 @@
 														<Children>
 															<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 																<Data Description="Performs a single click on the specified button." Action="ClickButton">
-																	<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindowClearAllHistory.pageClearAllHistory.dialogSanitizedialog.hboxDialogButtonBox.buttonClearNow" />
+																	<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindowClearAllHistory.pageClearAllHistory.dialogSanitizedialog.hboxDialogButtonBox.buttonClearNow;" />
 																</Data>
 															</Operation>
 														</Children>
@@ -214,7 +214,7 @@
 														<Children>
 															<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 																<Data Description="Performs a single click on the specified button." Action="ClickButton">
-																	<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageClearAllHistory.dialogSanitizedialog.hboxDialogButtonBox.buttonClearNow" />
+																	<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageClearAllHistory.dialogSanitizedialog.hboxDialogButtonBox.buttonClearNow;" />
 																</Data>
 															</Operation>
 														</Children>
@@ -285,7 +285,7 @@
 															<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 																<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
 															</Parameters>
-															<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageSettingsClearbrowserdata" />
+															<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageSettingsClearbrowserdata;" />
 														</Data>
 													</Operation>
 													<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
@@ -295,7 +295,7 @@
 														<Data GroupName="Deprecated Dismiss steps" />
 														<Children>
 															<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-																<Data LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+																<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 																	<Root Type="1" Operator="0">
 																		<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.FileVersionInfo" />
 																		<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="59.0.3071.86" />
@@ -307,13 +307,13 @@
 																			<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 																				<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
 																			</Parameters>
-																			<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageSettingsClearbrowserdata" />
+																			<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageSettingsClearbrowserdata;" />
 																		</Data>
 																	</Operation>
 																</Children>
 															</Operation>
 															<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-																<Data LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+																<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 																	<Root Type="1" Operator="0">
 																		<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.FileVersionInfo" />
 																		<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="58.0.3029.110" />
@@ -325,7 +325,7 @@
 																			<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 																				<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]" />
 																			</Parameters>
-																			<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageSettingsClearbrowserdata" />
+																			<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageSettingsClearbrowserdata;" />
 																		</Data>
 																	</Operation>
 																</Children>
@@ -338,7 +338,7 @@
 																			<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 																				<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]" />
 																			</Parameters>
-																			<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageSettingsClearbrowserdata" />
+																			<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageSettingsClearbrowserdata;" />
 																		</Data>
 																	</Operation>
 																</Children>
@@ -400,7 +400,7 @@
 													</Operation>
 													<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 														<Data Description="Performs a single click on the specified button." Action="ClickButton">
-															<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.dlgInternetOptions.btnDelete" />
+															<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.dlgInternetOptions.btnDelete;" />
 														</Data>
 													</Operation>
 													<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
@@ -462,7 +462,7 @@
 															<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 																<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]" />
 															</Parameters>
-															<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageClearbrowserdataChrome" />
+															<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageClearbrowserdataChrome;" />
 														</Data>
 													</Operation>
 													<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
@@ -513,7 +513,7 @@
 													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 														<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="3000" VarType="3" ValueType="1" ValueValue="3000" />
 													</Parameters>
-													<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser" />
+													<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser;" />
 												</Data>
 											</Operation>
 											<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">

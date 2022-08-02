@@ -515,9 +515,9 @@
 	</TestData>
 	<Variables Version="4" Key="{54B24D78-9BDC-4188-8813-4910E5B3AEF9}">
 		<Items>
-			<Variable Name="Contact_User" Type="Table" Local="False">
-				<DefValue RowCount="10" ColumnCount="3">
-					<Columns />
+			<Variable Name="Contact_User" Type="DB Table" Local="False">
+				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+					<ConnectionInfo FileName="..\Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
 				</DefValue>
 			</Variable>
 		</Items>

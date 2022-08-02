@@ -23,17 +23,27 @@ function Mod_Contact_User()
   //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
   Log.AppendFolder("Mod_Contact_User", "This module loops through the contact form", pmNormal, Project.Variables.LogAtrribModTitle);
   //The beginning of the Loop through Excel Data group
+  //This test may fail if the target environment does not have the needed data source driver installed or configured properly. --- KMJ 06292022
+  //
+  //To read data from Excel for data driven testing, make sure to install the 64-bit version of Microsoft Office 12.0 Access Database Engine OLE DB Provider. 
+  //This is part of Microsoft Access Database Engine 2010 Redistributable. 
+  //You can obtain it from the Microsoft website. Alternatively, you can try using the 32-bit version of TestExecute.
+  //
+  //Posts a warning to the test log.
+  Log.Warning("If the needed data source driver for Excel is not installed or is not configured properly, this test will fail", "To read data, install the 64-bit version of Microsoft Office 12.0 Access Database Engine OLE DB Provider. \r\nIt is part of Microsoft Access Database Engine 2010 Redistributable. \r\nYou can find it on the Microsoft website. Alternatively, you can try using the 32-bit version of TestExecute.\r\n", pmNormal, Project.Variables.LogAtrribWarning);
   //Opens the specified URL in a running instance of the specified browser.
-  Browsers.Item(btChrome).Navigate("https://bearstore-testsite.smartbear.com/contactus");
+  Browsers.CurrentBrowser.Navigate("https://bearstore-testsite.smartbear.com/contactus");
   //Maximizes the specified Window object.
   Aliases.browser.BrowserWindow.Maximize();
   //Clicks the 'imageYourStoreName' control.
   Aliases.browser.pageContactus.header.link.imageYourStoreName.Click();
   //Waits until the browser loads the page and is ready to accept user input.
   Aliases.browser.pageShop.Wait();
-  Project.Variables.Contact_User.Reset();
+  Project.Variables.Contact_User1.Reset();
   var RecordIdx;
-  for(RecordIdx = 1; RecordIdx <= 3; RecordIdx++)
+  for(RecordIdx = 1; RecordIdx < 5; RecordIdx++)
+    Project.Variables.Contact_User1.Next();
+  for(RecordIdx = 5; RecordIdx <= 8; RecordIdx++)
   {
     //Clicks the 'linkContactUs' link.
     Aliases.browser.pageShop.header.navUsd.navContactUs.linkContactUs.Click();
@@ -42,11 +52,11 @@ function Mod_Contact_User()
     //Clicks the 'textboxYourName' control.
     Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName.Click();
     //Sets the text KeywordTests.Mod_Contact_User.Variables.Contact_User("Name") in the 'textboxYourName' text editor.
-    Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName.SetText(Project.Variables.Contact_User.Value("Name"));
+    Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName.SetText(Project.Variables.Contact_User1.Value("Name"));
     //Sets the text KeywordTests.Mod_Contact_User.Variables.Contact_User("Email") in the 'emailinputYourEmail' text editor.
-    Aliases.browser.pageContactus.sectionContent.formYourName.emailinputYourEmail.SetText(Project.Variables.Contact_User.Value("Email"));
+    Aliases.browser.pageContactus.sectionContent.formYourName.emailinputYourEmail.SetText(Project.Variables.Contact_User1.Value("Email"));
     //Enters KeywordTests.Mod_Contact_User.Variables.Contact_User("Enquiry") in the 'textareaEnquiry' object.
-    Aliases.browser.pageContactus.sectionContent.formYourName.textareaEnquiry.Keys(Project.Variables.Contact_User.Value("Enquiry"));
+    Aliases.browser.pageContactus.sectionContent.formYourName.textareaEnquiry.Keys(Project.Variables.Contact_User1.Value("Enquiry"));
     if(Aliases.browser.pageContactus.sectionContent.formYourName.labelYesIVeReadThe.Exists)
     {
       //Sets the state of the 'checkboxYesIVeReadThe' checkbox to True.
@@ -63,7 +73,7 @@ function Mod_Contact_User()
     Delay(10000, "Long delay to ensure submit had completed");
     //Checks whether the 'contentText' property of the Aliases.browser.pageContactus.FindElement("//div[contains(text(), 'Your enquiry has been successfully sent to the store owner.')]") object equals 'Your enquiry has been successfully sent to the store owner.'.
     aqObject.CheckProperty(Aliases.browser.pageContactus.FindElement("//div[contains(text(), 'Your enquiry has been successfully sent to the store owner.')]"), "contentText", cmpEqual, "Your enquiry has been successfully sent to the store owner.");
-    Project.Variables.Contact_User.Next();
+    Project.Variables.Contact_User1.Next();
   }
   //Checks whether the 'contentText' property of the Aliases.browser.pageContactus.FindElement("//div[contains(text(), 'Your enquiry has been successfully sent to the store owner.')]") object equals 'Your enquiry has been successfully sent to the store owner.'.
   aqObject.CheckProperty(Aliases.browser.pageContactus.FindElement("//div[contains(text(), 'Your enquiry has been successfully sent to the store owner.')]"), "contentText", cmpEqual, "Your enquiry has been successfully sent to the store owner.");
@@ -128,7 +138,7 @@ function Mod_Logout()
   Indicator.PopText();
 }
 
-function Mod_Open_Browser()
+function Mod_Open_Chrome_Browser()
 {
   //Replaces the current indicator text with the specified one.
   Indicator.PushText("Mod_Open_Browser");
@@ -137,6 +147,63 @@ function Mod_Open_Browser()
   //The beginning of the Mod_Open_Browser group
   //Launches the specified browser and opens the specified URL in it.
   Browsers.Item(btChrome).Run("https://bearstore-testsite.smartbear.com/");
+  //Checks whether the 'namePropStr' property of the Aliases.browser.pageShop.header.link.imageYourStoreName object equals 'company-logo.png'.
+  aqObject.CheckProperty(Aliases.browser.pageShop.header.link.imageYourStoreName, "namePropStr", cmpEqual, "company-logo.png");
+  //Posts an image to the test log.
+  Log.Picture(Aliases.browser.pageShop.Picture(), "Post picture of Bearstore Page", "This is too allow post run confirmation of the Bearstore home page", pmNormal, Project.Variables.LogAtrribInformation);
+  //The end of the Mod_Open_Browser group
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //Restores the previous indicator text.
+  Indicator.PopText();
+}
+
+function Test_Login_Logout_Edge()
+{
+  //Replaces the current indicator text with the specified one.
+  Indicator.PushText("Test_Login_Logout_Edge");
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Test_Login_Logout_Edge", "This is a test template to be used as a seed for new tests", pmNormal, Project.Variables.LogAtrribTestTitle);
+  //The beginning of the Test Modules group
+  //Runs script module routines
+  Mod_Open_Edge_Browser();
+  Mod_Login_Jack_Power();
+  Mod_Logout()
+  Mod_Close_Browser();
+  //The end of the Test Modules group
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //Restores the previous indicator text.
+  Indicator.PopText();
+}
+
+function Test_Contact_User()
+{
+  //Replaces the current indicator text with the specified one.
+  Indicator.PushText("Test_Template");
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Test_Template", "This is a test template to be used as a seed for new tests", pmNormal, Project.Variables.LogAtrribTestTitle);
+  //The beginning of the Test Modules group
+  //Runs script module routines
+  Mod_Open_Edge_Browser();
+  Mod_Contact_User();
+  Mod_Close_Browser();
+  //The end of the Test Modules group
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //Restores the previous indicator text.
+  Indicator.PopText();
+}
+
+function Mod_Open_Edge_Browser()
+{
+  //Replaces the current indicator text with the specified one.
+  Indicator.PushText("Mod_Open_Edge_Browser");
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Mod_Open_Edge_Browser", "This test opens the Edge browser and and posts a picture of the Bearstore Page", pmNormal, Project.Variables.LogAtrribModTitle);
+  //The beginning of the Mod_Open_Browser group
+  //Launches the specified browser and opens the specified URL in it.
+  Browsers.Item(btEdge).Run("https://bearstore-testsite.smartbear.com/");
   //Checks whether the 'namePropStr' property of the Aliases.browser.pageShop.header.link.imageYourStoreName object equals 'company-logo.png'.
   aqObject.CheckProperty(Aliases.browser.pageShop.header.link.imageYourStoreName, "namePropStr", cmpEqual, "company-logo.png");
   //Posts an image to the test log.
@@ -157,7 +224,7 @@ function Mod_Register_User(UserName, EMail, FirstName, LastName, Day, Month, Yea
   //The beginning of the Mod_Register_User group
   //The beginning of the Navigate to the Register User Form group
   //Opens the specified URL in a running instance of the specified browser.
-  Browsers.Item(btChrome).Navigate("https://bearstore-testsite.smartbear.com/");
+  Browsers.CurrentBrowser.Navigate("https://bearstore-testsite.smartbear.com/");
   //Maximizes the specified Window object.
   Aliases.browser.BrowserWindow.Maximize();
   //Clicks the 'textnodeLogIn' control.
@@ -219,7 +286,7 @@ function Mod_Register_User(UserName, EMail, FirstName, LastName, Day, Month, Yea
     //Checks whether the 'contentText' property of the Aliases.browser.pageRegister.sectionContent.formRegisterForm.textnodeErrorExistingEMail object equals 'The specified email already exists'.
     aqObject.CheckProperty(Aliases.browser.pageRegister.sectionContent.formRegisterForm.textnodeErrorExistingEMail, "contentText", cmpEqual, "The specified email already exists");
     //Posts a warning to the test log.
-    Log.Warning("Error Found - Registration Failed", "", pmNormal, Project.Variables.LogAtrribWarning);
+    Log.Warning("Error Found - Registration Failed: User already exists", "", pmNormal, Project.Variables.LogAtrribWarning);
     //User already exists return to portal home
     //Clicks the 'imageYourStoreName' control.
     Aliases.browser.pageRegister.header.link.imageYourStoreName.Click();
@@ -234,75 +301,16 @@ function Mod_Register_User(UserName, EMail, FirstName, LastName, Day, Month, Yea
     aqObject.CheckProperty(Aliases.browser.pageRegister.FindElement("//p[contains(text(), 'Your registration completed')]"), "contentText", cmpEqual, "Your registration completed");
     //Clicks the 'linkContinue' link.
     Aliases.browser.pageRegister.sectionContent.linkContinue.Click();
-    //Checks whether the 'contentText' property of the Aliases.browser.pageShop.header.navUsd.linkLogIn.textnodeLogIn object contains 'MollyBrown'.
-    aqObject.CheckProperty(Aliases.browser.pageShop.header.navUsd.linkLogIn.textnodeLogIn, "contentText", cmpContains, "JaneRezner001", false);
-    //Runs a keyword test.
-    KeywordTests.Mod_Logout.Run();
+    //Delays the test execution for the specified time period.
+    Delay(5000);
+    if(Aliases.browser.pageShop.header.navUsd.linkLogIn.ObjectLabel != "Log in")
+    {
+      //Runs a keyword test.
+      KeywordTests.Mod_Logout.Run();
+    }
   }
   //The end of the Validate Registration group
   //The end of the Mod_Register_User group
-  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
-  Log.PopLogFolder();
-  //Restores the previous indicator text.
-  Indicator.PopText();
-}
-
-function Test_Login_Logout()
-{
-  //Replaces the current indicator text with the specified one.
-  Indicator.PushText("Test_Template");
-  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
-  Log.AppendFolder("Test_Template", "This is a test template to be used as a seed for new tests", pmNormal, Project.Variables.LogAtrribTestTitle);
-  //The beginning of the Test Modules group
-  //Runs a script routine.
-  Mod_Open_Browser();
-  //Runs a script routine.
-  Mod_Login_Jack_Power();
-  //Runs a script routine.
-  Mod_Logout();
-  //Runs a script routine.
-  Mod_Close_Browser();
-  //The end of the Test Modules group
-  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
-  Log.PopLogFolder();
-  //Restores the previous indicator text.
-  Indicator.PopText();
-}
-
-function Test_Contact_User()
-{
-  //Replaces the current indicator text with the specified one.
-  Indicator.PushText("Test_Template");
-  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
-  Log.AppendFolder("Test_Template", "This is a test template to be used as a seed for new tests", pmNormal, Project.Variables.LogAtrribTestTitle);
-  //The beginning of the Test Modules group
-  //Runs a script routine.
-  Mod_Open_Browser();
-  //Runs a script routine.
-  Mod_Contact_User();
-  //Runs a script routine.
-  Mod_Close_Browser();
-  //The end of the Test Modules group
-  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
-  Log.PopLogFolder();
-  //Restores the previous indicator text.
-  Indicator.PopText();
-}
-
-function Test_Register_User()
-{
-  //Replaces the current indicator text with the specified one.
-  Indicator.PushText("Test_Template");
-  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
-  Log.AppendFolder("Test_Template", "This is a test template to be used as a seed for new tests", pmNormal, Project.Variables.LogAtrribTestTitle);
-  //The beginning of the Test Modules group
-  //Runs a script routine.
-  Mod_Open_Browser();
-  //Runs a script routine.
-  Mod_Register_User("JaneRezner001", "JaneRezner@Null.Org", "Jane", "Reznerr", 1, "May", 1975);
-  //Runs a script routine.
-  Mod_Close_Browser();
-  //The end of the Test Modules group
   //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
   Log.PopLogFolder();
   //Restores the previous indicator text.

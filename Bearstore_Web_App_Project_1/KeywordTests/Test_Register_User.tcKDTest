@@ -54,7 +54,6 @@
 					</Operation>
 					<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
 						<Data VariableType="4" VariableName="User_Info">
-							<CommonData Disabled="True" />
 							<Records FromBegin="False" ToEnd="False" StartRecord="21" StopIndex="25" />
 						</Data>
 						<Children>

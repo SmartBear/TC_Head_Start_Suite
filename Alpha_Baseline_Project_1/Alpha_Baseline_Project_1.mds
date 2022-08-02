@@ -44,7 +44,7 @@
 					<testItem name="Browser_Utilities" key="{91989610-C516-40A2-BE07-1123C5A8D50A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="T_Purge_Chrome_History" key="{C0D15AE3-641E-4850-8AB6-BAD8FEA1BFFB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{951A3558-73D3-4861-8D92-D35530CAC7DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="T_Purge_Chrome_History" key="{C0D15AE3-641E-4850-8AB6-BAD8FEA1BFFB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{951A3558-73D3-4861-8D92-D35530CAC7DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
@@ -117,7 +117,7 @@
 		</data>
 	</variables>
 	<settings key="{E307E9A9-47FB-4250-A5F4-0B87884028A6}">
-		<settingsVersion value="15.40" />
+		<settingsVersion value="15.41" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

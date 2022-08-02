@@ -17419,6 +17419,68 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShop2" Key="{17657FE2-26D7-4539-AB82-4CE1C9263766}">
+								<Image FileName="762679723" Left="8" Top="121" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{92857D31-BA50-4C1B-9304-3EF240B18598}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{EF4BB26A-98A7-419C-9830-C1D90521921C}">
+										<Image FileName="762679723" Left="8" Top="121" Right="1911" Bottom="301" />
+										<TypeInfo Item0="{A4A2333F-AB18-4600-9B8B-7000908D958A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{2C786EA9-5739-4874-9FC7-BC312924980D}">
+										<Image FileName="762679723" Left="403" Top="190" Right="653" Bottom="235" />
+										<TypeInfo Item0="{8B0F142D-1253-464F-A0E0-6F38239D182B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageCompanyLogoPng" Key="{C3894063-7574-40E4-A4AD-4CE7F89B2BEC}">
+										<Image FileName="762679723" Left="403" Top="190" Right="653" Bottom="235" />
+										<TypeInfo Item0="{A4A2333F-AB18-4600-9B8B-7000908D958A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="dlgFileOpenEdge" Key="{C014C044-889E-4774-AEC9-EE48F2D90A5B}">
@@ -19865,6 +19927,13 @@
 			</Child>
 			<Child Name="pageFileNotFound" Owner="{30A47467-B4EE-4DC6-88B0-F98DD5851BF6}">
 				<Child Name="textnodeSorryThePageYouWereLooki" Owner="{CC68FFD3-56F6-44DF-BC3D-DB4088442437}" />
+			</Child>
+			<Child Name="pageShop2" Owner="{17657FE2-26D7-4539-AB82-4CE1C9263766}">
+				<Child Name="header" Owner="{EF4BB26A-98A7-419C-9830-C1D90521921C}">
+					<Child Name="link" Owner="{2C786EA9-5739-4874-9FC7-BC312924980D}">
+						<Child Name="imageCompanyLogoPng" Owner="{C3894063-7574-40E4-A4AD-4CE7F89B2BEC}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="dlgFileOpenEdge" Owner="{C014C044-889E-4774-AEC9-EE48F2D90A5B}">
