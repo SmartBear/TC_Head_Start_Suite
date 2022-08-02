@@ -47,7 +47,7 @@
 						<Data Comment="This test may fail if the target environment does not have the needed data source driver installed or configured properly. --- KMJ 06292022&#13;&#10;&#13;&#10;To read data from Excel for data driven testing, make sure to install the 64-bit version of Microsoft Office 12.0 Access Database Engine OLE DB Provider. &#13;&#10;This is part of Microsoft Access Database Engine 2010 Redistributable. &#13;&#10;You can obtain it from the Microsoft website. Alternatively, you can try using the 32-bit version of TestExecute.&#13;&#10;" />
 					</Operation>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-						<Data Description="Posts a warning to the test log." MessageType="2">
+						<Data Description="Posts an information message to the test log." MessageType="0">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="If the needed data source driver for Excel is not installed or is not configured properly, this test will fail" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="9" ValueValue="54006F0020007200650061006400200064006100740061002C00200069006E007300740061006C006C0020007400680065002000360034002D006200690074002000760065007200730069006F006E0020006F00660020004D006900630072006F0073006F006600740020004F00660066006900630065002000310032002E0030002000410063006300650073007300200044006100740061006200610073006500200045006E00670069006E00650020004F004C0045002000440042002000500072006F00760069006400650072002E0020000D000A00490074002000690073002000700061007200740020006F00660020004D006900630072006F0073006F00660074002000410063006300650073007300200044006100740061006200610073006500200045006E00670069006E00650020003200300031003000200052006500640069007300740072006900620075007400610062006C0065002E0020000D000A0059006F0075002000630061006E002000660069006E00640020006900740020006F006E00200074006800650020004D006900630072006F0073006F0066007400200077006500620073006900740065002E00200041006C007400650072006E00610074006900760065006C0079002C00200079006F0075002000630061006E00200074007200790020007500730069006E00670020007400680065002000330032002D006200690074002000760065007200730069006F006E0020006F0066002000540065007300740045007800650063007500740065002E000D000A00" />
@@ -106,7 +106,228 @@
 					</Operation>
 					<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
 						<Data VariableType="4" VariableName="Contact_User">
-							<Records FromBegin="False" ToEnd="False" StartRecord="5" StopIndex="8" />
+							<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="3" />
+						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Clicks the &apos;%n&apos; link." Action="Click">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+										<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+										<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+											<Values IsEnum="True">
+												<Value Type="1" Value="0" Text="skNoShift" />
+												<Value Type="1" Value="8192" Text="skShift" />
+												<Value Type="1" Value="32768" Text="skAlt" />
+												<Value Type="1" Value="16384" Text="skCtrl" />
+											</Values>
+										</Parameter>
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop.header.navUsd.navContactUs.linkContactUs;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+										<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+										<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+											<Values IsEnum="True">
+												<Value Type="1" Value="0" Text="skNoShift" />
+												<Value Type="1" Value="8192" Text="skShift" />
+												<Value Type="1" Value="32768" Text="skAlt" />
+												<Value Type="1" Value="16384" Text="skCtrl" />
+											</Values>
+										</Parameter>
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_User">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Name">
+													<Values>
+														<Value Type="6" Value="Name" Text="Name" />
+														<Value Type="6" Value="Email" Text="Email" />
+														<Value Type="6" Value="Enquiry" Text="Enquiry" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Parameter>
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_User">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Email">
+													<Values>
+														<Value Type="6" Value="Name" Text="Name" />
+														<Value Type="6" Value="Email" Text="Email" />
+														<Value Type="6" Value="Enquiry" Text="Enquiry" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Parameter>
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus.sectionContent.formYourName.emailinputYourEmail;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_User">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Enquiry">
+													<Values>
+														<Value Type="6" Value="Name" Text="Name" />
+														<Value Type="6" Value="Email" Text="Email" />
+														<Value Type="6" Value="Enquiry" Text="Enquiry" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Parameter>
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus.sectionContent.formYourName.textareaEnquiry;" />
+								</Data>
+							</Operation>
+							<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+								<Data>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus.sectionContent.formYourName.labelYesIVeReadThe;" />
+								</Data>
+								<Children>
+									<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+										<Data Description="Sets the state of the &apos;%n&apos; checkbox to %p1." Action="ClickChecked">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Checked" DefVarType="11" VarType="11" ValueType="7" ValueValue="True" />
+											</Parameters>
+											<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus.sectionContent.formYourName.checkboxYesIVeReadThe;" />
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Privacy Checkbox did not display" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="The privacy box only displays for the initial run through of this dialog" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.BrowserWindow" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus.sectionContent.formYourName.buttonSendEmail;" />
+								</Data>
+							</Operation>
+							<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+								<Data Description="Delays the test execution for the specified time period.">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="10000" />
+										<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Long delay to ensure submit had completed" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageContactus.FindElement(&quot;//div[contains(text(), &apos;Your enquiry has been successfully sent to the store owner.&apos;)]&quot;)" />
+										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Your enquiry has been successfully sent to the store owner." />
+										<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+									</Parameters>
+								</Data>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageContactus.FindElement(&quot;//div[contains(text(), &apos;Your enquiry has been successfully sent to the store owner.&apos;)]&quot;)" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Your enquiry has been successfully sent to the store owner." />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="Loop through CSV Data" />
+				<Children>
+					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="current">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/contactus" />
+								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Maximizes the specified Window object." Action="Maximize">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageContactus.header.link.imageYourStoreName;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop;" />
+						</Data>
+					</Operation>
+					<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+						<Data VariableType="4" VariableName="Contact_User">
+							<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="3" />
 						</Data>
 						<Children>
 							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -238,7 +459,7 @@
 													</Values>
 												</Parameter>
 												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
-												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.BrowserWindow" />
 												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
 										</Data>

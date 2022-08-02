@@ -40,5 +40,8 @@
 			<child name="Script_Temp" key="{0342ACB5-42BA-467F-84C1-6E25698B1052}" path="Script_Temp.tcKDTest" />
 			<child name="Null_Test" key="{490D8434-381F-40ED-A9B7-6918F8E0756D}" path="Null_Test.tcKDTest" />
 		</folder>
+		<folder name="Checkpoint_Samples">
+			<child name="Table_Checkpoint" key="{FB2DB692-1A1D-4C3F-BA67-314DBFFF96DA}" path="Table_Checkpoint.tcKDTest" />
+		</folder>
 	</children>
 </Root>
