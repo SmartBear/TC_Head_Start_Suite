@@ -58,10 +58,10 @@
 									<Child Name="imageYourStoreName" Key="{00396360-60BF-49BC-AC5F-88785CC1810D}">
 										<Selectors>
 											<Selector>
-												<Value Value="//img[@title=&apos;Your store name&apos;]" />
+												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
+												<Value Value="//img[@title=&apos;Your store name&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//img" />
@@ -990,7 +990,6 @@
 							</Child>
 							<Child Name="pageShopMozillaFirefox" Key="{12EE7FF8-CB0A-41B8-B0DA-29DC6F138531}">
 								<Image FileName="-1705194225" Left="6" Top="0" Right="1290" Bottom="932" />
-								<TypeInfo Item0="{FCD98CD2-2FD7-4B02-9C68-6656D0405F3C}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -1002,7 +1001,6 @@
 								<Children>
 									<Child Name="tabbandTabstoolbar" Key="{3532BEED-211C-4EB9-8458-10CF1734B2A9}">
 										<Image FileName="-1705194225" Left="6" Top="0" Right="1290" Bottom="44" />
-										<TypeInfo Item0="{6D19B16F-34B2-4E3D-9F5E-4F15A97F742D}" />
 										<Properties>
 											<Property Name="ObjectType">
 												<Value Value="TabBand" />

@@ -36,74 +36,59 @@
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 				<Data GroupName="Test_Open_Close_Brower_Incognito" />
 				<Children>
-					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-						<Data Description="Posts a warning to the test log." MessageType="2">
-							<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Investigating - KMJ 20220801" />
-								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-									<Values IsEnum="True">
-										<Value Type="1" Value="100" Text="pmLowest" />
-										<Value Type="1" Value="200" Text="pmLower" />
-										<Value Type="1" Value="300" Text="pmNormal" />
-										<Value Type="1" Value="400" Text="pmHigher" />
-										<Value Type="1" Value="500" Text="pmHighest" />
-									</Values>
-								</Parameter>
-								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-								<Parameter Name="Picture" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribWarning" />
-								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-							</Parameters>
-						</Data>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Chrome Testing" />
+						<Children>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Chrome_RunOptions_Incognito" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Chrome_Code_Snippet_Incognito" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+							</Operation>
+						</Children>
 					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Chrome_RunOptions_Incognito">
-							<CommonData Disabled="True" />
-						</Data>
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Chrome_Code_Snippet_Incognito" />
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Edge_RunOptions_In_Private" />
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Edge_Code_Snippet_In_Private" />
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Edge Testing" />
+						<Children>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Edge_RunOptions_In_Private" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Edge_Code_Snippet_In_Private" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+							</Operation>
+						</Children>
 					</Operation>
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-						<Data Comment="The following lines are commented out to avoid running tests against Firefox &#13;&#10;&#13;&#10;Firefox is not installed on SE 115. " />
+						<Data Comment="The following line can be commented out to avoid running tests against Firefox &#13;&#10;&#13;&#10;Firefox is not installed on SE 115. " />
 					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Firefox_RunOptions_Private_Window">
-							<CommonData Disabled="True" />
-						</Data>
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser">
-							<CommonData Disabled="True" />
-						</Data>
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Firefox_Code_Snippet_Private_Window">
-							<CommonData Disabled="True" />
-						</Data>
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser">
-							<CommonData Disabled="True" />
-						</Data>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="FireFox Testing" />
+						<Children>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Firefox_RunOptions_Private_Window" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Firefox_Code_Snippet_Private_Window" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+							</Operation>
+						</Children>
 					</Operation>
 				</Children>
 			</Operation>

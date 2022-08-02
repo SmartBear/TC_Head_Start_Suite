@@ -41,13 +41,15 @@
 				<Data GroupName="Simple_Browser_Open_and_Close_All_Installed_Browsers" />
 				<Children>
 					<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
-						<Data Description="Iterates through the specified browsers." IterateAll="True">
+						<Data Description="Iterates through the specified browsers.">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://smartbear.com/" />
+								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
 								<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
 							<Item>
 								<BrowserItem BrowserName="firefox" />
+								<BrowserItem BrowserName="chrome" />
+								<BrowserItem BrowserName="edge" />
 							</Item>
 						</Data>
 						<Children>
@@ -103,10 +105,10 @@
 							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSoftwareTestingMonitoringDev.form.imageSmartbearColorLogoSPng" />
-										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="title" />
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop2.header.link.imageCompanyLogoPng" />
+										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="namePropStr" />
 										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="SmartBear" />
+										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="company-logo.png" />
 										<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 									</Parameters>
 								</Data>

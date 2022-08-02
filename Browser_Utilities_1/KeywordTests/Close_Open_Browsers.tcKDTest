@@ -37,17 +37,13 @@
 				<Data Description="Runs a keyword test." TestName="Kill_Chrome" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Kill_Firefox">
-					<CommonData Disabled="True" />
-				</Data>
+				<Data Description="Runs a keyword test." TestName="Kill_Firefox" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Kill_Edge" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Kill_Internet_Explorer">
-					<CommonData Disabled="True" />
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Kill_Edge">
 					<CommonData Disabled="True" />
 				</Data>
 			</Operation>
