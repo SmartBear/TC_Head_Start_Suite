@@ -129,26 +129,6 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="MySmartStore" key="{7C3FF651-28DB-4693-9D13-EF9B6C97DC7A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Logon_Known_User" key="{B1B40A9D-CC34-4D33-9DB9-268CEAD65EA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F125F95B-458C-46F9-B3B1-A079639CA1DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Register_User" key="{9772A44A-076F-46AD-BE50-CC1EC928372C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{94E722FF-28B6-4F78-8153-166965F1FC34}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Logon_Unknown_User" key="{5EB9C953-6CBA-4FC9-AE5D-AC35B6CB2C7B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9412B1C2-FE21-4CDC-A9C0-B7C2FB539812}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
 		</children>
 	</testItems>
 	<variables key="{CACF23EC-64F4-4057-A890-8FBDEA4F63C7}">
