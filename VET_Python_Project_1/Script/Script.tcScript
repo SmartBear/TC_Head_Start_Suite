@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
-	<children>
-		<child name="Template_Scripts" key="{490E711A-F3BD-4138-983F-E8050EBC1D52}" path="Template_Scripts.py" />
-		<child name="Utility_Scripts" key="{BC75B5A1-1D84-4923-8DE6-C1471602FD17}" path="Utility_Scripts.py" />
-		<child name="Module_Scripts" key="{B076DB3A-E91D-46BE-ADF8-692BB55F514D}" path="Module_Scripts.py" />
-	</children>
-</Root>
