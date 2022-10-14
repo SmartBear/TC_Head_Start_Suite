@@ -8,10 +8,10 @@
 		<folder name="AUT_Projects">
 			<child name="Bearstore_Web_App_Project_1" key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" path="Bearstore_Web_App_Project_1\Bearstore_Web_App_Project_1.mds" />
 			<child name="Orders_Desktop_App_Project_1" key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" path="Orders_Desktop_App_Project_1\Orders_Desktop_App_Project_1.mds" />
-			<child name="Vacation_Web_App_C#Script_Project" key="{CD1B24DF-8DDF-44CC-8BEB-DADA78A26D0A}" path="Vacation_Web_App_Project\Vacation_Web_App_C#Script_Project.mds" />
 			<child name="VET_Python_Project" key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" path="VET_Python_Project\VET_Python_Project.mds" />
 			<child name="VET_JavaScript_Project" key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" path="VET_JavaScript_Project\VET_JavaScript_Project.mds" />
 			<child name="Alpha_Baseline_Project_1" key="{3CA4E8B5-539A-4886-8710-D871B9C6C6CF}" path="Alpha_Baseline_Project_1\Alpha_Baseline_Project_1.mds" />
+			<child name="Vacation_Web_App_C#Script_Project" key="{AD296D19-6CC0-47E2-916F-C7BE38498154}" path="Vacation_Web_App_C#Script_Project\Vacation_Web_App_C#Script_Project.mds" />
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Project_1" key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" path="Utility_Project_1\Utility_Project_1.mds" />
@@ -27,9 +27,9 @@
 			<testItem key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" enabled="True" timeout="0" stopOnError="False" description="Sample Desktop Project" />
 			<testItem key="{480A86AA-5E63-469F-8E99-66BEA4CC37B3}" enabled="True" timeout="0" stopOnError="False" description="Sample Template Project used for Cloning" />
 			<testItem key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" enabled="True" timeout="0" stopOnError="False" description="Samples of generic utility scripts" />
-			<testItem key="{CD1B24DF-8DDF-44CC-8BEB-DADA78A26D0A}" enabled="True" timeout="0" stopOnError="False" description="Sample Web App Project" />
 			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="Python Formatting and Jira Naming Convention" />
 			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="JavaScript Formatting and Jira Naming Convention" />
+			<testItem key="{AD296D19-6CC0-47E2-916F-C7BE38498154}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
