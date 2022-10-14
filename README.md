@@ -90,7 +90,7 @@ Please read [CONTRIBUTING.md](put ours here) for details on our code of conduct,
 
 
 ## Versioning
-We use [GITHUB](website here) for versioning. For the versions available, see the [tags on this repository](Hyperlink to repository tags). 
+We use https://github.com/SmartBear/TC_Head_Start_Suite.git for versioning. For the Branches available, see the https://github.com/SmartBear/TC_Head_Start_Suite/branches 
 
 ## Authors
 
