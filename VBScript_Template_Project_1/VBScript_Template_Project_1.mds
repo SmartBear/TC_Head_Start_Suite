@@ -3,12 +3,44 @@
 	<children>
 		<child name="Script" key="{DE2CED3C-166B-49E9-B8FB-5CF6C699BF01}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{053DAE19-0CAB-4986-B033-3B685A56F1C1}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="Events" key="{0868FDAF-0BAF-4619-B27E-829230868523}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 	</children>
 	<config language="{897793E3-73F3-4895-A956-3D41D3A24A45}" />
 	<testItems key="{FD166780-E20F-4972-B607-E7B48C3720A5}" version="14">
-		<children />
+		<children>
+			<testItem name="Test_Template" key="{2D241246-E70E-4673-A2DD-BBB9174D9E2D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0F4B6D5-B1AE-4B1C-9107-5B6BA115D077}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="Keyword_Calling_Script_Test_Template" key="{34AEE0D3-73EE-4919-A802-E838A3AF6283}" group="False" parallel="False" enabled="False" testMoniker="KDT\{142A2791-8855-424B-A173-CC0D5AC46F76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
-	<variables key="{9E12E919-F555-45BD-AA5B-571B6E4E075A}" />
+	<variables key="{9E12E919-F555-45BD-AA5B-571B6E4E075A}">
+		<data Version="4">
+			<Items>
+				<Variable Name="LogAtrribWarning" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribModTitle" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribInformation" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribFailed" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{407D61F4-AABC-4F4A-B1C8-E842345581DC}">
 		<settingsVersion value="15.44" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
