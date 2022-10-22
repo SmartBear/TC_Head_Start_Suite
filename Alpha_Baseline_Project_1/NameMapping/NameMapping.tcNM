@@ -62,10 +62,10 @@
 										<Image FileName="1749119672" Left="403" Top="180" Right="653" Bottom="225" />
 										<Selectors>
 											<Selector>
-												<Value Value="//img[@title=&apos;Your store name&apos;]" />
+												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
+												<Value Value="//img[@title=&apos;Your store name&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//img" />

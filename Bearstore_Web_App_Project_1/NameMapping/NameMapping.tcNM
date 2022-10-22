@@ -543,10 +543,10 @@
 										<Image FileName="-911129902" Left="395" Top="172" Right="645" Bottom="217" />
 										<Selectors>
 											<Selector>
-												<Value Value="//img[@title=&apos;Your store name&apos;]" />
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+												<Value Value="//img[@title=&apos;Your store name&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//a/img" />
@@ -1227,10 +1227,10 @@
 										<Image FileName="759772523" Left="395" Top="172" Right="645" Bottom="217" />
 										<Selectors>
 											<Selector>
-												<Value Value="//img[@title=&apos;Your store name&apos;]" />
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+												<Value Value="//img[@title=&apos;Your store name&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//a/img" />
