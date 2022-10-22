@@ -160,10 +160,10 @@
 										<Image FileName="1312481582" Left="1420" Top="103" Right="1507" Bottom="155" />
 										<Selectors>
 											<Selector>
-												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />
@@ -304,7 +304,6 @@
 									</Child>
 									<Child Name="navBooks" Key="{652AD529-3E44-4C26-BA62-038BD8FA8C5A}">
 										<Image FileName="312890467" Left="8" Top="209" Right="1911" Bottom="259" />
-										<TypeInfo Item0="{590EDD55-9AFF-4967-A821-28382CE0D9E4}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//nav[contains(., &apos;Books&apos;)]" />
@@ -319,7 +318,6 @@
 									</Child>
 									<Child Name="linkWatches" Key="{26C64E86-8E78-4103-9683-615F0A43ACB3}">
 										<Image FileName="312890467" Left="986" Top="209" Right="1066" Bottom="257" />
-										<TypeInfo Item0="{B6634C1D-18E4-46AE-844C-5755D2C16055}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(., &apos;Watches&apos;)]" />
@@ -337,7 +335,6 @@
 									</Child>
 									<Child Name="textnodeWatches" Key="{84479FCE-21AB-43B2-AD5A-0612CA207CEF}">
 										<Image FileName="312890467" Left="995" Top="222" Right="1056" Bottom="243" />
-										<TypeInfo Item0="{590EDD55-9AFF-4967-A821-28382CE0D9E4}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Watches&apos;]" />

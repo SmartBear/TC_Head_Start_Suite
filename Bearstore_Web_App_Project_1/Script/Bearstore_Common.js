@@ -125,6 +125,8 @@ function Mod_Logout()
   //This logs out of the Bearstore
   //Clicks the 'linkLogIn' control.
   Aliases.browser.pageShop.header.navUsd.linkLogIn.Click();
+  //Delays the test execution for the specified time period.
+  Delay(2000, "2 second delay before clicking logout");
   //Clicks the 'textnodeLogOut' control.
   Aliases.browser.pageShop.header.navUsd.linkLogOut.textnodeLogOut.Click();
   //Delays the test execution for the specified time period.
