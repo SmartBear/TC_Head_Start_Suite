@@ -728,7 +728,7 @@
 				<row val0="Update existing frames only" />
 			</data>
 		</setting>
-		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_BindToSCC" type="1" value="False" />
 		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
