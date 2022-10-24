@@ -13,8 +13,8 @@
 			<child name="Mod_Open_Brower_Chrome_Code_Snippet_Incognito" key="{289D8559-9CB2-40A6-B0AE-3B484E3CBCD0}" path="Mod_Open_Brower_Chrome_Code_Snippet_Incognito.tcKDTest" />
 			<child name="Mod_Open_Brower_Edge_Code_Snippet_In_Private" key="{C16DD68F-4FBC-400D-B161-B08436D2DE98}" path="Mod_Open_Brower_Edge_Code_Snippet_In_Private.tcKDTest" />
 			<child name="Mod_Open_Brower_Edge_RunOptions_In_Private" key="{48D749DF-3E73-48CE-BBF0-41FCB08040F8}" path="Mod_Open_Brower_Edge_RunOptions_In_Private.tcKDTest" />
-			<child name="Mod_Open_Brower_Firefox_Code_Snippet_Private_Window" key="{23B92222-64CB-44E8-BE79-E71A85E360B9}" path="Mod_Open_Brower_Firefox_Code_Snippet_Private_Window.tcKDTest" />
-			<child name="Mod_Open_Brower_Firefox_RunOptions_Private_Window" key="{D0C58660-C97B-4BC3-A1B4-326B2FA3BB37}" path="Mod_Open_Brower_Firefox_RunOptions_Private_Window.tcKDTest" />
+			<child name="Mod_Open_Brower_Firefox_Code_Snippet_Private" key="{23B92222-64CB-44E8-BE79-E71A85E360B9}" path="Mod_Open_Brower_Firefox_Code_Snippet_Private.tcKDTest" />
+			<child name="Mod_Open_Brower_Firefox_RunOptions_Private" key="{D0C58660-C97B-4BC3-A1B4-326B2FA3BB37}" path="Mod_Open_Brower_Firefox_RunOptions_Private.tcKDTest" />
 			<child name="Test_Purge_Chrome_History" key="{DBDFC626-A9AE-4A40-BD24-ACA7F0822ED1}" path="Test_Purge_Chrome_History.tcKDTest" />
 			<child name="Test_Purge_Edge_History" key="{871A2A0C-9EE9-41CB-A0DD-5C09E4E99B76}" path="Test_Purge_Edge_History.tcKDTest" />
 		</folder>
