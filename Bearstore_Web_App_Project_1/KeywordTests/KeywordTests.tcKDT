@@ -43,5 +43,6 @@
 		<folder name="Checkpoint_Samples">
 			<child name="Table_Checkpoint" key="{FB2DB692-1A1D-4C3F-BA67-314DBFFF96DA}" path="Table_Checkpoint.tcKDTest" />
 		</folder>
+		<child name="Test1" key="{1EC7B654-7D08-4FAE-93B8-A135E738F1C4}" path="Test1.tcKDTest" />
 	</children>
 </Root>
