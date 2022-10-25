@@ -66,7 +66,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Data_Driven" key="{2E5DFA51-5C6E-43B6-AF41-DFE2B34F21F7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4209C8C9-05F9-478E-9AA1-5E25845A597F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Data_Driven" key="{2E5DFA51-5C6E-43B6-AF41-DFE2B34F21F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4209C8C9-05F9-478E-9AA1-5E25845A597F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -104,7 +104,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Contact_User" key="{B09A873D-582C-480D-8009-8853DBCF6E97}" group="False" parallel="False" enabled="True" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Contact_User" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Contact_User" key="{B09A873D-582C-480D-8009-8853DBCF6E97}" group="False" parallel="False" enabled="False" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Contact_User" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
