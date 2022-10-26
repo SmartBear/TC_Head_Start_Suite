@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="This is a simple module test example that demonstrates using data driven testing" Key="{BDC16A25-F9B4-45A1-A7B1-0D6A97B0BF66}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="This is a simple module test example that demonstrates using data driven testing" Key="{BDC16A25-F9B4-45A1-A7B1-0D6A97B0BF66}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />

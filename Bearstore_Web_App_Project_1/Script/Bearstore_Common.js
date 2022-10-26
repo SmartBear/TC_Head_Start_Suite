@@ -179,6 +179,7 @@ function Test_Login_Logout_Edge()
   Indicator.PopText();
 }
 
+//@Debug
 function Test_Contact_User()
 {
   //Replaces the current indicator text with the specified one.
