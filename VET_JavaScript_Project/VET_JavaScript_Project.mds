@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<child name="Script" key="{2E9737C0-133B-4340-99B9-72F7673E31BD}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
@@ -25,6 +25,11 @@
 					<testItem name="Script_Test_Template" key="{34983E59-0D22-4D9A-A768-2EE1330F98B6}" group="False" parallel="False" enabled="True" testMoniker="{89442D72-2254-4E79-B2F0-BBBB804AF27D}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_New_Function" key="{61982E3C-1EE9-47E9-9766-601F6128F792}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>

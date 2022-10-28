@@ -31,7 +31,7 @@
 			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="Python Formatting and Jira Naming Convention" />
 			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="JavaScript Formatting and Jira Naming Convention" />
 			<testItem key="{AD296D19-6CC0-47E2-916F-C7BE38498154}" enabled="True" timeout="0" stopOnError="False" description="C#Script Formatting and Jira Naming Convention" />
-			<testItem key="{4EF312B8-EC90-482C-933F-3C1C6AF6134A}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{4EF312B8-EC90-482C-933F-3C1C6AF6134A}" enabled="True" timeout="0" stopOnError="False" description="" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
