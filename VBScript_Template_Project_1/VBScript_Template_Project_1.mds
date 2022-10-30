@@ -10,7 +10,7 @@
 		<children>
 			<testItem name="Test_Template" key="{2D241246-E70E-4673-A2DD-BBB9174D9E2D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0F4B6D5-B1AE-4B1C-9107-5B6BA115D077}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="Keyword_Calling_Script_Test_Template" key="{34AEE0D3-73EE-4919-A802-E838A3AF6283}" group="False" parallel="False" enabled="False" testMoniker="KDT\{142A2791-8855-424B-A173-CC0D5AC46F76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

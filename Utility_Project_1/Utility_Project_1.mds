@@ -17,7 +17,7 @@
 						<children>
 							<testItem name="Passing_Test" key="{5E6F2C6E-FD22-4A6E-A6F4-784AB36FFAC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{20341139-7F33-4050-8C35-6E9AFED95BF2}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 							<testItem name="Warning_Test" key="{E213A273-C07B-4A25-BDDF-B9CFF23E303A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BD68E1E7-74C3-46AA-B8A8-97C9C4DB75FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
