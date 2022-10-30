@@ -89,25 +89,12 @@
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
+							<testItem name="Test_Register_User_2" key="{4B18EC9C-7A50-4EF6-B2EB-07EE8A5898FC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C288BA28-0C93-4417-89DD-B9F6388A3BDA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
 						</children>
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Test_Register_User_2" key="{4B18EC9C-7A50-4EF6-B2EB-07EE8A5898FC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C288BA28-0C93-4417-89DD-B9F6388A3BDA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="Group3" key="{81F18F09-257A-49F0-A992-AEC5E0860356}" group="True" parallel="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="Group1" key="{DB668199-687A-4AD7-9087-682F37497549}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Group2" key="{FB400FBF-6538-4405-8C95-FE046AD8843A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
 					</testItem>
 				</children>
 			</testItem>
