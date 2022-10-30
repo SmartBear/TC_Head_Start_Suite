@@ -47,12 +47,12 @@
 			<testItem name="Scripts" key="{D3B8BD79-FF54-494A-990E-3ED2E5CA0CB9}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Hello_World_Fail_2" key="{10902AD7-412D-4B88-9AD4-ADE564819700}" group="False" parallel="False" enabled="True" testMoniker="{B55AE496-4F81-43EF-AEC5-18CE7DABBA13}Hello_World_Fail" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Hello_World_Fail_2" key="{10902AD7-412D-4B88-9AD4-ADE564819700}" group="False" parallel="False" enabled="False" testMoniker="{B55AE496-4F81-43EF-AEC5-18CE7DABBA13}Hello_World_Fail" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Hello_World_Pass_2" key="{1CCC47AB-833F-4D2A-B6EC-A5F603C2FDCE}" group="False" parallel="False" enabled="False" testMoniker="{B55AE496-4F81-43EF-AEC5-18CE7DABBA13}Hello_World_Pass" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Hello_World_Pass_2" key="{1CCC47AB-833F-4D2A-B6EC-A5F603C2FDCE}" group="False" parallel="False" enabled="True" testMoniker="{B55AE496-4F81-43EF-AEC5-18CE7DABBA13}Hello_World_Pass" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
