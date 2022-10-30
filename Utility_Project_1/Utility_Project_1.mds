@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<child name="Events" key="{FA503B7E-2211-44D7-BE36-AFD67B26744B}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
@@ -103,7 +103,7 @@
 		</data>
 	</variables>
 	<settings key="{A06D61E5-7AA0-416C-8EA1-9AF7448E7799}">
-		<settingsVersion value="15.40" />
+		<settingsVersion value="15.44" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -225,7 +225,9 @@
 			</data>
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
+		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
 		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to HipTest." />
 		<setting name="HipTest_SaveResults" type="1" value="True" />
