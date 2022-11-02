@@ -143,10 +143,10 @@
 										<Image FileName="-702387178" Left="405" Top="-1651" Right="1515" Bottom="-1613" />
 										<Selectors>
 											<Selector>
-												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
