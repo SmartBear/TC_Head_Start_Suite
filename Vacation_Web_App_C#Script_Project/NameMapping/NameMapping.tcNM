@@ -136,10 +136,10 @@
 									<Child Name="textnodeWelcomeToOurStore" Key="{FCF5B333-291A-4116-8561-6084CCFB7493}">
 										<Selectors>
 											<Selector>
-												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
