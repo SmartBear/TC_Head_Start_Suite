@@ -37,7 +37,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Open_and_Close_All_Browsers" key="{11786AEC-752C-4CA9-9345-317E571BF7EF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Open_and_Close_All_Browsers" key="{11786AEC-752C-4CA9-9345-317E571BF7EF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -52,7 +52,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -62,12 +62,12 @@
 			<testItem name="Debug Smartbear Issues" key="{CE2329D6-CA59-4888-B146-9536A1CCEBBD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Simple_Browser_Open_and_Close_All_Installed_Browsers" key="{F210A04D-2D55-4330-A9B6-2E3306209051}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6A1B2442-8750-456A-8E0F-9C683BCAB7CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Simple_Browser_Open_and_Close_All_Installed_Browsers" key="{F210A04D-2D55-4330-A9B6-2E3306209051}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6A1B2442-8750-456A-8E0F-9C683BCAB7CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Simple_Browser_Open_and_Close_Firefox_Only" key="{4E4643C4-B31A-4843-811B-0DCC010571A8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B1760A5E-B72A-4F49-ADFA-58ED1654F095}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Simple_Browser_Open_and_Close_Firefox_Only" key="{4E4643C4-B31A-4843-811B-0DCC010571A8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B1760A5E-B72A-4F49-ADFA-58ED1654F095}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -79,7 +79,7 @@
 				<children>
 					<testItem name="Passing_Test" key="{59D5F936-36B9-48C5-A52B-5F196D5A5B64}" group="False" parallel="False" enabled="True" testMoniker="KDT\{148C02BE-021F-4312-B6EB-EA85D39C7155}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Warning_Test" key="{E7C5F629-13BA-4805-BE1E-CF624F9E2D52}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D030BBD3-9309-49DA-8A28-80186319B9F2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -153,7 +153,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.42" />
+		<settingsVersion value="15.44" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

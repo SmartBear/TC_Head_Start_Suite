@@ -66,7 +66,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Data_Driven" key="{2E5DFA51-5C6E-43B6-AF41-DFE2B34F21F7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4209C8C9-05F9-478E-9AA1-5E25845A597F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Data_Driven" key="{2E5DFA51-5C6E-43B6-AF41-DFE2B34F21F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4209C8C9-05F9-478E-9AA1-5E25845A597F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -76,7 +76,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Register_User" key="{9D36B19C-8CDE-46E2-B5F8-B2F38702EB81}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49DC6DFC-FF2A-4237-BDED-80F7E10AFADC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Register_User" key="{9D36B19C-8CDE-46E2-B5F8-B2F38702EB81}" group="False" parallel="False" enabled="False" testMoniker="KDT\{49DC6DFC-FF2A-4237-BDED-80F7E10AFADC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="UserName" type="1" localVarName="" value="JanSmyth001" />
 							<param1 name="EMail" type="1" localVarName="" value="JanSmyth001@Null.org" />
@@ -89,7 +89,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Login_Logout_Data_Driven" key="{B2E60BBE-0BF7-44B7-BE60-ABB7CDCC97C8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Login_Logout_Data_Driven" key="{B2E60BBE-0BF7-44B7-BE60-ABB7CDCC97C8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -104,7 +104,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Contact_User" key="{B09A873D-582C-480D-8009-8853DBCF6E97}" group="False" parallel="False" enabled="True" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Contact_User" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Contact_User" key="{B09A873D-582C-480D-8009-8853DBCF6E97}" group="False" parallel="False" enabled="False" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Contact_User" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -114,7 +114,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Bearstore_Register_2" key="{0405EF0F-6E98-4D1C-A17D-DCC39B532C16}" group="False" parallel="False" enabled="True" testMoniker="{8EDDFC6C-5084-464F-A992-C9FB0475AE39}Test_Bearstore_Register" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Bearstore_Register_2" key="{0405EF0F-6E98-4D1C-A17D-DCC39B532C16}" group="False" parallel="False" enabled="False" testMoniker="{8EDDFC6C-5084-464F-A992-C9FB0475AE39}Test_Bearstore_Register" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -263,7 +263,7 @@
 		</data>
 	</variables>
 	<settings key="{65790EC2-BA5D-4B61-8876-0539EA767551}">
-		<settingsVersion value="15.41" />
+		<settingsVersion value="15.44" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -385,7 +385,9 @@
 			</data>
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
+		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
 		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
 		<setting name="HipTest_SaveResults" type="1" value="True" />
@@ -872,7 +874,7 @@
 				<row val0="Update existing frames only" />
 			</data>
 		</setting>
-		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_BindToSCC" type="1" value="False" />
 		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

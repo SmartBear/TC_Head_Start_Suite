@@ -1,4 +1,5 @@
-﻿//USEUNIT Bearstore_Common
+﻿//@Debug
+//USEUNIT Bearstore_Common
 function Test_Bearstore_Register()
 {
   //Replaces the current indicator text with the specified one.

@@ -84,7 +84,12 @@
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="Test_Template_All_Browser_Loop" key="{0B7EA01E-A075-443A-BE15-A3A069B47BED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9C3ACC8C-82DE-4E73-A567-B0508B4ADE40}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Test_Template_All_Browser_Loop" key="{0B7EA01E-A075-443A-BE15-A3A069B47BED}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9C3ACC8C-82DE-4E73-A567-B0508B4ADE40}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Test_Register_User_2" key="{4B18EC9C-7A50-4EF6-B2EB-07EE8A5898FC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C288BA28-0C93-4417-89DD-B9F6388A3BDA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
@@ -117,7 +122,7 @@
 		</data>
 	</variables>
 	<settings key="{E307E9A9-47FB-4250-A5F4-0B87884028A6}">
-		<settingsVersion value="15.41" />
+		<settingsVersion value="15.44" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -239,7 +244,9 @@
 			</data>
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
+		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
 		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
 		<setting name="HipTest_SaveResults" type="1" value="True" />
@@ -726,7 +733,7 @@
 				<row val0="Update existing frames only" />
 			</data>
 		</setting>
-		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_BindToSCC" type="1" value="False" />
 		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

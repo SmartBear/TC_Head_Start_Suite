@@ -62,10 +62,10 @@
 										<Image FileName="1749119672" Left="403" Top="180" Right="653" Bottom="225" />
 										<Selectors>
 											<Selector>
-												<Value Value="//img[@title=&apos;Your store name&apos;]" />
+												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
+												<Value Value="//img[@title=&apos;Your store name&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//img" />
@@ -143,10 +143,10 @@
 										<Image FileName="-702387178" Left="405" Top="-1651" Right="1515" Bottom="-1613" />
 										<Selectors>
 											<Selector>
-												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
@@ -240,6 +240,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//nav/nav[@id=&apos;menubar-my-account&apos;]//div/a[4]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{ABEF1775-C5AD-467B-8D3E-9DBFBB713874}">
+										<Image FileName="-1884492667" Left="373" Top="179" Right="635" Bottom="226" />
+										<TypeInfo Item0="{7DA7A14F-6140-4F46-A537-8C5F17491A3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;shop-logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -971,6 +986,69 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelTheSpecifiedEmailAlready" Key="{3EAFBEB0-AC07-4FE8-928B-2A603BFCFBFA}">
+										<Image FileName="-1432640087" Left="405" Top="372" Right="1135" Bottom="419" />
+										<TypeInfo Item0="{7DA7A14F-6140-4F46-A537-8C5F17491A3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;register-form&apos;]//div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{00519FD1-6E8E-4A82-A677-13259C7C9222}">
+										<Image FileName="710312798" Left="8" Top="111" Right="1911" Bottom="290" />
+										<TypeInfo Item0="{7DA7A14F-6140-4F46-A537-8C5F17491A3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{289FC107-481B-4B64-830C-A6F1BCF03F3D}">
+										<Image FileName="710312798" Left="403" Top="180" Right="653" Bottom="225" />
+										<TypeInfo Item0="{51B84CC0-B674-412F-954B-41532E5089BE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{8C8FDC91-D820-4AB7-B526-22EE00F3E892}">
+										<Image FileName="710312798" Left="403" Top="180" Right="653" Bottom="225" />
+										<TypeInfo Item0="{7DA7A14F-6140-4F46-A537-8C5F17491A3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageClearbrowserdataChrome" Key="{BD2D7426-50CC-4FC2-9A0B-AF3F8E58ADF0}">
@@ -1050,6 +1128,7 @@
 							<Child Name="textnodeLogOut" Owner="{DC26B411-3CA3-4203-999F-E0B0095BDC35}" />
 						</Child>
 					</Child>
+					<Child Name="panel" Owner="{ABEF1775-C5AD-467B-8D3E-9DBFBB713874}" />
 				</Child>
 				<Child Name="panelContentWrapper" Owner="{0755EAC2-4545-4D14-98EC-56D869836A78}" />
 				<Child Name="sectionContent" Owner="{A1417EBD-3D5F-48C1-B84F-24C3EB7340A7}">
@@ -1116,8 +1195,14 @@
 							<Child Name="checkboxIWouldLikeToSubscribeToT" Owner="{C34FF454-DF45-4FB4-8844-5872F12F0DEC}" />
 						</Child>
 						<Child Name="buttonRegisterButton" Owner="{DAC053A7-7C5B-47DD-AD80-B38DC6900AF3}" />
+						<Child Name="panelTheSpecifiedEmailAlready" Owner="{3EAFBEB0-AC07-4FE8-928B-2A603BFCFBFA}" />
 					</Child>
 					<Child Name="linkContinue" Owner="{D18CE54F-4C9D-4953-B852-C8DB9A46A417}" />
+				</Child>
+				<Child Name="header" Owner="{00519FD1-6E8E-4A82-A677-13259C7C9222}">
+					<Child Name="link" Owner="{289FC107-481B-4B64-830C-A6F1BCF03F3D}">
+						<Child Name="imageSmartstore" Owner="{8C8FDC91-D820-4AB7-B526-22EE00F3E892}" />
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageClearbrowserdataChrome" Owner="{BD2D7426-50CC-4FC2-9A0B-AF3F8E58ADF0}" />

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{3558C765-80A1-4D1A-AA4C-EB9F4520F460}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="EventControl_TestEngine_OnStartTest" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="9" ValueValue="5400680069007300200069007300200061002000540065007300740043006F006D0070006C0065007400650020006500760065006E007400200074006800610074002000720075006E007300200063006F006D006D006F006E0020006D006F00640075006C006500200072006F007500740069006E0065007300200061007400200074006800650020006F006E0073006500740020006F006600200065007600650072007900200074006500730074000D000A000D000A00540068006500200070007500720070006F007300650020006F0066002000740068006900730020006B006500790077006F007200640020007400650073007400200069007300200074006F0020007300650074002000740068006500200063006F006C006F007200200063006F00640069006E006700200073006300680065006D006100200066006F00720020007400680065002000700072006F006A0065006300740020006D006500730073006100670065007300" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="EventControl_TestEngine_OnStartTest" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="EventControl_TestEngine_OnStartTest" />
+				<Children>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Set Log Attribute Local EventControl_OnStartTest Variable" />
+						<Children>
+							<Operation Moniker="Keyword Test OperationsLog Attributes Keyword Test OperationSmartBear Software1.0Log Attributes" StringID="Operation: Log Attributes&#13;&#10;Plug-in: Log Attributes Keyword Test Operation (Version: 1.0, SmartBear Software)">
+								<Data>
+									<Data>
+										<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the font and color settings for test log items." />
+										<FontColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="16777215" />
+										<BackColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="32896" />
+										<Bold Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+										<Italic Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+										<Underline Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+										<StrikeOut Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+										<PlainTextRemarks Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+									</Data>
+									<Parameters />
+								</Data>
+							</Operation>
+							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+								<Data VariableType="4" VariableName="LogAttribEventTitle">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+								<Data Description="Posts an information message to the test log." MessageType="0">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Events_OnStartTest&quot; + &quot;: Running Common Modules&quot;" />
+										<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="9" ValueValue="5400680069007300200069007300200061002000540065007300740043006F006D0070006C0065007400650020006500760065006E007400200074006800610074002000720075006E007300200063006F006D006D006F006E0020006D006F00640075006C006500200072006F007500740069006E0065007300200061007400200074006800650020006F006E0073006500740020006F006600200065007600650072007900200074006500730074000D000A000D000A00540068006500200070007500720070006F007300650020006F0066002000740068006900730020006B006500790077006F007200640020007400650073007400200069007300200074006F0020007300650074002000740068006500200063006F006C006F007200200063006F00640069006E006700200073006300680065006D006100200066006F00720020007400680065002000700072006F006A0065006300740020006D006500730073006100670065007300" />
+										<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+											<Values IsEnum="True">
+												<Value Type="1" Value="100" Text="pmLowest" />
+												<Value Type="1" Value="200" Text="pmLower" />
+												<Value Type="1" Value="300" Text="pmNormal" />
+												<Value Type="1" Value="400" Text="pmHigher" />
+												<Value Type="1" Value="500" Text="pmHighest" />
+											</Values>
+										</Parameter>
+										<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="LogAttribEventTitle" />
+										<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+								</Data>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+						<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Set Log Attributes (Color Coding Project Variables)" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="These routines set project variables fo log message color coding" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="LogAttribEventTitle" />
+								<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Set Log Attribute Project Variables" />
+						<Children>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Set LogAtrribInformation Project Variable" />
+								<Children>
+									<Operation Moniker="Keyword Test OperationsLog Attributes Keyword Test OperationSmartBear Software1.0Log Attributes" StringID="Operation: Log Attributes&#13;&#10;Plug-in: Log Attributes Keyword Test Operation (Version: 1.0, SmartBear Software)">
+										<Data>
+											<Data>
+												<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the font and color settings for test log items." />
+												<FontColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="0" />
+												<BackColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="12639424" />
+												<Bold Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+												<Italic Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<Underline Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<StrikeOut Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<PlainTextRemarks Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+											</Data>
+											<Parameters />
+										</Data>
+									</Operation>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="2" VariableName="LogAtrribInformation">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Color Code Information" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="Use this for Informational messages that you wish to differentiate from intrinsic TestComplete Informational messages" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Set LogAtrribWarning Project Variable" />
+								<Children>
+									<Operation Moniker="Keyword Test OperationsLog Attributes Keyword Test OperationSmartBear Software1.0Log Attributes" StringID="Operation: Log Attributes&#13;&#10;Plug-in: Log Attributes Keyword Test Operation (Version: 1.0, SmartBear Software)">
+										<Data>
+											<Data>
+												<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the font and color settings for test log items." />
+												<FontColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="0" />
+												<BackColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="65535" />
+												<Bold Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+												<Italic Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<Underline Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+												<StrikeOut Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<PlainTextRemarks Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+											</Data>
+											<Parameters />
+										</Data>
+									</Operation>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="2" VariableName="LogAtrribWarning">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Color Code Warning" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="Use this for Warning messages that you wish to differentiate from intrinsic TestComplete Warning messages" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribWarning" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Set LogAtrribFailed Project Variable" />
+								<Children>
+									<Operation Moniker="Keyword Test OperationsLog Attributes Keyword Test OperationSmartBear Software1.0Log Attributes" StringID="Operation: Log Attributes&#13;&#10;Plug-in: Log Attributes Keyword Test Operation (Version: 1.0, SmartBear Software)">
+										<Data>
+											<Data>
+												<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the font and color settings for test log items." />
+												<FontColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="0" />
+												<BackColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="255" />
+												<Bold Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+												<Italic Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<Underline Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+												<StrikeOut Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<PlainTextRemarks Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+											</Data>
+											<Parameters />
+										</Data>
+									</Operation>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="2" VariableName="LogAtrribFailed">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Color Code Forced Error" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="Use this for Failed messages that you wish to differentiate from intrinsic Failed messages" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribFailed" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Set LogAtrribTestTitle Project Variable" />
+								<Children>
+									<Operation Moniker="Keyword Test OperationsLog Attributes Keyword Test OperationSmartBear Software1.0Log Attributes" StringID="Operation: Log Attributes&#13;&#10;Plug-in: Log Attributes Keyword Test Operation (Version: 1.0, SmartBear Software)">
+										<Data>
+											<Data>
+												<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the font and color settings for test log items." />
+												<FontColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="0" />
+												<BackColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="15780518" />
+												<Bold Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+												<Italic Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<Underline Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+												<StrikeOut Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<PlainTextRemarks Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+											</Data>
+											<Parameters />
+										</Data>
+									</Operation>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="2" VariableName="LogAtrribTestTitle">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Color Code Test Title" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="Use this for Test Title Log messages" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribTestTitle" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Set LogAtrribModTitle Project Variable" />
+								<Children>
+									<Operation Moniker="Keyword Test OperationsLog Attributes Keyword Test OperationSmartBear Software1.0Log Attributes" StringID="Operation: Log Attributes&#13;&#10;Plug-in: Log Attributes Keyword Test Operation (Version: 1.0, SmartBear Software)">
+										<Data>
+											<Data>
+												<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the font and color settings for test log items." />
+												<FontColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="0" />
+												<BackColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="16776960" />
+												<Bold Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+												<Italic Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<Underline Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<StrikeOut Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+												<PlainTextRemarks Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+											</Data>
+											<Parameters />
+										</Data>
+									</Operation>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="2" VariableName="LogAtrribModTitle">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Color Code Module Title" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="Use this for Module Title Log messages" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+						<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{BC6FD9A8-BDB0-4ACB-8933-2FAFBC3160E9}">
+		<Items>
+			<Variable Name="LogAttribEventTitle" Type="Object" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{4E556FD4-7D72-47DA-95AD-2ADE3E2E95FF}">
+		<Parameter0 Name="Sender" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+	</Parameters>
+</Root>

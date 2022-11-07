@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<folder name="Bearstore_Common">
@@ -30,5 +30,6 @@
 			<child name="T_Purge_Chrome_History" key="{951A3558-73D3-4861-8D92-D35530CAC7DD}" path="T_Purge_Chrome_History.tcKDTest" />
 			<child name="T_Purge_Edge_History" key="{4C71C635-B293-49B1-AF31-9251498E0069}" path="T_Purge_Edge_History.tcKDTest" />
 		</folder>
+		<child name="Test_Low_Level_Procdure" key="{5030A275-96B8-4198-8F82-A96B13404114}" path="Test_Low_Level_Procdure.tcKDTest" />
 	</children>
 </Root>

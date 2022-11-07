@@ -125,6 +125,8 @@ function Mod_Logout()
   //This logs out of the Bearstore
   //Clicks the 'linkLogIn' control.
   Aliases.browser.pageShop.header.navUsd.linkLogIn.Click();
+  //Delays the test execution for the specified time period.
+  Delay(2000, "2 second delay before clicking logout");
   //Clicks the 'textnodeLogOut' control.
   Aliases.browser.pageShop.header.navUsd.linkLogOut.textnodeLogOut.Click();
   //Delays the test execution for the specified time period.
@@ -146,9 +148,13 @@ function Mod_Open_Chrome_Browser()
   Log.AppendFolder("Mod_Open_Browser", "This test closes the browser and waits 2 seconds", pmNormal, Project.Variables.LogAtrribModTitle);
   //The beginning of the Mod_Open_Browser group
   //Launches the specified browser and opens the specified URL in it.
-  Browsers.Item(btChrome).Run("https://bearstore-testsite.smartbear.com/");
-  //Checks whether the 'namePropStr' property of the Aliases.browser.pageShop.header.link.imageYourStoreName object equals 'company-logo.png'.
-  aqObject.CheckProperty(Aliases.browser.pageShop.header.link.imageYourStoreName, "namePropStr", cmpEqual, "company-logo.png");
+  Browsers.Item(btEdge).Run("https://bearstore-testsite.smartbear.com/");
+  //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
+  Aliases.browser.pageShop.header.link.imageYourStoreName.Click();
+  //Checks whether the 'title' property of the Aliases.browser.pageShop.header.link.imageYourStoreName object equals 'SmartStore'.
+  aqObject.CheckProperty(Aliases.browser.pageShop.header.link.imageYourStoreName, "title", cmpEqual, "SmartStore");
+  //Checks whether the 'contentText' property of the Aliases.browser.pageShop.sectionContent.textnodeWelcomeToOurStore object equals 'Welcome to our store.'.
+  aqObject.CheckProperty(Aliases.browser.pageShop.sectionContent.textnodeWelcomeToOurStore, "contentText", cmpEqual, "Welcome to our store.");
   //Posts an image to the test log.
   Log.Picture(Aliases.browser.pageShop.Picture(), "Post picture of Bearstore Page", "This is too allow post run confirmation of the Bearstore home page", pmNormal, Project.Variables.LogAtrribInformation);
   //The end of the Mod_Open_Browser group
@@ -158,6 +164,7 @@ function Mod_Open_Chrome_Browser()
   Indicator.PopText();
 }
 
+//@Seed
 function Test_Login_Logout_Edge()
 {
   //Replaces the current indicator text with the specified one.
@@ -177,6 +184,7 @@ function Test_Login_Logout_Edge()
   Indicator.PopText();
 }
 
+//@Debug
 function Test_Contact_User()
 {
   //Replaces the current indicator text with the specified one.
@@ -205,7 +213,8 @@ function Mod_Open_Edge_Browser()
   //Launches the specified browser and opens the specified URL in it.
   Browsers.Item(btEdge).Run("https://bearstore-testsite.smartbear.com/");
   //Checks whether the 'namePropStr' property of the Aliases.browser.pageShop.header.link.imageYourStoreName object equals 'company-logo.png'.
-  aqObject.CheckProperty(Aliases.browser.pageShop.header.link.imageYourStoreName, "namePropStr", cmpEqual, "company-logo.png");
+  aqObject.CheckProperty(Aliases.browser.pageShop.header.link.imageYourStoreName, "contentText", cmpEqual, "");
+  //aqObject.CheckProperty(Aliases.browser.pageShop.header.link.imageYourStoreName, "namePropStr", cmpEqual, "company-logo.png");
   //Posts an image to the test log.
   Log.Picture(Aliases.browser.pageShop.Picture(), "Post picture of Bearstore Page", "This is too allow post run confirmation of the Bearstore home page", pmNormal, Project.Variables.LogAtrribInformation);
   //The end of the Mod_Open_Browser group
