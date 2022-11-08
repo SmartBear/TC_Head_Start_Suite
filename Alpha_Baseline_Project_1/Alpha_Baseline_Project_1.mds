@@ -9,6 +9,7 @@
 		<child name="KeywordTests" key="{B38FB249-9EAB-4A4F-9F11-CD5D17738D99}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{22A0A5E0-B3C9-43F3-866E-AB66E40FF447}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Events" key="{75E51763-A4B2-4AEB-A6B0-416B2B457B43}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
+		<child name="README.md" key="{AAB798DF-A51F-4D05-9733-7675D594FA9E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{416E8763-237B-4BB8-BA36-9FD9D85C73B6}" version="14">

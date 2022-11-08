@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
+		<folder name="Data_Files">
+			<child name="Contact_List.csv" key="{9BB9BE8C-AE5A-4DB8-9DE9-212033503A08}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.csv" />
+			<child name="Contact_List.xlsx" key="{4EEEB761-8D25-4E83-8752-C3FC57E4533E}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.xlsx" />
+		</folder>
 		<child name="Script" key="{4F466D27-D1AD-4BCA-8A4A-2B52705D7A60}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{2CE9B459-5D67-4774-9DF5-4CE088F01017}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="Events" key="{80B83DAC-867E-4F4D-B1EC-32DED0A8E01F}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="NameMapping" key="{A72192A7-B5D7-43FE-9ED5-6B9A310E8809}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="README.md" key="{4CC00681-755F-4847-B304-961B6602D311}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{5F1250D7-6F81-47F8-A877-26D8AEE21230}" version="14">
