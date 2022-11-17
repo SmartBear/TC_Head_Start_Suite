@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="VET_17_Salesforce_Sample - This tests opens a salesforce report and modifies the filter" Key="{6BD89188-43A6-4FC5-AD63-1278D57045A0}" Tags="@VET" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="VET_17_Salesforce_Sample - This tests opens a salesforce report and modifies the filter" Key="{6BD89188-43A6-4FC5-AD63-1278D57045A0}" Tags="@VET @Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
