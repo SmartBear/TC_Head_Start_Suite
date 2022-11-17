@@ -71,7 +71,7 @@
 						</Children>
 					</Operation>
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-						<Data Comment="The following line can be commented out to avoid running tests against Firefox &#13;&#10;&#13;&#10;Firefox is not installed on SE 115. " />
+						<Data Comment="The following line can be commented out to avoid running tests against Firefox &#13;&#10;&#13;&#10;Firefox is not currently installed on SE 115" />
 					</Operation>
 					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 						<Data GroupName="FireFox Testing">

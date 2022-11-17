@@ -84,36 +84,6 @@ function Mod_Contact_User()
   Indicator.PopText();
 }
 
-function Mod_Login_Jack_Power()
-{
-  //Replaces the current indicator text with the specified one.
-  Indicator.PushText("Mod_Login_Jack_Power");
-  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
-  Log.AppendFolder("Mod_Login_Jack_Power", "This logs into the Bearstore as Jack Power", pmNormal, Project.Variables.LogAtrribModTitle);
-  //The beginning of the Module_Routines group
-  //These steps login and verifies that user is logged in
-  //Clicks the 'linkLogIn' link.
-  Aliases.browser.pageShop.header.navUsd.linkLogIn.Click();
-  //Waits until the browser loads the page and is ready to accept user input.
-  Aliases.browser.pageLogin.Wait();
-  //Clicks the 'textboxUsernameoremail' control.
-  Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail.Click();
-  //Sets the text 'JackPower001' in the 'textboxUsernameoremail' text editor.
-  Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail.SetText("JackPower001");
-  //Sets the text 'Power1!' in the 'passwordboxPassword' text editor.
-  Aliases.browser.pageLogin.sectionContent.passwordboxPassword.SetText("Power1!");
-  //Clicks the 'buttonLogIn' button.
-  Aliases.browser.pageLogin.sectionContent.buttonLogIn.ClickButton();
-  //Delays the test execution for the specified time period.
-  Delay(2000, "2 second delay before running Checkpoint");
-  //Checks whether the 'contentText' property of the Aliases.browser.pageShop.header.navUsd.linkLogIn object equals 'JackPower001'.
-  aqObject.CheckProperty(Aliases.browser.pageShop.header.navUsd.linkLogIn, "contentText", cmpEqual, "JackPower001");
-  //The end of the Module_Routines group
-  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
-  Log.PopLogFolder();
-  //Restores the previous indicator text.
-  Indicator.PopText();
-}
 
 function Mod_Logout()
 {
@@ -320,6 +290,37 @@ function Mod_Register_User(UserName, EMail, FirstName, LastName, Day, Month, Yea
   }
   //The end of the Validate Registration group
   //The end of the Mod_Register_User group
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //Restores the previous indicator text.
+  Indicator.PopText();
+}
+
+function Mod_Login_Jack_Power()
+{
+  //Replaces the current indicator text with the specified one.
+  Indicator.PushText("Mod_Login_Jack_Power");
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Mod_Login_Jack_Power", "This logs into the Bearstore as Jack Power", pmNormal, Project.Variables.LogAtrribModTitle);
+  //The beginning of the Module_Routines group
+  //These steps login and verifies that user is logged in
+  //Clicks the 'linkLogIn' link.
+  Aliases.browser.pageShop.header.navUsd.linkLogIn.Click();
+  //Waits until the browser loads the page and is ready to accept user input.
+  Aliases.browser.pageLogin.Wait();
+  //Clicks the 'textboxUsernameoremail' control.
+  Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail.Click();
+  //Sets the text 'JackPower001' in the 'textboxUsernameoremail' text editor.
+  Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail.SetText("JackPower001");
+  //Sets the text 'Power1!' in the 'passwordboxPassword' text editor.
+  Aliases.browser.pageLogin.sectionContent.passwordboxPassword.SetText("Power1!");
+  //Clicks the 'buttonLogIn' button.
+  Aliases.browser.pageLogin.sectionContent.buttonLogIn.ClickButton();
+  //Delays the test execution for the specified time period.
+  Delay(10000, "10 second delay before running Checkpoint");
+  //Checks whether the 'contentText' property of the Aliases.browser.pageShop.header.navUsd.linkLogIn object equals 'JackPower001'.
+  aqObject.CheckProperty(Aliases.browser.pageShop.header.navUsd.linkLogIn, "contentText", cmpEqual, "JackPower001");
+  //The end of the Module_Routines group
   //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
   Log.PopLogFolder();
   //Restores the previous indicator text.

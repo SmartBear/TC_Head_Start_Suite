@@ -36,9 +36,9 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Mod_Open_Close_Brower_Incognito" key="{FCDEAFD1-E7C9-4FB4-BFF3-82CC79847032}" group="False" parallel="False" enabled="False" testMoniker="KDT\{45AE6B09-2985-4FD4-B5CD-51B2B5F5FAE0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Mod_Open_Close_Brower_Incognito" key="{FCDEAFD1-E7C9-4FB4-BFF3-82CC79847032}" group="False" parallel="False" enabled="True" testMoniker="KDT\{45AE6B09-2985-4FD4-B5CD-51B2B5F5FAE0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>

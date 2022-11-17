@@ -73,9 +73,9 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Login_Negative" key="{3A48AE51-F74A-4307-8382-40183274DADE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Login_Negative" key="{3A48AE51-F74A-4307-8382-40183274DADE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Register_User" key="{9D36B19C-8CDE-46E2-B5F8-B2F38702EB81}" group="False" parallel="False" enabled="False" testMoniker="KDT\{49DC6DFC-FF2A-4237-BDED-80F7E10AFADC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -101,7 +101,7 @@
 			<testItem name="Bearstore_Script" key="{07616BCA-D8D5-4CF9-A337-FFAD84340504}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Login_Logout_Edge" key="{2C8C75EA-E0D8-40E3-A159-97A74B5B7A3C}" group="False" parallel="False" enabled="True" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Login_Logout_Edge" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Login_Logout_Edge" key="{2C8C75EA-E0D8-40E3-A159-97A74B5B7A3C}" group="False" parallel="False" enabled="False" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Login_Logout_Edge" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
