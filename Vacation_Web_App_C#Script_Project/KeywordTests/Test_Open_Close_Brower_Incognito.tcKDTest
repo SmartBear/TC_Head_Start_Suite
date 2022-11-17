@@ -74,7 +74,9 @@
 						<Data Comment="The following line can be commented out to avoid running tests against Firefox &#13;&#10;&#13;&#10;Firefox is not installed on SE 115. " />
 					</Operation>
 					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-						<Data GroupName="FireFox Testing" />
+						<Data GroupName="FireFox Testing">
+							<CommonData Disabled="True" />
+						</Data>
 						<Children>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Firefox_RunOptions_Private" />
