@@ -31,7 +31,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Purge_Edge_History" key="{BAD30F51-EF6F-4D50-9DCC-8CA808DC613B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{871A2A0C-9EE9-41CB-A0DD-5C09E4E99B76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Purge_Edge_History" key="{BAD30F51-EF6F-4D50-9DCC-8CA808DC613B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{871A2A0C-9EE9-41CB-A0DD-5C09E4E99B76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -72,7 +72,7 @@
 		</data>
 	</variables>
 	<settings key="{3D24D377-1D72-4823-8B9D-1F5DA82489ED}">
-		<settingsVersion value="15.44" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -195,6 +195,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />

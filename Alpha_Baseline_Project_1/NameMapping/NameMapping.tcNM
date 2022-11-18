@@ -245,7 +245,6 @@
 									</Child>
 									<Child Name="panel" Key="{ABEF1775-C5AD-467B-8D3E-9DBFBB713874}">
 										<Image FileName="-1884492667" Left="373" Top="179" Right="635" Bottom="226" />
-										<TypeInfo Item0="{7DA7A14F-6140-4F46-A537-8C5F17491A3B}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;shop-logo&apos;)]" />
@@ -988,7 +987,6 @@
 									</Child>
 									<Child Name="panelTheSpecifiedEmailAlready" Key="{3EAFBEB0-AC07-4FE8-928B-2A603BFCFBFA}">
 										<Image FileName="-1432640087" Left="405" Top="372" Right="1135" Bottom="419" />
-										<TypeInfo Item0="{7DA7A14F-6140-4F46-A537-8C5F17491A3B}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
@@ -1003,7 +1001,6 @@
 									</Child>
 									<Child Name="header" Key="{00519FD1-6E8E-4A82-A677-13259C7C9222}">
 										<Image FileName="710312798" Left="8" Top="111" Right="1911" Bottom="290" />
-										<TypeInfo Item0="{7DA7A14F-6140-4F46-A537-8C5F17491A3B}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -1018,7 +1015,6 @@
 									</Child>
 									<Child Name="link" Key="{289FC107-481B-4B64-830C-A6F1BCF03F3D}">
 										<Image FileName="710312798" Left="403" Top="180" Right="653" Bottom="225" />
-										<TypeInfo Item0="{51B84CC0-B674-412F-954B-41532E5089BE}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -1033,7 +1029,6 @@
 									</Child>
 									<Child Name="imageSmartstore" Key="{8C8FDC91-D820-4AB7-B526-22EE00F3E892}">
 										<Image FileName="710312798" Left="403" Top="180" Right="653" Bottom="225" />
-										<TypeInfo Item0="{7DA7A14F-6140-4F46-A537-8C5F17491A3B}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -1100,6 +1095,43 @@
 										<Value Value="edge://settings/privacy" />
 									</Property>
 								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="opera" Key="{8157C425-A257-474B-BD50-5D016E77F890}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="opera" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{1249DC26-ABE8-4A94-9855-F447FE2014F3}">
+								<Image FileName="865483550" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="TestComplete 101 Certification exam questions.xlsx - Opera" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{D9A9D92E-54D2-4877-82B1-B8547C608166}">
+										<Image FileName="865483550" Left="0" Top="101" Right="1920" Bottom="1078" />
+										<TypeInfo Item0="{E003FC21-2C7D-49EF-9B95-9B9267CD458C}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -1209,6 +1241,11 @@
 			<Child Name="pagePrivacyChrome" Owner="{6BBA7B2D-B888-4243-88B8-16048E234092}" />
 			<Child Name="pageClearbrowserdataEdge" Owner="{F69A4EBC-12B0-448A-9596-4550A5982C0E}" />
 			<Child Name="pagePrivacyEdge" Owner="{53F46345-595F-4113-8E76-34158846A7A9}" />
+		</Child>
+		<Child Name="opera" Owner="{8157C425-A257-474B-BD50-5D016E77F890}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{1249DC26-ABE8-4A94-9855-F447FE2014F3}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{D9A9D92E-54D2-4877-82B1-B8547C608166}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

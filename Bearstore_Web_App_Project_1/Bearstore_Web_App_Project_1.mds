@@ -10,6 +10,7 @@
 		<child name="NameMapping" key="{1EDE298D-3987-4CE3-950A-A7EF2B6D56B8}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Events" key="{2A388152-7C06-4638-8C83-12A6C6808794}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="README.md" key="{F3C7552D-F66D-48BE-BECD-7FF12C7D5D70}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="Stores" key="{96454BEE-8FC9-48BE-8855-B3DE6C6B5D0D}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{8D911B66-BF83-4C65-893A-69A23C467DC9}" version="14">
@@ -72,9 +73,9 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Login_Negative" key="{3A48AE51-F74A-4307-8382-40183274DADE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Login_Negative" key="{3A48AE51-F74A-4307-8382-40183274DADE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Register_User" key="{9D36B19C-8CDE-46E2-B5F8-B2F38702EB81}" group="False" parallel="False" enabled="False" testMoniker="KDT\{49DC6DFC-FF2A-4237-BDED-80F7E10AFADC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -100,7 +101,7 @@
 			<testItem name="Bearstore_Script" key="{07616BCA-D8D5-4CF9-A337-FFAD84340504}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Login_Logout_Edge" key="{2C8C75EA-E0D8-40E3-A159-97A74B5B7A3C}" group="False" parallel="False" enabled="True" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Login_Logout_Edge" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Login_Logout_Edge" key="{2C8C75EA-E0D8-40E3-A159-97A74B5B7A3C}" group="False" parallel="False" enabled="False" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Login_Logout_Edge" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -264,7 +265,7 @@
 		</data>
 	</variables>
 	<settings key="{65790EC2-BA5D-4B61-8876-0539EA767551}">
-		<settingsVersion value="15.44" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -387,6 +388,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />

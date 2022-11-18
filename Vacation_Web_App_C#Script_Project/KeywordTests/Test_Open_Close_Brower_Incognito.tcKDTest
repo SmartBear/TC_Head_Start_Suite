@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{3D8543C8-9F4B-479A-AFF2-45B2939D3506}" Tags="//@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{3D8543C8-9F4B-479A-AFF2-45B2939D3506}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -71,10 +71,12 @@
 						</Children>
 					</Operation>
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-						<Data Comment="The following line can be commented out to avoid running tests against Firefox &#13;&#10;&#13;&#10;Firefox is not installed on SE 115. " />
+						<Data Comment="The following line can be commented out to avoid running tests against Firefox &#13;&#10;&#13;&#10;Firefox is not currently installed on SE 115" />
 					</Operation>
 					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-						<Data GroupName="FireFox Testing" />
+						<Data GroupName="FireFox Testing">
+							<CommonData Disabled="True" />
+						</Data>
 						<Children>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Firefox_RunOptions_Private" />

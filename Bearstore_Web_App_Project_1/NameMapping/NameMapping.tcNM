@@ -344,6 +344,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelSports" Key="{8CDC8D0B-D7D6-475F-9FD3-78EC0DD4D1C4}">
+										<Image FileName="876763667" Left="373" Top="457" Right="1499" Bottom="894" />
+										<TypeInfo Item0="{CDB75A2F-5279-4367-B838-8FEECB7E1054}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section//div[contains(@class, &apos;artlist&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{EECD8EDE-0329-4C9B-82F9-B09B7EE0F4A6}">
@@ -1244,6 +1253,37 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="opera" Key="{AFF714B7-F53C-4439-B244-45341964C0C7}">
+						<TypeInfo Item0="{8101BC0D-607B-4B5A-8DB3-C8C2BD339AD2}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="opera" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{454474F6-59FD-48F1-83CA-3FF709B3E108}">
+								<Image FileName="1977397963" Left="0" Top="0" Right="1936" Bottom="1096" />
+								<TypeInfo Item0="{7C5DCEF5-EE40-4A1D-ACEC-4800F3F8FFE3}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="TestComplete 101 Certification exam questions.xlsx - Opera" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Item" Key="{690EFED2-36E7-4A4E-A415-C1FFE85D45EF}">
+										<Image FileName="1977397963" Left="0" Top="101" Right="1920" Bottom="1078" />
+										<TypeInfo Item0="{5FCCF183-86A3-431D-B64D-FC5DC55A0CF8}" />
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -1283,6 +1323,7 @@
 				<Child Name="sectionContent" Owner="{A1417EBD-3D5F-48C1-B84F-24C3EB7340A7}">
 					<Child Name="textnodeWelcomeToOurStore" Owner="{FCF5B333-291A-4116-8561-6084CCFB7493}" />
 					<Child Name="textnodeWelcomeToOurStore2" Owner="{716AB6F6-7251-42D4-AE26-D1071DD719CA}" />
+					<Child Name="panelSports" Owner="{8CDC8D0B-D7D6-475F-9FD3-78EC0DD4D1C4}" />
 				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{EECD8EDE-0329-4C9B-82F9-B09B7EE0F4A6}" />
@@ -1361,6 +1402,11 @@
 						<Child Name="imageYourStoreName" Owner="{4F67A665-4E52-4C34-B5D8-77CFACE96E1D}" />
 					</Child>
 				</Child>
+			</Child>
+		</Child>
+		<Child Name="opera" Owner="{AFF714B7-F53C-4439-B244-45341964C0C7}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{454474F6-59FD-48F1-83CA-3FF709B3E108}">
+				<Child Name="Item" Owner="{690EFED2-36E7-4A4E-A415-C1FFE85D45EF}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

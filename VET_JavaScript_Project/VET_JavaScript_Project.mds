@@ -39,6 +39,16 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Jira Tests" key="{E1988D66-9199-457B-A325-1093569C1DB1}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="VET_17_Salesforce_Sample" key="{1D60CD95-882D-467C-8A95-032FAC9DE2F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6C6CF1FB-D208-48ED-8B36-8F83D844987D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{57926FB4-16EE-4F80-9B9E-A08E0A84D31B}">
@@ -59,11 +69,23 @@
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003100460034004400380037003300460033003500340039003800310046003900350032003200460038004600420037004400370036003100380039004100370043003400430030003100310043003600430037003800420039004400370041004600" />
+				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310039003300440033004600340044003800370033004600330035003400390038003100460039003500320032004600380046004200370044003700360031003800390041003700430034004300300031003400430030003800360045004200420043004500410045003300360031004600" />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003100330044003000460034004400380037003300460033003500340039003800310046003900350032003200460043003700420037004400380045003100410045003200370038003400430030003300350034003000380041003600330038003200370041004300320044004100440039003800320045003300300045003800" />
+				</Variable>
+				<Variable Name="Password4" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310031003300440032004600340044003800370033004600330035003400390038003100460039003500320032004600430037004200370044003800450031004100450032003700380034004300300033003500340030003800410036003300380032003700410043003200440042003900420044004300360037003600310044003900460035003500" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{57A5BA2C-AF78-4788-950F-E04C0C04694B}">
-		<settingsVersion value="15.44" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -185,6 +207,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
