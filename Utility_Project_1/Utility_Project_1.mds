@@ -72,15 +72,16 @@
 			<testItem name="TestComplete_Utility" key="{96D6F32A-9602-44BB-9ABF-BA8B2BDDA6A4}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Get_TestComplete_Version_Information" key="{9BA11C8C-9DCA-40F6-93DF-4E47B4D0DE6E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1C689367-5A43-4257-B377-D70489192A0D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Get_TestComplete_Version_Information" key="{9BA11C8C-9DCA-40F6-93DF-4E47B4D0DE6E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1C689367-5A43-4257-B377-D70489192A0D}" count="3" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Get_TestExecute_Version_Information" key="{1B2C84E4-30EC-4CA7-98E6-A9915977081E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D6C1B6BD-D603-4F0D-B038-BF92FC0CC468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
+						<children>
+							<testItem name="Get_TestExecute_Version_Information" key="{1B2C84E4-30EC-4CA7-98E6-A9915977081E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D6C1B6BD-D603-4F0D-B038-BF92FC0CC468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 				</children>
 			</testItem>
@@ -108,7 +109,7 @@
 		</data>
 	</variables>
 	<settings key="{A06D61E5-7AA0-416C-8EA1-9AF7448E7799}">
-		<settingsVersion value="15.44" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -231,6 +232,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
