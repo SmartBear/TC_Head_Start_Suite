@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
-		<folder name="Data_Files">
-			<child name="Contact_List.csv" key="{B541D305-13B8-4E0E-9BE5-CB8B58F0AA5A}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.csv" />
-			<child name="Contact_List.xlsx" key="{F64A5C1F-BEEC-4FF8-B9F9-8D86AA2A7714}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.xlsx" />
-		</folder>
-		<child name="Script" key="{DE2CED3C-166B-49E9-B8FB-5CF6C699BF01}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
-		<child name="KeywordTests" key="{053DAE19-0CAB-4986-B033-3B685A56F1C1}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
-		<child name="Events" key="{0868FDAF-0BAF-4619-B27E-829230868523}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
-		<child name="README.md" key="{48E32D08-A242-469F-9AEF-83CF963F08D0}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="Script" key="{A544FC72-EC75-4ED3-B6F9-D19CBF2637F4}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{178EDAB5-08A4-4B64-A3B3-633073E8A0C6}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="NameMapping" key="{0832D824-9B64-4CFB-8BF5-D7F01ABB1384}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="README.md" key="{58243DF6-EC26-4AE7-81B9-8DE8D74D8762}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="Events" key="{C9EC44F3-C661-49FB-9EBC-48D2D8378105}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 	</children>
-	<config language="{897793E3-73F3-4895-A956-3D41D3A24A45}" />
-	<testItems key="{FD166780-E20F-4972-B607-E7B48C3720A5}" version="14">
+	<config language="{90813F19-086D-4670-83BC-DB51386DC224}" />
+	<testItems key="{46DBD04E-955A-4FE3-AB6C-33573B16D241}" version="14">
 		<children>
-			<testItem name="Templates" key="{85F4920E-FAF7-428A-9DC2-6258297AFB29}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Templates" key="{3CBDFA01-5C2C-4300-8B3A-EA247B6BB931}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Template" key="{2D241246-E70E-4673-A2DD-BBB9174D9E2D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0F4B6D5-B1AE-4B1C-9107-5B6BA115D077}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Sample_Web_App_Open" key="{62524C66-D21D-46A0-AE4C-98C6784EBDDD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AA40D0CD-E104-43B8-82F9-E6F124D47AE2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Keyword_Calling_Script_Test_Template" key="{34AEE0D3-73EE-4919-A802-E838A3AF6283}" group="False" parallel="False" enabled="False" testMoniker="KDT\{142A2791-8855-424B-A173-CC0D5AC46F76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+					<testItem name="Test_Template" key="{31FE8DD8-91A9-4548-97CB-7C3BB0547AAB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B63C0798-35F8-4A9D-BF24-DF4B4488EB49}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Keyword_Calling_Script_Test_Template" key="{74B4D2A6-1CA3-46F9-AE4E-3E70ADD2851A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BDA31BA9-9689-42F2-8C72-FF116E61148D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_New_Function" key="{4A0986E7-5198-47D1-B116-534FB3F3B416}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E8088377-4A5C-4CEF-9456-9A47DCB4711C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -30,9 +37,18 @@
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{9E12E919-F555-45BD-AA5B-571B6E4E075A}">
+	<variables key="{E64181F1-A286-4086-9ACF-266138ECD9A8}">
 		<data Version="4">
 			<Items>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003600330044003300460034004400380046003300460036004500430039003900320037003900310035004100460044003900420037003900420045003700390044003800410043003800350043003000" />
+				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100310033004400330046003400440038004600330046003600450043003900390032003700390031003500410046004400390042003700390042003600370039003600300039003200300035004400320038003000340044004600310031004100350044003000310042003100410043004100340038003500460035003300300039004500" />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100310033004400330046003400440038004600330046003600450043003900390032003700390031003500410046004400340033003700450042003600370039003600300039003200300035004400320038003000340044004600310031004100350044003000310042003100410043004100340038004500300037003300300044004600" />
+				</Variable>
 				<Variable Name="LogAtrribWarning" Type="Object" Local="False">
 					<DefValue />
 				</Variable>
@@ -51,7 +67,7 @@
 			</Items>
 		</data>
 	</variables>
-	<settings key="{407D61F4-AABC-4F4A-B1C8-E842345581DC}">
+	<settings key="{BCC3F239-C216-4D7B-A7CE-22BA0CD7A62D}">
 		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -147,7 +163,7 @@
 		</setting>
 		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
 		<setting name="DraggingDelay" type="2" value="5" />
-		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_239_" />
 		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="False" />
 		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
 		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
@@ -730,11 +746,11 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{CE0D9010-9EAA-4992-A1CF-A95A00FE3C14}" />
+	<analysis key="{1B118CE8-021D-4FF0-9138-8B1352319B0C}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{2A536885-9C1A-49BD-8AF0-19E167C27914}">
+	<issueTracking key="{BAAD8FEA-3374-4750-A622-4311AC9BE2C2}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>

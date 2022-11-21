@@ -1,8 +1,8 @@
-# Python_Template_Project_1
+# VBScript_Template_Project_1
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
-The Python_Template_Project_1 performs xyz
+The VBScript_Template_Project_1 performs xyz
 
 ## Keyword Tests Listing
 

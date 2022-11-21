@@ -1,0 +1,40 @@
+﻿function Mod_Template()
+{
+  //**** Consider duplicating this text as comment inside of the keyword test
+  //**** This can serve as a flowerbox description when converted to a script
+  //**** KMJ 09122022
+  //Replaces the current indicator text with the specified one.
+  Indicator["PushText"]("Mod_Template");
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log["AppendFolder"]("In the module", "");
+  //The beginning of the Mod_Template_Main_Operations_Group group
+  //Launches the specified browser and opens the specified URL in it.
+  Browsers["Item"](btEdge)["Run"]("https://bearstore-testsite.smartbear.com/");
+  //Maximizes the specified Window object.
+  Aliases["browser"]["BrowserWindow"]["Maximize"]();
+  //Clicks the 'textnodeLogIn' control.
+  Aliases["browser"]["pageShop"]["header"]["navUsd"]["linkLogIn"]["textnodeLogIn"]["Click"]();
+  //Waits until the browser loads the page and is ready to accept user input.
+  Aliases["browser"]["pageLogin"]["Wait"]();
+  //Checks whether the 'contentText' property of the Aliases["browser"]["pageLogin"]["FindElement"]("//h1[.=\'Sign In\']") object equals 'Sign In'.
+  aqObject["CheckProperty"](Aliases["browser"]["pageLogin"]["FindElement"]("//h1[.=\'Sign In\']"), "contentText", cmpEqual, "Sign In");
+  //Enters text in the text box.
+  Aliases["browser"]["pageLogin"]["header"]["formSearch"]["textboxQ"]["SetText"]("Jake From State Farm");
+  //Clicks the 'textboxUsernameoremail' control.
+  Aliases["browser"]["pageLogin"]["sectionContent"]["textboxUsernameoremail"]["Click"]();
+  //Sets the text 'Fake User' in the 'textboxUsernameoremail' text editor.
+  Aliases["browser"]["pageLogin"]["sectionContent"]["textboxUsernameoremail"]["SetText"]("Fake User");
+  //Sets the text Project["Variables"]["Password3"] in the 'passwordboxPassword' text editor.
+  Aliases["browser"]["pageLogin"]["sectionContent"]["passwordboxPassword"]["SetText"](Project["Variables"]["Password3"]);
+  //Clicks the 'buttonLogIn' button.
+  Aliases["browser"]["pageLogin"]["sectionContent"]["buttonLogIn"]["ClickButton"]();
+  //Checks whether the 'contentText' property of the Aliases["browser"]["pageLogin"]["sectionContent"]["textnodeTheCredentialsProvidedAr"] object equals 'The credentials provided are incorrect'.
+  aqObject["CheckProperty"](Aliases["browser"]["pageLogin"]["sectionContent"]["textnodeTheCredentialsProvidedAr"], "contentText", cmpEqual, "The credentials provided are incorrect");
+  //Closes the 'BrowserWindow' window.
+  Aliases["browser"]["BrowserWindow"]["Close"]();
+  //The end of the Mod_Template_Main_Operations_Group group
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log["PopLogFolder"]();
+  //Restores the previous indicator text.
+  Indicator["PopText"]();
+}

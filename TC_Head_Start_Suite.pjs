@@ -5,6 +5,7 @@
 			<child name="JavaScript_Template_Project_1" key="{9A16A17D-4055-4C50-AF34-AC29CDDB0917}" path="JavaScript_Template_Project_1\JavaScript_Template_Project_1.mds" />
 			<child name="Python_Template_Project_1" key="{480A86AA-5E63-469F-8E99-66BEA4CC37B3}" path="Python_Template_Project_1\Python_Template_Project_1.mds" />
 			<child name="VBScript_Template_Project_1" key="{4EF312B8-EC90-482C-933F-3C1C6AF6134A}" path="VBScript_Template_Project_1\VBScript_Template_Project_1.mds" />
+			<child name="C_Sharp_Templete_Project" key="{A78B2DB2-D401-49F4-9E7A-1B2BD04A4786}" path="C_Sharp_Templete_Project\C_Sharp_Templete_Project.mds" />
 		</folder>
 		<folder name="AUT_Projects">
 			<child name="Bearstore_Web_App_Project_1" key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" path="Bearstore_Web_App_Project_1\Bearstore_Web_App_Project_1.mds" />
@@ -24,6 +25,7 @@
 			<testItem key="{3CA4E8B5-539A-4886-8710-D871B9C6C6CF}" enabled="True" timeout="0" stopOnError="False" description="Sample Template Project used for Cloning" />
 			<testItem key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" enabled="True" timeout="0" stopOnError="False" description="Sample Web App Project" />
 			<testItem key="{31452752-7AB4-43FD-A92F-B84E62622560}" enabled="True" timeout="0" stopOnError="False" description="Tools for browser functions" />
+			<testItem key="{A78B2DB2-D401-49F4-9E7A-1B2BD04A4786}" enabled="True" timeout="0" stopOnError="False" description="" />
 			<testItem key="{9A16A17D-4055-4C50-AF34-AC29CDDB0917}" enabled="True" timeout="0" stopOnError="False" description="Sample Template Project used for Cloning" />
 			<testItem key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" enabled="True" timeout="0" stopOnError="False" description="Sample Desktop Project" />
 			<testItem key="{480A86AA-5E63-469F-8E99-66BEA4CC37B3}" enabled="True" timeout="0" stopOnError="False" description="Sample Template Project used for Cloning" />

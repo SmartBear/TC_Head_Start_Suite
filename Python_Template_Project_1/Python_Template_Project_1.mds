@@ -17,6 +17,11 @@
 			<testItem name="Templates" key="{3FCEF4C9-CDEC-4068-A454-A4894E34C59D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
+					<testItem name="Test_Sample_Web_App_Open" key="{6D9B751D-E714-425A-905A-1EB60FD66A17}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F6DF90C8-DD30-4322-B0B6-E066BE46E7BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 					<testItem name="Test_Template" key="{BBF70BB7-310E-45A0-9A50-845D63EB21DA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DBAE9B8F-2EB5-4193-BBB3-CB10712305E3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
@@ -68,7 +73,7 @@
 		</data>
 	</variables>
 	<settings key="{60C1ABFD-EC5E-4D2A-A04D-B8DAF75C0389}">
-		<settingsVersion value="15.44" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -190,6 +195,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
