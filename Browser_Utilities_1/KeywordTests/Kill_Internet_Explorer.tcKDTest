@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{D201B390-4FDB-408C-B714-85062813E41D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Sys.Process(&quot;iexplore&quot;)" Data="61717A69700000000100000036040000780185916D6C935514C7AB428C3198A17E30F1030689680C1F1428107C296F2E768A289964090E1C83A8C349D2BDF0A16A94BD200B6C34DBB2DA4E3657E980210E4704DBB5B3EBECDAF559DF5656185DDBA72F6BBBBEF779B6F6597B8FCF1D34217CF126BF7BCEC939FF7BCFB977E787DC159CE5C565F757598A1EF018E725D663D783FCFDE0FE0E001CDE7042CD69F3C1CB3FFBEF35EBE2279D56C57ED3405D975A54A2579CE1D9FFED2EFFD3724D787E6E5A558CF2F9C7B1A6C041EB42DF691B5D8FE35422FCE23571C5B8AAB5D8A56DDF333F29E565ED7D3C64E9E553C42F7B23DACE0FDC5A71A93A1D76AE2BE8572B9331EC2F26432F285B763BC6443C8ABCBE1FC5755F016D12006DAE59B6A989AFC1FBD70164BA50B238DCC2732602D3AF63DD33A3E9E4712BDD312629D38D9DDB4E87D4954099EB737323D5498374AF47D1BCC5A33EB7C3AD977CE28A6A04F194E1042287CAB2EA36FE643EB7B462AB2FAF7B4E1E4CE9E5D57ECF8D038822EA72337F1C8A5BAF9CB81275135C5CC32CA656C548F3467D6FE5C0AD46AEEBE6A94DE4ADC6CD2ED7B8ECE877146AE14C2C82A04F9EA56C42A02DC294515A6A2DCCF77FD69883B7D7FAD2B922591CF96E8B2073E70764EC2A0EA97EDA46628631A7B792CAE62DA4A2898BEF256F366C62D9EC36CAAB7BF0F96DC410F5941FC11B120FF8EC1DC0389B599A581A81B9876980ECCC29C8DCFD1168DBF710D17C09F65FDFCF0C9FDD3585F5BADE8ABBC70224E2B8107C76790A267BCB90E6EC0EEF48CB5BE43267B62FF7A2EFD8E3A5278428327A1CEC17F7D123E7F946AC370FD4F44F4FF5D3DBA21470F408DEED7206698057F2002B1F9E7F5CF2A929A611CE865447C0DCF371D0FCFB4931CEFBAD43A5F64B955E9B4F815E8B30C0512378AF93888543331FB1673C4947C935CE7FC4B5B6FE23447CAC8609FC7D18693B4B9C71D2B211EBF11F19A465DAE0888021C206D810CDB2432178A755BBA4EB298F19C4FBFC9EA12A0F65FB9699D77C814C527E62F2726DA7925CD855E88F8AB8D76A457C4758539B9D0928D0EE680A384E04BC8B2E50590621656F8080EA10D2B5ED0C1397EADBF3F9DC13E5CA586F418F6D3A3CBBCE78E1A0C63170CC1BBC2DA30541372AF231F0AC3C8C8EFE369895C91A430E456B13EE17D73FDF3D37FFB01EFB381760DFC37AB54E7EE36ABDF373429D79F34E9829D250F0B42295F9C64A8BBAED7445BB63A16AFD60CCF1A8FED178294BAF22124B5C893F5BB5C1C3CCAE9EA0A9958A24B37E34ED702FE4D7FC070FD6D684" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Kill_Internet_Explorer" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Kill_Internet_Explorer" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Teminate any Edge process found running" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="Kill_Internet_Explorer" />
+				<Children>
+					<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+						<Data>
+							<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Sys.Process(&quot;iexplore&quot;)" />
+						</Data>
+						<Children>
+							<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+								<Data Description="Posts an information message to the test log." MessageType="0">
+									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Internet Explorer process found running, close it" />
+										<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+										<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+											<Values IsEnum="True">
+												<Value Type="1" Value="100" Text="pmLowest" />
+												<Value Type="1" Value="200" Text="pmLower" />
+												<Value Type="1" Value="300" Text="pmNormal" />
+												<Value Type="1" Value="400" Text="pmHigher" />
+												<Value Type="1" Value="500" Text="pmHighest" />
+											</Values>
+										</Parameter>
+										<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{180A2D9C-07CF-406C-A3AD-F5F88281A719}">
+								<Data Description="Closes the process by sending the WM_CLOSE message to its main window." Action="Close" Process="iexplore" Index="1">
+									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="3000" VarType="3" ValueType="1" ValueValue="5000" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+								<Data>
+									<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Sys.Process(&quot;iexplore&quot;)" />
+								</Data>
+								<Children>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Internet Explorer process found running after the close, kill it." />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{180A2D9C-07CF-406C-A3AD-F5F88281A719}">
+										<Data Description="Terminates the process." Action="Terminate" Process="iexplore" Index="1" />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Internet Explorer process not found, close worked" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+						<Data />
+						<Children>
+							<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+								<Data Description="Posts an information message to the test log." MessageType="0">
+									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Internet Explorer process not found, no action taken" />
+										<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+										<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+											<Values IsEnum="True">
+												<Value Type="1" Value="100" Text="pmLowest" />
+												<Value Type="1" Value="200" Text="pmLower" />
+												<Value Type="1" Value="300" Text="pmNormal" />
+												<Value Type="1" Value="400" Text="pmHigher" />
+												<Value Type="1" Value="500" Text="pmHighest" />
+											</Values>
+										</Parameter>
+										<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+								</Data>
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{ACA6D464-216B-44A4-A4A8-82042A1A28F2}" />
+</Root>

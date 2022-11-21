@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{AA8D8561-7753-4962-8BB5-92623A88E108}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.pageLogin" Data="61717A6970000000010000003604000078016DD37D4C4D711807F0F372EF3DF774EEB92FDE2285C94A4947D7ED12331BA3BC94889618799998A4322FDDE2468C0AC3E4565ADA6EB349332F796B32D5BDDDDA84A6FB420D33363663FEC1467DFD4EA5C53CDBF3DB73F63B9FE7F79CDF7616C49B15547F98C93A95A47E30696A12A9480CEE0F3CFC7F0DF3A7A2AC4BE8B2EBDBD8EE6B9BD53FAB52849F85B19A9E1489AF08D2B3A6FF2B8AE214145FB084AAE8CAA5FB9CD90AD8920494276951BE4A0BDB4A1D4A1375389BA0EF5B2BF955A958DA6F781FD956AFA39ADC161A9D075894115BB95AC4C5D57FFB73097A9C89D7232346E3500EEB618DA3CADC1606EE7C16B7D33972AE06556B067CD94A6D6FE65CA1213684B3C44C506D593885DBB7D924DC4808E32FC833848EA1A42E0BD32B5BCF41056AD6F3A82456F6058B85E7813A561A3EEB9F5AC9D0BC5C1F8CA34BFBED2105BC5625AA537932B788134B851E41458F90DF518F548E0B4D0BC88B2E08B69BAC93ED9393FC77B01CA396F7EAB7B31ECFA0F51DE650BB85876D9506D1418A64795F0EE3CEC0A2545734925D6624914C7E3C0F4BEB629E713AE588A7B98A6F5EAB0ABE231C5E1CE5D16611706AB9005E49EB063445F17AC5E83DCE997D19AD266C6D3323EDD902A47997614EA154D19EABFAEE95ED311E2F8F0BE82E1651B75D84C8D1E3FE785164479D7446F51D751A61213EEBF922ECEC4EC4A627099FED991AAFCBC2A3F38800CF7111BE121D7C270D3891A2B9354ACB8C37689880ECF431D7ED0E09E5CE1928693723CF1D8B9CD76BB0EB75CAAFFC74FFD2DA2C1137B204341C10D198A7C3837C3DEA730DB0EF36E042C648DCBF1B863B8EE9B8EA884405F1859E38EC7DBB161B5B127DE1C17CE4ABFAC8DE2B796351BC4ED39F45EBC9FD6FD0C16E0D4007B14F5BA6C1D112817BA4474D7B348A88DFFF3615B3F74459E56F3C9533D1F6A5C9848F0F8CF0D645A0AB6E1ADE344A78D32CA1BB39126E621F931E8FE419DA4C38DDB51899AEF8779CA8D4CA5EAD62D437CF843EFC4C7A7C22F9A1C98877CD51C4CF18F21DFD3E02D75C4614B7CEFF1A2819E4DF742838D2A3386782EDFD2363EF8095D043CEF6B64C4727B1AD648606727EC9A5D08E8060BF8821F84F1146EEE370F6F8F3776B42BC1D8DE1DF5D0FC37FD4D686BCB214045D9E354FBB8266286638F90DE5979D6E" />
+					<Bitmap Name="Aliases.browser.pageLogin.sectionContent" Data="61717A6970000000010000003604000078016DD37D4C4D711807F0F372EF3DF774EEB92FDE2285C94A4947D7ED12331BA3BC94889618799998A4322FDDE2468C0AC3E4565ADA6EB349332F796B32D5BDDDDA84A6FB420D33363663FEC1467DFD4EA5C53CDBF3DB73F63B9FE7F79CDF7616C49B15547F98C93A95A47E30696A12A9480CEE0F3CFC7F0DF3A7A2AC4BE8B2EBDBD8EE6B9BD53FAB52849F85B19A9E1489AF08D2B3A6FF2B8AE214145FB084AAE8CAA5FB9CD90AD8920494276951BE4A0BDB4A1D4A1375389BA0EF5B2BF955A958DA6F781FD956AFA39ADC161A9D075894115BB95AC4C5D57FFB73097A9C89D7232346E3500EEB618DA3CADC1606EE7C16B7D33972AE06556B067CD94A6D6FE65CA1213684B3C44C506D593885DBB7D924DC4808E32FC833848EA1A42E0BD32B5BCF41056AD6F3A82456F6058B85E7813A561A3EEB9F5AC9D0BC5C1F8CA34BFBED2105BC5625AA537932B788134B851E41458F90DF518F548E0B4D0BC88B2E08B69BAC93ED9393FC77B01CA396F7EAB7B31ECFA0F51DE650BB85876D9506D1418A64795F0EE3CEC0A2545734925D6624914C7E3C0F4BEB629E713AE588A7B98A6F5EAB0ABE231C5E1CE5D16611706AB9005E49EB063445F17AC5E83DCE997D19AD266C6D3323EDD902A47997614EA154D19EABFAEE95ED311E2F8F0BE82E1651B75D84C8D1E3FE785164479D7446F51D751A61213EEBF922ECEC4EC4A627099FED991AAFCBC2A3F38800CF7111BE121D7C270D3891A2B9354ACB8C37689880ECF431D7ED0E09E5CE1928693723CF1D8B9CD76BB0EB75CAAFFC74FFD2DA2C1137B204341C10D198A7C3837C3DEA730DB0EF36E042C648DCBF1B863B8EE9B8EA884405F1859E38EC7DBB161B5B127DE1C17CE4ABFAC8DE2B796351BC4ED39F45EBC9FD6FD0C16E0D4007B14F5BA6C1D112817BA4474D7B348A88DFFF3615B3F74459E56F3C9533D1F6A5C9848F0F8CF0D645A0AB6E1ADE344A78D32CA1BB39126E621F931E8FE419DA4C38DDB51899AEF8779CA8D4CA5EAD62D437CF843EFC4C7A7C22F9A1C98877CD51C4CF18F21DFD3E02D75C4614B7CEFF1A2819E4DF742838D2A3386782EDFD2363EF8095D043CEF6B64C4727B1AD648606727EC9A5D08E8060BF8821F84F1146EEE370F6F8F3776B42BC1D8DE1DF5D0FC37FD4D686BCB214045D9E354FBB8266286638F90DE5979D6E" />
+					<Bitmap Name="Aliases.browser.pageShop" Data="61717A6970000000010000003604000078016DD37D4C4D711807F0F372EF3DF774EEB92FDE2285C94A4947D7ED12331BA3BC94889618799998A4322FDDE2468C0AC3E4565ADA6EB349332F796B32D5BDDDDA84A6FB420D33363663FEC1467DFD4EA5C53CDBF3DB73F63B9FE7F79CDF7616C49B15547F98C93A95A47E30696A12A9480CEE0F3CFC7F0DF3A7A2AC4BE8B2EBDBD8EE6B9BD53FAB52849F85B19A9E1489AF08D2B3A6FF2B8AE214145FB084AAE8CAA5FB9CD90AD8920494276951BE4A0BDB4A1D4A1375389BA0EF5B2BF955A958DA6F781FD956AFA39ADC161A9D075894115BB95AC4C5D57FFB73097A9C89D7232346E3500EEB618DA3CADC1606EE7C16B7D33972AE06556B067CD94A6D6FE65CA1213684B3C44C506D593885DBB7D924DC4808E32FC833848EA1A42E0BD32B5BCF41056AD6F3A82456F6058B85E7813A561A3EEB9F5AC9D0BC5C1F8CA34BFBED2105BC5625AA537932B788134B851E41458F90DF518F548E0B4D0BC88B2E08B69BAC93ED9393FC77B01CA396F7EAB7B31ECFA0F51DE650BB85876D9506D1418A64795F0EE3CEC0A2545734925D6624914C7E3C0F4BEB629E713AE588A7B98A6F5EAB0ABE231C5E1CE5D16611706AB9005E49EB063445F17AC5E83DCE997D19AD266C6D3323EDD902A47997614EA154D19EABFAEE95ED311E2F8F0BE82E1651B75D84C8D1E3FE785164479D7446F51D751A61213EEBF922ECEC4EC4A627099FED991AAFCBC2A3F38800CF7111BE121D7C270D3891A2B9354ACB8C37689880ECF431D7ED0E09E5CE1928693723CF1D8B9CD76BB0EB75CAAFFC74FFD2DA2C1137B204341C10D198A7C3837C3DEA730DB0EF36E042C648DCBF1B863B8EE9B8EA884405F1859E38EC7DBB161B5B127DE1C17CE4ABFAC8DE2B796351BC4ED39F45EBC9FD6FD0C16E0D4007B14F5BA6C1D112817BA4474D7B348A88DFFF3615B3F74459E56F3C9533D1F6A5C9848F0F8CF0D645A0AB6E1ADE344A78D32CA1BB39126E621F931E8FE419DA4C38DDB51899AEF8779CA8D4CA5EAD62D437CF843EFC4C7A7C22F9A1C98877CD51C4CF18F21DFD3E02D75C4614B7CEFF1A2819E4DF742838D2A3386782EDFD2363EF8095D043CEF6B64C4727B1AD648606727EC9A5D08E8060BF8821F84F1146EEE370F6F8F3776B42BC1D8DE1DF5D0FC37FD4D686BCB214045D9E354FBB8266286638F90DE5979D6E" />
+					<Bitmap Name="Aliases.browser.pageShop.header" Data="61717A6970000000010000003604000078016DD37D4C4D711807F0F372EF3DF774EEB92FDE2285C94A4947D7ED12331BA3BC94889618799998A4322FDDE2468C0AC3E4565ADA6EB349332F796B32D5BDDDDA84A6FB420D33363663FEC1467DFD4EA5C53CDBF3DB73F63B9FE7F79CDF7616C49B15547F98C93A95A47E30696A12A9480CEE0F3CFC7F0DF3A7A2AC4BE8B2EBDBD8EE6B9BD53FAB52849F85B19A9E1489AF08D2B3A6FF2B8AE214145FB084AAE8CAA5FB9CD90AD8920494276951BE4A0BDB4A1D4A1375389BA0EF5B2BF955A958DA6F781FD956AFA39ADC161A9D075894115BB95AC4C5D57FFB73097A9C89D7232346E3500EEB618DA3CADC1606EE7C16B7D33972AE06556B067CD94A6D6FE65CA1213684B3C44C506D593885DBB7D924DC4808E32FC833848EA1A42E0BD32B5BCF41056AD6F3A82456F6058B85E7813A561A3EEB9F5AC9D0BC5C1F8CA34BFBED2105BC5625AA537932B788134B851E41458F90DF518F548E0B4D0BC88B2E08B69BAC93ED9393FC77B01CA396F7EAB7B31ECFA0F51DE650BB85876D9506D1418A64795F0EE3CEC0A2545734925D6624914C7E3C0F4BEB629E713AE588A7B98A6F5EAB0ABE231C5E1CE5D16611706AB9005E49EB063445F17AC5E83DCE997D19AD266C6D3323EDD902A47997614EA154D19EABFAEE95ED311E2F8F0BE82E1651B75D84C8D1E3FE785164479D7446F51D751A61213EEBF922ECEC4EC4A627099FED991AAFCBC2A3F38800CF7111BE121D7C270D3891A2B9354ACB8C37689880ECF431D7ED0E09E5CE1928693723CF1D8B9CD76BB0EB75CAAFFC74FFD2DA2C1137B204341C10D198A7C3837C3DEA730DB0EF36E042C648DCBF1B863B8EE9B8EA884405F1859E38EC7DBB161B5B127DE1C17CE4ABFAC8DE2B796351BC4ED39F45EBC9FD6FD0C16E0D4007B14F5BA6C1D112817BA4474D7B348A88DFFF3615B3F74459E56F3C9533D1F6A5C9848F0F8CF0D645A0AB6E1ADE344A78D32CA1BB39126E621F931E8FE419DA4C38DDB51899AEF8779CA8D4CA5EAD62D437CF843EFC4C7A7C22F9A1C98877CD51C4CF18F21DFD3E02D75C4614B7CEFF1A2819E4DF742838D2A3386782EDFD2363EF8095D043CEF6B64C4727B1AD648606727EC9A5D08E8060BF8821F84F1146EEE370F6F8F3776B42BC1D8DE1DF5D0FC37FD4D686BCB214045D9E354FBB8266286638F90DE5979D6E" />
+					<Bitmap Name="Aliases.browser.pageShop.header.navUsd" Data="61717A6970000000010000003604000078016DD37D4C4D711807F0F372EF3DF774EEB92FDE2285C94A4947D7ED12331BA3BC94889618799998A4322FDDE2468C0AC3E4565ADA6EB349332F796B32D5BDDDDA84A6FB420D33363663FEC1467DFD4EA5C53CDBF3DB73F63B9FE7F79CDF7616C49B15547F98C93A95A47E30696A12A9480CEE0F3CFC7F0DF3A7A2AC4BE8B2EBDBD8EE6B9BD53FAB52849F85B19A9E1489AF08D2B3A6FF2B8AE214145FB084AAE8CAA5FB9CD90AD8920494276951BE4A0BDB4A1D4A1375389BA0EF5B2BF955A958DA6F781FD956AFA39ADC161A9D075894115BB95AC4C5D57FFB73097A9C89D7232346E3500EEB618DA3CADC1606EE7C16B7D33972AE06556B067CD94A6D6FE65CA1213684B3C44C506D593885DBB7D924DC4808E32FC833848EA1A42E0BD32B5BCF41056AD6F3A82456F6058B85E7813A561A3EEB9F5AC9D0BC5C1F8CA34BFBED2105BC5625AA537932B788134B851E41458F90DF518F548E0B4D0BC88B2E08B69BAC93ED9393FC77B01CA396F7EAB7B31ECFA0F51DE650BB85876D9506D1418A64795F0EE3CEC0A2545734925D6624914C7E3C0F4BEB629E713AE588A7B98A6F5EAB0ABE231C5E1CE5D16611706AB9005E49EB063445F17AC5E83DCE997D19AD266C6D3323EDD902A47997614EA154D19EABFAEE95ED311E2F8F0BE82E1651B75D84C8D1E3FE785164479D7446F51D751A61213EEBF922ECEC4EC4A627099FED991AAFCBC2A3F38800CF7111BE121D7C270D3891A2B9354ACB8C37689880ECF431D7ED0E09E5CE1928693723CF1D8B9CD76BB0EB75CAAFFC74FFD2DA2C1137B204341C10D198A7C3837C3DEA730DB0EF36E042C648DCBF1B863B8EE9B8EA884405F1859E38EC7DBB161B5B127DE1C17CE4ABFAC8DE2B796351BC4ED39F45EBC9FD6FD0C16E0D4007B14F5BA6C1D112817BA4474D7B348A88DFFF3615B3F74459E56F3C9533D1F6A5C9848F0F8CF0D645A0AB6E1ADE344A78D32CA1BB39126E621F931E8FE419DA4C38DDB51899AEF8779CA8D4CA5EAD62D437CF843EFC4C7A7C22F9A1C98877CD51C4CF18F21DFD3E02D75C4614B7CEFF1A2819E4DF742838D2A3386782EDFD2363EF8095D043CEF6B64C4727B1AD648606727EC9A5D08E8060BF8821F84F1146EEE370F6F8F3776B42BC1D8DE1DF5D0FC37FD4D686BCB214045D9E354FBB8266286638F90DE5979D6E" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Login_Data_Driven_1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Login_Data_Driven_1" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="This logs into the Bearstore via data source" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="Registered_Users">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Module_Routines" />
+						<Children>
+							<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+								<Data Comment="These steps login and verifies that user is logged in" />
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Clicks the &apos;%n&apos; link." Action="Click">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+										<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+										<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+											<Values IsEnum="True">
+												<Value Type="1" Value="0" Text="skNoShift" />
+												<Value Type="1" Value="8192" Text="skShift" />
+												<Value Type="1" Value="32768" Text="skAlt" />
+												<Value Type="1" Value="16384" Text="skCtrl" />
+											</Values>
+										</Parameter>
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop.header.navUsd.linkLogIn;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogin;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Registered_Users" ColumnName="eMail" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Text" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Registered_Users" ColumnName="ClearText_Password" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogin.sectionContent.passwordboxPassword;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageLogin.sectionContent.buttonLogIn;" />
+								</Data>
+							</Operation>
+							<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+								<Data Description="Delays the test execution for the specified time period.">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="10000" />
+										<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="10 second delay before running Checkpoint" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+								<Data Description="Posts a warning to the test log." MessageType="2">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="20220801 - The users are not yet registered, so this fails - KMJ" />
+										<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+										<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+											<Values IsEnum="True">
+												<Value Type="1" Value="100" Text="pmLowest" />
+												<Value Type="1" Value="200" Text="pmLower" />
+												<Value Type="1" Value="300" Text="pmNormal" />
+												<Value Type="1" Value="400" Text="pmHigher" />
+												<Value Type="1" Value="500" Text="pmHighest" />
+											</Values>
+										</Parameter>
+										<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="Picture" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribWarning" />
+										<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop.header.navUsd.linkLogIn" />
+										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+										<Parameter Name="Value" DefVarType="12" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Registered_Users" ColumnName="UserID" />
+										<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Logout" />
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{E2F802DB-55FF-46E1-BC1A-3F5498DDA9BE}">
+		<Items>
+			<Variable Name="Registered_Users" Type="Table" Local="False">
+				<DefValue RowCount="100" ColumnCount="3">
+					<Columns ColumnName0="eMail" ColumnName1="UserID" ColumnName2="ClearText_Password" />
+					<Row No="0" Cell0="workman@mauris.com" Cell1="y01B7o57" Cell2="A%9$81J62B" />
+					<Row No="1" Cell0="powell@pellentesque.gov" Cell1="7f118ml4" Cell2="Q&amp;9+lq&amp;3,)" />
+					<Row No="2" Cell0="maynard@cubilia.org" Cell1="0O32xFa1" Cell2="H`\@z5`@]^" />
+					<Row No="3" Cell0="hurley@sollicitudin.net" Cell1="YQNT6536" Cell2="2`i9{83E!O" />
+					<Row No="4" Cell0="clayton@nam.com" Cell1="qw2s864a" Cell2="+5=y714=I@" />
+					<Row No="5" Cell0="hood@conubia.us" Cell1="s5dWQv4j" Cell2="6BKr/bYaed" />
+					<Row No="6" Cell0="nixon@senectus.us" Cell1="yj5Fx3M4" Cell2="3;[:ow~E6k" />
+					<Row No="7" Cell0="keller@primis.net" Cell1="o2E4pHw5" Cell2="I|3&lt;54L_v&quot;" />
+					<Row No="8" Cell0="browning@hymenaeos.us" Cell1="85hxXb91" Cell2="+qf}Rv}d57" />
+					<Row No="9" Cell0="mccarty@ornare.edu" Cell1="rNZ55k4i" Cell2="12,03??;29" />
+					<Row No="10" Cell0="santiago@ad.com" Cell1="p1160DdZ" Cell2="90]F\=9?65" />
+					<Row No="11" Cell0="nieves@tristique.org" Cell1="T12j7sa1" Cell2="t8Qt#p2**[" />
+					<Row No="12" Cell0="jenkins@nisl.gov" Cell1="h8nn4Hs7" Cell2="27x~&gt;491$S" />
+					<Row No="13" Cell0="watts@laoreet.net" Cell1="9C3jZ461" Cell2="4@fU{1`.kh" />
+					<Row No="14" Cell0="robinson@sociis.net" Cell1="49I60711" Cell2="g7^&quot;I5i{3C" />
+					<Row No="15" Cell0="stout@blandit.gov" Cell1="X578o884" Cell2="--FE655m]7" />
+					<Row No="16" Cell0="riley@hendrerit.gov" Cell1="b0c2310A" Cell2="6rv;[Ek96R" />
+					<Row No="17" Cell0="copeland@malesuada.gov" Cell1="KMcV759x" Cell2="8RwY2s73k5" />
+					<Row No="18" Cell0="battle@vestibulum.com" Cell1="j96U13a8" Cell2="{~&apos;x]N1H6f" />
+					<Row No="19" Cell0="mathews@malesuada.com" Cell1="s2Q2l5H6" Cell2="&apos;Z1kX&gt;&amp;@88" />
+					<Row No="20" Cell0="davenport@et.us" Cell1="2P3o27w8" Cell2="pK1357E92I" />
+					<Row No="21" Cell0="carey@sodales.org" Cell1="T7f5v3s5" Cell2="Om431-ne7*" />
+					<Row No="22" Cell0="whitaker@velit.net" Cell1="7XF36KWh" Cell2="|+Z9_5N5@P" />
+					<Row No="23" Cell0="boyd@quam.org" Cell1="Zh29Vr97" Cell2="78656J6f7A" />
+					<Row No="24" Cell0="brady@mollis.org" Cell1="35U81uV6" Cell2="&amp;5*t%8O7c1" />
+					<Row No="25" Cell0="cote@aenean.edu" Cell1="mQ4Um5E5" Cell2="6:&lt;*5WN{71" />
+					<Row No="26" Cell0="pruitt@augue.gov" Cell1="8U2U4OdU" Cell2="8.;X76U4j^" />
+					<Row No="27" Cell0="case@ac.us" Cell1="5UgK6ivj" Cell2="\88+:;p.jJ" />
+					<Row No="28" Cell0="armstrong@nullam.net" Cell1="G2lTD3l9" Cell2="p)li}m^&lt;U6" />
+					<Row No="29" Cell0="bean@primis.net" Cell1="5o35t508" Cell2="#1&lt;m3NW821" />
+					<Row No="30" Cell0="dudley@quisque.org" Cell1="3172jfet" Cell2="Dc=;WHud&lt;R" />
+					<Row No="31" Cell0="michael@in.net" Cell1="lB20otIO" Cell2="$2=l^V(4&gt;v" />
+					<Row No="32" Cell0="haney@elit.us" Cell1="579c3p04" Cell2="e9*&gt;y&apos;&lt;5)a" />
+					<Row No="33" Cell0="solis@cras.com" Cell1="334M5sU6" Cell2="c+8A[8T@rq" />
+					<Row No="34" Cell0="sanchez@non.org" Cell1="IC52qygZ" Cell2="71|d&amp;8N&gt;(m" />
+					<Row No="35" Cell0="gonzalez@consectetuer.org" Cell1="beqp5qz6" Cell2="53e9g]Nszq" />
+					<Row No="36" Cell0="hogan@lorem.us" Cell1="8G82Xqe0" Cell2="|0bRC-57&quot;3" />
+					<Row No="37" Cell0="cain@magnis.org" Cell1="n796e2A1" Cell2="7|[x1T[86W" />
+					<Row No="38" Cell0="walton@primis.us" Cell1="t1AtFR3b" Cell2="7j,Qc70\g*" />
+					<Row No="39" Cell0="eaton@commodo.org" Cell1="atOoU01Z" Cell2="e*ir34E7j3" />
+					<Row No="40" Cell0="bryan@magnis.com" Cell1="65OW0En4" Cell2="F]t5X\6U1c" />
+					<Row No="41" Cell0="mitchell@magna.net" Cell1="944130e8" Cell2="727_5(4x+Z" />
+					<Row No="42" Cell0="guthrie@sagittis.gov" Cell1="gT6165h9" Cell2="?&quot;f(CN&apos;KJ5" />
+					<Row No="43" Cell0="irwin@morbi.org" Cell1="88CJ9X12" Cell2="O27s&quot;\66)&lt;" />
+					<Row No="44" Cell0="francis@cum.net" Cell1="56HL66V1" Cell2="Ku0kSP%4e2" />
+					<Row No="45" Cell0="garcia@dictum.gov" Cell1="1LI71gOo" Cell2="]SDn4w4/7&lt;" />
+					<Row No="46" Cell0="calhoun@curabitur.edu" Cell1="G9v80U1I" Cell2="D2!S:0J92S" />
+					<Row No="47" Cell0="livingston@penatibus.org" Cell1="85166N4m" Cell2="|*6*5f:!&lt;=" />
+					<Row No="48" Cell0="lester@id.us" Cell1="45S1aypx" Cell2="%2~^7}e/58" />
+					<Row No="49" Cell0="schroeder@vel.org" Cell1="E33g423n" Cell2="3;\^537Zl3" />
+					<Row No="50" Cell0="butler@purus.net" Cell1="38W4mq41" Cell2="7I53738z74" />
+					<Row No="51" Cell0="preston@mus.org" Cell1="hDX61d3T" Cell2="495MdE&apos;5YY" />
+					<Row No="52" Cell0="oconnor@purus.net" Cell1="CHM05528" Cell2="6*K[~492w6" />
+					<Row No="53" Cell0="frank@ultricies.us" Cell1="1L2a56G8" Cell2="tE_-0=ZT}M" />
+					<Row No="54" Cell0="watson@accumsan.edu" Cell1="Voj87i7g" Cell2="u1Hm[344fN" />
+					<Row No="55" Cell0="haley@etiam.com" Cell1="Nv77J077" Cell2="&apos;0&gt;]M?1&amp;YH" />
+					<Row No="56" Cell0="valenzuela@phasellus.net" Cell1="3H6I6Bj7" Cell2=",39S1:#3fP" />
+					<Row No="57" Cell0="guthrie@sociosqu.edu" Cell1="28g822t2" Cell2="yoU7FC42-5" />
+					<Row No="58" Cell0="harmon@lacus.net" Cell1="19q37H1B" Cell2="yx&gt;2FJl`f3" />
+					<Row No="59" Cell0="avery@consequat.com" Cell1="uU7Xt449" Cell2="8N52qC55r8" />
+					<Row No="60" Cell0="gardner@auctor.us" Cell1="77J2yvSM" Cell2="QtTF&apos;)}5EL" />
+					<Row No="61" Cell0="ruiz@nullam.net" Cell1="548I3O88" Cell2="8&gt;4az2{%1+" />
+					<Row No="62" Cell0="gray@aliquam.edu" Cell1="87V74oeP" Cell2="hW;9j&apos;.&lt;=$" />
+					<Row No="63" Cell0="schwartz@tempus.us" Cell1="4TU371M4" Cell2="Q7EFpz1K(y" />
+					<Row No="64" Cell0="harrison@praesent.edu" Cell1="xT97Lo95" Cell2="xTWET5*!-2" />
+					<Row No="65" Cell0="perez@lectus.edu" Cell1="E52X6g8i" Cell2="}KPd&apos;..00q" />
+					<Row No="66" Cell0="parker@pellentesque.edu" Cell1="m49kw2j7" Cell2="!616uKa8p0" />
+					<Row No="67" Cell0="mcintyre@nostra.net" Cell1="d186959i" Cell2=",;79K8$2&gt;5" />
+					<Row No="68" Cell0="valentine@ante.edu" Cell1="lHZ51Qmo" Cell2="!4+;?$&quot;4&gt;7" />
+					<Row No="69" Cell0="beasley@nibh.org" Cell1="sM28L464" Cell2="Z&gt;{\HT2mn4" />
+					<Row No="70" Cell0="mercado@ullamcorper.net" Cell1="C84B8a7i" Cell2="[1n}6_&amp;[]2" />
+					<Row No="71" Cell0="walton@in.us" Cell1="f3tQzZF8" Cell2="8)5&gt;+@@283" />
+					<Row No="72" Cell0="hooper@ut.gov" Cell1="dz27E43E" Cell2="6{yP\3@X23" />
+					<Row No="73" Cell0="stark@hymenaeos.us" Cell1="4Kc8pvNW" Cell2="1$g5_5%{3#" />
+					<Row No="74" Cell0="burnett@ornare.net" Cell1="tg2b1IRG" Cell2="&apos;=U162%,N&amp;" />
+					<Row No="75" Cell0="bridges@consequat.org" Cell1="75h7Pd8D" Cell2="BF7#*g1K{p" />
+					<Row No="76" Cell0="santiago@arcu.edu" Cell1="j4H6L8HE" Cell2="4P,{:.\+8:" />
+					<Row No="77" Cell0="hodge@nonummy.us" Cell1="DDL3S0WZ" Cell2="e[DvpB4z&gt;8" />
+					<Row No="78" Cell0="gonzales@nibh.net" Cell1="i3TL7ro8" Cell2="6ZV5^DEZ1I" />
+					<Row No="79" Cell0="riggs@dapibus.edu" Cell1="MRvM9685" Cell2="53CPZ4i291" />
+					<Row No="80" Cell0="wilson@ante.edu" Cell1="6r57X7g4" Cell2="57(=0$3Np@" />
+					<Row No="81" Cell0="levy@netus.us" Cell1="wos8zb83" Cell2="^gL`#1g7&amp;a" />
+					<Row No="82" Cell0="blair@adipiscing.org" Cell1="2Lk30WCv" Cell2="yqhV=^3&apos;)$" />
+					<Row No="83" Cell0="mcconnell@molestie.gov" Cell1="S8dSaL6q" Cell2=".&amp;86)-`W_e" />
+					<Row No="84" Cell0="knight@mauris.us" Cell1="8L1072Z2" Cell2="]gg7t&amp;R955" />
+					<Row No="85" Cell0="briggs@quis.net" Cell1="Em0645C0" Cell2=")y16=RC3pV" />
+					<Row No="86" Cell0="dillon@pede.gov" Cell1="u457n63f" Cell2="!*^qC2M%B0" />
+					<Row No="87" Cell0="joseph@molestie.org" Cell1="695XbS57" Cell2="*U&gt;X2q[&apos;$Z" />
+					<Row No="88" Cell0="burnett@consequat.edu" Cell1="10L2Pt3X" Cell2="zfo(8dtW42" />
+					<Row No="89" Cell0="harrison@varius.org" Cell1="6b118m0R" Cell2="S5e&amp;;Y9D3@" />
+					<Row No="90" Cell0="tillman@nascetur.us" Cell1="950M6R69" Cell2="tub*K38&apos;]7" />
+					<Row No="91" Cell0="parsons@viverra.edu" Cell1="p4K5atcz" Cell2="2xq3P57BhU" />
+					<Row No="92" Cell0="mills@lacinia.org" Cell1="s6fysskP" Cell2="&amp;}b_3\j2Hw" />
+					<Row No="93" Cell0="villarreal@quam.org" Cell1="30Tf6xvn" Cell2="L0V8S9$Z4l" />
+					<Row No="94" Cell0="guy@aenean.us" Cell1="Xhc6h27q" Cell2="/7/n536=[Y" />
+					<Row No="95" Cell0="mcneil@lectus.net" Cell1="DNg8426T" Cell2="F&gt;*}Hs5Jp!" />
+					<Row No="96" Cell0="knowles@placerat.net" Cell1="7ZMe16a5" Cell2="83?3=0&amp;&gt;QM" />
+					<Row No="97" Cell0="lang@imperdiet.org" Cell1="4873NBV2" Cell2="221)]5+e6:" />
+					<Row No="98" Cell0="wiley@posuere.us" Cell1="Ph29J3e6" Cell2="O76|7Z66W[" />
+					<Row No="99" Cell0="baker@fames.gov" Cell1="47970o6V" Cell2="UH[2/b3n|4" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{FD548BC0-B324-40D1-9BA4-C763DE3C4AF2}" />
+</Root>

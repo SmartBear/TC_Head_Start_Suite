@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{6628BAC4-A963-47B2-9C62-2A5D100DAC0E}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{0EEE9523-79C0-4A43-82B4-CB846E8F578A}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{A0915C03-D80E-4E42-9D46-3AAD79E33EC1}">
+								<Image FileName="373045307" Left="0" Top="0" Right="608" Bottom="408" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="OrderForm" Key="{00AD35A9-2B86-4C77-B4D0-7FA1039CC8BF}">
+								<Image FileName="-453864123" Left="0" Top="0" Right="488" Bottom="478" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{7E232A24-19B1-4169-A33B-86E94CE7357D}">
+										<Image FileName="-453864123" Left="11" Top="34" Right="475" Bottom="434" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Customer" Key="{6D1CD2DD-5D5A-4DD2-BC99-2601E1E56FC8}">
+												<Image FileName="-453864123" Left="115" Top="194" Right="467" Bottom="214" />
+												<TypeInfo Item0="{69303CAB-BB62-46A2-B83A-AF735B047801}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Customer" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{46071CF1-651A-4039-BB00-2FE03705AF5C}">
+										<Image FileName="1410045289" Left="323" Top="442" Right="395" Bottom="466" />
+										<TypeInfo Item0="{318A9EB2-AB13-41C9-A38F-A789FA0E72B1}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{13FF5C79-80BB-4C30-8A37-17C59DC7A323}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{E7CA56CB-3282-4CB1-96EE-C916743D9069}">
+								<Image FileName="1692045705" Left="0" Top="0" Right="1920" Bottom="81" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{BFFC2FA7-CAE6-4F0D-B761-675AC3472E18}">
+										<Image FileName="1692045705" Left="486" Top="0" Right="1698" Bottom="81" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{B3606B4C-5F46-4F1F-B78E-6F4B46AB3109}">
+												<Image FileName="1692045705" Left="488" Top="0" Right="1698" Bottom="81" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{DB543BCB-A02D-4009-9842-69B059200FF8}">
+														<Image FileName="1692045705" Left="488" Top="0" Right="1698" Bottom="81" />
+														<TypeInfo Item0="{F359FE0D-8AA6-48C3-A233-C3AAD1F036E0}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{0EEE9523-79C0-4A43-82B4-CB846E8F578A}">
+			<Child Name="MainForm" Owner="{A0915C03-D80E-4E42-9D46-3AAD79E33EC1}" />
+			<Child Name="OrderForm" Owner="{00AD35A9-2B86-4C77-B4D0-7FA1039CC8BF}">
+				<Child Name="Group" Owner="{7E232A24-19B1-4169-A33B-86E94CE7357D}">
+					<Child Name="Customer" Owner="{6D1CD2DD-5D5A-4DD2-BC99-2601E1E56FC8}" />
+				</Child>
+				<Child Name="ButtonOK" Owner="{46071CF1-651A-4039-BB00-2FE03705AF5C}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{13FF5C79-80BB-4C30-8A37-17C59DC7A323}">
+			<Child Name="wndShell_TrayWnd" Owner="{E7CA56CB-3282-4CB1-96EE-C916743D9069}">
+				<Child Name="ReBarWindow32" Owner="{BFFC2FA7-CAE6-4F0D-B761-675AC3472E18}">
+					<Child Name="MSTaskSwWClass" Owner="{B3606B4C-5F46-4F1F-B78E-6F4B46AB3109}">
+						<Child Name="MSTaskListWClass" Owner="{DB543BCB-A02D-4009-9842-69B059200FF8}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

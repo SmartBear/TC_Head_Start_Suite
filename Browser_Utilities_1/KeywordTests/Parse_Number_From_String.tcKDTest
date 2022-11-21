@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{470E119B-CEFE-4FAE-A9A6-1BE278A822F0}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.panelOmniBar" Data="61717A697000000001000000360400007801CD935F48935118C67FD96CB0749F5337BD089C905484906456E49FADD852A88DA68ED9160A6B9222B9968D2E2208528A6241D308648A34C8CA30096D4917FD61AE1422B0282846E6B28B4A4244BB89F599DBD5747457EFCBF3BEE770F83DE71C3867EFC112097FA244AC9B4565C4B406B5381223B6BE3C59AE51FECF148AAE222FEE8AA9F3AF4FA9D4F859BBCD8744FB9054438875A620D2EA20A915FDA834BEA43ECAAA41910B90E67887E264844CD714196D11642D33A4B57E426A1F27D71258D54352114070865176CC92E3FC48FABEFB6CD075915FDB8BBC7D16C5E5EF480F3F59914F290F906E7B45E6851F088E0FAC374DC281D764EDEAA3667B3986238DE4DC5E4476364C4AD5488287DCF818C59988A819D8FA88C21D6DB88CBBC9370F6335DAB8A28172CF0079A3BF101A9E26F08ABA31723BE790DB5E22940D91ADBF8755ABE356A39A1E7B01D70F65616F3D4AE9FB28AAE660022F5842E479C57B777C65D3A52FD4DE5960A3E901D3FD7A26AF9531704C4DCB090795133F119AC612F8A557B8E4A1F67C4375FA3305AE6964FA17584C76E69F99B97BAA10E70D1F7B6E4EADC8C6F9EC8B0B28DA1791D484D8B2D34BBDD9CADC78337E7729D5C36F283E3F9194AFACF7B2DFDE0DBAB73C1FED263ADF4378E438BD4D4534B83DABB2F1FDE3BFC95D67A1CF6D60F09C01BF4B9B948B33FFA2FF0680E9AFF9" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Parse_Number_From_String" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
+				<Data Description="Iterates through the specified browsers.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;HTTPS://&quot; + Project.Variables.PublicSafetyServer + &quot;/#/&quot;" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<Item>
+						<BrowserItem BrowserName="firefox" />
+						<BrowserItem BrowserName="chrome" />
+						<BrowserItem BrowserName="iexplore" />
+						<BrowserItem BrowserName="edge" />
+					</Item>
+				</Data>
+				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Login_New_World_Public_Safety">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="TestUserName" DefVarType="8" DefValueType="6" DefValueValue="^aTestUser001" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="TestID" />
+								<Parameter Name="TestUserPassword" DefVarType="8" DefValueType="6" DefValueValue="^a1234" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="TestPassword" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="^aBull[Enter]" />
+							</Parameters>
+							<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.panelOmniBar.textboxOmniQuickSearchInput" />
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="4" VariableName="Module_Count">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageQuickSearch.panelMaincontent.panelFacetItem.label.contentText" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Module_Count" />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="SplitDemo3" Unit="String_Utilitites">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="Input_String" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Module_Count" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Common_Exit_Routine_Logout" />
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{8452CB39-88F5-4997-A5FB-D405841A1A24}">
+		<Items>
+			<Variable Name="Module_Count" Type="String" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{A4DC73A7-4730-4A55-B21F-E844C4526795}" />
+</Root>

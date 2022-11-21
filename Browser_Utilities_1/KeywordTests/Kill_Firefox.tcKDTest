@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{478AEC5A-6FCD-4CDB-90AE-6FB365C276D9}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Sys.Process(&quot;firefox&quot;)" Data="61717A6970000000010000003604000078019D937B48935118C635BA5286615279C99C9DCFA14417CB694179C99272A925E5BA197825B374569AC590EE5EBA6851A61498596946E525D13212755A18A23675B6E536FD0A6BD3B49CD5DAF7F4CDFC2288FEE985F77DCEE19CDFFB9C03E7F808DD279A8D853B5BF96C5A8EA7B9D90276C4C6F8FAAFC9AF0AC0ECCFD4EBF5D3341A8D7D7373B35B4D4D8D4F7575B55F6363A38742A1701A1E1EB66018C6FCCFFDDCD860304C94C9642E67CF5C4D5EE575AE85F06FEAED9C4B191BD7470C599AFF45E077AD3B3E31E78A542AF53479701CA74343433325929274BE4BF15722A803F17D0512D00E12D809B2450E12D4063BF71266DFC1C23C9AA66D388ED3B20AF9D6F9FC2A86AC6E02D9C87221DD20DB9520613D20511A90B83E9008156C03DB9913398A4C8E33A94EF7D96A89F7930F64CD4B10610748A812D49E1EB86E7E80159E7BE1B62103544A2F9CD2B42087D4700828656ADB746BB81E57F3DB92C67C4DAC88F5DCA584EBDA1B58E11C820DBCF9D8C4B386B7230F4EF932D8960CC0F1B41C978B5E1FE378FFF067AD6367DEA660F937A0A255E08BDF824A56C139BC12C1414284F26761659204360D7A58368D60E76D6539C7DB6F941A4DF7A5D8BB3AFBBC8087A810B15E7390186087C888F538B4D60AD1CB2C205AEE00DFAE5150EA1FE015778CFCE6452D3FC80ED62F4A052AB41DEEFE1288B72D42EEF6E9C8114D4786703252FDA6204E3005059FBEE3E800839579658CD1689C60EA214890D35418CBC6AA4125F5C1E9C27B04459E44513C8532B11D8A63AC714D6481CCC0A9B85E7E0F57740C3CABBA69CE5F52A0CC22911A50FBD994D0E09D52C12BBE13B1A99750976685A7126B541C9C8B82C879B85F9A8BB35A40AC1A3CC7F1CF5BFAD7115117A8F85E2C3C4E6341B60AE9C9023C3C6F8BB6EB93D09A3B0D0D699678786431EAB59F90D13B8C0ADDA890E3B54386D90ED10A63528AC4284E8D8630EF0E0E6704A3E3B62DD40F1CA1289A81A66C7BD417C6A0AAA707171BBA2A3996D3CA0EFD66BAB33AA23E6FFD486D3661F70AF0EEB1373E3EF5075DEE81F6222FC89B6F0DBE94BD4EF9D71F32F5328CEAEC07E5F939FD0D07FAB4B5BB9981BADDCC4769827A407E37EB9B5EFBD7BBE7FCFF577F0258139697" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Kill_Firefox" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="KIll_Firefox" />
+				<Children>
+					<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+						<Data>
+							<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Sys.Process(&quot;firefox&quot;)" />
+						</Data>
+						<Children>
+							<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+								<Data Description="Posts an information message to the test log." MessageType="0">
+									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mozilla Firefox process found running, close it" />
+										<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+										<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+											<Values IsEnum="True">
+												<Value Type="1" Value="100" Text="pmLowest" />
+												<Value Type="1" Value="200" Text="pmLower" />
+												<Value Type="1" Value="300" Text="pmNormal" />
+												<Value Type="1" Value="400" Text="pmHigher" />
+												<Value Type="1" Value="500" Text="pmHighest" />
+											</Values>
+										</Parameter>
+										<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{180A2D9C-07CF-406C-A3AD-F5F88281A719}">
+								<Data Description="Closes the process by sending the WM_CLOSE message to its main window." Action="Close" Process="firefox" Index="1">
+									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="3000" VarType="3" ValueType="1" ValueValue="3000" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+								<Data>
+									<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Sys.Process(&quot;firefox&quot;)" />
+								</Data>
+								<Children>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mozilla Firefox process found running after the close, kill it." />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{180A2D9C-07CF-406C-A3AD-F5F88281A719}">
+										<Data Description="Terminates the process." Action="Terminate" Process="firefox" Index="1" />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mozilla Firefox process not found, close worked" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+						<Data />
+						<Children>
+							<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+								<Data Description="Posts an information message to the test log." MessageType="0">
+									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mozilla Firefox process not found, no action taken" />
+										<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+										<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+											<Values IsEnum="True">
+												<Value Type="1" Value="100" Text="pmLowest" />
+												<Value Type="1" Value="200" Text="pmLower" />
+												<Value Type="1" Value="300" Text="pmNormal" />
+												<Value Type="1" Value="400" Text="pmHigher" />
+												<Value Type="1" Value="500" Text="pmHighest" />
+											</Values>
+										</Parameter>
+										<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+								</Data>
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{49DA019D-11AE-4E24-905E-0EB57F3B8A1C}" />
+</Root>

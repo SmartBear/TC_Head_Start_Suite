@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{1DD96BD6-345F-4985-8265-ECC593896D24}">
+	<children>
+		<folder name="Template_Projects">
+			<child name="Template_Python_Project_1" key="{11C3420D-1A92-4623-9F70-BD5537E3BD37}" path="Template_Python_Project_1\Template_Python_Project_1.mds" />
+			<child name="Template_C#Script_Project_1" key="{94358239-FF90-45E9-AAB2-E2B435F322B1}" path="Template_C#Script_Project_1\Template_C#Script_Project_1.mds" />
+			<child name="Template_JavaScript_Project_1" key="{BD4D6ADA-D7A5-44B8-8BC8-25D266899AB1}" path="Template_JavaScript_Project_1\Template_JavaScript_Project_1.mds" />
+			<child name="Template_VBScript_Project_1" key="{EE558E98-8747-4E56-9D83-A9A62918B9A4}" path="Template_VBScript_Project_1\Template_VBScript_Project_1.mds" />
+		</folder>
+		<folder name="AUT_Projects">
+			<child name="Bearstore_Web_App_Project_1" key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" path="Bearstore_Web_App_Project_1\Bearstore_Web_App_Project_1.mds" />
+			<child name="Orders_Desktop_App_Project_1" key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" path="Orders_Desktop_App_Project_1\Orders_Desktop_App_Project_1.mds" />
+			<child name="VET_Python_Project" key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" path="VET_Python_Project\VET_Python_Project.mds" />
+			<child name="VET_JavaScript_Project" key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" path="VET_JavaScript_Project\VET_JavaScript_Project.mds" />
+			<child name="Alpha_Baseline_Project_1" key="{3CA4E8B5-539A-4886-8710-D871B9C6C6CF}" path="Alpha_Baseline_Project_1\Alpha_Baseline_Project_1.mds" />
+			<child name="Vacation_Web_App_C#Script_Project" key="{AD296D19-6CC0-47E2-916F-C7BE38498154}" path="Vacation_Web_App_C#Script_Project\Vacation_Web_App_C#Script_Project.mds" />
+		</folder>
+		<folder name="Utility_Projects">
+			<child name="Utility_Project_1" key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" path="Utility_Project_1\Utility_Project_1.mds" />
+			<child name="Browser_Utilities_1" key="{31452752-7AB4-43FD-A92F-B84E62622560}" path="Browser_Utilities_1\Browser_Utilities_1.mds" />
+		</folder>
+	</children>
+	<testItems key="{746E2B81-9116-449C-BD7E-87D672B7CACE}">
+		<children>
+			<testItem key="{3CA4E8B5-539A-4886-8710-D871B9C6C6CF}" enabled="True" timeout="0" stopOnError="False" description="Sample Mixed Use Project" />
+			<testItem key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" enabled="True" timeout="0" stopOnError="False" description="Sample Web App Project" />
+			<testItem key="{31452752-7AB4-43FD-A92F-B84E62622560}" enabled="True" timeout="0" stopOnError="False" description="Sample Browser Functions" />
+			<testItem key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" enabled="True" timeout="0" stopOnError="False" description="Sample Desktop Project" />
+			<testItem key="{11C3420D-1A92-4623-9F70-BD5537E3BD37}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{94358239-FF90-45E9-AAB2-E2B435F322B1}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{BD4D6ADA-D7A5-44B8-8BC8-25D266899AB1}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{EE558E98-8747-4E56-9D83-A9A62918B9A4}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" enabled="True" timeout="0" stopOnError="False" description="Sample Utility Functions" />
+			<testItem key="{AD296D19-6CC0-47E2-916F-C7BE38498154}" enabled="True" timeout="0" stopOnError="False" description="C#Script Formatting and Jira Naming Convention" />
+			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="JavaScript Formatting and Jira Naming Convention" />
+			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="Python Formatting and Jira Naming Convention" />
+		</children>
+	</testItems>
+	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
+	<analysis key="{836D053D-2261-42DA-B467-887BF36B0F38}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

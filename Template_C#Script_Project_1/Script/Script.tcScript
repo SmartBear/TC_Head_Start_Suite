@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{1D4583D6-37EB-4814-ADC7-BB0C1D096FD4}" path="Unit1.scs" />
+		<child name="Tests" key="{F9D7616F-10CC-4462-B052-315837F89B97}" path="Tests.scs" />
+		<child name="Module_Scripts" key="{8E8F3ACC-B3A9-4CD0-B395-B1F05F773246}" path="Module_Scripts.scs" />
+		<child name="Template_Scripts" key="{F6188A3C-24D4-4E0A-BD96-55E69F98952B}" path="Template_Scripts.scs" />
+		<child name="Utility_Scripts" key="{AFEF505C-E2A5-4CDD-9183-B372567A8FE2}" path="Utility_Scripts.scs" />
+	</children>
+</Root>

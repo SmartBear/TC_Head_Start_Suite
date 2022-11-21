@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Common_Keyword_Tests">
+			<child name="Get_TestExecute_Version_Information" key="{D6C1B6BD-D603-4F0D-B038-BF92FC0CC468}" path="Get_TestExecute_Version_Information.tcKDTest" />
+			<child name="Get_TestComplete_Version_Information" key="{1C689367-5A43-4257-B377-D70489192A0D}" path="Get_TestComplete_Version_Information.tcKDTest" />
+			<child name="Close_Browser" key="{90552060-BBEC-439A-9848-145F5178FE65}" path="Close_Browser.tcKDTest" />
+		</folder>
+		<folder name="Simple_Demo">
+			<child name="Passing_Test" key="{20341139-7F33-4050-8C35-6E9AFED95BF2}" path="Passing_Test.tcKDTest" />
+			<child name="Warning_Test" key="{BD68E1E7-74C3-46AA-B8A8-97C9C4DB75FD}" path="Warning_Test.tcKDTest" />
+			<child name="Failing_Test" key="{01B9EC25-626C-4474-BBE0-33373B208927}" path="Failing_Test.tcKDTest" />
+			<child name="Event_Test" key="{9AF3D4D3-A828-47A3-A9B8-1AEB0BB48235}" path="Event_Test.tcKDTest" />
+		</folder>
+		<folder name="GeneralEvents">
+			<child name="GeneralEvents_OnStartTest" key="{AE2A5C41-07B6-4BCC-B055-D05D03E1C3ED}" path="GeneralEvents_OnStartTest.tcKDTest" />
+		</folder>
+		<folder name="License_Management">
+			<child name="Login_License_Management" key="{CF3F7575-6014-46EE-98E0-0A00EA3781F9}" path="Login_License_Management.tcKDTest" />
+			<child name="Selected_Browser_Loop" key="{2C5F6590-4DE2-4282-915A-635E84CF8D38}" path="Selected_Browser_Loop.tcKDTest" />
+			<child name="Signout_License_Management" key="{DE788534-40FC-4AC2-8CAF-30C6B8321901}" path="Signout_License_Management.tcKDTest" />
+		</folder>
+	</children>
+</Root>
