@@ -14,7 +14,7 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{5BF73F76-CDAF-4BE8-8932-4267396D1ED0}" version="14">
 		<children>
-			<testItem name="Configure Browsers" key="{2B0E3BD0-065B-4D16-8F4F-85A5DF5DBC2D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Configure Browsers" key="{2B0E3BD0-065B-4D16-8F4F-85A5DF5DBC2D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Configure_Chrome" key="{AB0DD3BE-B571-45AA-9F3E-9FBE61C3F06D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{427EAE33-F40A-448A-99A0-DB5F279C7723}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -64,7 +64,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Debug Smartbear Issues" key="{CE2329D6-CA59-4888-B146-9536A1CCEBBD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Debug Smartbear Issues" key="{CE2329D6-CA59-4888-B146-9536A1CCEBBD}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Simple_Browser_Open_and_Close_All_Installed_Browsers" key="{F210A04D-2D55-4330-A9B6-2E3306209051}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6A1B2442-8750-456A-8E0F-9C683BCAB7CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -129,7 +129,7 @@
 					</testItem>
 					<testItem name="Kill_All_Browsers_Keyword_Calling_Script" key="{5938A0FD-7DF0-4979-9422-B0668BDBB0C0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F48651CF-0169-456B-BFC5-9E587B25027E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
