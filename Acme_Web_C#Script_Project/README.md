@@ -1,8 +1,8 @@
-# Vacation_Web_App_C#Script_Project
+# Acme_Web_C#Script_Project
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
-The Vacation_Web_App_C#Script_Project performs xyz
+This project performs xyz
 
 ## Keyword Tests Listing
 

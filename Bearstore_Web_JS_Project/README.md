@@ -2,7 +2,7 @@
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
-The Bearstore_Web_App_Project_1 performs xyz
+This project performs xyz
 
 ## Keyword Tests Listing
 

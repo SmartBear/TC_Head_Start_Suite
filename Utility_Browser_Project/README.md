@@ -1,8 +1,8 @@
-# Browser_Utilities_1
+# Utility_Browser_Project
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
-The Browser_Utilities_1 performs xyz
+This project performs xyz
 
 ## Keyword Tests Listing
 
