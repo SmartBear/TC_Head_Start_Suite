@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Bearstore_Common">
+			<child name="Test_Open_and_Close_Bearstore" key="{910F8168-EA2A-4633-BA18-637990641CB1}" path="Test_Open_and_Close_Bearstore.tcKDTest" />
+			<child name="Mod_Close_Browser" key="{0B0EA2CB-DC83-4491-A748-B619E60EA3A9}" path="Mod_Close_Browser.tcKDTest" />
+			<child name="Mod_Open_Browser" key="{AACEBE5A-CAD5-4AF4-93FF-060DB7E68C25}" path="Mod_Open_Browser.tcKDTest" />
+			<child name="Test_Data_Driven" key="{2868AEF4-2E0E-44D5-BAE2-56B0F1E44A20}" path="Test_Data_Driven.tcKDTest" />
+			<child name="Mod_Contact_User" key="{91B277DC-6BBC-4E68-A4B1-FBF5F20F29AD}" path="Mod_Contact_User.tcKDTest" />
+			<child name="Test_Register_User" key="{C288BA28-0C93-4417-89DD-B9F6388A3BDA}" path="Test_Register_User.tcKDTest" />
+			<child name="Mod_Register_User" key="{4AC5AC6E-163C-4694-9184-F83FA4BE8D5F}" path="Mod_Register_User.tcKDTest" />
+			<child name="Test_Login_Logout" key="{DF087B9F-8409-4A23-8BC1-BBF40499BD62}" path="Test_Login_Logout.tcKDTest" />
+			<child name="Mod_Login_Jack_Power" key="{F4ECA0D7-C5D7-4C8F-8D43-FF2F375F5887}" path="Mod_Login_Jack_Power.tcKDTest" />
+			<child name="Mod_Logout" key="{A7EC2B2E-6C89-4FB7-89C6-5D325725792E}" path="Mod_Logout.tcKDTest" />
+		</folder>
+		<folder name="GeneralEvents">
+			<child name="GeneralEvents_OnStartTest" key="{63CDA883-B657-4AE7-A3E8-6A25E3919BA8}" path="GeneralEvents_OnStartTest.tcKDTest" />
+		</folder>
+		<folder name="Z_Templates">
+			<child name="Test_Template_Baseline" key="{6A4C8680-3C84-40C8-9636-0DBF914B7B0E}" path="Test_Template_Baseline.tcKDTest" />
+			<child name="Module_Template" key="{7E7A0D74-53C2-4EC0-AEDF-DA39BA9984A8}" path="Module_Template.tcKDTest" />
+			<child name="Test_Template_All_Browser_Loop" key="{9C3ACC8C-82DE-4E73-A567-B0508B4ADE40}" path="Test_Template_All_Browser_Loop.tcKDTest" />
+		</folder>
+		<folder name="Browser_Utilities">
+			<child name="Terminate_Chrome" key="{577940A4-CC9F-4BC3-834F-9B8AF25B360D}" path="Terminate_Chrome.tcKDTest" />
+			<child name="Terminate_Edge" key="{EA489D22-28F4-4EDC-A1BF-0C6BE8F7660D}" path="Terminate_Edge.tcKDTest" />
+			<child name="Terminate_Firefox" key="{A870E3D2-2B7F-4CBC-AF0B-92114D58B599}" path="Terminate_Firefox.tcKDTest" />
+			<child name="Terminate_All_Browsers" key="{BAE9D34E-F15B-4C35-9976-FBE6F4A3DB3F}" path="Terminate_All_Browsers.tcKDTest" />
+			<child name="Open_Browsers_and_Delete_History" key="{8FBBC9E0-5D67-4984-BE22-599428A2D4EE}" path="Open_Browsers_and_Delete_History.tcKDTest" />
+			<child name="T_Purge_Chrome_History" key="{951A3558-73D3-4861-8D92-D35530CAC7DD}" path="T_Purge_Chrome_History.tcKDTest" />
+			<child name="T_Purge_Edge_History" key="{4C71C635-B293-49B1-AF31-9251498E0069}" path="T_Purge_Edge_History.tcKDTest" />
+		</folder>
+		<child name="Test_Low_Level_Procdure" key="{5030A275-96B8-4198-8F82-A96B13404114}" path="Test_Low_Level_Procdure.tcKDTest" />
+	</children>
+</Root>

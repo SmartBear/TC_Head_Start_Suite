@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Bearstore_Common" key="{370B0981-2265-4DB9-A67E-8B7E547796A0}" path="Bearstore_Common.js" />
+		<child name="Sandbox_Samples" key="{20B240F7-3398-4F2E-B4DF-95A884B59A06}" path="Sandbox_Samples.js" />
+		<child name="Bearstore_Test_Collection" key="{8EDDFC6C-5084-464F-A992-C9FB0475AE39}" path="Bearstore_Test_Collection.js" />
+	</children>
+</Root>

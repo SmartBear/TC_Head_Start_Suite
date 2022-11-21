@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Bearstore_Common">
+			<child name="Test_Open_and_Close_Bearstore" key="{9862D33B-226A-4D2E-89B2-C23005D4AE7D}" path="Test_Open_and_Close_Bearstore.tcKDTest" />
+			<child name="Mod_Close_Browser" key="{6D7656C1-AFAD-48DC-85C1-BADC3F1AE598}" path="Mod_Close_Browser.tcKDTest" />
+			<child name="Mod_Open_Browser" key="{06A8F93F-5925-4E50-BFE2-B501EA23CC75}" path="Mod_Open_Browser.tcKDTest" />
+			<child name="Test_Data_Driven" key="{4209C8C9-05F9-478E-9AA1-5E25845A597F}" path="Test_Data_Driven.tcKDTest" />
+			<child name="Mod_Contact_User" key="{877ECC94-0307-4D0B-88BA-97B80699E411}" path="Mod_Contact_User.tcKDTest" />
+			<child name="Test_Register_User" key="{49DC6DFC-FF2A-4237-BDED-80F7E10AFADC}" path="Test_Register_User.tcKDTest" />
+			<child name="Mod_Register_User" key="{2BC19F81-F51B-460E-BD43-051AE82276A8}" path="Mod_Register_User.tcKDTest" />
+			<child name="Test_Login_Logout" key="{B81C855C-3F9D-44C4-9F1F-CA7FEC6D2A96}" path="Test_Login_Logout.tcKDTest" />
+			<child name="Mod_Login_Jack_Power" key="{F09CE803-4C44-4129-BBB4-F49112CA5AD5}" path="Mod_Login_Jack_Power.tcKDTest" />
+			<child name="Mod_Logout" key="{F6373FE6-B35F-4C7C-B630-288F6A36D3B0}" path="Mod_Logout.tcKDTest" />
+			<child name="Test_New_Feature" key="{62BC2443-E088-4E30-959B-4C046E2BC9C1}" path="Test_New_Feature.tcKDTest" />
+			<child name="Mod_Open_Brower_Chrome_Incognito" key="{99D22201-7288-482A-A7FA-71502E0CD160}" path="Mod_Open_Brower_Chrome_Incognito.tcKDTest" />
+			<child name="Test_Open_Brower_Chrome_Incognito" key="{EDF29591-EA8D-4DE8-A0F8-A96A7C9FBF9E}" path="Test_Open_Brower_Chrome_Incognito.tcKDTest" />
+			<child name="Mod_Login_Negative" key="{6F3CD153-9FCA-4AAA-8AE3-CA93B1D1B4BE}" path="Mod_Login_Negative.tcKDTest" />
+			<child name="Test_Login_Negative" key="{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" path="Test_Login_Negative.tcKDTest" />
+			<child name="Mod_Navigate_Home_Page" key="{417316A5-8B60-40F1-AC93-28B86B11F15B}" path="Mod_Navigate_Home_Page.tcKDTest" />
+			<child name="Test_Login_Logout_Data_Driven" key="{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" path="Test_Login_Logout_Data_Driven.tcKDTest" />
+			<child name="Mod_Login_Data_Driven_1" key="{0612601B-BF67-431F-81AE-29BFA0C88A99}" path="Mod_Login_Data_Driven_1.tcKDTest" />
+		</folder>
+		<folder name="GeneralEvents">
+			<child name="GeneralEvents_OnStartTest" key="{E1230F69-6011-42FE-BDE6-DF22D2BC94FF}" path="GeneralEvents_OnStartTest.tcKDTest" />
+		</folder>
+		<folder name="Z_Templates">
+			<child name="Test_Template" key="{BC321DF2-2FDA-4B64-8EA0-0433A8F3D68B}" path="Test_Template.tcKDTest" />
+			<child name="Module_Template" key="{4451B2B6-2CFF-4D81-A63D-C7AFB7A1F27D}" path="Module_Template.tcKDTest" />
+			<child name="Mod_Jira_ID_1" key="{B058A13F-9B23-4A88-A4A0-A3BFAAB7CDE0}" path="Mod_Jira_ID_1.tcKDTest" />
+			<child name="Test_Jira_ID_1" key="{9106AF4E-46A1-41EE-A73A-BEDF0FBA5375}" path="Test_Jira_ID_1.tcKDTest" />
+		</folder>
+		<folder name="Browser_Utilities">
+			<child name="Terminate_Chrome" key="{6C759B17-65BB-421A-9092-2E3E8A203EE8}" path="Terminate_Chrome.tcKDTest" />
+			<child name="Terminate_Edge" key="{6DAD5724-B074-40F4-ADC0-B58D1E7DA9C5}" path="Terminate_Edge.tcKDTest" />
+			<child name="Terminate_Firefox" key="{53A85495-0129-4DCB-AF00-AC0CD75D359C}" path="Terminate_Firefox.tcKDTest" />
+			<child name="Terminate_All_Browsers" key="{17AB59D1-0FA7-4D91-87D6-1F796CE3BD30}" path="Terminate_All_Browsers.tcKDTest" />
+		</folder>
+		<folder name="Temp">
+			<child name="Script_Temp" key="{0342ACB5-42BA-467F-84C1-6E25698B1052}" path="Script_Temp.tcKDTest" />
+			<child name="Null_Test" key="{490D8434-381F-40ED-A9B7-6918F8E0756D}" path="Null_Test.tcKDTest" />
+		</folder>
+		<folder name="Checkpoint_Samples">
+			<child name="Table_Checkpoint" key="{FB2DB692-1A1D-4C3F-BA67-314DBFFF96DA}" path="Table_Checkpoint.tcKDTest" />
+		</folder>
+		<child name="Test1" key="{1EC7B654-7D08-4FAE-93B8-A135E738F1C4}" path="Test1.tcKDTest" />
+	</children>
+</Root>
