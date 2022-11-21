@@ -13,15 +13,20 @@
 	<config language="{897793E3-73F3-4895-A956-3D41D3A24A45}" />
 	<testItems key="{FD166780-E20F-4972-B607-E7B48C3720A5}" version="14">
 		<children>
-			<testItem name="Test_Template" key="{2D241246-E70E-4673-A2DD-BBB9174D9E2D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0F4B6D5-B1AE-4B1C-9107-5B6BA115D077}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Templates" key="{85F4920E-FAF7-428A-9DC2-6258297AFB29}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Keyword_Calling_Script_Test_Template" key="{34AEE0D3-73EE-4919-A802-E838A3AF6283}" group="False" parallel="False" enabled="False" testMoniker="KDT\{142A2791-8855-424B-A173-CC0D5AC46F76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
+				<children>
+					<testItem name="Test_Template" key="{2D241246-E70E-4673-A2DD-BBB9174D9E2D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0F4B6D5-B1AE-4B1C-9107-5B6BA115D077}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Keyword_Calling_Script_Test_Template" key="{34AEE0D3-73EE-4919-A802-E838A3AF6283}" group="False" parallel="False" enabled="False" testMoniker="KDT\{142A2791-8855-424B-A173-CC0D5AC46F76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>
@@ -47,7 +52,7 @@
 		</data>
 	</variables>
 	<settings key="{407D61F4-AABC-4F4A-B1C8-E842345581DC}">
-		<settingsVersion value="15.44" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -169,6 +174,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
