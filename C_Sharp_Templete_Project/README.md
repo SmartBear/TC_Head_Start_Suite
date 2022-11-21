@@ -1,8 +1,8 @@
-# C_Sharp_Templete_Project
+# C_Sharp_Template_Project
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
-The C_Sharp_Templete_Project performs xyz
+The C_Sharp_Template_Project performs xyz
 
 ## Keyword Tests Listing
 
