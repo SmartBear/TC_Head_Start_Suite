@@ -32,8 +32,8 @@
 			<testItem key="{17330EBF-8EB0-4EB5-A311-E4D2C18CD115}" enabled="True" timeout="0" stopOnError="False" description="Template using VBScript" />
 			<testItem key="{DCE59DAE-4066-416F-9406-2C386E444996}" enabled="True" timeout="0" stopOnError="False" description="Utility Project showcasing Brower Actions" />
 			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="0" stopOnError="False" description="Utility Project showcasing Misc Actions" />
-			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="JavaScript Sample using Jira Naming Conventions" />
-			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="Python Formatting using Jira Naming Conventions" />
+			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript and Jira Naming Conventions" />
+			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
