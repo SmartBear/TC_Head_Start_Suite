@@ -49,26 +49,26 @@
 	<variables key="{E1029A78-C55D-43BA-AFB2-5EA36282443C}">
 		<data Version="4">
 			<Items>
-				<Variable Name="LogAtrribWarning" Type="Object" Local="False">
+				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False">
+				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="LogAtrribModTitle" Type="Object" Local="False">
+				<Variable Name="LogAtrribModTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Module Title messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="LogAtrribInformation" Type="Object" Local="False">
+				<Variable Name="LogAtrribInformation" Type="Object" Local="False" Descr="Use as log attribute to highlight Information messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="LogAtrribFailed" Type="Object" Local="False">
+				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
 				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{DCC40435-CB55-4835-B784-878254660374}">
-		<settingsVersion value="15.44" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -190,6 +190,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />

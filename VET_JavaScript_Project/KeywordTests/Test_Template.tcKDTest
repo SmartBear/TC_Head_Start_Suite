@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="This is a test template that formats log output using color coding to assist with debugging&#13;&#10;" Key="{9697733B-48A6-4589-8546-E172ECF3E083}" Tags="@Seed" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="This is a test template that formats log output using color coding to assist with debugging&#13;&#10;" Key="{9697733B-48A6-4589-8546-E172ECF3E083}" Tags="@Seed @Smoke" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />

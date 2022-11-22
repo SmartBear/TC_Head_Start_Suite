@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
+	<children>
+		<folder name="Data_Files">
+			<child name="Contact_List.csv" key="{98152CDC-01F8-4EE5-A3E8-C328747608A0}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.csv" />
+			<child name="Contact_List.xlsx" key="{3A047C78-F266-4C5C-8752-7FD6C82B82DF}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.xlsx" />
+		</folder>
+		<child name="Script" key="{71E34E94-80D7-4356-91C3-BDCF3129B7FF}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{29BF22CF-2E69-4BBB-98CA-66C1E4321311}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="NameMapping" key="{1EDE298D-3987-4CE3-950A-A7EF2B6D56B8}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Events" key="{2A388152-7C06-4638-8C83-12A6C6808794}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
+		<child name="README.md" key="{F3C7552D-F66D-48BE-BECD-7FF12C7D5D70}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="Stores" key="{96454BEE-8FC9-48BE-8855-B3DE6C6B5D0D}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+	</children>
+	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
+	<testItems key="{8D911B66-BF83-4C65-893A-69A23C467DC9}" version="14">
+		<children>
+			<testItem name="Misc_Tests" key="{9B213CBD-B455-4E3D-B348-E1123D6FF6CF}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Browser_Utilities" key="{5899F335-F38B-49B3-8D7D-D3CC60ED78FA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Terminate_All_Browsers" key="{7F345734-2FC9-436A-AAF1-2F53B05E38CA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{17AB59D1-0FA7-4D91-87D6-1F796CE3BD30}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Terminate_Chrome" key="{086D3341-CB05-40B4-80E5-DF640B164564}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6C759B17-65BB-421A-9092-2E3E8A203EE8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Terminate_Edge" key="{CD5EBA97-C6CB-4EC2-BDD2-1CA1112C120E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6DAD5724-B074-40F4-ADC0-B58D1E7DA9C5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Terminate_Firefox" key="{29C9D649-BEC1-455B-B3A7-92BDD95CB78E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53A85495-0129-4DCB-AF00-AC0CD75D359C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="Z_Templates" key="{683667FC-F62C-4DA6-A9E3-2B92BE2B94B4}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Test_Template" key="{627B3D23-7771-4142-9DEA-0B9407271A94}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BC321DF2-2FDA-4B64-8EA0-0433A8F3D68B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Bearstore_Keyword" key="{DE000A05-34C6-4C4C-A0FB-C32C0AA2FC5C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Open_and_Close_Bearstore" key="{509A75B9-AC80-4748-AA6F-B03B33DCB4D3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9862D33B-226A-4D2E-89B2-C23005D4AE7D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Login_Logout" key="{A6D8DF90-C78B-423C-B009-DFBB4E1E8FA8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B81C855C-3F9D-44C4-9F1F-CA7FEC6D2A96}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Data_Driven" key="{2E5DFA51-5C6E-43B6-AF41-DFE2B34F21F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4209C8C9-05F9-478E-9AA1-5E25845A597F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Login_Negative" key="{3A48AE51-F74A-4307-8382-40183274DADE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Register_User" key="{9D36B19C-8CDE-46E2-B5F8-B2F38702EB81}" group="False" parallel="False" enabled="False" testMoniker="KDT\{49DC6DFC-FF2A-4237-BDED-80F7E10AFADC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="UserName" type="1" localVarName="" value="JanSmyth001" />
+							<param1 name="EMail" type="1" localVarName="" value="JanSmyth001@Null.org" />
+							<param2 name="FirstName" type="1" localVarName="" value="Jan" />
+							<param3 name="LastName" type="1" localVarName="" value="Smyth" />
+							<param4 name="Day" type="1" localVarName="" value="4" />
+							<param5 name="Month" type="1" localVarName="" value="July" />
+							<param6 name="Year" type="1" localVarName="" value="1970" />
+						</testParameters>
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Login_Logout_Data_Driven" key="{B2E60BBE-0BF7-44B7-BE60-ABB7CDCC97C8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Bearstore_Script" key="{07616BCA-D8D5-4CF9-A337-FFAD84340504}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Login_Logout_Edge" key="{2C8C75EA-E0D8-40E3-A159-97A74B5B7A3C}" group="False" parallel="False" enabled="False" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Login_Logout_Edge" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Contact_User" key="{B09A873D-582C-480D-8009-8853DBCF6E97}" group="False" parallel="False" enabled="False" testMoniker="{370B0981-2265-4DB9-A67E-8B7E547796A0}Test_Contact_User" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Bearstore_Register" key="{C474642B-B59C-40B9-9D73-2A1AC0707809}" group="False" parallel="False" enabled="False" testMoniker="{8EDDFC6C-5084-464F-A992-C9FB0475AE39}Test_Bearstore_Register" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Bearstore_Register_2" key="{0405EF0F-6E98-4D1C-A17D-DCC39B532C16}" group="False" parallel="False" enabled="False" testMoniker="{8EDDFC6C-5084-464F-A992-C9FB0475AE39}Test_Bearstore_Register" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
+	</testItems>
+	<variables key="{F85EDEF6-6F9A-408F-88EE-5D77F3C16467}">
+		<data Version="4">
+			<Items>
+				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribInformation" Type="Object" Local="False" Descr="Use as log attribute to highlight Information messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribModTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Module Title messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="Contact_User" Type="DB Table" Local="False">
+					<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+						<ConnectionInfo FileName="Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100390033004400310046003400440038003800420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320030003200300041003600440044004600" />
+				</Variable>
+				<Variable Name="Contact_User1" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="User_Info" Type="Table" Local="False">
+					<DefValue RowCount="100" ColumnCount="7">
+						<Columns ColumnName0="UserID" ColumnName1="EMail" ColumnName2="FirstName" ColumnName3="LastName" ColumnName4="Day" ColumnName5="Month" ColumnName6="Year" />
+						<Row No="0" Cell0="PowerUser001" Cell1="moore@porttitor.us" Cell2="Nissim" Cell3="Haney" Cell4="31" Cell5="January" Cell6="1961" />
+						<Row No="1" Cell0="PowerUser002" Cell1="humphrey@accumsan.gov" Cell2="Leo" Cell3="Klein" Cell4="23" Cell5="August" Cell6="1965" />
+						<Row No="2" Cell0="PowerUser003" Cell1="harper@taciti.edu" Cell2="John" Cell3="Maldonado" Cell4="9" Cell5="February" Cell6="1986" />
+						<Row No="3" Cell0="PowerUser004" Cell1="daugherty@ultricies.net" Cell2="Brady" Cell3="Serrano" Cell4="3" Cell5="March" Cell6="1956" />
+						<Row No="4" Cell0="PowerUser005" Cell1="hayes@torquent.us" Cell2="Judith" Cell3="Cain" Cell4="13" Cell5="June" Cell6="1946" />
+						<Row No="5" Cell0="PowerUser006" Cell1="coffey@justo.net" Cell2="Oliver" Cell3="Carroll" Cell4="25" Cell5="September" Cell6="1963" />
+						<Row No="6" Cell0="PowerUser007" Cell1="graves@lorem.us" Cell2="Breanna" Cell3="Atkinson" Cell4="11" Cell5="December" Cell6="1946" />
+						<Row No="7" Cell0="PowerUser008" Cell1="hawkins@conubia.org" Cell2="Sara" Cell3="Bauer" Cell4="26" Cell5="September" Cell6="1966" />
+						<Row No="8" Cell0="PowerUser009" Cell1="castillo@quis.edu" Cell2="Hashim" Cell3="Crosby" Cell4="22" Cell5="January" Cell6="1924" />
+						<Row No="9" Cell0="PowerUser010" Cell1="burgess@eget.org" Cell2="Clementine" Cell3="Walsh" Cell4="13" Cell5="September" Cell6="1994" />
+						<Row No="10" Cell0="PowerUser011" Cell1="delacruz@facilisi.edu" Cell2="Phelan" Cell3="Rivas" Cell4="8" Cell5="January" Cell6="2002" />
+						<Row No="11" Cell0="PowerUser012" Cell1="langley@magna.edu" Cell2="Nolan" Cell3="Robbins" Cell4="17" Cell5="November" Cell6="1932" />
+						<Row No="12" Cell0="PowerUser013" Cell1="stephens@dolor.net" Cell2="Amos" Cell3="Best" Cell4="19" Cell5="June" Cell6="1990" />
+						<Row No="13" Cell0="PowerUser014" Cell1="mcdonald@hymenaeos.com" Cell2="Martina" Cell3="Ferrell" Cell4="6" Cell5="May" Cell6="1951" />
+						<Row No="14" Cell0="PowerUser015" Cell1="santos@a.net" Cell2="Wynne" Cell3="Sparks" Cell4="13" Cell5="November" Cell6="1975" />
+						<Row No="15" Cell0="PowerUser016" Cell1="petersen@proin.edu" Cell2="Asher" Cell3="Knox" Cell4="22" Cell5="April" Cell6="2002" />
+						<Row No="16" Cell0="PowerUser017" Cell1="mcleod@litora.us" Cell2="Galvin" Cell3="Rich" Cell4="30" Cell5="May" Cell6="1940" />
+						<Row No="17" Cell0="PowerUser018" Cell1="bridges@iaculis.net" Cell2="Alec" Cell3="Shepard" Cell4="5" Cell5="June" Cell6="1942" />
+						<Row No="18" Cell0="PowerUser019" Cell1="olson@id.edu" Cell2="Maxwell" Cell3="Foster" Cell4="21" Cell5="February" Cell6="1953" />
+						<Row No="19" Cell0="PowerUser020" Cell1="goodwin@eu.net" Cell2="Arsenio" Cell3="Riley" Cell4="14" Cell5="April" Cell6="1943" />
+						<Row No="20" Cell0="PowerUser021" Cell1="cleveland@nunc.org" Cell2="Joshua" Cell3="Lloyd" Cell4="1" Cell5="January" Cell6="1989" />
+						<Row No="21" Cell0="PowerUser022" Cell1="bailey@eleifend.org" Cell2="Talon" Cell3="Waters" Cell4="6" Cell5="December" Cell6="1944" />
+						<Row No="22" Cell0="PowerUser023" Cell1="petersen@magna.net" Cell2="Kieran" Cell3="Griffith" Cell4="20" Cell5="September" Cell6="1943" />
+						<Row No="23" Cell0="PowerUser024" Cell1="phillips@primis.gov" Cell2="Felix" Cell3="Goff" Cell4="14" Cell5="May" Cell6="1969" />
+						<Row No="24" Cell0="PowerUser025" Cell1="small@imperdiet.com" Cell2="Melinda" Cell3="Pitts" Cell4="29" Cell5="April" Cell6="1962" />
+						<Row No="25" Cell0="PowerUser026" Cell1="talley@enim.edu" Cell2="Tyrone" Cell3="Atkinson" Cell4="7" Cell5="May" Cell6="2003" />
+						<Row No="26" Cell0="PowerUser027" Cell1="keith@sit.net" Cell2="Shaine" Cell3="Benjamin" Cell4="16" Cell5="September" Cell6="1976" />
+						<Row No="27" Cell0="PowerUser028" Cell1="sweeney@arcu.edu" Cell2="Allen" Cell3="Williams" Cell4="24" Cell5="October" Cell6="1971" />
+						<Row No="28" Cell0="PowerUser029" Cell1="puckett@inceptos.org" Cell2="Gregory" Cell3="Freeman" Cell4="1" Cell5="April" Cell6="1949" />
+						<Row No="29" Cell0="PowerUser030" Cell1="perez@maecenas.edu" Cell2="Kessie" Cell3="Atkins" Cell4="1" Cell5="January" Cell6="1987" />
+						<Row No="30" Cell0="PowerUser031" Cell1="haney@iaculis.org" Cell2="Jessamine" Cell3="Gaines" Cell4="23" Cell5="June" Cell6="1978" />
+						<Row No="31" Cell0="PowerUser032" Cell1="donaldson@orci.org" Cell2="Hall" Cell3="Tyler" Cell4="24" Cell5="May" Cell6="1934" />
+						<Row No="32" Cell0="PowerUser033" Cell1="cooke@suscipit.net" Cell2="Heidi" Cell3="Stevens" Cell4="4" Cell5="November" Cell6="1942" />
+						<Row No="33" Cell0="PowerUser034" Cell1="mendoza@tellus.net" Cell2="Marny" Cell3="Oliver" Cell4="10" Cell5="August" Cell6="1944" />
+						<Row No="34" Cell0="PowerUser035" Cell1="atkinson@lectus.org" Cell2="Evan" Cell3="Warner" Cell4="2" Cell5="May" Cell6="1953" />
+						<Row No="35" Cell0="PowerUser036" Cell1="guthrie@non.org" Cell2="Denton" Cell3="Dean" Cell4="9" Cell5="August" Cell6="1987" />
+						<Row No="36" Cell0="PowerUser037" Cell1="shepard@nam.org" Cell2="Melvin" Cell3="Estes" Cell4="21" Cell5="August" Cell6="1962" />
+						<Row No="37" Cell0="PowerUser038" Cell1="cobb@lorem.edu" Cell2="Jin" Cell3="Newman" Cell4="13" Cell5="October" Cell6="1959" />
+						<Row No="38" Cell0="PowerUser039" Cell1="stokes@augue.us" Cell2="Amery" Cell3="Roy" Cell4="22" Cell5="July" Cell6="1967" />
+						<Row No="39" Cell0="PowerUser040" Cell1="steele@cras.gov" Cell2="Savannah" Cell3="Gay" Cell4="19" Cell5="August" Cell6="1981" />
+						<Row No="40" Cell0="PowerUser041" Cell1="king@etiam.edu" Cell2="Olympia" Cell3="Rios" Cell4="29" Cell5="September" Cell6="1926" />
+						<Row No="41" Cell0="PowerUser042" Cell1="richmond@magnis.net" Cell2="Wylie" Cell3="Delacruz" Cell4="6" Cell5="March" Cell6="1971" />
+						<Row No="42" Cell0="PowerUser043" Cell1="mccarty@ligula.net" Cell2="Vanna" Cell3="Goff" Cell4="28" Cell5="September" Cell6="1927" />
+						<Row No="43" Cell0="PowerUser044" Cell1="miles@convallis.edu" Cell2="Denton" Cell3="Lawrence" Cell4="4" Cell5="December" Cell6="1932" />
+						<Row No="44" Cell0="PowerUser045" Cell1="roberts@sapien.edu" Cell2="Aquila" Cell3="Weeks" Cell4="14" Cell5="February" Cell6="1915" />
+						<Row No="45" Cell0="PowerUser046" Cell1="finch@curabitur.gov" Cell2="Bernard" Cell3="Patel" Cell4="28" Cell5="February" Cell6="1929" />
+						<Row No="46" Cell0="PowerUser047" Cell1="sweeney@libero.us" Cell2="Brynne" Cell3="Winters" Cell4="30" Cell5="April" Cell6="1989" />
+						<Row No="47" Cell0="PowerUser048" Cell1="ellison@nam.org" Cell2="Alfonso" Cell3="Benton" Cell4="5" Cell5="August" Cell6="1999" />
+						<Row No="48" Cell0="PowerUser049" Cell1="hester@tristique.org" Cell2="Clinton" Cell3="Carter" Cell4="31" Cell5="February" Cell6="1984" />
+						<Row No="49" Cell0="PowerUser050" Cell1="marsh@rutrum.net" Cell2="Yen" Cell3="Donovan" Cell4="10" Cell5="November" Cell6="1961" />
+						<Row No="50" Cell0="PowerUser051" Cell1="rodgers@varius.net" Cell2="Bert" Cell3="Erickson" Cell4="25" Cell5="September" Cell6="2001" />
+						<Row No="51" Cell0="PowerUser052" Cell1="craig@auctor.org" Cell2="Jamal" Cell3="Miller" Cell4="28" Cell5="May" Cell6="1928" />
+						<Row No="52" Cell0="PowerUser053" Cell1="davidson@mauris.us" Cell2="Amery" Cell3="Patrick" Cell4="26" Cell5="July" Cell6="1997" />
+						<Row No="53" Cell0="PowerUser054" Cell1="tran@tristique.org" Cell2="Melinda" Cell3="Cochran" Cell4="19" Cell5="November" Cell6="1955" />
+						<Row No="54" Cell0="PowerUser055" Cell1="nguyen@montes.net" Cell2="Porter" Cell3="May" Cell4="30" Cell5="February" Cell6="1946" />
+						<Row No="55" Cell0="PowerUser056" Cell1="burt@nisi.net" Cell2="Joshua" Cell3="Maddox" Cell4="21" Cell5="April" Cell6="1966" />
+						<Row No="56" Cell0="PowerUser057" Cell1="robles@mollis.gov" Cell2="Martin" Cell3="Solomon" Cell4="9" Cell5="March" Cell6="1973" />
+						<Row No="57" Cell0="PowerUser058" Cell1="vasquez@facilisi.net" Cell2="Yasir" Cell3="Macdonald" Cell4="10" Cell5="August" Cell6="1997" />
+						<Row No="58" Cell0="PowerUser059" Cell1="brewer@nostra.net" Cell2="Freya" Cell3="Brady" Cell4="23" Cell5="May" Cell6="1983" />
+						<Row No="59" Cell0="PowerUser060" Cell1="case@placerat.us" Cell2="Kirestin" Cell3="Santana" Cell4="5" Cell5="December" Cell6="1931" />
+						<Row No="60" Cell0="PowerUser061" Cell1="mendoza@per.org" Cell2="Beck" Cell3="Jefferson" Cell4="25" Cell5="June" Cell6="1983" />
+						<Row No="61" Cell0="PowerUser062" Cell1="daniel@fusce.org" Cell2="Yen" Cell3="Weiss" Cell4="2" Cell5="September" Cell6="1931" />
+						<Row No="62" Cell0="PowerUser063" Cell1="bullock@mauris.us" Cell2="Kiona" Cell3="Townsend" Cell4="24" Cell5="January" Cell6="1926" />
+						<Row No="63" Cell0="PowerUser064" Cell1="potter@consequat.us" Cell2="Alana" Cell3="Benton" Cell4="20" Cell5="May" Cell6="1935" />
+						<Row No="64" Cell0="PowerUser065" Cell1="bray@netus.us" Cell2="Jaime" Cell3="Jacobson" Cell4="13" Cell5="November" Cell6="1933" />
+						<Row No="65" Cell0="PowerUser066" Cell1="blair@rutrum.net" Cell2="Rahim" Cell3="Hood" Cell4="18" Cell5="July" Cell6="1982" />
+						<Row No="66" Cell0="PowerUser067" Cell1="keller@conubia.org" Cell2="Willow" Cell3="Watkins" Cell4="23" Cell5="May" Cell6="1931" />
+						<Row No="67" Cell0="PowerUser068" Cell1="guthrie@aliquam.org" Cell2="Buffy" Cell3="Powers" Cell4="20" Cell5="October" Cell6="1965" />
+						<Row No="68" Cell0="PowerUser069" Cell1="potts@lobortis.net" Cell2="Nathaniel" Cell3="Conley" Cell4="12" Cell5="June" Cell6="1941" />
+						<Row No="69" Cell0="PowerUser070" Cell1="moody@habitant.us" Cell2="Garrison" Cell3="Klein" Cell4="30" Cell5="August" Cell6="1942" />
+						<Row No="70" Cell0="PowerUser071" Cell1="armstrong@porttitor.net" Cell2="Kay" Cell3="Mcgee" Cell4="30" Cell5="December" Cell6="1952" />
+						<Row No="71" Cell0="PowerUser072" Cell1="combs@curabitur.edu" Cell2="Jaden" Cell3="Martin" Cell4="7" Cell5="September" Cell6="1987" />
+						<Row No="72" Cell0="PowerUser073" Cell1="carver@urna.us" Cell2="Hakeem" Cell3="Kim" Cell4="12" Cell5="March" Cell6="1961" />
+						<Row No="73" Cell0="PowerUser074" Cell1="roth@ultrices.edu" Cell2="Perry" Cell3="Wise" Cell4="22" Cell5="March" Cell6="1921" />
+						<Row No="74" Cell0="PowerUser075" Cell1="cooper@fringilla.edu" Cell2="Malachi" Cell3="Pena" Cell4="27" Cell5="September" Cell6="1988" />
+						<Row No="75" Cell0="PowerUser076" Cell1="mueller@sollicitudin.us" Cell2="Isaac" Cell3="Hebert" Cell4="8" Cell5="March" Cell6="1967" />
+						<Row No="76" Cell0="PowerUser077" Cell1="haney@condimentum.org" Cell2="Kaseem" Cell3="Solomon" Cell4="20" Cell5="December" Cell6="1984" />
+						<Row No="77" Cell0="PowerUser078" Cell1="fuentes@faucibus.net" Cell2="September" Cell3="Salazar" Cell4="3" Cell5="June" Cell6="1956" />
+						<Row No="78" Cell0="PowerUser079" Cell1="guerra@pede.edu" Cell2="John" Cell3="Stuart" Cell4="2" Cell5="February" Cell6="1920" />
+						<Row No="79" Cell0="PowerUser080" Cell1="craig@sociis.net" Cell2="Buffy" Cell3="Saunders" Cell4="14" Cell5="August" Cell6="1978" />
+						<Row No="80" Cell0="PowerUser081" Cell1="rivers@fringilla.edu" Cell2="Fitzgerald" Cell3="Dunn" Cell4="13" Cell5="June" Cell6="1918" />
+						<Row No="81" Cell0="PowerUser082" Cell1="dunlap@ullamcorper.net" Cell2="Wilma" Cell3="Kirby" Cell4="9" Cell5="March" Cell6="1919" />
+						<Row No="82" Cell0="PowerUser083" Cell1="mullins@sit.gov" Cell2="Derek" Cell3="Neal" Cell4="8" Cell5="August" Cell6="1984" />
+						<Row No="83" Cell0="PowerUser084" Cell1="frazier@sed.org" Cell2="Clayton" Cell3="Foster" Cell4="6" Cell5="June" Cell6="1963" />
+						<Row No="84" Cell0="PowerUser085" Cell1="combs@tristique.net" Cell2="Lucas" Cell3="Cervantes" Cell4="26" Cell5="August" Cell6="1936" />
+						<Row No="85" Cell0="PowerUser086" Cell1="guerra@fusce.net" Cell2="Alika" Cell3="Grimes" Cell4="6" Cell5="February" Cell6="1929" />
+						<Row No="86" Cell0="PowerUser087" Cell1="shelton@mi.gov" Cell2="Giselle" Cell3="Marshall" Cell4="17" Cell5="October" Cell6="1990" />
+						<Row No="87" Cell0="PowerUser088" Cell1="matthews@pellentesque.us" Cell2="Armand" Cell3="Lindsey" Cell4="27" Cell5="May" Cell6="1951" />
+						<Row No="88" Cell0="PowerUser089" Cell1="parks@justo.org" Cell2="Randall" Cell3="Gallegos" Cell4="2" Cell5="August" Cell6="1950" />
+						<Row No="89" Cell0="PowerUser090" Cell1="key@lacus.net" Cell2="Daniel" Cell3="Castro" Cell4="26" Cell5="March" Cell6="1954" />
+						<Row No="90" Cell0="PowerUser091" Cell1="jordan@laoreet.net" Cell2="Belle" Cell3="Orr" Cell4="8" Cell5="October" Cell6="1998" />
+						<Row No="91" Cell0="PowerUser092" Cell1="hooper@orci.us" Cell2="Kadeem" Cell3="Miller" Cell4="16" Cell5="October" Cell6="1930" />
+						<Row No="92" Cell0="PowerUser093" Cell1="mann@imperdiet.org" Cell2="Ifeoma" Cell3="Rich" Cell4="21" Cell5="May" Cell6="1988" />
+						<Row No="93" Cell0="PowerUser094" Cell1="melendez@nunc.org" Cell2="Lavinia" Cell3="Gomez" Cell4="12" Cell5="July" Cell6="1968" />
+						<Row No="94" Cell0="PowerUser095" Cell1="grimes@dui.net" Cell2="Jacob" Cell3="Manning" Cell4="22" Cell5="September" Cell6="1930" />
+						<Row No="95" Cell0="PowerUser096" Cell1="dale@sit.us" Cell2="Riley" Cell3="Oconnor" Cell4="8" Cell5="January" Cell6="1995" />
+						<Row No="96" Cell0="PowerUser097" Cell1="mayer@in.edu" Cell2="Freya" Cell3="Mills" Cell4="27" Cell5="March" Cell6="1944" />
+						<Row No="97" Cell0="PowerUser098" Cell1="lucas@libero.com" Cell2="Kelsey" Cell3="Moody" Cell4="9" Cell5="November" Cell6="1976" />
+						<Row No="98" Cell0="PowerUser099" Cell1="noble@varius.edu" Cell2="Thaddeus" Cell3="Daniels" Cell4="30" Cell5="January" Cell6="1979" />
+						<Row No="99" Cell0="PowerUser100" Cell1="roy@nulla.gov" Cell2="Josephine" Cell3="Murphy" Cell4="18" Cell5="April" Cell6="1994" />
+					</DefValue>
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<settings key="{65790EC2-BA5D-4B61-8876-0539EA767551}">
+		<settingsVersion value="15.45" />
+		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
+		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+				<row val0="Ignore all processes" />
+			</data>
+		</setting>
+		<setting name="ApplicationHangingProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="" />
+		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
+		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
+		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
+		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Everywhere" />
+				<row val0="In a local network" />
+				<row val0="On a local computer" />
+				<row val0="Via proxy" />
+			</data>
+		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
+		<setting name="CBT_LocalHtmlDir" type="5" value="" />
+		<setting name="CBT_ProxyAddress" type="5" value="" />
+		<setting name="CBT_ProxyLogin" type="5" value="" />
+		<setting name="CBT_ProxyPassword" type="5" value="" />
+		<setting name="CBT_ProxyPort" type="2" value="0" />
+		<setting name="CBT_UserName" type="5" value="" />
+		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Does not matter" />
+				<row val0="Single-threaded apartment" />
+				<row val0="Multi-threaded apartment" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="The same as the operating system" />
+				<row val0="32-bit" />
+				<row val0="64-bit" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
+		<setting name="DbgServices_Active" type="1" value="True" />
+		<setting name="DbgServices_DepthShown" type="2" value="10" />
+		<setting name="DbgServices_EnableEvents" type="1" value="True" />
+		<setting name="DbgServices_Priority" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="pmLowest" />
+				<row val0="pmLower" />
+				<row val0="pmNormal" />
+				<row val0="pmHigher" />
+				<row val0="pmHighest" />
+			</data>
+		</setting>
+		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
+		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_165_" />
+		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="False" />
+		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
+		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Tree" />
+				<row val0="Flat" />
+			</data>
+		</setting>
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_RepaintWindowBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="UTF-16" />
+				<row val0="UTF-8" />
+				<row val0="ANSI" />
+				<row val0="Auto" />
+			</data>
+		</setting>
+		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
+		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
+		<setting name="HipTest_ProjectID" type="2" value="-1" />
+		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
+		<setting name="HipTest_SaveResults" type="1" value="True" />
+		<setting name="HipTest_SynchronizeBeforeRun" type="1" value="True" />
+		<setting name="HipTest_SynchronizeOnOpening" type="1" value="True" />
+		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
+		<setting name="HipTest_TestRunID" type="5" value="" />
+		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
+		<setting name="JavaBridge_Classes" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
+		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="8" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" val2="False" />
+				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
+				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
+				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
+				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
+				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
+				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer" val2="True" />
+			</data>
+		</setting>
+		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
+		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="MobileSupportType" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Mobile device cloud (BitBar and local Appium)" />
+				<row val0="Legacy mobile support" />
+			</data>
+		</setting>
+		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_CombineClassDefinitions" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_EnableDebugAgent" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_StringLengthLimit" type="2" value="1024" />
+		<setting name="OpenApps_DbgAgent_UseStaticLibs" type="1" value="True" />
+		<setting name="OpenApps_EnableMultipleNamesForObjects" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_InstallFlashInjector" type="1" value="False" />
+		<setting name="OpenApps_FlashFlex_TrustedLocations" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_AccessPolicy" type="1" value="False" />
+		<setting name="OpenApps_HybridMobile_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string" val5="RegExp" val6=".*(ctl[0-9]+[-_$]+){.*}" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="4" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="6" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="6" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="14" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Microsoft Dynamics" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="16" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;id-33&quot; or &quot;id__14&quot;" val5="RegExp" val6="^id[_0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Salesforce" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;checkbox-1&quot; or &quot;checkbox-123-3&quot;" val5="RegExp" val6="^checkbox-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;input-1&quot; or &quot;input-123-3&quot;" val5="RegExp" val6="^input-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="26" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_HybridMobile_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="MsoCommandBar*" />
+				<row val0="True" val1="_Ww*" />
+				<row val0="True" val1="OpusApp" />
+				<row val0="True" val1="Vfp*" />
+				<row val0="True" val1="bosa_sdm_Microsoft Word *" />
+				<row val0="False" val1="Internet Explorer_Server" />
+				<row val0="True" val1="XTPToolBar" />
+				<row val0="True" val1="XTPDockingPaneTabbedContainer" />
+				<row val0="True" val1="XTPTaskPanel" />
+				<row val0="True" val1="XTPReport" />
+				<row val0="True" val1="XTPPopupBar" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
+				<row val0="NativeVBObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeSAPObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeFirefoxObject" />
+				<row val0="NativeWebDriverObject" />
+				<row val0="NativeUIAObject" />
+				<row val0="NativeMSAA" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+			</data>
+		</setting>
+		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
+		<setting name="OpenApps_Web_AddCommentsForWaitMethod" type="1" value="False" />
+		<setting name="OpenApps_Web_CSSTransitionForPagePicture" type="1" value="True" />
+		<setting name="OpenApps_Web_CustomAttributes_AttributesForNameMapping" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="data-test-id" />
+				<row val0="True" val1="data-testid" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="0" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="4" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="6" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="6" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="9" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="14" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Microsoft Dynamics" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="16" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;id-33&quot; or &quot;id__14&quot;" val5="RegExp" val6="^id[_0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Salesforce" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;checkbox-1&quot; or &quot;checkbox-123-3&quot;" val5="RegExp" val6="^checkbox-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="18" val1="0" val2="False" val3="True" val4="Do not use IDs like &quot;input-1&quot; or &quot;input-123-3&quot;" val5="RegExp" val6="^input-[0-9\-]+$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="21" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="26" val1="0" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="28" val1="0" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="31" val1="0" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="0" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_ObjIdentification_IdentificationAttribute" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_RecordScalableTests" type="1" value="True" />
+		<setting name="OpenApps_Web_RecordTestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TestedHost" type="5" value="" />
+		<setting name="OpenApps_Web_TreeModel" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="DOM" />
+				<row val0="Tag" />
+				<row val0="Hybrid" />
+				<row val0="Tree" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_DynamicParameters" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="*" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_URLProcessing_IgnoreDynamicURLParameters" type="1" value="True" />
+		<setting name="OpenApps_Web_UseCSSPixels" type="1" value="True" />
+		<setting name="OpenApps_Web_UseLegacyWebTestingFeatures" type="1" value="False" />
+		<setting name="OpenApps_Web_VirtBrowsers_AdvancedMode" type="1" value="True" />
+		<setting name="OpenApps_Web_VirtBrowsers_AutoLaunchWhenRecording" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Apple iPad" />
+				<row val0="Apple iPhone 5/SE" />
+				<row val0="iPhone 6/7/8" />
+				<row val0="iPhone 6/7/8 Plus" />
+				<row val0="Apple iPhone X" />
+				<row val0="Google Pixel 2" />
+				<row val0="Samsung Galaxy Note 9" />
+				<row val0="Samsung Galaxy S9" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_VirtBrowsers_List" type="6" rowIndex="7" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="4" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPad" val6="Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1" val7="1024" val8="768" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPhone 5/SE" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1" val7="320" val8="568" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="iPhone 6/7/8" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1" val7="375" val8="667" val9="2" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="iPhone 6/7/8 Plus" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="414" val8="736" val9="3" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Apple iPhone X" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1" val7="375" val8="812" val9="3" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Google Pixel 2" val6="Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36" val7="411" val8="731" val9="2.625" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Samsung Galaxy Note 9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="414" val8="846" val9="3.5" />
+				<row val0="-1" val1="0" val2="False" val3="True" val4="False" val5="Samsung Galaxy S9" val6="Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36" val7="360" val8="740" val9="4" />
+			</data>
+		</setting>
+		<setting name="OpenApps_Web_WebPageLoadingTimeout" type="2" value="60000" />
+		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
+		<setting name="PerformanceCounters_List" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+				<row val0="Stop and rerun current item" val1="4" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnWarning" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
+		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Depth-first" />
+				<row val0="Breadth-first" />
+			</data>
+		</setting>
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
+		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
+		<setting name="RecreateActiveXObjects" type="1" value="False" />
+		<setting name="RunStandaloneServer" type="1" value="False" />
+		<setting name="StandaloneServerAdditionalOptions" type="5" value="" />
+		<setting name="StandaloneServerPort" type="2" value="4444" />
+		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Update existing frames and capture new frames, if needed" />
+				<row val0="Update existing frames only" />
+			</data>
+		</setting>
+		<setting name="Visualizer_BindToSCC" type="1" value="False" />
+		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Top-level parent" />
+				<row val0="Desktop" />
+			</data>
+		</setting>
+		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
+		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="WebCloudProvider" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="BitBar Cloud" />
+				<row val0="CrossBrowserTesting" />
+			</data>
+		</setting>
+		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr Squad Server" />
+				<row val0="Zephyr Squad Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+	</settings>
+	<analysis key="{A9F4BF82-AECD-4951-B974-27B4D20B8B96}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<issueTracking key="{EE6A75E8-74AD-43D3-995A-C6638290FE27}">
+		<Templates>
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
+				<Fields>
+					<Field ItemId="{0BCF559F-80C2-4FAF-9F4D-F98182FCBD87}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{C0DC736A-3131-4521-944E-3096CDD720F5}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+				</Fields>
+			</Template>
+		</Templates>
+	</issueTracking>
+</Root>

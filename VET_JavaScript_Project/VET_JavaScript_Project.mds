@@ -54,19 +54,19 @@
 	<variables key="{57926FB4-16EE-4F80-9B9E-A08E0A84D31B}">
 		<data Version="4">
 			<Items>
-				<Variable Name="LogAtrribWarning" Type="Object" Local="False">
+				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False">
+				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="LogAtrribModTitle" Type="Object" Local="False">
+				<Variable Name="LogAtrribModTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Module Title messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="LogAtrribInformation" Type="Object" Local="False">
+				<Variable Name="LogAtrribInformation" Type="Object" Local="False" Descr="Use as log attribute to highlight Information messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="LogAtrribFailed" Type="Object" Local="False">
+				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
 				</Variable>
 				<Variable Name="Password1" Type="Password" Local="False">
