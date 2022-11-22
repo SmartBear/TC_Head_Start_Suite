@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{C657CD66-6F3D-4AA4-A9D3-85C57564C352}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Open All Installed Browsers and leave them open" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Get_TestExecute_Version_Information" />
+			</Operation>
+			<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
+				<Data Description="Iterates through the specified browsers." IterateAll="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<Item>
+						<BrowserItem BrowserName="firefox" />
+					</Item>
+				</Data>
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Browser Name = &quot;+ Aliases.browser.Name + &quot; :Version = &quot; + aqConvert.VarToStr( Aliases.browser.FileVersionInfo) + &quot; :Process Type = &quot; + Aliases.browser.ProcessType" />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic 1 Second Delay" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Maximizes the specified Window object." Action="Maximize">
+							<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic 1 Second Delay" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{3BCE530A-9A3F-48C8-9CAE-656B14BFE4B8}" />
+</Root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{80BC2EA3-9D08-4511-8589-7A607FCC4A3F}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.pageSearchReportsNewWorldEnterpr" Data="61717A697000000001000000360400007801D593BD0DC32014842F5206C80829338107489F1DD8948A3D2828286828282890F31EF64956624511AE0CFA38DECF010DCFD774451F93AC0FE1B672C15D7632D6FA122CEB8C93CF59DE7F90D61A46E0BDB55628C6982FD5DC36BF8DE92FA540D19A73AEEBAF98FDF4E79C41F48CCF3D7354D6E94F2941D1BAB5B62BE33D653FFD314628EAFF47D94F7F080123D0EFBDC708F41FD293FF9F371D745901" />
+					<Bitmap Name="Aliases.browser.pageSearchReportsNewWorldEnterpr.deckContentDeck" Data="61717A697000000001000000360400007801D593BD0DC32014842F5206C80829338107489F1DD8948A3D2828286828282890F31EF64956624511AE0CFA38DECF010DCFD774451F93AC0FE1B672C15D7632D6FA122CEB8C93CF59DE7F90D61A46E0BDB55628C6982FD5DC36BF8DE92FA540D19A73AEEBAF98FDF4E79C41F48CCF3D7354D6E94F2941D1BAB5B62BE33D653FFD314628EAFF47D94F7F080123D0EFBDC708F41FD293FF9F371D745901" />
+					<Bitmap Name="Aliases.browser.pageSearchReportsNewWorldEnterpr.deckContentDeck.notificationFirefoxPreventedThis" Data="61717A697000000001000000360400007801D593BD0DC32014842F5206C80829338107489F1DD8948A3D2828286828282890F31EF64956624511AE0CFA38DECF010DCFD774451F93AC0FE1B672C15D7632D6FA122CEB8C93CF59DE7F90D61A46E0BDB55628C6982FD5DC36BF8DE92FA540D19A73AEEBAF98FDF4E79C41F48CCF3D7354D6E94F2941D1BAB5B62BE33D653FFD314628EAFF47D94F7F080123D0EFBDC708F41FD293FF9F371D745901" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="38" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="8" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageSearchReportsNewWorldEnterpr.deckContentDeck.notificationFirefoxPreventedThis.buttonOptions" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Selects the %p1 item of the &apos;%n&apos; select control." Action="ClickItem" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="12" ValueType="0" ValueValue="0" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageSearchReportsNewWorldEnterpr.popupsetMainpopupset.menupopupBlockedpopupoptions" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{2E49F036-B0F3-4CF8-87F3-D7FE5F2C8C6D}" />
+</Root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Mod_Common" key="{B0E558AF-133C-41DF-926E-BB9FDC9CDDE2}" path="Mod_Common.scs" />
+		<child name="Mod_FeatureName" key="{1E1EFF03-F0B6-4012-9B7D-46A8FF8B79A7}" path="Mod_FeatureName.scs" />
+		<child name="Test_FeatureName" key="{01C5BD90-050E-4CF8-B517-CBF98BD15A0C}" path="Test_FeatureName.scs" />
+	</children>
+</Root>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Hello_World_Pass" key="{9FC8E1C9-F552-42B5-B9A7-0B62F83993EF}" path="Hello_World_Pass.tcKDTest" />
+		<child name="Hello_World_Fail" key="{100D5207-7DDA-4F83-B090-C8441CC1CB5A}" path="Hello_World_Fail.tcKDTest" />
+		<child name="Hello_World_Warning" key="{1750248D-B668-4821-AE40-0C29C88D6CA2}" path="Hello_World_Warning.tcKDTest" />
+		<child name="Test_Close_Orders_App" key="{EA27396E-F0AA-4590-98A6-943E03D099E7}" path="Test_Close_Orders_App.tcKDTest" />
+		<child name="Test_Open_Orders_App" key="{EE8CCD72-DEA5-4CE3-8CEB-8DD877E96DBA}" path="Test_Open_Orders_App.tcKDTest" />
+		<child name="Test_New_Function" key="{61049B82-E1A4-4245-A1EA-11310BAE85B4}" path="Test_New_Function.tcKDTest" />
+		<child name="Test_Menu_Navigation" key="{E9FF42EC-EC91-4C0B-B045-9CFB89A54C2F}" path="Test_Menu_Navigation.tcKDTest" />
+	</children>
+</Root>
