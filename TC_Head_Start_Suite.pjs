@@ -14,6 +14,7 @@
 			<child name="Bearstore_Web_JS_Project" key="{8FCB1155-42C4-42A4-A559-19368A4DE100}" path="Bearstore_Web_JS_Project\Bearstore_Web_JS_Project.mds" />
 			<child name="Orders_Desktop_JS_Project" key="{BDA7135C-0239-47A8-863D-673A261D08C2}" path="Orders_Desktop_JS_Project\Orders_Desktop_JS_Project.mds" />
 			<child name="Acme_Web_CSS_Project" key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" path="Acme_Web_CSS_Project\Acme_Web_CSS_Project.mds" />
+			<child name="Acme_Mobile_Project" key="{FEFD3670-1827-4182-A359-00789BDACCC0}" path="Acme_Mobile_Project\Acme_Mobile_Project.mds" />
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Browser_Project" key="{DCE59DAE-4066-416F-9406-2C386E444996}" path="Utility_Browser_Project\Utility_Browser_Project.mds" />
@@ -22,6 +23,7 @@
 	</children>
 	<testItems key="{746E2B81-9116-449C-BD7E-87D672B7CACE}">
 		<children>
+			<testItem key="{FEFD3670-1827-4182-A359-00789BDACCC0}" enabled="False" timeout="0" stopOnError="False" description="" />
 			<testItem key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" enabled="True" timeout="0" stopOnError="False" description="" />
 			<testItem key="{80A30188-0576-44AC-A37E-35E7062611B8}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript" />
 			<testItem key="{8FCB1155-42C4-42A4-A559-19368A4DE100}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript" />
