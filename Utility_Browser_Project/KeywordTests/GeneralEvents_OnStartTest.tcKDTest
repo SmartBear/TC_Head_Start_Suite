@@ -346,9 +346,7 @@
 						<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
 					</Operation>
 					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-						<Data GroupName="Close or Kill Browser Routines (disable for debugging)">
-							<CommonData Disabled="True" />
-						</Data>
+						<Data GroupName="Close or Kill Browser Routines (disable when debugging)" />
 						<Children>
 							<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 								<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
@@ -403,7 +401,5 @@
 			</Variable>
 		</Items>
 	</Variables>
-	<Parameters Key="{C9DE75B6-1B14-46DC-BD41-4E754FAFF2E3}">
-		<Parameter0 Name="Sender" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
-	</Parameters>
+	<Parameters Key="{C9DE75B6-1B14-46DC-BD41-4E754FAFF2E3}" />
 </Root>
