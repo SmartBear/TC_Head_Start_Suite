@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{D1273F8B-9235-4749-B288-15239B02617C}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Open_Brower_Firefox_Code_Snippet_Private_Window" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Open_Brower_Firefox_Code_Snippet_Private_Window" />
+						<Parameter Name="Details" DefVarType="12" VarType="257" ValueType="0" ValueValue="0" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="Mod_Open_Brower_Firefox_Code_Snippet_Private_Window" />
+				<Children>
+					<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+						<Data Description="Executes the specified code snippet." LangId="{90813F19-086D-4670-83BC-DB51386DC224}" CodeExpression="Browsers[&quot;Item&quot;](&quot;firefox&quot;)[&quot;RunOptions&quot;] = &quot;-private-window&quot;;" />
+					</Operation>
+					<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+						<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="firefox">
+							<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
+								<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases[&quot;browser&quot;][&quot;pageShop&quot;][&quot;header&quot;][&quot;link&quot;][&quot;imageYourStoreName&quot;]" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="namePropStr" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="company-logo.png" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases[&quot;browser&quot;]" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="CommandLine" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="-private-window" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
+						<Data Description="Posts an image to the test log.">
+							<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+								<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases[&quot;browser&quot;][&quot;BrowserWindow&quot;]" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Post picture of Bearstore Page" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="This is too allow post run confirmation of the Bearstore home page" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{815B7D74-5FFF-4A44-B0C3-F929BF49256F}" />
+</Root>

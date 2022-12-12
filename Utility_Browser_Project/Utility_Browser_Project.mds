@@ -14,6 +14,26 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{5BF73F76-CDAF-4BE8-8932-4267396D1ED0}" version="14">
 		<children>
+			<testItem name="Browser_Utilities" key="{79A29BE7-C7C0-42B7-B5F9-1F8196F5E8BE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Close_Open_Browsers" key="{4D7D2FC0-EB19-4A3C-807A-808ABB3378BE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1573626A-7358-484D-9693-4B235F618FA4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Kill_All_Browsers_Script_Calling_Script" key="{10AC35F5-6966-46C6-871E-D4BD835FC2DF}" group="False" parallel="False" enabled="True" testMoniker="{7F71F3BE-D355-4DE8-AAA0-6BF1C610DF73}Kill_All_Browsers" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Kill_All_Browsers_Keyword_Calling_Script" key="{5938A0FD-7DF0-4979-9422-B0668BDBB0C0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F48651CF-0169-456B-BFC5-9E587B25027E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 			<testItem name="Configure Browsers" key="{2B0E3BD0-065B-4D16-8F4F-85A5DF5DBC2D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
@@ -47,7 +67,12 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Open_Close_Brower_Incognito" key="{637FE636-F780-451F-B819-D77FBDDF806D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7968D940-9AD8-4FF2-A4FF-709FB7A15534}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -100,26 +125,6 @@
 					<testItem name="Get_TestExecute_Version_Information" key="{A9CAAEC4-5089-4A11-BDF9-6BE7DDBDE98F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7DD21AE1-4288-4881-A63F-6AA3AB72A392}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Browser_Utilities" key="{79A29BE7-C7C0-42B7-B5F9-1F8196F5E8BE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Close_Open_Browsers" key="{4D7D2FC0-EB19-4A3C-807A-808ABB3378BE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1573626A-7358-484D-9693-4B235F618FA4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Kill_All_Browsers_Script_Calling_Script" key="{10AC35F5-6966-46C6-871E-D4BD835FC2DF}" group="False" parallel="False" enabled="True" testMoniker="{7F71F3BE-D355-4DE8-AAA0-6BF1C610DF73}Kill_All_Browsers" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Kill_All_Browsers_Keyword_Calling_Script" key="{5938A0FD-7DF0-4979-9422-B0668BDBB0C0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F48651CF-0169-456B-BFC5-9E587B25027E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>

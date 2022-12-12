@@ -9,6 +9,14 @@
 			<child name="Open_Browsers_and_Delete_History" key="{72434DA8-1869-4AE4-B920-D0179537D5E4}" path="Open_Browsers_and_Delete_History.tcKDTest" />
 			<child name="Open_and_Close_All_Browsers" key="{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" path="Open_and_Close_All_Browsers.tcKDTest" />
 			<child name="Open_Close_and_Terminate_Browsers" key="{BA73FE6D-226B-4A3F-B624-FAC61C136619}" path="Open_Close_and_Terminate_Browsers.tcKDTest" />
+			<child name="Mod_Open_Brower_Chrome_Code_Snippet_Incognito" key="{951B571B-F202-4CB5-BC72-7E23569F866A}" path="Mod_Open_Brower_Chrome_Code_Snippet_Incognito.tcKDTest" />
+			<child name="Mod_Open_Brower_Chrome_RunOptions_Incognito" key="{E0272E80-3914-43EC-9459-44464722C520}" path="Mod_Open_Brower_Chrome_RunOptions_Incognito.tcKDTest" />
+			<child name="Mod_Open_Brower_Edge_Code_Snippet_In_Private" key="{70DF83F6-3E41-47C4-9234-C9A25F8B9994}" path="Mod_Open_Brower_Edge_Code_Snippet_In_Private.tcKDTest" />
+			<child name="Mod_Open_Brower_Edge_RunOptions_In_Private" key="{123CC932-6326-4830-8A64-F9C9C821211B}" path="Mod_Open_Brower_Edge_RunOptions_In_Private.tcKDTest" />
+			<child name="Mod_Open_Brower_Firefox_Code_Snippet_Private" key="{932DF2B9-8FAE-4E7B-A22B-2A05AD4948B3}" path="Mod_Open_Brower_Firefox_Code_Snippet_Private.tcKDTest" />
+			<child name="Mod_Open_Brower_Firefox_RunOptions_Private" key="{6925592E-BC0B-44A6-BB21-485BECCE76EA}" path="Mod_Open_Brower_Firefox_RunOptions_Private.tcKDTest" />
+			<child name="Test_Open_Close_Brower_Incognito" key="{7968D940-9AD8-4FF2-A4FF-709FB7A15534}" path="Test_Open_Close_Brower_Incognito.tcKDTest" />
+			<child name="Mod_Close_Browser" key="{3B2C69E2-B0FD-407E-84F0-98B419CDE66F}" path="Mod_Close_Browser.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />
