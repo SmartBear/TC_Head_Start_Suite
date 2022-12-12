@@ -17421,7 +17421,6 @@
 							</Child>
 							<Child Name="pageShop2" Key="{17657FE2-26D7-4539-AB82-4CE1C9263766}">
 								<Image FileName="762679723" Left="8" Top="121" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{92857D31-BA50-4C1B-9304-3EF240B18598}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -17433,7 +17432,6 @@
 								<Children>
 									<Child Name="header" Key="{EF4BB26A-98A7-419C-9830-C1D90521921C}">
 										<Image FileName="762679723" Left="8" Top="121" Right="1911" Bottom="301" />
-										<TypeInfo Item0="{A4A2333F-AB18-4600-9B8B-7000908D958A}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -17448,7 +17446,6 @@
 									</Child>
 									<Child Name="link" Key="{2C786EA9-5739-4874-9FC7-BC312924980D}">
 										<Image FileName="762679723" Left="403" Top="190" Right="653" Bottom="235" />
-										<TypeInfo Item0="{8B0F142D-1253-464F-A0E0-6F38239D182B}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -17463,7 +17460,6 @@
 									</Child>
 									<Child Name="imageCompanyLogoPng" Key="{C3894063-7574-40E4-A4AD-4CE7F89B2BEC}">
 										<Image FileName="762679723" Left="403" Top="190" Right="653" Bottom="235" />
-										<TypeInfo Item0="{A4A2333F-AB18-4600-9B8B-7000908D958A}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -17480,6 +17476,219 @@
 										</Selectors>
 									</Child>
 								</Children>
+							</Child>
+							<Child Name="pageClearAllHistory2" Key="{094385AB-228B-4045-A9E5-A7D8D989A86D}">
+								<Image FileName="1997893748" Left="764" Top="88" Right="1172" Bottom="530" />
+								<TypeInfo Item0="{7B637CE7-1F81-4E33-B078-DE60CC40CD49}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://browser/content/sanitize.xhtml" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ulwindowSanitizedialog" Key="{D1E8DD5F-101C-45B5-B2BD-DB12FF0D8B61}">
+										<Image FileName="1997893748" Left="764" Top="88" Right="1172" Bottom="530" />
+										<TypeInfo Item0="{6271C7BF-6209-4FFB-8496-DC28CC372A54}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="XULWindow" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="SanitizeDialog" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="dialog" Key="{4A6F0688-58E2-46B9-AE59-9355809556AF}">
+												<Image FileName="1997893748" Left="764" Top="88" Right="1172" Bottom="530" />
+												<TypeInfo Item0="{6271C7BF-6209-4FFB-8496-DC28CC372A54}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="dialog" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="vboxSanitizeeverythingwarningbox" Key="{77521495-37B8-4915-A0B2-5F8ED9AF8D27}">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="vbox" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="sanitizeEverythingWarningBox" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="hbox" Key="{ECCF368E-2624-42BC-AFE2-7375BF610A7F}">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="hbox" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="vboxSanitizeeverythingwarningdes" Key="{3D21BF93-69C3-4169-82C1-D846A2BFA6AB}">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="vbox" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value Value="sanitizeEverythingWarningDescBox" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="descriptionSanitizeeverythingwar" Key="{7C886A61-A451-4CFD-8816-78E93752872B}">
+																				<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="description" />
+																					</Property>
+																					<Property Name="idStr">
+																						<Value Value="sanitizeEverythingWarning" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="hboxSanitizedurationbox" Key="{4E617813-769A-4F83-BA7B-E9AC96E9A835}">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="hbox" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="SanitizeDurationBox" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="menulistSanitizedurationchoice" Key="{2936A25A-25EF-4C24-8BBB-8DD71E06501E}">
+																<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="menulist" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="sanitizeDurationChoice" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="menupopupSanitizedurationpopup" Key="{A4929087-0A58-4093-9633-AC845B195277}">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="menupopup" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value Value="sanitizeDurationPopup" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="menuitemLastFourHours" Key="{967C3C17-6619-49A5-88F2-81718E324A7E}">
+																				<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="menuitem" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="menuitemEverything" Key="{11604AC3-64E4-41A6-AB0B-F1EAE744845E}">
+																				<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="menuitem" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="4" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="shadowroot" Key="{9B2CFC17-29D1-415F-9D69-9341EB3EFA0E}" ExtendedFind="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ShadowRoot" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="hboxDialogButtonBox" Key="{CFB4E4C4-C999-4334-96B7-586DEAE1336C}">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="hbox" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="buttonCancel" Key="{0AE231E8-A1FF-4F67-953D-D5E43AA5DB35}">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="button" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Cancel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="hboxBoxInheritButtonBox" Key="{48730AF4-941B-4DE1-BF71-F6B1C45A3A8C}">
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="hbox" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="labelButtonText" Key="{6369240C-AB92-419F-9434-4750D61883B8}">
+																						<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="label" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="MozillaDropShadowWindowClass" Key="{754AEB55-73DD-4BD3-9EFA-9ECBEED5A769}">
+								<Image FileName="-1287825029" Left="0" Top="0" Right="404" Bottom="137" />
+								<TypeInfo Item0="{F8E102AF-A4B1-4F5C-96E6-2A87952FA3A8}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="MozillaDropShadowWindowClass" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePrivacy" Key="{6EB8C106-3A3B-4C8D-988E-928D3C399356}">
+								<Image FileName="-915611821" Left="8" Top="111" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{49718709-27D2-416F-8AAF-FB43F2572BF4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="edge://settings/privacy" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -19935,6 +20144,20 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageClearAllHistory2" Owner="{094385AB-228B-4045-A9E5-A7D8D989A86D}">
+				<Child Name="dialog" Owner="{4A6F0688-58E2-46B9-AE59-9355809556AF}">
+					<Child Name="descriptionSanitizeeverythingwar" Owner="{7C886A61-A451-4CFD-8816-78E93752872B}" />
+					<Child Name="menulistSanitizedurationchoice" Owner="{2936A25A-25EF-4C24-8BBB-8DD71E06501E}">
+						<Child Name="menuitemLastFourHours" Owner="{967C3C17-6619-49A5-88F2-81718E324A7E}" />
+						<Child Name="menuitemEverything" Owner="{11604AC3-64E4-41A6-AB0B-F1EAE744845E}" />
+					</Child>
+					<Child Name="shadowroot" Owner="{9B2CFC17-29D1-415F-9D69-9341EB3EFA0E}">
+						<Child Name="labelButtonText" Owner="{6369240C-AB92-419F-9434-4750D61883B8}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="MozillaDropShadowWindowClass" Owner="{754AEB55-73DD-4BD3-9EFA-9ECBEED5A769}" />
+			<Child Name="pagePrivacy" Owner="{6EB8C106-3A3B-4C8D-988E-928D3C399356}" />
 		</Child>
 		<Child Name="dlgFileOpenEdge" Owner="{C014C044-889E-4774-AEC9-EE48F2D90A5B}">
 			<Child Name="dlgOpen" Owner="{DD610780-E01C-4BF6-BD1A-99BC961BDDB8}">

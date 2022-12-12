@@ -32,16 +32,6 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Configure_IE" key="{BB9800B4-7A72-4C9E-86E7-91D26739F3AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{635ED0BD-6E17-4547-9E69-545C0A4D927C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Dismiss_Pop_Up_Blocker" key="{B24894CB-4B39-4662-B549-E2A7AE9CD1D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A63F49AD-9FD6-491A-9D5F-CD7B93B8D053}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
 					<testItem name="Open_and_Close_All_Browsers" key="{11786AEC-752C-4CA9-9345-317E571BF7EF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />

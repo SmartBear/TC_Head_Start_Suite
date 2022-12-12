@@ -5,12 +5,10 @@
 			<child name="Configure_Edge" key="{4AC8CC42-41EF-4521-AAE0-FF4C605A4830}" path="Configure_Edge.tcKDTest" />
 			<child name="Configure_FireFox" key="{A59C3566-6B57-40DE-B24B-04CA0F2AFBB2}" path="Configure_FireFox.tcKDTest" />
 			<child name="Configure_Chrome" key="{427EAE33-F40A-448A-99A0-DB5F279C7723}" path="Configure_Chrome.tcKDTest" />
-			<child name="Configure_IE" key="{635ED0BD-6E17-4547-9E69-545C0A4D927C}" path="Configure_IE.tcKDTest" />
 			<child name="Open_All_Browsers_No_Close" key="{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" path="Open_All_Browsers_No_Close.tcKDTest" />
 			<child name="Open_Browsers_and_Delete_History" key="{72434DA8-1869-4AE4-B920-D0179537D5E4}" path="Open_Browsers_and_Delete_History.tcKDTest" />
 			<child name="Open_and_Close_All_Browsers" key="{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" path="Open_and_Close_All_Browsers.tcKDTest" />
 			<child name="Open_Close_and_Terminate_Browsers" key="{BA73FE6D-226B-4A3F-B624-FAC61C136619}" path="Open_Close_and_Terminate_Browsers.tcKDTest" />
-			<child name="Dismiss_Pop_Up_Blocker" key="{A63F49AD-9FD6-491A-9D5F-CD7B93B8D053}" path="Dismiss_Pop_Up_Blocker.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />
