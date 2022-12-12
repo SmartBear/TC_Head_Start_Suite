@@ -65,6 +65,8 @@
 									</Parameters>
 									<Item>
 										<BrowserItem BrowserName="chrome" />
+										<BrowserItem BrowserName="firefox" />
+										<BrowserItem BrowserName="edge" />
 									</Item>
 								</Data>
 								<Children>
