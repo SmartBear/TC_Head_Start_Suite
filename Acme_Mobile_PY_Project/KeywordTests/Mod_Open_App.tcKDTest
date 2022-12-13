@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="Mod_Open_App - This opening the application and validates that the Home page is displayed&#13;&#10;Created 12/13/2022 by KMJ&#13;&#10;" Key="{39E7D01C-970A-4D9D-9496-411DF9180B50}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Mod_Open_App - This opening the application and validates that the Home page is displayed&#13;&#10;Created 12/13/2022 by KMJ&#13;&#10;" />
+			</Operation>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Open_App" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Open_App" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="All test modules should follow this formatting in order to provide consistency to the look and feel of output logs" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="Mod_Open_App" />
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Open_App" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="9" ValueValue="4D006F0064005F004F00700065006E005F0041007000700020002D002000540068006900730020006F00700065006E0069006E006700200074006800650020006100700070006C00690063006100740069006F006E00200061006E0064002000760061006C00690064006100740065007300200074006800610074002000740068006500200048006F006D00650020007000610067006500200069007300200064006900730070006C0061007900650064000D000A0043007200650061007400650064002000310032002F00310033002F00320030003200320020006200790020004B004D004A000D000A00" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{58A088B1-1AC3-4ACD-9FC2-06C64F8187F2}" />
+</Root>

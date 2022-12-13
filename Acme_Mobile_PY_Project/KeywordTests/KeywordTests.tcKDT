@@ -9,5 +9,13 @@
 			<child name="Test_Sample_Web_App_Open" key="{FF4CDBA7-89BB-4656-80A8-492013E4ECE3}" path="Test_Sample_Web_App_Open.tcKDTest" />
 			<child name="Test_Template" key="{167F56A5-995E-48E9-B9C9-867ED5E196F7}" path="Test_Template.tcKDTest" />
 		</folder>
+		<folder name="Common">
+			<child name="Test_Login_Fail" key="{5397FA55-75F1-4C6D-9136-6433A71FE8CE}" path="Test_Login_Fail.tcKDTest" />
+			<child name="Mod_Open_App" key="{AAC9ED35-B081-4957-BBC0-46531453DA71}" path="Mod_Open_App.tcKDTest" />
+			<child name="Mod_Logon_Fail" key="{B2DBEB2D-9199-4F28-BE15-8056BC9F78D3}" path="Mod_Logon_Fail.tcKDTest" />
+			<child name="Mod_Logoff" key="{7583A3D3-80B9-42C1-B82B-EC508DFF510D}" path="Mod_Logoff.tcKDTest" />
+			<child name="Mod_Logon_Hard_Coded_User" key="{9227BCB7-F316-4CF9-9328-2A94CE007764}" path="Mod_Logon_Hard_Coded_User.tcKDTest" />
+		</folder>
+		<folder name="Blog" />
 	</children>
 </Root>

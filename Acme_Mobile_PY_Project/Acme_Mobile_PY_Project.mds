@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
@@ -45,6 +45,16 @@
 					<testItem name="Test_New_Function" key="{050DDE37-4F66-41E8-8FBC-777157A795C8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{ACD3A70F-1550-4B5D-9C79-0B04141C9D85}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Common" key="{11C0A7E4-052B-4704-9018-2D179ADC44A0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Login_Fail" key="{255F4E36-A01C-4EBB-ACA5-DF484A4A5A73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5397FA55-75F1-4C6D-9136-6433A71FE8CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
