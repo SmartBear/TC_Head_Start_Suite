@@ -1,15 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
-		<child name="Script" key="{A556209E-E040-4514-BAD5-473B7A8DC735}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
-		<child name="KeywordTests" key="{A5E9E430-385A-4900-86B0-6A45247159AF}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<folder name="Data_Files">
+			<child name="Contact_List.csv" key="{6A5C6EB7-8E82-453F-8330-041501F59636}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.csv" />
+			<child name="Contact_List.xlsx" key="{A51F5B25-1945-4CA2-9702-90B57728970F}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.xlsx" />
+		</folder>
+		<child name="Script" key="{89378EA2-E216-4890-80F8-537A939110B0}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{BA06CEEF-8A98-4E8F-8366-E9E7CA2380EE}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="Events" key="{AEB6EC30-AED8-4D39-9CC8-49597498797B}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
+		<child name="NameMapping" key="{416A3BE4-D482-41F6-9174-F24178261404}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="README.md" key="{F50CAA8A-58E6-4F64-882F-1B222658B0BE}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
-	<testItems key="{9CA56B9C-BB06-4838-847F-78E3C71F592F}" version="14">
-		<children />
+	<testItems key="{60F4E4C1-9A0E-4DBB-9FA4-536AEBC1E1CA}" version="14">
+		<children>
+			<testItem name="Templates" key="{2537FBD9-1793-45D2-A4A2-91501819FCBB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Sample_Web_App_Open" key="{52B7A977-ACF7-4036-A0BD-29FCF802214D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FF4CDBA7-89BB-4656-80A8-492013E4ECE3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Template" key="{BD7AD619-6FCD-4A42-87F8-2EF77100F8A6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{167F56A5-995E-48E9-B9C9-867ED5E196F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Keyword_Calling_Script_Test_Template" key="{FA3936BB-B48C-427C-BA1A-16F287B84C81}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1545B980-9910-44EF-B933-E5F8C3BAE687}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Script_Test_Template" key="{AB72E9C1-9090-425D-9502-4CD097A71B5A}" group="False" parallel="False" enabled="True" testMoniker="{557FAE47-EF13-4A2B-8A69-F6D9F4CC00DA}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Script_Calling_Keyword_Test_Template" key="{0CB81FDC-EEFB-416E-B139-9348B103E85C}" group="False" parallel="False" enabled="True" testMoniker="{557FAE47-EF13-4A2B-8A69-F6D9F4CC00DA}Script_Calling_Keyword_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_New_Function" key="{050DDE37-4F66-41E8-8FBC-777157A795C8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{ACD3A70F-1550-4B5D-9C79-0B04141C9D85}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
 	</testItems>
-	<variables key="{BBAF08E8-FCDE-4CF9-A0D0-16D4A19012FF}" />
-	<settings key="{E18C9AAA-DAA7-444E-B4C4-AF7A30608B6E}">
+	<variables key="{25BF760D-9736-4D5F-9658-4EC3E8A14011}">
+		<data Version="4">
+			<Items>
+				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribModTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Module Title messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribInformation" Type="Object" Local="False" Descr="Use as log attribute to highlight Information messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<settings key="{6F6E0B73-23DA-416C-AFDB-B484A3D808EF}">
 		<settingsVersion value="15.46" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -37,7 +100,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="" />
-		<setting name="BitBar_APIKey" type="5" value="3A02A0416CAF82DD00832B82E1F76B29D22A7B5C61B1A5279E8342C438233B997F7C713A9FEEE63E73847D9499BC385B27D5C9254DD254BF368F1D05EDF30F5516355D" />
+		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
@@ -105,7 +168,7 @@
 		</setting>
 		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
 		<setting name="DraggingDelay" type="2" value="5" />
-		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_239_" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_165_" />
 		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="False" />
 		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
 		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
@@ -581,7 +644,7 @@
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
@@ -688,16 +751,16 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{7C8F5122-1852-4ABE-8209-E1FF4022403C}" />
+	<analysis key="{2929F65C-6656-4AF2-8E67-5469E9001AE2}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{CA609734-C498-4FB3-82C4-394B75657B8A}">
+	<issueTracking key="{FD101236-1C84-4511-9A4A-2C60CDA780E8}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{0BCF559F-80C2-4FAF-9F4D-F98182FCBD87}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{C0DC736A-3131-4521-944E-3096CDD720F5}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{82B451C4-D665-4900-A5F1-C95CFB6EF8DB}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{2990B42F-EF61-486B-868B-73DC2367B0CA}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>
