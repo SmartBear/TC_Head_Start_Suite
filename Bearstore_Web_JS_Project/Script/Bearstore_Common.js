@@ -134,7 +134,8 @@ function Mod_Open_Chrome_Browser()
   Indicator.PopText();
 }
 
-//@Seed
+//@Debug
+//@Seed 
 function Test_Login_Logout_Edge()
 {
   //Replaces the current indicator text with the specified one.

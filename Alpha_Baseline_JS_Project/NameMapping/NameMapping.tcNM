@@ -160,10 +160,10 @@
 										<Image FileName="1312481582" Left="1420" Top="103" Right="1507" Bottom="155" />
 										<Selectors>
 											<Selector>
-												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />

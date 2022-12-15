@@ -12,6 +12,7 @@
 			<child name="Test_Login_Logout" key="{DF087B9F-8409-4A23-8BC1-BBF40499BD62}" path="Test_Login_Logout.tcKDTest" />
 			<child name="Mod_Login_Jack_Power" key="{F4ECA0D7-C5D7-4C8F-8D43-FF2F375F5887}" path="Mod_Login_Jack_Power.tcKDTest" />
 			<child name="Mod_Logout" key="{A7EC2B2E-6C89-4FB7-89C6-5D325725792E}" path="Mod_Logout.tcKDTest" />
+			<child name="Test_Example_Copy" key="{1125DABE-AE05-4C33-B578-7237CB3F7984}" path="Test_Example_Copy.tcKDTest" />
 		</folder>
 		<folder name="GeneralEvents">
 			<child name="GeneralEvents_OnStartTest" key="{63CDA883-B657-4AE7-A3E8-6A25E3919BA8}" path="GeneralEvents_OnStartTest.tcKDTest" />
