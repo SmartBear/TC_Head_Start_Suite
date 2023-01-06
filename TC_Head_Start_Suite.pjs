@@ -15,6 +15,7 @@
 			<child name="Orders_Desktop_JS_Project" key="{BDA7135C-0239-47A8-863D-673A261D08C2}" path="Orders_Desktop_JS_Project\Orders_Desktop_JS_Project.mds" />
 			<child name="Acme_Web_CSS_Project" key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" path="Acme_Web_CSS_Project\Acme_Web_CSS_Project.mds" />
 			<child name="Acme_Mobile_PY_Project" key="{16E0B46C-9BDF-4570-830A-86474C3ED01C}" path="Acme_Mobile_PY_Project\Acme_Mobile_PY_Project.mds" />
+			<child name="Zilllow_JS_BDD_Project" key="{09844CEB-7738-4D56-AEAE-05066CD931AA}" path="Zilllow_JS_BDD_Project\Zilllow_JS_BDD_Project.mds" />
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Browser_Project" key="{DCE59DAE-4066-416F-9406-2C386E444996}" path="Utility_Browser_Project\Utility_Browser_Project.mds" />
@@ -36,6 +37,7 @@
 			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="0" stopOnError="False" description="Utility Project showcasing Misc Actions" />
 			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript and Jira Naming Conventions" />
 			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
+			<testItem key="{09844CEB-7738-4D56-AEAE-05066CD931AA}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />

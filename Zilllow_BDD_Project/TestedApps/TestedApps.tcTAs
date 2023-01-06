@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{D484B754-180F-40BE-8028-B178945DD4EF}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{D554A8F2-0F67-4816-B0D0-83DB22300163}">
+			<config nodeName="msedge" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters=" --profile-directory=Default -inprivate" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters=" --profile-directory=Default -inprivate" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters=" --profile-directory=Default -inprivate" workFolder="" />
+					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters=" --profile-directory=Default -inprivate" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>
