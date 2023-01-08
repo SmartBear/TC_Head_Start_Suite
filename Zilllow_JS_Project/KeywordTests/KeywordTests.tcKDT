@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Templates">
+			<child name="EventControl_TestEngine_OnStartTest" key="{B29BDD7A-D4AE-4690-B9C4-EDFEED2D8F36}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
+			<child name="Mod_Template" key="{C95CEB67-5116-4C79-A2F4-37983BDCF144}" path="Mod_Template.tcKDTest" />
+			<child name="Test_Template" key="{2387274E-32CF-48E0-8298-DB8F92BA467B}" path="Test_Template.tcKDTest" />
+		</folder>
+		<folder name="Zillow_Tests">
+			<child name="Open_Zillow_Website" key="{7E8684CF-8800-4AE6-B288-48F885756713}" path="Open_Zillow_Website.tcKDTest" />
+			<child name="Home_and_Close_Zillow" key="{BA78C86F-CBCA-4938-B41E-3AA5E720415D}" path="Home_and_Close_Zillow.tcKDTest" />
+			<child name="Test_Zillow_Project" key="{4C383432-6E5C-4EB2-B97D-AC0350123312}" path="Test_Zillow_Project.tcKDTest" />
+			<child name="Filter_Rental_SomervilleMA" key="{81D505D8-AD14-49F0-B33F-DCE349047AB9}" path="Filter_Rental_SomervilleMA.tcKDTest" />
+			<child name="Create_and_Populate_Data_File" key="{F9054030-DAEE-4625-80A5-C96A659AB573}" path="Create_and_Populate_Data_File.tcKDTest" />
+		</folder>
+		<child name="Case00537166" key="{7CE77C00-E706-4CAF-95E5-91D769655013}" path="Case00537166.tcKDTest" />
+	</children>
+</Root>

@@ -14,6 +14,7 @@
 			<child name="Bearstore_Web_JS_Project" key="{8FCB1155-42C4-42A4-A559-19368A4DE100}" path="Bearstore_Web_JS_Project\Bearstore_Web_JS_Project.mds" />
 			<child name="Orders_Desktop_JS_Project" key="{BDA7135C-0239-47A8-863D-673A261D08C2}" path="Orders_Desktop_JS_Project\Orders_Desktop_JS_Project.mds" />
 			<child name="Acme_Web_CSS_Project" key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" path="Acme_Web_CSS_Project\Acme_Web_CSS_Project.mds" />
+			<child name="Zilllow_JS_Project" key="{FE945E60-8C9A-4C16-BEF4-CA17DA9C7EA3}" path="Zilllow_JS_Project\Zilllow_JS_Project.mds" />
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Browser_Project" key="{DCE59DAE-4066-416F-9406-2C386E444996}" path="Utility_Browser_Project\Utility_Browser_Project.mds" />
@@ -34,6 +35,7 @@
 			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="0" stopOnError="False" description="Utility Project showcasing Misc Actions" />
 			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript and Jira Naming Conventions" />
 			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
+			<testItem key="{FE945E60-8C9A-4C16-BEF4-CA17DA9C7EA3}" enabled="True" timeout="0" stopOnError="False" description="" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
