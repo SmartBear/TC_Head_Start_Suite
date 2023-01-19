@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
@@ -39,6 +39,11 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Test_Bitbar_Sample" key="{6D8D9C79-CD7B-427C-AD79-ED9C9DCFFAD1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{742B5005-45BB-404A-8382-9916D9608468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 		</children>
@@ -71,7 +76,7 @@
 		</data>
 	</variables>
 	<settings key="{6F90867A-8D90-403F-9992-F06A08649B64}">
-		<settingsVersion value="15.46" />
+		<settingsVersion value="15.47" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -98,7 +103,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="" />
-		<setting name="BitBar_APIKey" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A0416CAF82DD00832B82E1F76B29D22A7B5C61B1A5279E8342C438233B997F7C713A9FEEE63E73847D9499BC385B27D5C9254DD254BF368F1D05EDF30F5516355D" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />

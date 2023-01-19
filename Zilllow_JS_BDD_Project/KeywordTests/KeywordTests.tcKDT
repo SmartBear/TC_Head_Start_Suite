@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<folder name="Templates">
@@ -12,6 +12,8 @@
 			<child name="Test_Zillow_Project" key="{C3C32212-43BF-400E-A3E5-FA5E245B190B}" path="Test_Zillow_Project.tcKDTest" />
 			<child name="Filter_Rental_SomervilleMA" key="{96A25515-4DAD-43C7-B4C7-4F7A8A569DCA}" path="Filter_Rental_SomervilleMA.tcKDTest" />
 			<child name="Create_and_Populate_Data_File" key="{97F0D9A0-6222-41C3-B287-2E90FB0A969C}" path="Create_and_Populate_Data_File.tcKDTest" />
+			<child name="Test_Bitbar_Sample" key="{742B5005-45BB-404A-8382-9916D9608468}" path="Test_Bitbar_Sample.tcKDTest" />
+			<child name="Mod_Bitbar_Sample" key="{19803B1C-EDD7-4FBC-AF1F-3B05D573AAAD}" path="Mod_Bitbar_Sample.tcKDTest" />
 		</folder>
 		<child name="Case00537166" key="{EDB9F077-DE6A-4C5C-AA47-0DAAACFC14DF}" path="Case00537166.tcKDTest" />
 	</children>
