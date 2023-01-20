@@ -19,7 +19,7 @@
 			<testItem name="Templates" key="{A226ADBE-5DB5-41BA-90C0-1D96F500024F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Template" key="{B87CA1D6-9BC0-4AD9-BB2B-778BB4E57188}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C3962C3D-8AA1-4E7B-8E37-8EF23C3676F2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Template" key="{B87CA1D6-9BC0-4AD9-BB2B-778BB4E57188}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C3962C3D-8AA1-4E7B-8E37-8EF23C3676F2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -39,7 +39,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Bitbar_Sample" key="{6D8D9C79-CD7B-427C-AD79-ED9C9DCFFAD1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{742B5005-45BB-404A-8382-9916D9608468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Bitbar_Sample" key="{6D8D9C79-CD7B-427C-AD79-ED9C9DCFFAD1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{742B5005-45BB-404A-8382-9916D9608468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{55E6BD77-DC27-428C-898D-2854A6AB1733}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="**** This test opens the Zillow Website, confirms it has opened, then closes the browser session" Key="{CC13DE94-D606-410F-866B-2D41C9ED5264}" Tags="@Sanity @Seed" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -8,19 +8,19 @@
 		</Data>
 		<Children>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-				<Data Comment="**** Consider duplicating this text as comment inside of the keyword test&#13;&#10;**** This can serve as a flowerbox description when converted to a script&#13;&#10;**** KMJ 09122022" />
+				<Data Comment="**** This test opens the Zillow Website, confirms it has opened, then closes the browser session" />
 			</Operation>
 			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 				<Data Description="Replaces the current indicator text with the specified one.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Test_Bitbar_Sample" />
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Test_Open_Close_Website" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_Bitbar_Sample" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_Open_Close_Website" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="All tests should follow this formatting in order to provide consistency to the look and feel of output logs" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
@@ -37,13 +37,13 @@
 				</Data>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Test_Bitbar_Sample" />
+				<Data GroupName="Test_Open_Close_Website" />
 				<Children>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an information message to the test log." MessageType="0">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test Template Information Message" />
-								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Log entry in the Test Template Keyword Test" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_Open_Close_Website" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="**** This test opens the Zillow Website, confirms it has opened, then closes the browser session" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
 										<Value Type="1" Value="100" Text="pmLowest" />
@@ -60,7 +60,10 @@
 						</Data>
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Bitbar_Sample" />
+						<Data Description="Runs a keyword test." TestName="Mod_Open_Zillow_Website" />
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
 					</Operation>
 				</Children>
 			</Operation>
@@ -72,5 +75,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{09B2388D-04B5-4E88-B35D-389360AF98A4}" />
+	<Parameters Key="{3A4EB2FA-F2A3-48FE-9EEA-6B76DE2BE75C}" />
 </Root>

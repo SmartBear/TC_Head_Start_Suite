@@ -7,14 +7,18 @@
 			<child name="Test_Template" key="{C3962C3D-8AA1-4E7B-8E37-8EF23C3676F2}" path="Test_Template.tcKDTest" />
 		</folder>
 		<folder name="Zillow_Tests">
-			<child name="Open_Zillow_Website" key="{7A6DA76F-547C-4377-9A5A-1A384BFFE527}" path="Open_Zillow_Website.tcKDTest" />
-			<child name="Home_and_Close_Zillow" key="{8D2AC9A5-596D-4668-AB66-BE5B3D627309}" path="Home_and_Close_Zillow.tcKDTest" />
-			<child name="Test_Zillow_Project" key="{C3C32212-43BF-400E-A3E5-FA5E245B190B}" path="Test_Zillow_Project.tcKDTest" />
-			<child name="Filter_Rental_SomervilleMA" key="{96A25515-4DAD-43C7-B4C7-4F7A8A569DCA}" path="Filter_Rental_SomervilleMA.tcKDTest" />
-			<child name="Create_and_Populate_Data_File" key="{97F0D9A0-6222-41C3-B287-2E90FB0A969C}" path="Create_and_Populate_Data_File.tcKDTest" />
+			<child name="Mod_Open_Zillow_Website" key="{7A6DA76F-547C-4377-9A5A-1A384BFFE527}" path="Mod_Open_Zillow_Website.tcKDTest" />
+			<child name="Mod_Close_Browser" key="{8D2AC9A5-596D-4668-AB66-BE5B3D627309}" path="Mod_Close_Browser.tcKDTest" />
+			<child name="Test_Open_Close_Website" key="{C3C32212-43BF-400E-A3E5-FA5E245B190B}" path="Test_Open_Close_Website.tcKDTest" />
+			<child name="Mod_Filter_Rental_SomervilleMA" key="{96A25515-4DAD-43C7-B4C7-4F7A8A569DCA}" path="Mod_Filter_Rental_SomervilleMA.tcKDTest" />
+			<child name="Mod_Create_and_Populate_Data_File" key="{97F0D9A0-6222-41C3-B287-2E90FB0A969C}" path="Mod_Create_and_Populate_Data_File.tcKDTest" />
 			<child name="Test_Bitbar_Sample" key="{742B5005-45BB-404A-8382-9916D9608468}" path="Test_Bitbar_Sample.tcKDTest" />
 			<child name="Mod_Bitbar_Sample" key="{19803B1C-EDD7-4FBC-AF1F-3B05D573AAAD}" path="Mod_Bitbar_Sample.tcKDTest" />
+			<child name="Test_Filter_Rental" key="{14987631-1CAF-49D5-8140-B73D2EB28486}" path="Test_Filter_Rental.tcKDTest" />
+			<child name="Test_Create_Data_File" key="{AD599115-F4B6-4B58-AB9A-C521F1005E12}" path="Test_Create_Data_File.tcKDTest" />
 		</folder>
-		<child name="Case00537166" key="{EDB9F077-DE6A-4C5C-AA47-0DAAACFC14DF}" path="Case00537166.tcKDTest" />
+		<folder name="Defects">
+			<child name="Case00537166" key="{EDB9F077-DE6A-4C5C-AA47-0DAAACFC14DF}" path="Case00537166.tcKDTest" />
+		</folder>
 	</children>
 </Root>
