@@ -68,11 +68,14 @@
 						<ConnectionInfo FileName="Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
 					</DefValue>
 				</Variable>
+				<Variable Name="Var1" Type="String" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{3D24D377-1D72-4823-8B9D-1F5DA82489ED}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.47" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

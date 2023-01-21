@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{8F81DE15-F42C-42CF-B5E5-70EAC525779C}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="Test_New_Function&#13;&#10;This is an example new keyword test that needs to be fleshed out and debugged before being put into production" Key="{8F81DE15-F42C-42CF-B5E5-70EAC525779C}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -8,19 +8,19 @@
 		</Data>
 		<Children>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-				<Data Comment="**** Consider duplicating this text as comment inside of the keyword test&#13;&#10;**** This can serve as a flowerbox description when converted to a script&#13;&#10;**** KMJ 09122022" />
+				<Data Comment="Test_New_Function&#13;&#10;This is an example new keyword test that needs to be fleshed out and debugged before being put into production" />
 			</Operation>
 			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 				<Data Description="Replaces the current indicator text with the specified one.">
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Test_Template" />
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Test_New_Function" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_Template" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_New_Function" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="All tests should follow this formatting in order to provide consistency to the look and feel of output logs" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
@@ -39,7 +39,7 @@
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an error to the test log." MessageType="1">
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="This is in place to fail, so this test can be debugged" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="This test is in place to fail, to demonstrate how debugging" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="For Demo purposes" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
