@@ -68,20 +68,10 @@
 							</Parameters>
 						</Data>
 					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Filter_Rental_SomervilleMA">
-							<CommonData Disabled="True" />
-						</Data>
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Create_and_Populate_Data_File">
-							<CommonData Disabled="True" />
-						</Data>
-					</Operation>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-						<Data Description="Posts a warning to the test log." MessageType="2">
+						<Data Description="Posts an information message to the test log." MessageType="0">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Diasabled Filter for debugging" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Diasabled for debugging" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
@@ -97,6 +87,12 @@
 								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
 						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Filter_Rental_SomervilleMA" />
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Create_and_Populate_Data_File" />
 					</Operation>
 				</Children>
 			</Operation>

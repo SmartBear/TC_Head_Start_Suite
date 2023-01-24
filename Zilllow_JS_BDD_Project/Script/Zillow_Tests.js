@@ -1,5 +1,8 @@
 ﻿Given("Open Zillow in Edge", function Open_Zillow_Website()
 {
+  Browsers.Item(btEdge).Run("edge://www.zillow.com/");
+  Aliases.browser.BrowserWindow.Maximize();
+  
 });
 
 When("Filtered Rentals in Somerville MA", function (){

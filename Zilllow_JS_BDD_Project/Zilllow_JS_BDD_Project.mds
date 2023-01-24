@@ -29,17 +29,17 @@
 			<testItem name="Zillow_Tests" key="{E8CB5D67-EA49-4DE6-B37C-9460E4E5E8DB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Open Zillow and search for apartments in Boston" key="{6DE8F8AE-8D68-4DA8-BDEA-14292371F3B1}" group="False" parallel="False" enabled="True" testMoniker="Zillow_Tests|Open Zillow and search for apartments in Boston" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
 					<testItem name="Test_Zillow_Project" key="{FC874F22-1274-4CC6-92C3-E28206F688C2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C3C32212-43BF-400E-A3E5-FA5E245B190B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Bitbar_Sample" key="{6D8D9C79-CD7B-427C-AD79-ED9C9DCFFAD1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{742B5005-45BB-404A-8382-9916D9608468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Open Zillow and search for apartments in Boston" key="{6DE8F8AE-8D68-4DA8-BDEA-14292371F3B1}" group="False" parallel="False" enabled="True" testMoniker="Zillow_Tests|Open Zillow and search for apartments in Boston" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Bitbar_Sample" key="{6D8D9C79-CD7B-427C-AD79-ED9C9DCFFAD1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{742B5005-45BB-404A-8382-9916D9608468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -76,7 +76,7 @@
 		</data>
 	</variables>
 	<settings key="{6F90867A-8D90-403F-9992-F06A08649B64}">
-		<settingsVersion value="15.47" />
+		<settingsVersion value="15.48" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -120,6 +120,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />

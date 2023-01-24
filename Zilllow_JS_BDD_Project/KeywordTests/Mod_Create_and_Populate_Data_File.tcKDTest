@@ -127,7 +127,9 @@
 								</Data>
 							</Operation>
 							<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
-								<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="KeywordTests.Mod_Create_and_Populate_Data_File.ZillowFile.WriteLine(&quot;Address,Baths,Estimate_Payment&quot;)" />
+								<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="KeywordTests.Mod_Create_and_Populate_Data_File.ZillowFile.WriteLine(&quot;Address,Baths,Estimate_Payment&quot;)">
+									<CommonData Disabled="True" />
+								</Data>
 							</Operation>
 							<Operation Type="{60B8EBE8-9B0C-4A7B-A452-229144AEA05B}">
 								<Data>
@@ -152,7 +154,9 @@
 										</Data>
 									</Operation>
 									<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
-										<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="KeywordTests.Create_and_Populate_Data_File.Variables.ZillowFile.WriteLine(&quot;Address,Baths,Estimate_Payment&quot;)" />
+										<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="KeywordTests.Create_and_Populate_Data_File.Variables.ZillowFile.WriteLine(&quot;Address,Baths,Estimate_Payment&quot;)">
+											<CommonData Disabled="True" />
+										</Data>
 									</Operation>
 								</Children>
 							</Operation>
