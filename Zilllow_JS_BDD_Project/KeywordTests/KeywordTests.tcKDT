@@ -16,6 +16,7 @@
 			<child name="Mod_Bitbar_Sample" key="{19803B1C-EDD7-4FBC-AF1F-3B05D573AAAD}" path="Mod_Bitbar_Sample.tcKDTest" />
 			<child name="Test_Filter_Rental" key="{14987631-1CAF-49D5-8140-B73D2EB28486}" path="Test_Filter_Rental.tcKDTest" />
 			<child name="Test_Create_Data_File" key="{AD599115-F4B6-4B58-AB9A-C521F1005E12}" path="Test_Create_Data_File.tcKDTest" />
+			<child name="Test_Simple_Filter" key="{4327C5C0-747C-40FE-B9F8-2F838960BD5B}" path="Test_Simple_Filter.tcKDTest" />
 		</folder>
 		<folder name="Defects">
 			<child name="Case00537166" key="{EDB9F077-DE6A-4C5C-AA47-0DAAACFC14DF}" path="Case00537166.tcKDTest" />

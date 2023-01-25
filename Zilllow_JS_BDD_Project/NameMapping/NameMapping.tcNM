@@ -13,7 +13,6 @@
 				</Properties>
 				<Children>
 					<Child Name="browser" Key="{62FF6771-B48B-4198-B1C1-3DCB151F3204}">
-						<TypeInfo Item0="{596A6878-135C-4531-AE34-C07E6E6194EE}" />
 						<Properties>
 							<Property Name="ObjectType">
 								<Value Value="Browser" />
@@ -22,7 +21,6 @@
 						<Children>
 							<Child Name="BrowserWindow" Key="{9DBA2760-5FA4-4F7F-B752-0D83D6813D4E}">
 								<Image FileName="-1382371673" Left="0" Top="0" Right="1936" Bottom="1096" />
-								<TypeInfo Item0="{C695CFF6-D99C-46CE-A6F1-93AC1D3E4238}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="BrowserWindow" />
@@ -34,7 +32,6 @@
 							</Child>
 							<Child Name="pageWwwZillowComHomesForRent" Key="{5ED08E97-9253-4007-A5E2-1C257C1BB5E5}">
 								<Image FileName="-229199428" Left="0" Top="103" Right="1920" Bottom="1078" />
-								<TypeInfo Item0="{A63715A1-C836-44F3-8C50-1F3D957FB8D8}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -83,7 +80,6 @@
 									</Child>
 									<Child Name="textboxSubmitSearch" Key="{31F3ED82-192E-4ED7-B66E-C6ED0FD32276}">
 										<Image FileName="-217770314" Left="12" Top="191" Right="262" Bottom="229" />
-										<TypeInfo Item0="{2B842056-D713-449A-999E-E97F15915FF0}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Submit SearchSearchA magnifying glass&apos;]/@for)]" />
@@ -101,7 +97,6 @@
 									</Child>
 									<Child Name="panelMap" Key="{D3BDE64D-5E4B-489E-9B46-46FC87BCC28B}">
 										<Image FileName="1015907849" Left="1015" Top="966" Right="1154" Bottom="1062" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;map-gmap-controls&apos;)]" />
@@ -110,7 +105,6 @@
 									</Child>
 									<Child Name="buttonZoomIn" Key="{E360C536-CE8D-4575-B338-7E2F52718CF1}">
 										<Image FileName="1996019862" Left="1102" Top="958" Right="1146" Bottom="1002" />
-										<TypeInfo Item0="{2D09FE53-2436-48C9-863F-895D6DF038EE}" />
 										<Selectors>
 											<Selector>
 												<Value Value="[data-test=&apos;zoom-in&apos;]" />
@@ -130,7 +124,6 @@
 							</Child>
 							<Child Name="pageZillowRealEstateApartmentsMo" Key="{A7516875-B68C-4773-B76C-5C49BFCF7971}">
 								<Image FileName="753533249" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{F63DE39A-6F8C-46C6-AE42-73A54DAD93C9}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -142,7 +135,6 @@
 								<Children>
 									<Child Name="headerBuy" Key="{A6AF4A07-1ED1-4FA8-953B-FB639F851B24}">
 										<Image FileName="753533249" Left="8" Top="111" Right="1911" Bottom="191" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[contains(., &apos;Buy&apos;)]" />
@@ -160,7 +152,6 @@
 									</Child>
 									<Child Name="navMain" Key="{0781352B-7710-4741-B313-3F337A024680}">
 										<Image FileName="753533249" Left="8" Top="111" Right="1911" Bottom="191" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//nav[contains(., &apos;Buy&apos;)]" />
@@ -184,7 +175,6 @@
 									</Child>
 									<Child Name="linkZillowRealEstate" Key="{E3F3E468-C804-48A2-BFF9-37CBD997196A}">
 										<Image FileName="753533249" Left="880" Top="135" Right="1040" Bottom="165" />
-										<TypeInfo Item0="{A944167B-E50C-4E23-A5FD-435E10FD2A2B}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//nav/div/a[contains(@class, &apos;Anchor-c11n-8-62-4__sc-hn4bge-0&apos;)]" />
@@ -199,7 +189,6 @@
 									</Child>
 									<Child Name="imageZillowLogo" Key="{F51FD1D0-133A-482B-961A-EA44D455B053}">
 										<Image FileName="753533249" Left="880" Top="135" Right="1040" Bottom="170" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header/nav//a/img[contains(@src, &apos;z-logo-default.svg&apos;)]" />
@@ -211,7 +200,6 @@
 									</Child>
 									<Child Name="textnodeRent" Key="{E8B7315A-46B7-492F-BB1D-6A3E314534E2}">
 										<Image FileName="-130753522" Left="378" Top="111" Right="440" Bottom="190" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//li[contains(., &apos;Rent&apos;)]" />
@@ -220,7 +208,6 @@
 									</Child>
 									<Child Name="linkRent" Key="{219CF2AE-2F99-4EEB-A3A4-07EB5A8355D3}">
 										<Image FileName="-130753522" Left="378" Top="127" Right="440" Bottom="174" />
-										<TypeInfo Item0="{A944167B-E50C-4E23-A5FD-435E10FD2A2B}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(., &apos;Rent&apos;)]" />
@@ -236,11 +223,40 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeHelp" Key="{F11B3B4D-ECF4-4AD1-B0B8-4AD23E7A7B67}">
+										<Image FileName="1441493390" Left="1433" Top="111" Right="1496" Bottom="190" />
+										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[3]/li[contains(@class, &apos;pfs__sc-585qe5-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page-header-container&apos;]//ul[3]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHelp" Key="{C6754513-C16F-4409-BC4F-6389EFBD1605}">
+										<Image FileName="1441493390" Left="1433" Top="127" Right="1496" Bottom="174" />
+										<TypeInfo Item0="{4427CB7E-7823-47AE-AC9B-3F213838D1B3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[3]/li/a[contains(@class, &apos;Anchor-c11n-8-62-4__sc-hn4bge-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page-header-container&apos;]//ul[3]/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[3]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageRentalListingsInSomervilleMa" Key="{59DE8849-21C4-44CD-845D-4F2C27558954}">
 								<Image FileName="-712117204" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{F63DE39A-6F8C-46C6-AE42-73A54DAD93C9}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -252,7 +268,6 @@
 								<Children>
 									<Child Name="panelMap" Key="{81464520-4888-4B56-85C5-396B3D9CFA0F}">
 										<Image FileName="-712117204" Left="1015" Top="966" Right="1154" Bottom="1062" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;map-gmap-controls&apos;)]" />
@@ -261,7 +276,6 @@
 									</Child>
 									<Child Name="buttonZoomIn" Key="{EA8831CB-2633-4965-95EC-19AB2349E01D}">
 										<Image FileName="1449481981" Left="1110" Top="966" Right="1154" Bottom="1010" />
-										<TypeInfo Item0="{AF3D793E-E340-4F5A-A12B-2547EC8C7CE9}" />
 										<Selectors>
 											<Selector>
 												<Value Value="[data-test=&apos;zoom-in&apos;]" />
@@ -281,7 +295,6 @@
 							</Child>
 							<Child Name="pageRentalListingsInSomervilleMa2" Key="{AD5385CE-BB51-4947-BC18-0B9756390C27}">
 								<Image FileName="1935489569" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{F63DE39A-6F8C-46C6-AE42-73A54DAD93C9}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -293,7 +306,6 @@
 								<Children>
 									<Child Name="panel25k" Key="{8975344B-F3DB-441C-BB3B-03D4DD9F83A8}">
 										<Image FileName="1935489569" Left="209" Top="289" Right="245" Bottom="307" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[.=&apos;2.5K&apos;]" />
@@ -302,7 +314,6 @@
 									</Child>
 									<Child Name="panelMap" Key="{532A76FE-88F2-422F-B32E-1ABBA1F57FAB}">
 										<Image FileName="-668346386" Left="1015" Top="966" Right="1154" Bottom="1062" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;map-gmap-controls&apos;)]" />
@@ -311,7 +322,6 @@
 									</Child>
 									<Child Name="buttonZoomIn" Key="{15018C4B-A39F-44F9-97AE-5FC4F331AC40}">
 										<Image FileName="-619490874" Left="1110" Top="966" Right="1154" Bottom="1010" />
-										<TypeInfo Item0="{AF3D793E-E340-4F5A-A12B-2547EC8C7CE9}" />
 										<Selectors>
 											<Selector>
 												<Value Value="[data-test=&apos;zoom-in&apos;]" />
@@ -329,7 +339,6 @@
 									</Child>
 									<Child Name="sectionFilters" Key="{11A2B319-D912-4F7C-BD63-47BF8F5CC3A1}">
 										<Image FileName="1604904865" Left="8" Top="191" Right="1928" Bottom="246" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//section[contains(., &apos;Somerville MA&apos;)]" />
@@ -350,7 +359,6 @@
 									</Child>
 									<Child Name="formSomervilleMa" Key="{81C86695-5475-45B5-BE96-A396AF5240BE}">
 										<Image FileName="1604904865" Left="20" Top="196" Right="320" Bottom="240" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//form[contains(., &apos;Somerville MA&apos;)]" />
@@ -368,7 +376,6 @@
 									</Child>
 									<Child Name="panelSomervilleMa" Key="{9DE9C154-D1D6-443E-BDAB-706DB5A9DF2D}">
 										<Image FileName="1604904865" Left="21" Top="197" Right="319" Bottom="239" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;StyledComboboxInput-c11n-8-73-8__sc-vb87st-0&apos;)]" />
@@ -383,7 +390,6 @@
 									</Child>
 									<Child Name="textboxSearch" Key="{8A394A37-49BB-4651-BADC-F8D9D7828E73}">
 										<Image FileName="1419278959" Left="177" Top="202" Right="277" Bottom="234" />
-										<TypeInfo Item0="{665FC792-2E82-4B57-8F1A-272EB2DA0D16}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Search&apos;]/@for)]" />
@@ -403,7 +409,6 @@
 							</Child>
 							<Child Name="page9RichardsonTer0SomervilleMa0" Key="{1A2590B8-513F-41BD-B6CB-AF1D1905903E}">
 								<Image FileName="-768893363" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{F63DE39A-6F8C-46C6-AE42-73A54DAD93C9}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -415,7 +420,6 @@
 								<Children>
 									<Child Name="panel2500" Key="{53330272-551D-4EAD-B010-1FE4F4EC2F8A}">
 										<Image FileName="-768893363" Left="1108" Top="171" Right="1576" Bottom="309" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[2]/div[contains(@class, &apos;Spacer-c11n-8-73-0__sc-17suqs2-0&apos;)]" />
@@ -424,7 +428,6 @@
 									</Child>
 									<Child Name="textnode9RichardsonTer0" Key="{D164A236-FFBF-439C-AFF0-81F6D0E5102D}">
 										<Image FileName="-773399159" Left="1108" Top="243" Right="1576" Bottom="267" />
-										<TypeInfo Item0="{61A12F3A-5A87-4D59-AA59-6234BE8DD643}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[text()=&apos;9 Richardson Ter, # 0,&apos;]" />
@@ -437,6 +440,50 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageZillowHelpCenter" Key="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
+								<Image FileName="1270051983" Left="8" Top="111" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{72DFE11E-ECD5-4F89-B171-C5715B4E126C}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://zillow.zendesk.com/hc/en-us/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerSubmitARequest" Key="{DD15EFB3-4BD1-4DAD-8146-1219C5E37AE1}">
+										<Image FileName="1270051983" Left="380" Top="111" Right="1540" Bottom="182" />
+										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="header[contains(., &apos;Submit a request&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageZillowHelpCenterHelpCenter" Key="{35C3FDC2-B9DB-4E44-96E5-1047E9643197}">
+										<Image FileName="1270051983" Left="380" Top="125" Right="557" Bottom="162" />
+										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;theme_assets&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;www.zillow.com&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -469,6 +516,9 @@
 						<Child Name="textnodeRent" Owner="{E8B7315A-46B7-492F-BB1D-6A3E314534E2}">
 							<Child Name="linkRent" Owner="{219CF2AE-2F99-4EEB-A3A4-07EB5A8355D3}" />
 						</Child>
+						<Child Name="textnodeHelp" Owner="{F11B3B4D-ECF4-4AD1-B0B8-4AD23E7A7B67}">
+							<Child Name="linkHelp" Owner="{C6754513-C16F-4409-BC4F-6389EFBD1605}" />
+						</Child>
 					</Child>
 				</Child>
 			</Child>
@@ -490,6 +540,11 @@
 			<Child Name="page9RichardsonTer0SomervilleMa0" Owner="{1A2590B8-513F-41BD-B6CB-AF1D1905903E}">
 				<Child Name="panel2500" Owner="{53330272-551D-4EAD-B010-1FE4F4EC2F8A}" />
 				<Child Name="textnode9RichardsonTer0" Owner="{D164A236-FFBF-439C-AFF0-81F6D0E5102D}" />
+			</Child>
+			<Child Name="pageZillowHelpCenter" Owner="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
+				<Child Name="headerSubmitARequest" Owner="{DD15EFB3-4BD1-4DAD-8146-1219C5E37AE1}">
+					<Child Name="imageZillowHelpCenterHelpCenter" Owner="{35C3FDC2-B9DB-4E44-96E5-1047E9643197}" />
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

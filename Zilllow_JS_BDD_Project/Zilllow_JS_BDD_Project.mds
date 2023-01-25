@@ -34,6 +34,16 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Test_Filter_Rental" key="{31FE970B-ADDE-4257-995D-905A58857FDA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{14987631-1CAF-49D5-8140-B73D2EB28486}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Create_Data_File" key="{B0A9830D-87C8-4AAD-9632-1438161C0061}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AD599115-F4B6-4B58-AB9A-C521F1005E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 					<testItem name="Open Zillow and search for apartments in Boston" key="{6DE8F8AE-8D68-4DA8-BDEA-14292371F3B1}" group="False" parallel="False" enabled="True" testMoniker="Zillow_Tests|Open Zillow and search for apartments in Boston" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
