@@ -21,5 +21,12 @@
 		<folder name="Defects">
 			<child name="Case00537166" key="{EDB9F077-DE6A-4C5C-AA47-0DAAACFC14DF}" path="Case00537166.tcKDTest" />
 		</folder>
+		<folder name="Browser_Utilties">
+			<child name="Close_Browser" key="{EC74CFCB-60F0-436A-B39C-1E508A930F51}" path="Close_Browser.tcKDTest" />
+			<child name="Close_Chrome" key="{C3B9EFB7-BE66-4F6E-965B-7A2CD73E8029}" path="Close_Chrome.tcKDTest" />
+			<child name="Close_Edge" key="{923E5719-9280-4C6F-B124-417203AC5EC4}" path="Close_Edge.tcKDTest" />
+			<child name="Close_Firefox" key="{2DD2ADF5-24C7-4076-B81B-D0D0F7A8F7A1}" path="Close_Firefox.tcKDTest" />
+			<child name="Close_Open_Browsers" key="{5D03727A-741A-41FF-B8B4-7B3039CA3D01}" path="Close_Open_Browsers.tcKDTest" />
+		</folder>
 	</children>
 </Root>

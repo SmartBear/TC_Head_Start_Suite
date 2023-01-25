@@ -19,7 +19,7 @@
 				<children>
 					<testItem name="Close_Open_Browsers" key="{4D7D2FC0-EB19-4A3C-807A-808ABB3378BE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1573626A-7358-484D-9693-4B235F618FA4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Kill_All_Browsers_Script_Calling_Script" key="{10AC35F5-6966-46C6-871E-D4BD835FC2DF}" group="False" parallel="False" enabled="True" testMoniker="{7F71F3BE-D355-4DE8-AAA0-6BF1C610DF73}Kill_All_Browsers" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -153,7 +153,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.46" />
+		<settingsVersion value="15.48" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
