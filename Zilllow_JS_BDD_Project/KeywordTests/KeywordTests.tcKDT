@@ -17,6 +17,9 @@
 			<child name="Test_Filter_Rental" key="{14987631-1CAF-49D5-8140-B73D2EB28486}" path="Test_Filter_Rental.tcKDTest" />
 			<child name="Test_Create_Data_File" key="{AD599115-F4B6-4B58-AB9A-C521F1005E12}" path="Test_Create_Data_File.tcKDTest" />
 			<child name="Test_Simple_Filter" key="{4327C5C0-747C-40FE-B9F8-2F838960BD5B}" path="Test_Simple_Filter.tcKDTest" />
+			<child name="Test_Zillow_Filter_Complex" key="{373B194D-7817-4CFE-996A-C79CE81BCC94}" path="Test_Zillow_Filter_Complex.tcKDTest" />
+			<child name="Mod_Filter_Buy" key="{3B3B9EF6-E76F-4A7D-9FD5-C02AF80E8840}" path="Mod_Filter_Buy.tcKDTest" />
+			<child name="Mod_Main_Menu_Navigation" key="{794DB398-A51A-496F-869E-5C32DAEA97D4}" path="Mod_Main_Menu_Navigation.tcKDTest" />
 		</folder>
 		<folder name="Defects">
 			<child name="Case00537166" key="{EDB9F077-DE6A-4C5C-AA47-0DAAACFC14DF}" path="Case00537166.tcKDTest" />
