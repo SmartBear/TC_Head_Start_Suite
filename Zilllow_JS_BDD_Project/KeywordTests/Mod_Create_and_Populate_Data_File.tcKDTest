@@ -131,7 +131,7 @@
 									<Operation Type="{9D363D3E-67C5-4712-B444-E21216006676}">
 										<Data Description="Puts values of variables in a new row.">
 											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="FileName" DefVarType="0" VarType="8" ValueType="6" ValueValue="C:\KMJ\TC_Head_Start_Suite\Zilllow_JS_BDD_Project\Data_Files\ZillowListings.xlsx" />
+												<Parameter Name="FileName" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="FileName" />
 												<Parameter Name="Sheet" DefVarType="0" VarType="8" ValueType="6" ValueValue="Listing" />
 												<Parameter Name="ColumnA" DefVarType="0" VarType="8" ValueType="6" ValueValue="Address" />
 												<Parameter Name="ColumnB" DefVarType="0" VarType="8" ValueType="6" ValueValue="Baths" />
@@ -157,7 +157,7 @@
 											<Operation Type="{9D363D3E-67C5-4712-B444-E21216006676}">
 												<Data Description="Puts values of variables in a new row.">
 													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-														<Parameter Name="FileName" DefVarType="0" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\KMJ\TC_Head_Start_Suite\Zilllow_JS_BDD_Project\Data_Files\ZillowListings.xlsx" Filter="All Excel files|*.xls;*.xlsx|All files|*.*" />
+														<Parameter Name="FileName" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="FileName" />
 														<Parameter Name="Sheet" DefVarType="0" VarType="8" ValueType="6" ValueValue="Listing" />
 														<Parameter Name="ColumnA" DefVarType="0" VarType="8" ValueType="6" ValueValue="7843 Detroit Blvd" />
 														<Parameter Name="ColumnB" DefVarType="0" VarType="3" ValueType="1" ValueValue="3" />
@@ -240,7 +240,7 @@
 	<Variables Version="4" Key="{625B057F-E523-4A67-9E8D-71E206FAE77F}">
 		<Items>
 			<Variable Name="FileName" Type="String" Local="False">
-				<DefValue StrValue="C:\KMJ\TC_Head_Start_Suite\Zilllow_JS_BDD_Project\Data_Files\ZillowListings.xlsx" />
+				<DefValue StrValue="C:\Temp\ZillowListings.xlsx" />
 			</Variable>
 			<Variable Name="ZillowFile" Type="Object" Local="False">
 				<DefValue />
