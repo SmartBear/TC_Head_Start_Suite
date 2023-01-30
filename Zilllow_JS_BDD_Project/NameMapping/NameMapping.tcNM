@@ -561,6 +561,38 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkSell" Key="{B6A976F1-CF92-420D-8915-CC75E6BB2B7B}">
+										<Image FileName="-1578427121" Left="432" Top="119" Right="486" Bottom="166" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Sell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li[3]/a[contains(@class, &apos;Anchor-c11n-8-62-4__sc-hn4bge-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page-header-container&apos;]//div[2]/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSell" Key="{38180D8B-B315-4783-A0EA-B3EB29A82746}">
+										<Image FileName="-1578427121" Left="446" Top="131" Right="472" Bottom="153" />
+										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Sell&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page-header-container&apos;]//div[2]/ul/li[3]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li[3]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageZillowHelpCenter" Key="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
@@ -825,6 +857,59 @@
 										<Value Value="https://www.zillow.com/rental-manager/*" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="navZillowRentalManager" Key="{574EAF7E-77C0-4CE9-A9D4-7EEDDE9AC030}">
+										<Image FileName="1779504090" Left="0" Top="103" Right="1903" Bottom="185" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Zillow Rental Manager&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;sc-iJKOTD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGoToZillow" Key="{05F73184-063E-46A1-917A-88AE49433278}">
+										<Image FileName="1779504090" Left="1161" Top="132" Right="1568" Bottom="156" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Go to Zillow&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;Flex-c11n-8-73-7__sc-n94bjd-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav//div[3]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGoToZillow2" Key="{32D52E2E-9CE7-493E-A52A-3AD89EDAD1BC}">
+										<Image FileName="1779504090" Left="1276" Top="132" Right="1399" Bottom="156" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Go to Zillow&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGoToZillow" Key="{8AA96672-5AC6-4607-80EA-499A744F1657}">
+										<Image FileName="1779504090" Left="1308" Top="132" Right="1399" Bottom="156" />
+										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Go to Zillow&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;Anchor-c11n-8-73-7__sc-hn4bge-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="pageWwwZillowComZPartnersAdverti" Key="{13A16910-D123-4DD7-A9FF-3893BBFD181D}">
 								<Image FileName="-293165152" Left="0" Top="103" Right="1920" Bottom="1078" />
@@ -958,6 +1043,9 @@
 						<Child Name="linkApartmentsForRent" Owner="{F0DB97E3-8985-4F1E-A44E-FCD22974EFA3}">
 							<Child Name="textnodeApartmentsForRent" Owner="{204E6B57-2EDD-4F5A-B87B-54CC86C2417F}" />
 						</Child>
+						<Child Name="linkSell" Owner="{B6A976F1-CF92-420D-8915-CC75E6BB2B7B}">
+							<Child Name="textnodeSell" Owner="{38180D8B-B315-4783-A0EA-B3EB29A82746}" />
+						</Child>
 					</Child>
 				</Child>
 				<Child Name="sectionWelcomeToZillow" Owner="{FE7A4433-0757-43B7-B50D-06F767709185}">
@@ -1000,7 +1088,15 @@
 					</Child>
 				</Child>
 			</Child>
-			<Child Name="pageWwwZillowComRentalManagerSou" Owner="{A9C4C7A8-3F2A-45B7-9EC3-24B76A80361A}" />
+			<Child Name="pageWwwZillowComRentalManagerSou" Owner="{A9C4C7A8-3F2A-45B7-9EC3-24B76A80361A}">
+				<Child Name="navZillowRentalManager" Owner="{574EAF7E-77C0-4CE9-A9D4-7EEDDE9AC030}">
+					<Child Name="textnodeGoToZillow" Owner="{05F73184-063E-46A1-917A-88AE49433278}">
+						<Child Name="textnodeGoToZillow2" Owner="{32D52E2E-9CE7-493E-A52A-3AD89EDAD1BC}">
+							<Child Name="linkGoToZillow" Owner="{8AA96672-5AC6-4607-80EA-499A744F1657}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
 			<Child Name="pageWwwZillowComZPartnersAdverti" Owner="{13A16910-D123-4DD7-A9FF-3893BBFD181D}">
 				<Child Name="headerBuy" Owner="{605345C5-A271-45E4-8A2C-917C0B8CC5BD}">
 					<Child Name="navMain" Owner="{6915445D-7E3B-49C5-8F92-9BCDFCF7F25E}">
