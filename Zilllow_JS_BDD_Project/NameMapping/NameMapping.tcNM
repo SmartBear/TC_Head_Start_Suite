@@ -552,6 +552,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel30k3" Key="{3F07759C-2545-4FE9-87DB-C7B7499CE0BD}">
+										<Image FileName="1003616789" Left="522" Top="984" Right="544" Bottom="999" />
+										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;3.0K&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageZillowHelpCenter" Key="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
@@ -964,6 +973,7 @@
 				<Child Name="panel30k" Owner="{62263C93-A7A6-4BEE-9B67-A3FC9EA60EEC}" />
 				<Child Name="panel25k" Owner="{C0BA9EDB-9B5D-4F65-90C3-7C4B780414AE}" />
 				<Child Name="panel30k2" Owner="{F18D8698-E68D-48FD-B4B8-53CE8AB17E9B}" />
+				<Child Name="panel30k3" Owner="{3F07759C-2545-4FE9-87DB-C7B7499CE0BD}" />
 			</Child>
 			<Child Name="pageZillowHelpCenter" Owner="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
 				<Child Name="headerSubmitARequest" Owner="{DD15EFB3-4BD1-4DAD-8146-1219C5E37AE1}">
