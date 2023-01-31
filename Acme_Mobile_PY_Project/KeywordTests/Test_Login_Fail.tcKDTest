@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="Test_Login_Fail - This tests that signing in with incorrect credentials returns appropriate error messages&#13;&#10;Created 12/13/2022 by KMJ&#13;&#10;" Key="{3EC1004A-E98A-43C8-9FEC-D9FB67CC22F8}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="Test_Login_Fail - This tests that signing in with incorrect credentials returns appropriate error messages&#13;&#10;Created 12/13/2022 by KMJ&#13;&#10;" Key="{3EC1004A-E98A-43C8-9FEC-D9FB67CC22F8}" Tags="@EXample" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />

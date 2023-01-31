@@ -2,6 +2,8 @@
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
+Minor change to readme file
+
 This project performs xyz
 
 ## Keyword Tests Listing
