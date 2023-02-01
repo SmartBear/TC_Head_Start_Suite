@@ -75,7 +75,7 @@
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Server URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://us-west-desktop-hub.bitbar.com/wd/hub" />
 								<Parameter Name="Tested URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://smartbear.com" />
-								<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;109&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" />
+								<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;13&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;16&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" />
 							</Parameters>
 						</Data>
 					</Operation>
