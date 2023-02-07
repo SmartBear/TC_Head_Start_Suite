@@ -133,7 +133,6 @@
 									</Child>
 									<Child Name="textnodeHelp" Key="{F11B3B4D-ECF4-4AD1-B0B8-4AD23E7A7B67}">
 										<Image FileName="1441493390" Left="1433" Top="111" Right="1496" Bottom="190" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//ul[3]/li[contains(@class, &apos;pfs__sc-585qe5-0&apos;)]" />
@@ -148,7 +147,6 @@
 									</Child>
 									<Child Name="linkHelp" Key="{C6754513-C16F-4409-BC4F-6389EFBD1605}">
 										<Image FileName="1441493390" Left="1433" Top="127" Right="1496" Bottom="174" />
-										<TypeInfo Item0="{4427CB7E-7823-47AE-AC9B-3F213838D1B3}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//ul[3]/li/a[contains(@class, &apos;Anchor-c11n-8-62-4__sc-hn4bge-0&apos;)]" />
@@ -163,7 +161,6 @@
 									</Child>
 									<Child Name="textnodeRent2" Key="{805132F2-81D0-45D8-B9CE-D5D0D8E0E66B}">
 										<Image FileName="681032657" Left="384" Top="131" Right="418" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Rent&apos;]" />
@@ -195,7 +192,6 @@
 									</Child>
 									<Child Name="textnodeBuy" Key="{5D1C176A-4704-4A48-B805-478E7B676698}">
 										<Image FileName="-1416717941" Left="328" Top="131" Right="356" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Buy&apos;]" />
@@ -227,7 +223,6 @@
 									</Child>
 									<Child Name="textnodeHomeLoans" Key="{04999736-0E31-4CBD-B682-CEE7257249F9}">
 										<Image FileName="444955988" Left="500" Top="131" Right="594" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Home Loans&apos;]" />
@@ -259,7 +254,6 @@
 									</Child>
 									<Child Name="textnodeAgentFinder" Key="{FF51D603-2772-4A34-AE25-18DAE1F9B058}">
 										<Image FileName="359678958" Left="622" Top="131" Right="714" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Agent finder&apos;]" />
@@ -291,7 +285,6 @@
 									</Child>
 									<Child Name="textnodeManageRentals" Key="{F44AEA91-A3DD-4411-8367-BE56DD29FBC7}">
 										<Image FileName="-662237929" Left="1193" Top="131" Right="1312" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Manage Rentals&apos;]" />
@@ -320,7 +313,6 @@
 									</Child>
 									<Child Name="textnodeAdvertise" Key="{314E116F-8524-4E73-B76F-E4E428AFB630}">
 										<Image FileName="1705377039" Left="1340" Top="131" Right="1410" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Advertise&apos;]" />
@@ -335,7 +327,6 @@
 									</Child>
 									<Child Name="textnodeHelp2" Key="{19576A97-1D68-45B7-9D9B-D7FF1D37C327}">
 										<Image FileName="-2004209690" Left="1439" Top="131" Right="1474" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Help&apos;]" />
@@ -364,7 +355,6 @@
 									</Child>
 									<Child Name="textnodeSignIn" Key="{AFE063BE-6B49-4B66-8C92-5B4F5F071C8A}">
 										<Image FileName="1119440661" Left="1504" Top="131" Right="1553" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[@id=&apos;page-header-container&apos;]//ul[4]/li/a/span" />
@@ -390,7 +380,6 @@
 									</Child>
 									<Child Name="buttonClose" Key="{70BE6AE7-87A0-4562-8529-1145209FC9D4}">
 										<Image FileName="194283659" Left="1136" Top="260" Right="1176" Bottom="300" />
-										<TypeInfo Item0="{1318BFAA-6C79-46B6-B723-0637D9F6D709}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//button[contains(., &apos;Close&apos;)]" />
@@ -416,7 +405,6 @@
 									</Child>
 									<Child Name="textnodeApartmentsForRent" Key="{204E6B57-2EDD-4F5A-B87B-54CC86C2417F}">
 										<Image FileName="-382639294" Left="336" Top="288" Right="466" Bottom="328" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Apartments for rent&apos;]" />
@@ -428,7 +416,6 @@
 									</Child>
 									<Child Name="textnodeFindItTourItOwnIt" Key="{887D1B6A-0A15-466F-89CD-8EEAF21D73D7}">
 										<Image FileName="-1955703817" Left="685" Top="262" Right="1235" Bottom="302" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Find it. Tour it. Own it.&apos;]" />
@@ -437,7 +424,6 @@
 									</Child>
 									<Child Name="formSubmitSearch" Key="{447AA14A-DC14-4483-945F-1E84A0021667}">
 										<Image FileName="-87284786" Left="20" Top="199" Right="320" Bottom="237" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//form[contains(., &apos;Submit Search&apos;)]" />
@@ -455,7 +441,6 @@
 									</Child>
 									<Child Name="textboxSubmitSearch" Key="{0A45B129-CA18-4AD1-9E19-D2453E6C73BB}">
 										<Image FileName="-87284786" Left="20" Top="199" Right="270" Bottom="237" />
-										<TypeInfo Item0="{B44E2957-536B-4672-B485-67A407B8A9B1}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Submit SearchSearchA magnifying glass&apos;]/@for)]" />
@@ -473,7 +458,6 @@
 									</Child>
 									<Child Name="buttonZoomIn" Key="{A506D719-6F39-4DBA-9194-1B9B0BF4DB77}">
 										<Image FileName="-1346217212" Left="1110" Top="966" Right="1154" Bottom="1010" />
-										<TypeInfo Item0="{7F56DA3D-03CE-4880-BC8B-9C2898D1FCC8}" />
 										<Selectors>
 											<Selector>
 												<Value Value="[data-test=&apos;zoom-in&apos;]" />
@@ -491,7 +475,6 @@
 									</Child>
 									<Child Name="textnode4143TrullSt2" Key="{C33B3B5A-54F0-4BC0-BB63-DD1B59035A6E}">
 										<Image FileName="-1440948313" Left="1100" Top="235" Right="1568" Bottom="259" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[text()=&apos;41-43 Trull St, # 2,&apos;]" />
@@ -509,7 +492,6 @@
 									</Child>
 									<Child Name="buttonClose2" Key="{5956C8DC-42B8-44BD-B118-C8088A80AACC}">
 										<Image FileName="1192249292" Left="1600" Top="119" Right="1624" Bottom="149" />
-										<TypeInfo Item0="{1318BFAA-6C79-46B6-B723-0637D9F6D709}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//button[@aria-label=&apos;close&apos;]" />
@@ -527,7 +509,6 @@
 									</Child>
 									<Child Name="panel30k" Key="{62263C93-A7A6-4BEE-9B67-A3FC9EA60EEC}">
 										<Image FileName="-774090390" Left="567" Top="740" Right="589" Bottom="755" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[@id=&apos;search-page-map&apos;]//div[@role=&apos;region&apos;]/div[2]//div[3]/div[2]//div[81]/div" />
@@ -536,7 +517,6 @@
 									</Child>
 									<Child Name="panel25k" Key="{C0BA9EDB-9B5D-4F65-90C3-7C4B780414AE}">
 										<Image FileName="1724579393" Left="867" Top="516" Right="889" Bottom="531" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[@id=&apos;search-page-map&apos;]//div[@role=&apos;region&apos;]/div[2]//div[3]/div[2]//div[100]/div" />
@@ -545,7 +525,6 @@
 									</Child>
 									<Child Name="panel30k2" Key="{F18D8698-E68D-48FD-B4B8-53CE8AB17E9B}">
 										<Image FileName="-1977791523" Left="560" Top="739" Right="596" Bottom="757" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[@id=&apos;search-page-map-container&apos;]/div[@id=&apos;search-page-map&apos;]//div[@role=&apos;region&apos;]/div[2]//div[3]/div[2]//div[81]" />
@@ -554,7 +533,6 @@
 									</Child>
 									<Child Name="panel30k3" Key="{3F07759C-2545-4FE9-87DB-C7B7499CE0BD}">
 										<Image FileName="1003616789" Left="522" Top="984" Right="544" Bottom="999" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[text()=&apos;3.0K&apos;]" />
@@ -580,7 +558,6 @@
 									</Child>
 									<Child Name="textnodeSell" Key="{38180D8B-B315-4783-A0EA-B3EB29A82746}">
 										<Image FileName="-1578427121" Left="446" Top="131" Right="472" Bottom="153" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[text()=&apos;Sell&apos;]" />
@@ -597,7 +574,6 @@
 							</Child>
 							<Child Name="pageZillowHelpCenter" Key="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
 								<Image FileName="1270051983" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{72DFE11E-ECD5-4F89-B171-C5715B4E126C}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -609,7 +585,6 @@
 								<Children>
 									<Child Name="headerSubmitARequest" Key="{DD15EFB3-4BD1-4DAD-8146-1219C5E37AE1}">
 										<Image FileName="1270051983" Left="380" Top="111" Right="1540" Bottom="182" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="header[contains(., &apos;Submit a request&apos;)]" />
@@ -624,7 +599,6 @@
 									</Child>
 									<Child Name="imageZillowHelpCenterHelpCenter" Key="{35C3FDC2-B9DB-4E44-96E5-1047E9643197}">
 										<Image FileName="1270051983" Left="380" Top="125" Right="557" Bottom="162" />
-										<TypeInfo Item0="{C86AB38F-9E21-44E6-B471-F22677560BC2}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[contains(@src, &apos;theme_assets&apos;)]" />
@@ -672,7 +646,6 @@
 									</Child>
 									<Child Name="buttonForSale" Key="{19EDEAF4-1E80-4C31-A294-20FDAEF4AD4D}">
 										<Image FileName="249960222" Left="324" Top="192" Right="430" Bottom="229" />
-										<TypeInfo Item0="{1318BFAA-6C79-46B6-B723-0637D9F6D709}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//button[contains(., &apos;For Sale&apos;)]" />
@@ -724,7 +697,6 @@
 									</Child>
 									<Child Name="buttonApply" Key="{99308098-7274-40E0-B54D-1D2DE0D08789}">
 										<Image FileName="5497317" Left="340" Top="426" Right="600" Bottom="470" />
-										<TypeInfo Item0="{1318BFAA-6C79-46B6-B723-0637D9F6D709}" />
 										<Selectors>
 											<Selector>
 												<Value Value="[data-test=&apos;close-filters-button&apos;]" />
@@ -762,7 +734,6 @@
 									</Child>
 									<Child Name="textboxSubmitSearch" Key="{39C79005-EFB7-43F5-88C4-5BFF2CEEBFC5}">
 										<Image FileName="-952793742" Left="12" Top="191" Right="262" Bottom="229" />
-										<TypeInfo Item0="{D7157587-D36A-4AA9-897B-FBAD733B77A8}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Submit SearchSearchA magnifying glass&apos;]/@for)]" />
@@ -834,7 +805,6 @@
 									</Child>
 									<Child Name="imageZillowLogo" Key="{11E61C37-C48B-4094-B622-A9B52D713886}">
 										<Image FileName="690665255" Left="876" Top="127" Right="1036" Bottom="162" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[@id=&apos;pfs-nav-wrapper&apos;]//header/nav//a/img[contains(@src, &apos;z-logo-default.svg&apos;)]" />
@@ -848,7 +818,6 @@
 							</Child>
 							<Child Name="pageWwwZillowComRentalManagerSou" Key="{A9C4C7A8-3F2A-45B7-9EC3-24B76A80361A}">
 								<Image FileName="-293165152" Left="0" Top="103" Right="1920" Bottom="1078" />
-								<TypeInfo Item0="{F95EBCD1-587E-4A38-BDF9-0630510CF390}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -896,7 +865,6 @@
 									</Child>
 									<Child Name="linkGoToZillow" Key="{8AA96672-5AC6-4607-80EA-499A744F1657}">
 										<Image FileName="1779504090" Left="1308" Top="132" Right="1399" Bottom="156" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[.=&apos;Go to Zillow&apos;]" />
@@ -913,7 +881,6 @@
 							</Child>
 							<Child Name="pageWwwZillowComZPartnersAdverti" Key="{13A16910-D123-4DD7-A9FF-3893BBFD181D}">
 								<Image FileName="-293165152" Left="0" Top="103" Right="1920" Bottom="1078" />
-								<TypeInfo Item0="{F95EBCD1-587E-4A38-BDF9-0630510CF390}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -979,7 +946,6 @@
 									</Child>
 									<Child Name="imageZillowLogo" Key="{BA4678D6-D93C-4B6E-968C-82B9112BED87}">
 										<Image FileName="1861125945" Left="872" Top="127" Right="1032" Bottom="162" />
-										<TypeInfo Item0="{3D8DE48D-29CA-4936-9380-5D3623B66D04}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header/nav//a/img[@type=&apos;image/svg+xml&apos;]" />
@@ -992,6 +958,89 @@
 											</Selector>
 											<Selector>
 												<Value Value="//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShop" Key="{63B914F5-ED28-4907-8622-6D6FA6488165}">
+								<Image FileName="-321777836" Left="8" Top="111" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{A46CE5C8-F7E7-4F6B-A78B-50816E3E6ECA}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{1EB96EC8-3166-43D9-9F57-17DA5BFD316C}">
+										<Image FileName="-321777836" Left="8" Top="111" Right="1911" Bottom="290" />
+										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{C8A85B37-6BCC-4C4A-B9A0-CEE25B982970}">
+										<Image FileName="-321777836" Left="397" Top="179" Right="659" Bottom="226" />
+										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;shop-logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContent" Key="{6A6A4BC7-BC2C-4F9F-9665-56B5129682C8}">
+										<Image FileName="361981966" Left="390" Top="-972" Right="1530" Bottom="1199" />
+										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWelcomeToOurStore" Key="{7DA90876-E655-478D-8E03-4194C6CC4442}">
+										<Image FileName="361981966" Left="405" Top="-972" Right="1515" Bottom="-934" />
+										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Welcome to our store.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1104,6 +1153,14 @@
 							<Child Name="imageZillowLogo" Owner="{BA4678D6-D93C-4B6E-968C-82B9112BED87}" />
 						</Child>
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageShop" Owner="{63B914F5-ED28-4907-8622-6D6FA6488165}">
+				<Child Name="header" Owner="{1EB96EC8-3166-43D9-9F57-17DA5BFD316C}">
+					<Child Name="panel" Owner="{C8A85B37-6BCC-4C4A-B9A0-CEE25B982970}" />
+				</Child>
+				<Child Name="sectionContent" Owner="{6A6A4BC7-BC2C-4F9F-9665-56B5129682C8}">
+					<Child Name="textnodeWelcomeToOurStore" Owner="{7DA90876-E655-478D-8E03-4194C6CC4442}" />
 				</Child>
 			</Child>
 		</Child>
