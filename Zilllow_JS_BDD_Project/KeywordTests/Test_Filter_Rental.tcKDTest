@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="Test_Filter_Rental&#13;&#10;Opens Zillow website in Edge Incognito and then filters rentals by selected criteria" Key="{6CE943C6-AF4A-42D6-947E-AD4A399FC1EC}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="Test_Filter_Rental&#13;&#10;Opens Zillow website in Edge Incognito and then filters rentals by selected criteria" Key="{6CE943C6-AF4A-42D6-947E-AD4A399FC1EC}" Tags="@Debug @Seed" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
