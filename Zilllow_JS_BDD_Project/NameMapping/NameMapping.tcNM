@@ -477,10 +477,10 @@
 										<Image FileName="-1440948313" Left="1100" Top="235" Right="1568" Bottom="259" />
 										<Selectors>
 											<Selector>
-												<Value Value="//h1[text()=&apos;41-43 Trull St, # 2,&apos;]" />
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]//h1[contains(@class, &apos;Text-c11n-8-73-0__sc-aiai24-0&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]//h1[contains(@class, &apos;Text-c11n-8-73-0__sc-aiai24-0&apos;)]" />
+												<Value Value="//h1[text()=&apos;41-43 Trull St, # 2,&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;ds-container&apos;]//div[2]/div/div/h1" />
@@ -567,6 +567,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[2]/ul/li[3]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3000" Key="{33B25957-33AD-4055-A0D4-BC071FE21828}">
+										<Image FileName="1443267124" Left="1108" Top="195" Right="1253" Bottom="235" />
+										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;$3,000&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]//span[contains(@class, &apos;dpf__sc-1me8eh6-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]/div/div/div/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -963,89 +978,6 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="pageShop" Key="{63B914F5-ED28-4907-8622-6D6FA6488165}">
-								<Image FileName="-321777836" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{A46CE5C8-F7E7-4F6B-A78B-50816E3E6ECA}" />
-								<Properties>
-									<Property Name="ObjectType">
-										<Value Value="Page" />
-									</Property>
-									<Property Name="URL">
-										<Value Value="https://bearstore-testsite.smartbear.com/" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="header" Key="{1EB96EC8-3166-43D9-9F57-17DA5BFD316C}">
-										<Image FileName="-321777836" Left="8" Top="111" Right="1911" Bottom="290" />
-										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
-										<Selectors>
-											<Selector>
-												<Value Value="#header" />
-											</Selector>
-											<Selector>
-												<Value Value="//header[contains(., &apos;USD&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//header" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="panel" Key="{C8A85B37-6BCC-4C4A-B9A0-CEE25B982970}">
-										<Image FileName="-321777836" Left="397" Top="179" Right="659" Bottom="226" />
-										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//div[contains(@class, &apos;shop-logo&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//div/div/div/div/div" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="sectionContent" Key="{6A6A4BC7-BC2C-4F9F-9665-56B5129682C8}">
-										<Image FileName="361981966" Left="390" Top="-972" Right="1530" Bottom="1199" />
-										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
-										<Selectors>
-											<Selector>
-												<Value Value="#content" />
-											</Selector>
-											<Selector>
-												<Value Value="//section[contains(., &apos;Welcome to our store.&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
-											</Selector>
-											<Selector>
-												<Value Value="//section" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="textnodeWelcomeToOurStore" Key="{7DA90876-E655-478D-8E03-4194C6CC4442}">
-										<Image FileName="361981966" Left="405" Top="-972" Right="1515" Bottom="-934" />
-										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//h1[.=&apos;Welcome to our store.&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
-											</Selector>
-											<Selector>
-												<Value Value="//h1" />
-											</Selector>
-										</Selectors>
-									</Child>
-								</Children>
-							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -1111,6 +1043,7 @@
 				<Child Name="panel25k" Owner="{C0BA9EDB-9B5D-4F65-90C3-7C4B780414AE}" />
 				<Child Name="panel30k2" Owner="{F18D8698-E68D-48FD-B4B8-53CE8AB17E9B}" />
 				<Child Name="panel30k3" Owner="{3F07759C-2545-4FE9-87DB-C7B7499CE0BD}" />
+				<Child Name="textnode3000" Owner="{33B25957-33AD-4055-A0D4-BC071FE21828}" />
 			</Child>
 			<Child Name="pageZillowHelpCenter" Owner="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
 				<Child Name="headerSubmitARequest" Owner="{DD15EFB3-4BD1-4DAD-8146-1219C5E37AE1}">
@@ -1153,14 +1086,6 @@
 							<Child Name="imageZillowLogo" Owner="{BA4678D6-D93C-4B6E-968C-82B9112BED87}" />
 						</Child>
 					</Child>
-				</Child>
-			</Child>
-			<Child Name="pageShop" Owner="{63B914F5-ED28-4907-8622-6D6FA6488165}">
-				<Child Name="header" Owner="{1EB96EC8-3166-43D9-9F57-17DA5BFD316C}">
-					<Child Name="panel" Owner="{C8A85B37-6BCC-4C4A-B9A0-CEE25B982970}" />
-				</Child>
-				<Child Name="sectionContent" Owner="{6A6A4BC7-BC2C-4F9F-9665-56B5129682C8}">
-					<Child Name="textnodeWelcomeToOurStore" Owner="{7DA90876-E655-478D-8E03-4194C6CC4442}" />
 				</Child>
 			</Child>
 		</Child>
