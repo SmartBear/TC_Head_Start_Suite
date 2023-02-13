@@ -892,6 +892,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonClose" Key="{2B3235CF-05B1-4638-8AD7-3C61523FAC04}">
+										<Image FileName="469809486" Left="1272" Top="291" Right="1316" Bottom="335" />
+										<TypeInfo Item0="{A4026A23-70C7-4F05-BAEE-D3E8A27FABE3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#close-pc-btn-handler" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;Close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ot-close-icon&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{F535BF43-4260-4C7C-A4A1-6131C4C6130B}">
+										<Image FileName="-860294444" Left="0" Top="-4248" Right="1903" Bottom="1078" />
+										<TypeInfo Item0="{970C835C-FC75-487E-BB2B-1A1EF646ABC3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Get customized tips to help your listing appeal to renters.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageWwwZillowComZPartnersAdverti" Key="{13A16910-D123-4DD7-A9FF-3893BBFD181D}">
@@ -1078,6 +1105,8 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="buttonClose" Owner="{2B3235CF-05B1-4638-8AD7-3C61523FAC04}" />
+				<Child Name="textnode" Owner="{F535BF43-4260-4C7C-A4A1-6131C4C6130B}" />
 			</Child>
 			<Child Name="pageWwwZillowComZPartnersAdverti" Owner="{13A16910-D123-4DD7-A9FF-3893BBFD181D}">
 				<Child Name="headerBuy" Owner="{605345C5-A271-45E4-8A2C-917C0B8CC5BD}">
