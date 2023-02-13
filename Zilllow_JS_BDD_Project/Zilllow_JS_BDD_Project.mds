@@ -29,7 +29,7 @@
 			<testItem name="Zillow_Tests" key="{E8CB5D67-EA49-4DE6-B37C-9460E4E5E8DB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Create_Data_File" key="{B0A9830D-87C8-4AAD-9632-1438161C0061}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AD599115-F4B6-4B58-AB9A-C521F1005E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Create_Data_File" key="{B0A9830D-87C8-4AAD-9632-1438161C0061}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AD599115-F4B6-4B58-AB9A-C521F1005E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -96,6 +96,9 @@
 				</Variable>
 				<Variable Name="Password2" Type="Password" Local="False">
 					<DefValue StrValue="3800390036003100360033004400310046003400440038004600330046003300380043003900460041003700390033003300410046003800430042003100390042003900450044004400330039003700" />
+				</Variable>
+				<Variable Name="Var1" Type="String" Local="False">
+					<DefValue />
 				</Variable>
 			</Items>
 		</data>

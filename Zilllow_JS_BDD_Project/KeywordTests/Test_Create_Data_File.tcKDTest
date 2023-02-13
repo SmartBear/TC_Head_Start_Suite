@@ -63,9 +63,6 @@
 						<Data Description="Runs a keyword test." TestName="Mod_Open_Zillow_Website" />
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Filter_Rental_SomervilleMA" />
-					</Operation>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Mod_Create_and_Populate_Data_File" />
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
