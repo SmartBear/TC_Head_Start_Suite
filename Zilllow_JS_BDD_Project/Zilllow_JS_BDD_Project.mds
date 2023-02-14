@@ -26,6 +26,36 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Browser_Utilities" key="{5AB56D71-691C-4B5C-ACC9-DC557A589F67}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Close_Browser" key="{4CE85B13-831B-41C3-A592-E5E384647F76}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EC74CFCB-60F0-436A-B39C-1E508A930F51}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Close_Chrome" key="{09136D95-75C9-4F3D-B9BA-1786F61C4EB1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C3B9EFB7-BE66-4F6E-965B-7A2CD73E8029}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Close_Edge" key="{A39E3573-9284-4DCC-988D-D692DAC888DF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{923E5719-9280-4C6F-B124-417203AC5EC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Close_Firefox" key="{02966E08-F039-4404-A844-0B2194BD14D0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DD2ADF5-24C7-4076-B81B-D0D0F7A8F7A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Close_Open_Browsers" key="{195F87DC-887F-4C09-AC29-EDF7EC3D508B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5D03727A-741A-41FF-B8B4-7B3039CA3D01}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 			<testItem name="Zillow_Tests" key="{E8CB5D67-EA49-4DE6-B37C-9460E4E5E8DB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
