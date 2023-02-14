@@ -882,13 +882,13 @@
 										<Image FileName="1779504090" Left="1308" Top="132" Right="1399" Bottom="156" />
 										<Selectors>
 											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+											<Selector>
 												<Value Value="//a[.=&apos;Go to Zillow&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//li/a[contains(@class, &apos;Anchor-c11n-8-73-7__sc-hn4bge-0&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//li/a" />
 											</Selector>
 										</Selectors>
 									</Child>

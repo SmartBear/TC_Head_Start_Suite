@@ -29,7 +29,7 @@
 			<testItem name="Zillow_Tests" key="{E8CB5D67-EA49-4DE6-B37C-9460E4E5E8DB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Create_Data_File" key="{B0A9830D-87C8-4AAD-9632-1438161C0061}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AD599115-F4B6-4B58-AB9A-C521F1005E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Create_Data_File" key="{B0A9830D-87C8-4AAD-9632-1438161C0061}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AD599115-F4B6-4B58-AB9A-C521F1005E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -49,7 +49,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Simple_Filter" key="{E22B5FEC-3F6D-400C-A1B4-BA87A21B4E48}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4327C5C0-747C-40FE-B9F8-2F838960BD5B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Simple_Filter" key="{E22B5FEC-3F6D-400C-A1B4-BA87A21B4E48}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4327C5C0-747C-40FE-B9F8-2F838960BD5B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />

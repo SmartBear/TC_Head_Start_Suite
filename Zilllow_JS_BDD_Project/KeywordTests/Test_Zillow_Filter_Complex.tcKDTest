@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="Test_Zillow_Filter_Complex" Key="{E374D93E-2CC5-4B34-B4EA-9355C9677BC7}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="Test_Zillow_Filter_Complex" Key="{E374D93E-2CC5-4B34-B4EA-9355C9677BC7}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
