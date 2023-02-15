@@ -59,7 +59,17 @@
 			<testItem name="Zillow_Tests" key="{E8CB5D67-EA49-4DE6-B37C-9460E4E5E8DB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
+					<testItem name="Test_Bitbar_Sample" key="{6D8D9C79-CD7B-427C-AD79-ED9C9DCFFAD1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{742B5005-45BB-404A-8382-9916D9608468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 					<testItem name="Test_Create_Data_File" key="{B0A9830D-87C8-4AAD-9632-1438161C0061}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AD599115-F4B6-4B58-AB9A-C521F1005E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Data_Driven_Sample" key="{FE579918-5F38-4D12-BDBA-CB94C3BA9E2C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{41729E39-A51A-4B22-AD65-C30903662DF8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -79,17 +89,12 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Simple_Filter" key="{E22B5FEC-3F6D-400C-A1B4-BA87A21B4E48}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4327C5C0-747C-40FE-B9F8-2F838960BD5B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Simple_Filter" key="{E22B5FEC-3F6D-400C-A1B4-BA87A21B4E48}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4327C5C0-747C-40FE-B9F8-2F838960BD5B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Zillow_Filter_Complex" key="{FB9A88D1-89F6-4E2D-8F5B-634BC3C2CA3E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{373B194D-7817-4CFE-996A-C79CE81BCC94}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_Bitbar_Sample" key="{6D8D9C79-CD7B-427C-AD79-ED9C9DCFFAD1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{742B5005-45BB-404A-8382-9916D9608468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />

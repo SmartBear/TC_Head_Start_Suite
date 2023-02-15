@@ -585,6 +585,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelDenverCoRealEstateHomes" Key="{A2AB273D-A1AF-42B3-B939-3979AC5444B9}">
+										<Image FileName="501913650" Left="1178" Top="246" Right="1911" Bottom="371" />
+										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;search-page-list-header&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel9" Key="{ACA4C53E-6E51-4793-A174-8CFFDC8EF21C}">
+										<Image FileName="-569527853" Left="8" Top="246" Right="1178" Bottom="1086" />
+										<TypeInfo Item0="{160C885B-85BA-40D2-98BA-B683A87EEC5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-page-map-container&apos;]/div[@id=&apos;search-page-map&apos;]//div[@role=&apos;region&apos;]/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageZillowHelpCenter" Key="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
@@ -1007,6 +1025,75 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="OUTLOOK" Key="{7615328F-4CC0-45CB-8A11-88087CFD2FB0}">
+						<TypeInfo Item0="{13354A91-CA62-4F4A-807B-52A2972B0935}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OUTLOOK" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndrctrl_renwnd32" Key="{875FED1E-1DB7-46EF-BFA2-4383ECE92B9A}">
+								<Image FileName="390380532" Left="0" Top="0" Right="1936" Bottom="1096" />
+								<TypeInfo Item0="{D19C9F6E-32E9-4E0A-8C9B-CD575B125EB6}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Outlook Today - Outlook" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ShellEmbedding" Key="{7014566B-1614-4E54-A742-AF92C886FE4B}">
+										<Image FileName="390380532" Left="352" Top="169" Right="1928" Bottom="1065" />
+										<TypeInfo Item0="{B4C7603E-73F8-45AE-8079-DCEBA1DE91F7}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Shell Embedding" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ShellDocObjectView" Key="{AC43C813-DA8B-40EE-ADD6-D6A9B7CE1856}">
+												<Image FileName="390380532" Left="352" Top="169" Right="1928" Bottom="1065" />
+												<TypeInfo Item0="{B4C7603E-73F8-45AE-8079-DCEBA1DE91F7}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Shell DocObject View" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="browser" Key="{3067F8B8-DC00-41AA-A5F9-17BCB42EA074}">
+														<Image FileName="390380532" Left="352" Top="169" Right="1928" Bottom="1065" />
+														<TypeInfo Item0="{0FC0D631-28DE-4156-B55B-5FF1BC707199}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Internet Explorer_Server" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="pageOutlookToday" Key="{97387238-EB95-4B9D-8D61-8BF5FA66B941}">
+																<Image FileName="390380532" Left="352" Top="169" Right="1928" Bottom="1065" />
+																<TypeInfo Item0="{1F03C309-534B-49BC-BBFE-1302985170A8}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Page" />
+																	</Property>
+																	<Property Name="URL">
+																		<Value Value="outlook:0000000038A1BB1005E5101AA1BB08002B2A56C20000454D534D44422E444C4C00000000000000001B55FA20AA6611CD9BC800AA002FC45A0C0000006B6576696E2E6A6F686E736F6E40736D617274626561722E636F6D002F6F3D45786368616E67654C6162732F6F753D45786368616E67652041646D696E6973747261746976652047726F7570202846594449424F484632335350444C54292F636E3D526563697069656E74732F636E3D65633466313239396163653434306262396338366435363534653264303736372D4B6576696E204A6F686E7300E94632F44A00000002000000100000006B006500760069006E002E006A006F0068006E0073006F006E00400073006D0061007200740062006500610072002E0063006F006D0000000000" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -1071,6 +1158,8 @@
 				<Child Name="panel30k2" Owner="{F18D8698-E68D-48FD-B4B8-53CE8AB17E9B}" />
 				<Child Name="panel30k3" Owner="{3F07759C-2545-4FE9-87DB-C7B7499CE0BD}" />
 				<Child Name="textnode3000" Owner="{33B25957-33AD-4055-A0D4-BC071FE21828}" />
+				<Child Name="panelDenverCoRealEstateHomes" Owner="{A2AB273D-A1AF-42B3-B939-3979AC5444B9}" />
+				<Child Name="panel9" Owner="{ACA4C53E-6E51-4793-A174-8CFFDC8EF21C}" />
 			</Child>
 			<Child Name="pageZillowHelpCenter" Owner="{9494E04D-38B3-43BA-A6DC-1E05CD6583F4}">
 				<Child Name="headerSubmitARequest" Owner="{DD15EFB3-4BD1-4DAD-8146-1219C5E37AE1}">
@@ -1113,6 +1202,17 @@
 					<Child Name="navMain" Owner="{6915445D-7E3B-49C5-8F92-9BCDFCF7F25E}">
 						<Child Name="linkZillowRealEstate" Owner="{C6CCC8BF-6FC6-4A38-95F8-6E773871168B}">
 							<Child Name="imageZillowLogo" Owner="{BA4678D6-D93C-4B6E-968C-82B9112BED87}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="OUTLOOK" Owner="{7615328F-4CC0-45CB-8A11-88087CFD2FB0}">
+			<Child Name="wndrctrl_renwnd32" Owner="{875FED1E-1DB7-46EF-BFA2-4383ECE92B9A}">
+				<Child Name="ShellEmbedding" Owner="{7014566B-1614-4E54-A742-AF92C886FE4B}">
+					<Child Name="ShellDocObjectView" Owner="{AC43C813-DA8B-40EE-ADD6-D6A9B7CE1856}">
+						<Child Name="browser" Owner="{3067F8B8-DC00-41AA-A5F9-17BCB42EA074}">
+							<Child Name="pageOutlookToday" Owner="{97387238-EB95-4B9D-8D61-8BF5FA66B941}" />
 						</Child>
 					</Child>
 				</Child>
