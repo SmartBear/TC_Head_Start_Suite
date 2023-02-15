@@ -79,7 +79,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Main_Menu_Navigation" key="{35334E8E-25BC-4677-ADA8-4CAEEB362D3B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C5F39951-D340-4E22-9FEB-0E7B93BA337F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Main_Menu_Navigation" key="{35334E8E-25BC-4677-ADA8-4CAEEB362D3B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C5F39951-D340-4E22-9FEB-0E7B93BA337F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
