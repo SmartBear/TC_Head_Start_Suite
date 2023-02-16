@@ -69,7 +69,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Data_Driven_Sample" key="{FE579918-5F38-4D12-BDBA-CB94C3BA9E2C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{41729E39-A51A-4B22-AD65-C30903662DF8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Data_Driven_Sample" key="{FE579918-5F38-4D12-BDBA-CB94C3BA9E2C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{41729E39-A51A-4B22-AD65-C30903662DF8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />

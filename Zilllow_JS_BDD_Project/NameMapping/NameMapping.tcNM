@@ -769,13 +769,13 @@
 										<Image FileName="-952793742" Left="12" Top="191" Right="262" Bottom="229" />
 										<Selectors>
 											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Submit SearchSearchA magnifying glass&apos;]/@for)]" />
 											</Selector>
 											<Selector>
 												<Value Value="#__c11n_3di152lf" />
-											</Selector>
-											<Selector>
-												<Value Value="//input[@type=&apos;text&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//section//form//input" />
