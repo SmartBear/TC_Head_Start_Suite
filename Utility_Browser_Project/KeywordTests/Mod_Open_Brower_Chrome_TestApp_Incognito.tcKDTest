@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{4AAA913B-059C-49C9-8063-760B826E1419}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{CD65BB59-6FFC-4DEC-922F-FB2F39D95937}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -10,14 +10,14 @@
 			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 				<Data Description="Replaces the current indicator text with the specified one.">
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Open_Brower_Edge_Code_Snippet_In_Private" />
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Open_Brower_Chrome_TestApp_Incognito" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Open_Brower_Edge_Code_Snippet_In_Private" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Open_Brower_Chrome_TestApp_Incognito" />
 						<Parameter Name="Details" DefVarType="12" VarType="257" ValueType="0" ValueValue="0" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
@@ -34,10 +34,16 @@
 				</Data>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Mod_Open_Brower_Edge_Code_Snippet_In_Private" />
+				<Data GroupName="Mod_Open_Brower_Chrome_TestApp_Incognito" />
 				<Children>
-					<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
-						<Data Description="Executes the specified code snippet." LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" CodeExpression="TestedApps.MSEdge.Run()" />
+					<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+						<Data Description="Runs the &quot;chrome&quot; tested application." TestedApp="Chrome">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+								<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Maximizes the specified Window object." Action="Maximize">
@@ -45,32 +51,26 @@
 						</Data>
 					</Operation>
 					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
-						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="edge">
+						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 								<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
 								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
 						</Data>
 					</Operation>
-					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop2.header.link.imageCompanyLogoPng" />
-								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="title" />
-								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="SmartStore" />
-								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 							</Parameters>
 						</Data>
 					</Operation>
-					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
+						<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser" />
-								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="CommandLine" />
-								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="-inprivate" />
-								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+								<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.BrowserWindow" />
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="*Incognito*" />
 							</Parameters>
 						</Data>
 					</Operation>
@@ -104,5 +104,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{A72973D5-339A-4500-B510-3CD5B1F4260F}" />
+	<Parameters Key="{ADDF0045-1CDF-42E7-A753-1C3BD9F877A8}" />
 </Root>

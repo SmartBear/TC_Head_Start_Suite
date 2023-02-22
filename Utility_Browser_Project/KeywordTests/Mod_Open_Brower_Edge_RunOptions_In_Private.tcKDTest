@@ -52,6 +52,11 @@
 							</Parameters>
 						</Data>
 					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Maximizes the specified Window object." Action="Maximize">
+							<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
+						</Data>
+					</Operation>
 					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">

@@ -17,6 +17,9 @@
 			<child name="Mod_Open_Brower_Firefox_RunOptions_Private" key="{6925592E-BC0B-44A6-BB21-485BECCE76EA}" path="Mod_Open_Brower_Firefox_RunOptions_Private.tcKDTest" />
 			<child name="Test_Open_Close_Brower_Incognito" key="{7968D940-9AD8-4FF2-A4FF-709FB7A15534}" path="Test_Open_Close_Brower_Incognito.tcKDTest" />
 			<child name="Mod_Close_Browser" key="{3B2C69E2-B0FD-407E-84F0-98B419CDE66F}" path="Mod_Close_Browser.tcKDTest" />
+			<child name="Mod_Open_Brower_Chrome_TestApp_Incognito" key="{42887E7F-F6C3-493C-BE8C-5CA85AD526EE}" path="Mod_Open_Brower_Chrome_TestApp_Incognito.tcKDTest" />
+			<child name="Mod_Open_Brower_Edge_TestApp_In_Private" key="{34CACE8B-53F3-4B4D-9FF2-E62D313B3129}" path="Mod_Open_Brower_Edge_TestApp_In_Private.tcKDTest" />
+			<child name="Mod_Open_Brower_FireFox_TestApp_Private" key="{8187AC0E-8E4C-4751-AC0B-8BC16E135F28}" path="Mod_Open_Brower_FireFox_TestApp_Private.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />
