@@ -68,7 +68,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Open_Close_Brower_Incognito" key="{637FE636-F780-451F-B819-D77FBDDF806D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7968D940-9AD8-4FF2-A4FF-709FB7A15534}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Open_Close_Brower_Incognito" key="{637FE636-F780-451F-B819-D77FBDDF806D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7968D940-9AD8-4FF2-A4FF-709FB7A15534}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />

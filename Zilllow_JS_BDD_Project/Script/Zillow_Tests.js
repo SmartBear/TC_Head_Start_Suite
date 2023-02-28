@@ -24,4 +24,6 @@ Then("Click on bubble", function (){
 });
 
 Then("Close Edge", function (){
+   //Runs a keyword test.
+  KeywordTests.Mod_Close_Browser.Run();
 });

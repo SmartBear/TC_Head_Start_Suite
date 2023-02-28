@@ -7,5 +7,6 @@
 			<child name="Excel_Utilities" key="{B3B8D27A-EA72-48C1-8FC4-004D6C346CF0}" path="Excel_Utilities.js" />
 			<child name="Zillow_Tests" key="{C6ADDFAC-CD4F-43D1-88D5-EAB36594C0B3}" path="Zillow_Tests.js" />
 		</folder>
+		<child name="Test_Scripts" key="{D47E3C59-DCFC-4553-9D5F-019FCF535A2D}" path="Test_Scripts.js" />
 	</children>
 </Root>
