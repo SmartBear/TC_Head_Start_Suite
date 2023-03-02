@@ -139,23 +139,6 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeWelcomeToOurStore" Key="{FCF5B333-291A-4116-8561-6084CCFB7493}">
-										<Image FileName="-702387178" Left="405" Top="-1651" Right="1515" Bottom="-1613" />
-										<Selectors>
-											<Selector>
-												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
-											</Selector>
-											<Selector>
-												<Value Value="//h1" />
-											</Selector>
-										</Selectors>
-									</Child>
 									<Child Name="linkLogIn" Key="{C561B009-DDEC-49D3-9F32-11332EB77DCF}">
 										<Image FileName="1312481582" Left="1420" Top="103" Right="1507" Bottom="155" />
 										<Selectors>
@@ -254,6 +237,42 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWelcomeToOurStore" Key="{1978CB78-3B3A-419A-98F9-FC838AFC7F0A}">
+										<Image FileName="2074497401" Left="405" Top="314" Right="1515" Bottom="352" />
+										<TypeInfo Item0="{A8B3A26C-45B6-4F17-B785-F03053B052FD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Welcome to our store.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFeaturedProducts" Key="{3716DEE5-CA2D-4B1F-B190-078F304675B1}">
+										<Image FileName="1792337659" Left="782" Top="919" Right="1136" Bottom="967" />
+										<TypeInfo Item0="{A8B3A26C-45B6-4F17-B785-F03053B052FD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Featured products&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div[3]//h3[contains(@class, &apos;heading-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/h3" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1098,43 +1117,6 @@
 							</Child>
 						</Children>
 					</Child>
-					<Child Name="opera" Key="{8157C425-A257-474B-BD50-5D016E77F890}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="opera" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="wndChrome_WidgetWin_1" Key="{1249DC26-ABE8-4A94-9855-F447FE2014F3}">
-								<Image FileName="865483550" Left="-8" Top="-8" Right="1928" Bottom="1088" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="Chrome_WidgetWin_1" />
-									</Property>
-									<Property Name="WndCaption">
-										<Value Value="TestComplete 101 Certification exam questions.xlsx - Opera" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="Chrome_RenderWidgetHostHWND" Key="{D9A9D92E-54D2-4877-82B1-B8547C608166}">
-										<Image FileName="865483550" Left="0" Top="101" Right="1920" Bottom="1078" />
-										<TypeInfo Item0="{E003FC21-2C7D-49EF-9B95-9B9267CD458C}" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="Chrome_RenderWidgetHostHWND" />
-											</Property>
-											<Property Name="WndCaption">
-												<Value Value="Chrome Legacy Window" />
-											</Property>
-											<Property Name="Index">
-												<Value Value="1" Type="0" />
-											</Property>
-										</Properties>
-									</Child>
-								</Children>
-							</Child>
-						</Children>
-					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -1164,7 +1146,8 @@
 				</Child>
 				<Child Name="panelContentWrapper" Owner="{0755EAC2-4545-4D14-98EC-56D869836A78}" />
 				<Child Name="sectionContent" Owner="{A1417EBD-3D5F-48C1-B84F-24C3EB7340A7}">
-					<Child Name="textnodeWelcomeToOurStore" Owner="{FCF5B333-291A-4116-8561-6084CCFB7493}" />
+					<Child Name="textnodeWelcomeToOurStore" Owner="{1978CB78-3B3A-419A-98F9-FC838AFC7F0A}" />
+					<Child Name="textnodeFeaturedProducts" Owner="{3716DEE5-CA2D-4B1F-B190-078F304675B1}" />
 				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{EECD8EDE-0329-4C9B-82F9-B09B7EE0F4A6}" />
@@ -1241,11 +1224,6 @@
 			<Child Name="pagePrivacyChrome" Owner="{6BBA7B2D-B888-4243-88B8-16048E234092}" />
 			<Child Name="pageClearbrowserdataEdge" Owner="{F69A4EBC-12B0-448A-9596-4550A5982C0E}" />
 			<Child Name="pagePrivacyEdge" Owner="{53F46345-595F-4113-8E76-34158846A7A9}" />
-		</Child>
-		<Child Name="opera" Owner="{8157C425-A257-474B-BD50-5D016E77F890}">
-			<Child Name="wndChrome_WidgetWin_1" Owner="{1249DC26-ABE8-4A94-9855-F447FE2014F3}">
-				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{D9A9D92E-54D2-4877-82B1-B8547C608166}" />
-			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
