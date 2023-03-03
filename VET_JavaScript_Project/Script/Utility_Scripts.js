@@ -1,6 +1,7 @@
 ﻿function StringOccurrenceDemo()
 {
-
+  Indicator.PushText("StringOccurrenceDemo");
+  Log.AppendFolder("StringOccurrenceDemo", "This sample pulls a number from the middle of a string and places it into a project variable", pmNormal, Project.Variables.LogAtrribModTitle);
   var aString = "Per aspera ad astra";
   var aSubString = "astra";
   var Res = aqString.Find(aString, aSubString);
@@ -8,20 +9,27 @@
     Log.Message("Substring '" + aSubString + "' was found in string '" + aString + "' at position " + Res)
   else
     Log.Message("There are no occurrences of '" + aSubString + "' in '" + aString + "'")
+  Log.PopLogFolder();
+  Indicator.PopText();
 }
 
 function RemovingSubString()
 {
+  Indicator.PushText("RemovingSubString");
+  Log.AppendFolder("RemovingSubString", "This sample pulls a number from the middle of a string and places it into a project variable", pmNormal, Project.Variables.LogAtrribModTitle);
   var Str = "123456789";
   var StartPos = 3;
   var sLength = 4;
-  var Res = aqString.Remove(Str, StartPos, sLength);
-  
+  var Res = aqString.Remove(Str, StartPos, sLength);  
   Log.Message(Res); // Posts "12389"
+  Log.PopLogFolder();
+  Indicator.PopText()  
 }
   
 function Extract_Substring()
 {
+  Indicator.PushText("Extract_Substring");
+  Log.AppendFolder("Extract_Substring", "This sample pulls a number from the middle of a string", pmNormal, Project.Variables.LogAtrribModTitle);
   var Str = "LeadingString0123456789TrailingString";
   Log.Message(Str);
   var StartPos = 0;
@@ -32,10 +40,14 @@ function Extract_Substring()
   var sLength = 14;
   var Res = aqString.Remove(Res, StartPos, sLength);
   Log.Message(Res);
+  Log.PopLogFolder();
+  Indicator.PopText();  
 }
   
 function Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2)
 {
+  Indicator.PushText("Extract_Substring_2");
+  Log.AppendFolder("Extract_Substring_2", "This sample pulls a number from the middle of a string and places it into a project variable", pmNormal, Project.Variables.LogAtrribModTitle);
   var Str = Phrase;
   Log.Message(Str);
   var Str = aqString.Remove(Phrase, Pos1, Length1);
@@ -44,4 +56,6 @@ function Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2)
   Log.Message(Str);
   Project.Variables.RefNumber = aqConvert.StrToInt(Str);
   Log.Message(Project.Variables.RefNumber);
+  Log.PopLogFolder();
+  Indicator.PopText();
 }

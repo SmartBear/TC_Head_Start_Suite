@@ -88,14 +88,10 @@
 						</Data>
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="RemovingSubString" Unit="Utility_Scripts">
-							<CommonData Disabled="True" />
-						</Data>
+						<Data Description="Runs a script routine." TestName="RemovingSubString" Unit="Utility_Scripts" />
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="StringOccurrenceDemo" Unit="Utility_Scripts">
-							<CommonData Disabled="True" />
-						</Data>
+						<Data Description="Runs a script routine." TestName="StringOccurrenceDemo" Unit="Utility_Scripts" />
 					</Operation>
 				</Children>
 			</Operation>

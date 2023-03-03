@@ -9,5 +9,6 @@
 		<child name="Test_String_Manipulation" key="{BCC4D674-C5C9-4A81-A024-42D2AA244C59}" path="Test_String_Manipulation.tcKDTest" />
 		<child name="Mod_Capture_String" key="{C9000DB9-7262-471B-8A9F-18E674718ADA}" path="Mod_Capture_String.tcKDTest" />
 		<child name="Mod_Trim_String" key="{FE1429ED-55A6-44AE-B648-477F6FB184E5}" path="Mod_Trim_String.tcKDTest" />
+		<child name="Test_String_Sample" key="{93F81138-1E04-4ACE-9D1A-EFE9B72F9871}" path="Test_String_Sample.tcKDTest" />
 	</children>
 </Root>

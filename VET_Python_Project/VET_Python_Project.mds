@@ -52,6 +52,11 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Test_String_Sample" key="{22227960-C9C8-4A09-BE42-A06488A2B3C7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{93F81138-1E04-4ACE-9D1A-EFE9B72F9871}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 		</children>
