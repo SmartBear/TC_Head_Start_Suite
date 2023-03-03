@@ -1,7 +1,7 @@
 ﻿function StringOccurrenceDemo()
 {
   Indicator.PushText("StringOccurrenceDemo");
-  Log.AppendFolder("StringOccurrenceDemo", "This sample pulls a number from the middle of a string and places it into a project variable", pmNormal, Project.Variables.LogAtrribModTitle);
+  Log.AppendFolder("StringOccurrenceDemo", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle);
   var aString = "Per aspera ad astra";
   var aSubString = "astra";
   var Res = aqString.Find(aString, aSubString);
@@ -16,7 +16,7 @@
 function RemovingSubString()
 {
   Indicator.PushText("RemovingSubString");
-  Log.AppendFolder("RemovingSubString", "This sample pulls a number from the middle of a string and places it into a project variable", pmNormal, Project.Variables.LogAtrribModTitle);
+  Log.AppendFolder("RemovingSubString", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle);
   var Str = "123456789";
   var StartPos = 3;
   var sLength = 4;
@@ -29,7 +29,7 @@ function RemovingSubString()
 function Extract_Substring()
 {
   Indicator.PushText("Extract_Substring");
-  Log.AppendFolder("Extract_Substring", "This sample pulls a number from the middle of a string", pmNormal, Project.Variables.LogAtrribModTitle);
+  Log.AppendFolder("Extract_Substring", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle);
   var Str = "LeadingString0123456789TrailingString";
   Log.Message(Str);
   var StartPos = 0;
@@ -47,7 +47,7 @@ function Extract_Substring()
 function Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2)
 {
   Indicator.PushText("Extract_Substring_2");
-  Log.AppendFolder("Extract_Substring_2", "This sample pulls a number from the middle of a string and places it into a project variable", pmNormal, Project.Variables.LogAtrribModTitle);
+  Log.AppendFolder("Extract_Substring_2", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle);
   var Str = Phrase;
   Log.Message(Str);
   var Str = aqString.Remove(Phrase, Pos1, Length1);

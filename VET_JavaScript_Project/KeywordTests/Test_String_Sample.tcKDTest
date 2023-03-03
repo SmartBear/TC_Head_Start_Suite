@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="Script call inside of a Keyword test to extract a number from a string" Key="{08098ED9-8B0D-42F6-81B5-8B28C16E3E55}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="This sample keyword test populates the Project.Variables.RefString with a string, then uses a script to extract the number segment from the Project.Variables.RefString, and places the result into Project.Variables.RefNumber" Key="{08098ED9-8B0D-42F6-81B5-8B28C16E3E55}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -39,8 +39,14 @@
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 				<Data GroupName="Test_String_Sample" />
 				<Children>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="The Keyword Test Mod_Capture_String populates the Project.Variables.RefString with a string" />
+					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Mod_Capture_String" />
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="The Extract_Substring_2 routine, extracts the number segment from the Project.Variables.RefString, and places the result into Project.Variables.RefNumber" />
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="Extract_Substring_2" Unit="Utility_Scripts">

@@ -1,6 +1,6 @@
 ﻿def RemovingSubString():
   Indicator.PushText("RemovingSubString")
-  Log.AppendFolder("RemovingSubString", "All test script modules should follow this formatting in order to provide consistency to the look and feel of output logs", pmNormal, Project.Variables.LogAtrribModTitle)
+  Log.AppendFolder("RemovingSubString", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle)
   Str = "123456789"
   StartPos = 3
   sLength = 4
@@ -11,7 +11,7 @@
 
 def Extract_Substring():
   Indicator.PushText("Extract_Substring")
-  Log.AppendFolder("Extract_Substring", "All test script modules should follow this formatting in order to provide consistency to the look and feel of output logs", pmNormal, Project.Variables.LogAtrribModTitle)
+  Log.AppendFolder("Extract_Substring", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle)
   Str = "LeadingString0123456789TrailingString"
   Log.Message(Str)
   StartPos = 0
@@ -27,7 +27,7 @@ def Extract_Substring():
   
 def Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2):
   Indicator.PushText("Extract_Substring_2")
-  Log.AppendFolder("Extract_Substring_2", "All test script modules should follow this formatting in order to provide consistency to the look and feel of output logs", pmNormal, Project.Variables.LogAtrribModTitle)
+  Log.AppendFolder("Extract_Substring_2", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle)
   Str = Phrase
   Log.Message(Str)
   Str = aqString.Remove(Phrase, Pos1, Length1)
@@ -41,7 +41,7 @@ def Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2):
     
 def StringOccurrenceDemo():
   Indicator.PushText("StringOccurrenceDemo")
-  Log.AppendFolder("StringOccurrenceDemo", "All test script modules should follow this formatting in order to provide consistency to the look and feel of output logs", pmNormal, Project.Variables.LogAtrribModTitle)
+  Log.AppendFolder("StringOccurrenceDemo", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle)
   aString = "Word "
   aSubString = "astra"
   Res = aqString.Find(aString, aSubString)
