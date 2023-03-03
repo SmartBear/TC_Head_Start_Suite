@@ -26,6 +26,8 @@ def Extract_Substring():
   Indicator.PopText()
   
 def Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2):
+  #This script uses the aqString.Remove method to trim the leading and trailing text from a number contained with a given string
+  #Then it converts the string into an integer, and places it into Project.Variables.RefNumber
   Indicator.PushText("Extract_Substring_2")
   Log.AppendFolder("Extract_Substring_2", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle)
   Str = Phrase
