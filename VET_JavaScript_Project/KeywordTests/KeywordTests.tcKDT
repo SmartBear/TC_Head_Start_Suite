@@ -10,5 +10,7 @@
 		<child name="Mod_Open_Salesforce" key="{48A45584-B44C-46B4-8455-8ABE780D0D54}" path="Mod_Open_Salesforce.tcKDTest" />
 		<child name="Mod_Filter_Specific_User" key="{D5B6871E-BB5F-4BBF-AE62-1071745E926C}" path="Mod_Filter_Specific_User.tcKDTest" />
 		<child name="Mod_Close_Browser" key="{34C855EC-B72A-49A2-A44E-1712B996B82A}" path="Mod_Close_Browser.tcKDTest" />
+		<child name="Test_String_Manipulation" key="{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" path="Test_String_Manipulation.tcKDTest" />
+		<child name="Mod_Capture_String" key="{DDD5C637-44B2-4E6A-9D05-5832C6EBEE1B}" path="Mod_Capture_String.tcKDTest" />
 	</children>
 </Root>

@@ -52,11 +52,6 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_String_Manipulation_2" key="{D05777F3-9D15-4981-B458-4BB615B97A5F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BCC4D674-C5C9-4A81-A024-42D2AA244C59}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
 				</children>
 			</testItem>
 		</children>

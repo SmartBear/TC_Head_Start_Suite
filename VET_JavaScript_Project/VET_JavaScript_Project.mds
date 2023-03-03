@@ -49,6 +49,16 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Utility Tests" key="{56428E9D-6B2E-4FDA-9AFC-BBEE7B8F0430}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_String_Manipulation" key="{9644CBDF-C45F-4B09-84A5-8610CECB8805}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{57926FB4-16EE-4F80-9B9E-A08E0A84D31B}">
@@ -81,11 +91,17 @@
 				<Variable Name="Password4" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310031003300440032004600340044003800370033004600330035003400390038003100460039003500320032004600430037004200370044003800450031004100450032003700380034004300300033003500340030003800410036003300380032003700410043003200440042003900420044004300360037003600310044003900460035003500" />
 				</Variable>
+				<Variable Name="RefString" Type="String" Local="False" Descr="This is the string passed to the routine">
+					<DefValue />
+				</Variable>
+				<Variable Name="RefNumber" Type="Integer" Local="False" Descr="This is the number extracted from the string passed to the routine">
+					<DefValue IntValue="0" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{57A5BA2C-AF78-4788-950F-E04C0C04694B}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.49" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -129,6 +145,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />
