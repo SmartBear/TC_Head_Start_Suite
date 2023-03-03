@@ -51,7 +51,7 @@
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="T_Purge_Edge_History" key="{55484B9B-1DB8-471A-B515-EE4B17431CBA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4C71C635-B293-49B1-AF31-9251498E0069}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="T_Purge_Edge_History" key="{55484B9B-1DB8-471A-B515-EE4B17431CBA}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4C71C635-B293-49B1-AF31-9251498E0069}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />

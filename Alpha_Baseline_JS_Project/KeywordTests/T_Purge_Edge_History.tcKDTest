@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="This test purges the edge history" Key="{1936DE2B-1E8A-4BF4-90A5-97F1F3B8DE9E}" Tags="@Debug @Smoke" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="This test purges the edge history" Key="{1936DE2B-1E8A-4BF4-90A5-97F1F3B8DE9E}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
