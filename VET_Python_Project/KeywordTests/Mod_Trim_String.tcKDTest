@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{1B923C8B-3581-4A69-BEDA-4A6F47525374}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+				<Data Description="Executes the specified code snippet." LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" CodeExpression="res=aqString.Remove(&quot;0123456789&quot;, 3, 5)" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{3C3C12AE-C70A-4860-809E-B99D5953C666}" />
+</Root>

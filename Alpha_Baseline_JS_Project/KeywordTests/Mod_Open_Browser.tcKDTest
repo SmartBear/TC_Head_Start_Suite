@@ -56,7 +56,7 @@
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Pauses the script execution until the specified Web page is downloaded or until the specified time limit elapses." Action="Wait">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="30000" />
+								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="60000" />
 							</Parameters>
 							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop;" />
 						</Data>
@@ -76,6 +76,10 @@
 									<Root Type="0" Operator="1">
 										<Expression Type="1" Operator="0">
 											<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageShop.sectionContent.textnodeFeaturedProducts.Exists" />
+											<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="False" />
+										</Expression>
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" VarType="8" ValueType="6" ValueValue="Aliases.browser.pageShop.sectionContent.textnodeFeaturedProducts.Enabled" />
 											<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="False" />
 										</Expression>
 										<Expression Type="1" Operator="5">

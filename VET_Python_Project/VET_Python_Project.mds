@@ -44,6 +44,21 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Utility Tests" key="{EC626530-0FDA-47E5-B617-660B5FF614C2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_String_Manipulation" key="{3DCCB7C4-CD77-4512-B73B-5C23BABED902}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BCC4D674-C5C9-4A81-A024-42D2AA244C59}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_String_Manipulation_2" key="{D05777F3-9D15-4981-B458-4BB615B97A5F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BCC4D674-C5C9-4A81-A024-42D2AA244C59}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{E1029A78-C55D-43BA-AFB2-5EA36282443C}">
@@ -64,11 +79,17 @@
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
 				</Variable>
+				<Variable Name="RefNumber" Type="Integer" Local="False" Descr="This is the number extracted from the string passed to the routine">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="RefString" Type="String" Local="False" Descr="This is the string passed to the routine">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{DCC40435-CB55-4835-B784-878254660374}">
-		<settingsVersion value="15.46" />
+		<settingsVersion value="15.49" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -112,6 +133,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />
