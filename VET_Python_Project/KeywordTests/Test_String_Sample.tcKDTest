@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="This sample keyword test populates the Project.Variables.RefString with a string, then uses a script to extract the number segment from the Project.Variables.RefString, and places the result into Project.Variables.RefNumber" Key="{7C601169-3A99-4933-83F9-64A5D79E03B0}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="This sample keyword test populates the Project.Variables.RefString with a string, then uses a script to extract the number segment from the Project.Variables.RefString, converts the resulting string into an integer, and places the result into Project.Variables.RefNumber." Key="{7C601169-3A99-4933-83F9-64A5D79E03B0}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />

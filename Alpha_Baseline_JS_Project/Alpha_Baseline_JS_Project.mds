@@ -25,7 +25,7 @@
 					</testItem>
 					<testItem name="Test_Login_Logout" key="{CF1D84C4-3FA9-4448-AEB5-913EA926F3BC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DF087B9F-8409-4A23-8BC1-BBF40499BD62}" count="10" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Data_Driven" key="{6E7514ED-D278-4158-955F-1313C1BDC2C6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{2868AEF4-2E0E-44D5-BAE2-56B0F1E44A20}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
