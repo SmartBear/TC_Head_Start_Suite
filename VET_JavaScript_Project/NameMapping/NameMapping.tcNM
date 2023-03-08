@@ -281,6 +281,19 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="Item" Key="{42F01AD3-DD78-4AC5-A3DD-EDCF278385F8}">
+						<TypeInfo Item0="{0CFA6FE9-9397-4D39-9AB0-9AE4F94AE53E}" />
+						<Children>
+							<Child Name="Item" Key="{D5CF3251-5CF2-41B8-A60F-E733F2811FEC}">
+								<TypeInfo Item0="{3C067121-AF21-4FDD-84F1-9C0970D7B751}" />
+								<Children>
+									<Child Name="Item" Key="{3439C968-A753-4A1B-AA31-D1E7C996ED9A}">
+										<TypeInfo Item0="{456C8236-D10F-4BAB-A266-AB9A8AE98FFB}" />
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -308,6 +321,11 @@
 						</Child>
 					</Child>
 				</Child>
+			</Child>
+		</Child>
+		<Child Name="Item" Owner="{42F01AD3-DD78-4AC5-A3DD-EDCF278385F8}">
+			<Child Name="Item" Owner="{D5CF3251-5CF2-41B8-A60F-E733F2811FEC}">
+				<Child Name="Item" Owner="{3439C968-A753-4A1B-AA31-D1E7C996ED9A}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
