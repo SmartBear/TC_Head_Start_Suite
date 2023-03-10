@@ -63,6 +63,13 @@
 						<Data Description="Runs a keyword test." TestName="Mod_Capture_String" />
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="GetListSample" Unit="Utility_Scripts">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Phrase" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="RefString" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="Extract_Substring" Unit="Utility_Scripts" />
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">

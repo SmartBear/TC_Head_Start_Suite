@@ -54,6 +54,11 @@ def StringOccurrenceDemo():
   Log.PopLogFolder()
   Indicator.PopText()
   
+def GetListLengthSample():
+  str = "This is a test."
+  aqString.ListSeparator = " "
+  Log.Message(aqString.GetListLength(str))
+  
 def EventControl_TestEngine_OnStartTest(Sender):
     LogAttribEventTitle = None
     #Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.

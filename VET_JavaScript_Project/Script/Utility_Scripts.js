@@ -61,3 +61,17 @@ function Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2)
   Log.PopLogFolder();
   Indicator.PopText();
 }
+
+function GetListSample(Phrase)
+{
+  Indicator.PushText("GetListSample");
+  Log.AppendFolder("GetListSample", "Just noodling", pmNormal, Project.Variables.LogAtrribModTitle);
+  var Str = Phrase;
+  aqString.ListSeparator = " ";
+  Log.Message(Str);
+  Log.Message(aqString.GetListLength(Str));
+  for (var i = 0; i < aqString.GetListLength(Str); i++)
+  Log.Message(aqString.GetListItem(Str, i));
+  Log.PopLogFolder();
+  Indicator.PopText();  
+}
