@@ -57,6 +57,7 @@ function Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2)
   var Str = aqString.Remove(Str, Pos2, Length2);
   Log.Message(Str);
   Project.Variables.RefNumber = aqConvert.StrToInt(Str);
+  ProjectSuite.Variables.Saved_Number = aqConvert.StrToInt(Str);
   Log.Message(Project.Variables.RefNumber);
   Log.PopLogFolder();
   Indicator.PopText();

@@ -279,6 +279,146 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShop" Key="{C6546473-870C-4413-8163-130595154CA2}">
+								<Image FileName="1890165967" Left="8" Top="111" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{5BA4889D-4348-49B8-9176-216CA1DAA947}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{E53246E3-446A-4D19-9C8B-7C4A46A66912}">
+										<Image FileName="1890165967" Left="390" Top="-1462" Right="1530" Bottom="709" />
+										<TypeInfo Item0="{9778D4B3-5C70-49BD-BBF1-6E48AD621B2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleTheZ3ZuseZ3" Key="{64CD3F49-F43E-4747-AFE4-B5A1314DB640}">
+										<Image FileName="1890165967" Left="390" Top="-56" Right="865" Bottom="649" />
+										<TypeInfo Item0="{9778D4B3-5C70-49BD-BBF1-6E48AD621B2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;The Z3 (Zuse Z3)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;col-12&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div[4]/div/div/article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{5A75D616-AADF-495E-A08E-B8C922D27109}">
+										<Image FileName="1890165967" Left="405" Top="494" Right="850" Bottom="584" />
+										<TypeInfo Item0="{9778D4B3-5C70-49BD-BBF1-6E48AD621B2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article/p[contains(@class, &apos;newsitem-description&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article/p" />
+											</Selector>
+											<Selector>
+												<Value Value="//article/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{C5829349-202F-4A8D-894D-57D526168AF0}">
+										<Image FileName="270394774" Left="8" Top="111" Right="1911" Bottom="290" />
+										<TypeInfo Item0="{9778D4B3-5C70-49BD-BBF1-6E48AD621B2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{876D7ECD-BDA6-4E55-A312-BAA5FF43B922}">
+										<Image FileName="270394774" Left="403" Top="187" Right="653" Bottom="218" />
+										<TypeInfo Item0="{96965898-14AE-412C-8387-FF8A5B05798E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{3E63DCBC-332B-43CD-8410-5DD58FA76244}">
+										<Image FileName="270394774" Left="403" Top="187" Right="653" Bottom="218" />
+										<TypeInfo Item0="{9778D4B3-5C70-49BD-BBF1-6E48AD621B2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContentWrapper" Key="{347F98F2-672F-4B0C-94C4-0F4B86813915}">
+										<Image FileName="1405437543" Left="8" Top="-972" Right="1911" Bottom="1199" />
+										<TypeInfo Item0="{9778D4B3-5C70-49BD-BBF1-6E48AD621B2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content-wrapper" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsd" Key="{AE7A381B-AD1A-4C85-B546-AD387B5EC0EA}">
+										<Image FileName="-1912273773" Left="0" Top="103" Right="1903" Bottom="2854" />
+										<TypeInfo Item0="{6D5431C5-1EF4-4AD0-B6CE-E4F199810B32}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;lyt-cols-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Item" Key="{42F01AD3-DD78-4AC5-A3DD-EDCF278385F8}">
@@ -289,6 +429,30 @@
 								<Children>
 									<Child Name="Item" Key="{3439C968-A753-4A1B-AA31-D1E7C996ED9A}">
 										<TypeInfo Item0="{456C8236-D10F-4BAB-A266-AB9A8AE98FFB}" />
+									</Child>
+									<Child Name="panelContentWrapper" Key="{F271302E-0F6E-4AF8-88FF-84DD453626DC}">
+										<Image FileName="1983567771" Left="0" Top="-133" Right="1903" Bottom="2038" />
+										<TypeInfo Item0="{6D5431C5-1EF4-4AD0-B6CE-E4F199810B32}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content-wrapper" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsd" Key="{754C4222-3140-406F-BA7F-F3E501CF492E}">
+										<Image FileName="1888767677" Left="0" Top="-336" Right="1903" Bottom="2415" />
+										<TypeInfo Item0="{6D5431C5-1EF4-4AD0-B6CE-E4F199810B32}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;lyt-cols-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
 									</Child>
 								</Children>
 							</Child>
@@ -322,10 +486,26 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageShop" Owner="{C6546473-870C-4413-8163-130595154CA2}">
+				<Child Name="sectionContent" Owner="{E53246E3-446A-4D19-9C8B-7C4A46A66912}">
+					<Child Name="articleTheZ3ZuseZ3" Owner="{64CD3F49-F43E-4747-AFE4-B5A1314DB640}">
+						<Child Name="textnode" Owner="{5A75D616-AADF-495E-A08E-B8C922D27109}" />
+					</Child>
+				</Child>
+				<Child Name="header" Owner="{C5829349-202F-4A8D-894D-57D526168AF0}">
+					<Child Name="link" Owner="{876D7ECD-BDA6-4E55-A312-BAA5FF43B922}">
+						<Child Name="imageSmartstore" Owner="{3E63DCBC-332B-43CD-8410-5DD58FA76244}" />
+					</Child>
+				</Child>
+				<Child Name="panelContentWrapper" Owner="{347F98F2-672F-4B0C-94C4-0F4B86813915}" />
+				<Child Name="textnodeUsd" Owner="{AE7A381B-AD1A-4C85-B546-AD387B5EC0EA}" />
+			</Child>
 		</Child>
 		<Child Name="Item" Owner="{42F01AD3-DD78-4AC5-A3DD-EDCF278385F8}">
 			<Child Name="Item" Owner="{D5CF3251-5CF2-41B8-A60F-E733F2811FEC}">
 				<Child Name="Item" Owner="{3439C968-A753-4A1B-AA31-D1E7C996ED9A}" />
+				<Child Name="panelContentWrapper" Owner="{F271302E-0F6E-4AF8-88FF-84DD453626DC}" />
+				<Child Name="textnodeUsd" Owner="{754C4222-3140-406F-BA7F-F3E501CF492E}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
