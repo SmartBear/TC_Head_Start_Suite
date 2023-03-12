@@ -20,6 +20,8 @@
 			<child name="Mod_Open_Brower_Chrome_TestApp_Incognito" key="{42887E7F-F6C3-493C-BE8C-5CA85AD526EE}" path="Mod_Open_Brower_Chrome_TestApp_Incognito.tcKDTest" />
 			<child name="Mod_Open_Brower_Edge_TestApp_In_Private" key="{34CACE8B-53F3-4B4D-9FF2-E62D313B3129}" path="Mod_Open_Brower_Edge_TestApp_In_Private.tcKDTest" />
 			<child name="Mod_Open_Brower_FireFox_TestApp_Private" key="{8187AC0E-8E4C-4751-AC0B-8BC16E135F28}" path="Mod_Open_Brower_FireFox_TestApp_Private.tcKDTest" />
+			<child name="Mod_Loop_Incognito_Parms" key="{41BA2440-74E9-4A80-9464-01CFB2BCE216}" path="Mod_Loop_Incognito_Parms.tcKDTest" />
+			<child name="Test_Browsers_Via_Loop" key="{69BFF593-7BBA-48B9-9F5C-AEC54B1E5259}" path="Test_Browsers_Via_Loop.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />

@@ -49,6 +49,19 @@
 				<Variable Name="Example_Temp" Type="String" Local="False" Descr="Just because">
 					<DefValue StrValue="This is a simple string with an integer 123454 inside of it" />
 				</Variable>
+				<Variable Name="Example_Persistent" Type="String" Local="True">
+					<DefValue StrValue="This is a simple string with an integer 123454 inside of it" />
+				</Variable>
+				<Variable Name="Contact_List_CSV" Type="DB Table" Local="False">
+					<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+						<ConnectionInfo FileName="VET_JavaScript_Project\Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+					</DefValue>
+				</Variable>
+				<Variable Name="Contact_List_XLS" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="VET_JavaScript_Project\Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
 			</Items>
 		</data>
 	</variables>
