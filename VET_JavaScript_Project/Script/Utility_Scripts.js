@@ -71,8 +71,14 @@ function GetListSample(Phrase)
   aqString.ListSeparator = " ";
   Log.Message(Str);
   Log.Message(aqString.GetListLength(Str));
-  for (var i = 0; i < aqString.GetListLength(Str); i++)
-  Log.Message(aqString.GetListItem(Str, i));
+  for (var i = 0; i < aqString.GetListLength(Str); i++){
+    Log.Message("String object#=" + i + "---" + aqString.GetListItem(Str, i));
+    if(i == 22)
+      {
+        //Posts an information message to the test log.
+        Log.Message("Found object#=" + i + "---" + aqString.GetListItem(Str, i));
+      }
+  }
   Log.PopLogFolder();
   Indicator.PopText();  
 }
