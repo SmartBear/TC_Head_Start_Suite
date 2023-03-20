@@ -13,5 +13,6 @@
 		<child name="Test_String_Manipulation" key="{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" path="Test_String_Manipulation.tcKDTest" />
 		<child name="Mod_Capture_String" key="{DDD5C637-44B2-4E6A-9D05-5832C6EBEE1B}" path="Mod_Capture_String.tcKDTest" />
 		<child name="Test_String_Sample" key="{0716EDEE-581D-468E-8474-FB29FA3D35BA}" path="Test_String_Sample.tcKDTest" />
+		<child name="Test_PDF_Read" key="{D4241B37-0725-48C5-BBCC-6E3AA8732126}" path="Test_PDF_Read.tcKDTest" />
 	</children>
 </Root>
