@@ -72,6 +72,9 @@
 									<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 										<Data GroupName="Open the Clear History Dialog" />
 										<Children>
+											<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+												<Data Comment="This commit" />
+											</Operation>
 											<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 												<Data Description="Delays the test execution for the specified time period.">
 													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">

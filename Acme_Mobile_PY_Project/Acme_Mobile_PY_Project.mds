@@ -10,6 +10,7 @@
 		<child name="Events" key="{AEB6EC30-AED8-4D39-9CC8-49597498797B}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="NameMapping" key="{416A3BE4-D482-41F6-9174-F24178261404}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="README.md" key="{F50CAA8A-58E6-4F64-882F-1B222658B0BE}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="ReadyAPI1" key="{6669254D-D213-4D6C-8E51-94CAFDE6F3D0}" type="ReadyAPI or SoapUI" typeId="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" pluginName="ReadyAPI Runner" path="ReadyAPI1\ReadyAPI1.tcReadyAPI" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{60F4E4C1-9A0E-4DBB-9FA4-536AEBC1E1CA}" version="14">
@@ -83,7 +84,7 @@
 		</data>
 	</variables>
 	<settings key="{6F6E0B73-23DA-416C-AFDB-B484A3D808EF}">
-		<settingsVersion value="15.46" />
+		<settingsVersion value="15.49" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -127,6 +128,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />

@@ -44,7 +44,7 @@
 				<children>
 					<testItem name="VET_17_Salesforce_Sample" key="{1D60CD95-882D-467C-8A95-032FAC9DE2F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6C6CF1FB-D208-48ED-8B36-8F83D844987D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>

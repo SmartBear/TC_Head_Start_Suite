@@ -43,6 +43,11 @@
 								<Data Description="Runs a keyword test." TestName="Mod_Open_Brower_Chrome_RunOptions_Incognito" />
 							</Operation>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser">
+									<CommonData Disabled="True" />
+								</Data>
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
 							</Operation>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
