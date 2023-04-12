@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Templates">
+			<child name="Test_Template" key="{5E900260-8FBF-47BF-B7FA-92AA9CC1BB56}" path="Test_Template.tcKDTest" />
+			<child name="Module_Template" key="{EBBF5D3A-98A3-46B4-9783-2B8B68820DCD}" path="Module_Template.tcKDTest" />
+		</folder>
+		<folder name="Common">
+			<child name="Mod_Open_Browser_Blank_Page" key="{62DF6094-A789-47E0-9A98-87D0C0AAE009}" path="Mod_Open_Browser_Blank_Page.tcKDTest" />
+			<child name="Mod_Close_Browser" key="{F2A4FD8B-3F1C-42B6-B195-114812647662}" path="Mod_Close_Browser.tcKDTest" />
+			<child name="Mod_Open_Brower_Chrome_RunOptions_Incognito" key="{179F669F-4FB2-45F5-95A5-898B97BFAD1F}" path="Mod_Open_Brower_Chrome_RunOptions_Incognito.tcKDTest" />
+			<child name="Test_Open_Close_Brower_Incognito" key="{45AE6B09-2985-4FD4-B5CD-51B2B5F5FAE0}" path="Test_Open_Close_Brower_Incognito.tcKDTest" />
+			<child name="Mod_Open_Brower_Chrome_Code_Snippet_Incognito" key="{289D8559-9CB2-40A6-B0AE-3B484E3CBCD0}" path="Mod_Open_Brower_Chrome_Code_Snippet_Incognito.tcKDTest" />
+			<child name="Mod_Open_Brower_Edge_Code_Snippet_In_Private" key="{C16DD68F-4FBC-400D-B161-B08436D2DE98}" path="Mod_Open_Brower_Edge_Code_Snippet_In_Private.tcKDTest" />
+			<child name="Mod_Open_Brower_Edge_RunOptions_In_Private" key="{48D749DF-3E73-48CE-BBF0-41FCB08040F8}" path="Mod_Open_Brower_Edge_RunOptions_In_Private.tcKDTest" />
+			<child name="Mod_Open_Brower_Firefox_Code_Snippet_Private" key="{23B92222-64CB-44E8-BE79-E71A85E360B9}" path="Mod_Open_Brower_Firefox_Code_Snippet_Private.tcKDTest" />
+			<child name="Mod_Open_Brower_Firefox_RunOptions_Private" key="{D0C58660-C97B-4BC3-A1B4-326B2FA3BB37}" path="Mod_Open_Brower_Firefox_RunOptions_Private.tcKDTest" />
+			<child name="Test_Purge_Chrome_History" key="{DBDFC626-A9AE-4A40-BD24-ACA7F0822ED1}" path="Test_Purge_Chrome_History.tcKDTest" />
+			<child name="Test_Purge_Edge_History" key="{871A2A0C-9EE9-41CB-A0DD-5C09E4E99B76}" path="Test_Purge_Edge_History.tcKDTest" />
+		</folder>
+		<child name="GeneralEvents_OnStartTest" key="{6876DEFC-3DB0-4B60-B52A-67F1B7DD1B7D}" path="GeneralEvents_OnStartTest.tcKDTest" />
+	</children>
+</Root>

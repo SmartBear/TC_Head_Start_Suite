@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{D17C0871-02D0-4127-9183-E6F9535E1E8C}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases[&quot;browser&quot;]" Data="61717A697000000001000000360400007801B5925D4853611CC6FD18434C6DA6B914B5E3CC8FE674D395614E3D2ECCCC842E2408B2111605617A6112A94DACC824A9A168A57362610556A075556AA125B46237A550A6929F61EECC8F403DF33CBDE7E8C4A4AEA23FFCDEE77D39E7F9BDE7E268B3E2454EC2C49335922059C5D989223B32ABCF570EFF6775F316511147B798D485FE96A4AA202EB0F511C42D0343A2E3A565CE9B24FC27FD750269AF024D4530431B28A41A42C0E7DE3A0D3C3A59B877B09C7BDB14234ACFD1FD4920DDE3A9D3D6C8B87D35A1E049AD0EE178F87D78AB11922E5660334971F6B9FCF50E919B8B84BE2163D26AC39056472079EC1E8DDAEE2B0279CF8B10F06218BEAF5801EFF629C6454A510E872CCB479F7E27122B44A0D95C8D85F74F30539F83D9E6B358FCF412862F23D8F69A159092F4BA603439FA2915A14307EA77228350F44C87C5BE0E4C5F940BFC58CD850F4F9160B623A87B05BF46B3C5D1CF6C8CC2416314328C72EEE6832ECCDDCFC774B102D6E268584B0824671B4EA0FCEB32643D7684F010CF5ABF49C11D6A8A86567F0AD7AAA63167CC85B5540586C027CF7C4B01AE0E2E23FC0D8B1D3D2C1746D2D1A72F875BB21A12A1DAFF0E698747B9454B1B6C97D460D688C3525F27741FED88EAB543FED68ED0C703838E7EDC99E026BAA0123189DF046A1B6C58EAEFC2CF878598379DC692A51DB74796A1225D652F4BB0C32FB754EFE8BBFB88A9981433A3D48C7204283523C8CD9B42A5C186CABB33C8BC6E436CB90DCA322BA72C633845C930E3EAF1FBBFE81B70323F36651C02C9E350258F2196A04A1A430CF1AA885795C4BB47E1BD355BE7B87B7DFA4A8FE8949ACF8C3A75126A7A82B82638353D495CE31CF170D109FD56FE9EF59D8D7B5791A7C49F3AAF572498877669BF8347BEBBC3B23DE29649EC16486D7CFF5FCFBF00CD608F3A" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Test_Purge_Chrome_History" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_Purge_Chrome_History" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="This is to clear the browser cache and history of the Chrome Browser" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribTestTitle" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="T_Purge_Chrome_History" />
+				<Children>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Clear Browser" />
+						<Children>
+							<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
+								<Data Description="Iterates through the specified browsers.">
+									<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+										<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="about:blank" />
+										<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+									<Item>
+										<BrowserItem BrowserName="edge" />
+									</Item>
+								</Data>
+								<Children>
+									<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+										<Data GroupName="Open the Clear History Dialog" />
+										<Children>
+											<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+												<Data Description="Delays the test execution for the specified time period.">
+													<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+														<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+														<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic Delay" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Maximizes the specified Window object." Action="Maximize">
+													<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;BrowserWindow&quot;];" />
+												</Data>
+											</Operation>
+											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+												<Data Description="Posts an information message to the test log." MessageType="0">
+													<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+														<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Browser Name = &quot; + Aliases[&quot;browser&quot;][&quot;Name&quot;] + &quot; :Version = &quot; + aqConvert[&quot;VarToStr&quot;](Aliases[&quot;browser&quot;][&quot;FileVersionInfo&quot;]) + &quot; :Process Type = &quot; + Aliases[&quot;browser&quot;][&quot;ProcessType&quot;]" />
+														<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Simulates one or several keypresses." Action="Keys">
+													<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+														<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="^![Del]" />
+													</Parameters>
+													<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;BrowserWindow&quot;];" />
+												</Data>
+											</Operation>
+											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+												<Data Description="Posts an information message to the test log." MessageType="0">
+													<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+														<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="The previous step should have opened the Clear All History Window" />
+														<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+												<Data Description="Posts an information message to the test log." MessageType="0">
+													<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+														<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Browser Name = &quot; + Aliases[&quot;browser&quot;][&quot;Name&quot;] + &quot; :Version = &quot; + aqConvert[&quot;VarToStr&quot;](Aliases[&quot;browser&quot;][&quot;FileVersionInfo&quot;]) + &quot; :Process Type = &quot; + Aliases[&quot;browser&quot;][&quot;ProcessType&quot;]" />
+														<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+										<Data GroupName="Purge History Routine By Browser" />
+										<Children>
+											<Operation Type="{5AEB51A8-0E80-4A25-BACF-B10D279EF111}">
+												<Data Description="Checks whether the %n browser is currently being used for testing." BrowserName="chrome" />
+												<Children>
+													<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+														<Data Description="Delays the test execution for the specified time period.">
+															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+																<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Added delay to allow clearn browser history in Chrome to open up" />
+															</Parameters>
+														</Data>
+													</Operation>
+													<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+														<Data Description="Posts an information message to the test log." MessageType="0">
+															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Opened clear browser history window" />
+																<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+																<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+																	<Values IsEnum="True">
+																		<Value Type="1" Value="100" Text="pmLowest" />
+																		<Value Type="1" Value="200" Text="pmLower" />
+																		<Value Type="1" Value="300" Text="pmNormal" />
+																		<Value Type="1" Value="400" Text="pmHigher" />
+																		<Value Type="1" Value="500" Text="pmHighest" />
+																	</Values>
+																</Parameter>
+																<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+																<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases[&quot;browser&quot;][&quot;pageClearbrowserdataChrome&quot;]" />
+																<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+															</Parameters>
+														</Data>
+													</Operation>
+													<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+														<Data Comment="This step is disabled as it does not dismiss the window by pressing the enter button on the Clear Data button" />
+													</Operation>
+													<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+														<Data Description="Simulates one or several keypresses." Action="Keys">
+															<CommonData Disabled="True" />
+															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
+															</Parameters>
+															<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;pageClearbrowserdataChrome&quot;];" />
+														</Data>
+													</Operation>
+													<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+														<Data Comment="These steps send Tab commands through the form and send enter when it reaches the Clear Data button&#13;&#10;**** The number of tabs differs based on Chrome version and open Advanced tab&#13;&#10;**** Prior to execution the browser should be opened and the advanced tab, and desired clear values are selected&#13;&#10;" />
+													</Operation>
+													<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+														<Data GroupName="Deprecated Dismiss steps" />
+														<Children>
+															<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+																<Data LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																	<Root Type="1" Operator="0">
+																		<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases[&quot;browser&quot;][&quot;FileVersionInfo&quot;]" />
+																		<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="59.0.3071.86" />
+																	</Root>
+																</Data>
+																<Children>
+																	<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+																		<Data Description="Simulates one or several keypresses." Action="Keys">
+																			<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																				<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
+																			</Parameters>
+																			<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;pageSettingsClearbrowserdata&quot;];" />
+																		</Data>
+																	</Operation>
+																</Children>
+															</Operation>
+															<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+																<Data LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																	<Root Type="1" Operator="0">
+																		<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases[&quot;browser&quot;][&quot;FileVersionInfo&quot;]" />
+																		<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="58.0.3029.110" />
+																	</Root>
+																</Data>
+																<Children>
+																	<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+																		<Data Description="Simulates one or several keypresses." Action="Keys">
+																			<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																				<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]" />
+																			</Parameters>
+																			<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;pageSettingsClearbrowserdata&quot;];" />
+																		</Data>
+																	</Operation>
+																</Children>
+															</Operation>
+															<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+																<Data />
+																<Children>
+																	<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+																		<Data Description="Simulates one or several keypresses." Action="Keys">
+																			<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																				<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]" />
+																			</Parameters>
+																			<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;pageClearbrowserdataChrome&quot;];" />
+																		</Data>
+																	</Operation>
+																</Children>
+															</Operation>
+														</Children>
+													</Operation>
+													<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+														<Data Description="Delays the test execution for the specified time period.">
+															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+																<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic 5 Second Delay" />
+															</Parameters>
+														</Data>
+													</Operation>
+													<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+														<Data Description="Posts an information message to the test log." MessageType="0">
+															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Take a screenshot of the browser, should be on the pagePrivacy (cache cleared)" />
+																<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+																<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+																	<Values IsEnum="True">
+																		<Value Type="1" Value="100" Text="pmLowest" />
+																		<Value Type="1" Value="200" Text="pmLower" />
+																		<Value Type="1" Value="300" Text="pmNormal" />
+																		<Value Type="1" Value="400" Text="pmHigher" />
+																		<Value Type="1" Value="500" Text="pmHighest" />
+																	</Values>
+																</Parameter>
+																<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+																<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases[&quot;browser&quot;][&quot;pagePrivacyChrome&quot;]" />
+																<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+															</Parameters>
+														</Data>
+													</Operation>
+												</Children>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+										<Data GroupName="Close the Browser" />
+										<Children>
+											<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+												<Data Description="Delays the test execution for the specified time period.">
+													<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+														<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+														<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="5 Second Delay to allow browser to quite down" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Closes the process by sending the WM_CLOSE message to its main window." Action="Close">
+													<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+														<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="3000" VarType="3" ValueType="1" ValueValue="3000" />
+													</Parameters>
+													<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;];" />
+												</Data>
+											</Operation>
+											<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+												<Data Description="Delays the test execution for the specified time period.">
+													<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+														<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+														<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="5 Second Delay to allow browser to close" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{9A567B2C-5671-4A26-BD0C-3B43D178F8C7}" />
+</Root>

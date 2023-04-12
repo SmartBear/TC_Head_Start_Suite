@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{DDD5C637-44B2-4E6A-9D05-5832C6EBEE1B}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44995.4486574074" objectName="Aliases.browser.pageShop.panelContentWrapper" objectLeft="0" objectTop="306" objectRight="1903" objectBottom="2477" clickPointX="301" clickPointY="414" imageFileName="tcvi380826596360.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44995.4487037037" objectName="Aliases.browser.pageShop.textnodeUsd" objectLeft="0" objectTop="103" objectRight="1903" objectBottom="2854" clickPointX="-1" clickPointY="-1" imageFileName="tcvi381160996361.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44995.4487847222" objectName="Aliases.browser.pageShop.sectionContent.articleTheZ3ZuseZ3.textnode" objectLeft="397" objectTop="486" objectRight="842" objectBottom="576" clickPointX="568" clickPointY="507" imageFileName="tcvi381882896362.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

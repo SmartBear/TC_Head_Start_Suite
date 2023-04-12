@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{C708672A-E4DE-4B6D-A4A7-91887E5E46F7}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Mod_Filter_Rental_SomervilleMA&#13;&#10;Filters rentals by Somerville MA" />
+			</Operation>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Create_and_Populate_Data_File" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Create_and_Populate_Data_File" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Closes the browser" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="Mod_Create_and_Populate_Data_File" />
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Create_and_Populate_Data_File" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Delete the file if it exists" />
+						<Children>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="0">
+										<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqFile.Exists(KeywordTests.Mod_Create_and_Populate_Data_File.Variables.FileName)" />
+										<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="The file exists, delete it" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+										<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="aqFile.Delete(KeywordTests.Mod_Create_and_Populate_Data_File.Variables.FileName)" />
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Create the file and populate header" />
+						<Children>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="0">
+										<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqFile.Exists(KeywordTests.Mod_Create_and_Populate_Data_File.Variables.FileName)" />
+										<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="False" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="The file does not exist, create it" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{9D363D3E-67C5-4712-B444-E21216006676}">
+										<Data Description="Puts values of variables in a new row.">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="FileName" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="FileName" />
+												<Parameter Name="Sheet" DefVarType="0" VarType="8" ValueType="6" ValueValue="Listing" />
+												<Parameter Name="ColumnA" DefVarType="0" VarType="8" ValueType="6" ValueValue="Address" />
+												<Parameter Name="ColumnB" DefVarType="0" VarType="8" ValueType="6" ValueValue="Baths" />
+												<Parameter Name="ColumnC" DefVarType="0" VarType="8" ValueType="6" ValueValue="Est_Price" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Populate first five rows" />
+						<Children>
+							<Operation Type="{60B8EBE8-9B0C-4A7B-A452-229144AEA05B}">
+								<Data>
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Loop Variable" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="0" VariableName="">
+											<Restrictions>
+												<PermittedType Key="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" />
+											</Restrictions>
+										</Parameter>
+										<Parameter Name="Start Value" DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+										<Parameter Name="End Value" DefVarType="0" VarType="3" ValueType="1" ValueValue="5" />
+										<Parameter Name="Step" DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+									</Parameters>
+								</Data>
+								<Children>
+									<Operation Type="{9D363D3E-67C5-4712-B444-E21216006676}">
+										<Data Description="Puts values of variables in a new row.">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="FileName" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="FileName" />
+												<Parameter Name="Sheet" DefVarType="0" VarType="8" ValueType="6" ValueValue="Listing" />
+												<Parameter Name="ColumnA" DefVarType="0" VarType="8" ValueType="6" ValueValue="7843 Detroit Blvd" />
+												<Parameter Name="ColumnB" DefVarType="0" VarType="3" ValueType="1" ValueValue="3" />
+												<Parameter Name="ColumnC" DefVarType="0" VarType="8" ValueType="6" ValueValue="76,000" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+						<Data GroupName="Orignial_CSV_Experiment">
+							<CommonData Disabled="True" />
+						</Data>
+						<Children>
+							<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+								<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="aqFile.Create(KeywordTests.Mod_Create_and_Populate_Data_File.FileName)">
+									<CommonData Disabled="True" />
+								</Data>
+							</Operation>
+							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+								<Data VariableType="4" VariableName="ZillowFile">
+									<CommonData Disabled="True" />
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqFile.OpenTextFile(KeywordTests.Mod_Create_and_Populate_Data_File.Variables.FileName, aqFile.faReadWrite , aqFile.ctUnicode,true)" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+								<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="KeywordTests.Mod_Create_and_Populate_Data_File.ZillowFile.WriteLine(&quot;Address,Baths,Estimate_Payment&quot;)">
+									<CommonData Disabled="True" />
+								</Data>
+							</Operation>
+							<Operation Type="{60B8EBE8-9B0C-4A7B-A452-229144AEA05B}">
+								<Data>
+									<CommonData Disabled="True" />
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Loop Variable" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="0" VariableName="">
+											<Restrictions>
+												<PermittedType Key="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" />
+											</Restrictions>
+										</Parameter>
+										<Parameter Name="Start Value" DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+										<Parameter Name="End Value" DefVarType="0" VarType="3" ValueType="1" ValueValue="5" />
+										<Parameter Name="Step" DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+									</Parameters>
+								</Data>
+								<Children>
+									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+										<Data Description="Delays the test execution for the specified time period.">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="3 Second delay" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+										<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="aqFile.WriteToTextFile(&quot;Address,Baths,Estimate_Payment&quot;)" />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+								<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="KeywordTests.Mod_Create_and_Populate_Data_File.Variables.ZillowFile.Close()" />
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{625B057F-E523-4A67-9E8D-71E206FAE77F}">
+		<Items>
+			<Variable Name="FileName" Type="String" Local="False">
+				<DefValue StrValue="C:\Temp\ZillowListings.xlsx" />
+			</Variable>
+			<Variable Name="ZillowFile" Type="Object" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{4A6E9415-6CAD-441A-A829-0FED45A53DFE}" />
+</Root>

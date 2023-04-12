@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="Test_Login_Fail - This tests that signing in with incorrect credentials returns appropriate error messages&#13;&#10;Created 12/13/2022 by KMJ&#13;&#10;" Key="{3EC1004A-E98A-43C8-9FEC-D9FB67CC22F8}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Test_Login_Fail - This tests that signing in with incorrect credentials returns appropriate error messages&#13;&#10;Created 12/13/2022 by KMJ&#13;&#10;" />
+			</Operation>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Test_Login_Fail" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_Login_Fail" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="9" ValueValue="54006500730074005F004C006F00670069006E005F004600610069006C0020002D00200054006800690073002000740065007300740073002000740068006100740020007300690067006E0069006E006700200069006E0020007700690074006800200069006E0063006F00720072006500630074002000630072006500640065006E007400690061006C0073002000720065007400750072006E007300200061007000700072006F0070007200690061007400650020006500720072006F00720020006D0065007300730061006700650073000D000A0043007200650061007400650064002000310032002F00310033002F00320030003200320020006200790020004B004D004A00" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribTestTitle" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="Test_Login_Fail" />
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_Login_Fail" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="9" ValueValue="54006500730074005F004C006F00670069006E005F004600610069006C0020002D00200054006800690073002000740065007300740073002000740068006100740020007300690067006E0069006E006700200069006E0020007700690074006800200069006E0063006F00720072006500630074002000630072006500640065006E007400690061006C0073002000720065007400750072006E007300200061007000700072006F0070007200690061007400650020006500720072006F00720020006D0065007300730061006700650073000D000A0043007200650061007400650064002000310032002F00310033002F00320030003200320020006200790020004B004D004A000D000A00" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Open_App" />
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Logon_Fail" />
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{259785D4-4285-4418-B3FF-180C3FA355D3}" />
+</Root>
