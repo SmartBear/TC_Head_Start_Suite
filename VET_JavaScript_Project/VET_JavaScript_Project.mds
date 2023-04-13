@@ -10,36 +10,12 @@
 		<child name="Events" key="{D17DBC95-9638-45A2-BB83-C29B73812684}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="NameMapping" key="{81069960-11CF-4B28-AD6D-2B35EA2F9499}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="README.md" key="{4A94B001-3716-4982-B2F9-3CE048C1E188}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="Stores" key="{40005821-7C6C-4C66-B433-C660E9768A55}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{CD86EDBC-244C-469D-A756-BAAF50979499}" version="14">
 		<children>
-			<testItem name="Templates" key="{263D31CF-D907-4628-A26D-6EA9D462F7DA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Test_Template" key="{6EFEE8CD-3ABE-4F2C-ADFA-5E3655679103}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5C66A461-F663-48B1-8E89-858C6DC341A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Keyword_Calling_Script_Test_Template" key="{F8D8B7D0-EA67-4918-BD31-6ABFDE045972}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FF104CD0-B91E-4793-97BE-9C78202D4ADD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Script_Test_Template" key="{34983E59-0D22-4D9A-A768-2EE1330F98B6}" group="False" parallel="False" enabled="True" testMoniker="{89442D72-2254-4E79-B2F0-BBBB804AF27D}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_New_Function" key="{61982E3C-1EE9-47E9-9766-601F6128F792}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Jira Tests" key="{E1988D66-9199-457B-A325-1093569C1DB1}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Jira Tests" key="{E1988D66-9199-457B-A325-1093569C1DB1}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="VET_17_Salesforce_Sample" key="{1D60CD95-882D-467C-8A95-032FAC9DE2F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6C6CF1FB-D208-48ED-8B36-8F83D844987D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -49,20 +25,93 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Utility Tests" key="{56428E9D-6B2E-4FDA-9AFC-BBEE7B8F0430}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Utility Tests" key="{56428E9D-6B2E-4FDA-9AFC-BBEE7B8F0430}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_String_Manipulation" key="{9644CBDF-C45F-4B09-84A5-8610CECB8805}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Templates" key="{263D31CF-D907-4628-A26D-6EA9D462F7DA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Test_Template" key="{6EFEE8CD-3ABE-4F2C-ADFA-5E3655679103}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5C66A461-F663-48B1-8E89-858C6DC341A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Keyword_Calling_Script_Test_Template" key="{F8D8B7D0-EA67-4918-BD31-6ABFDE045972}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FF104CD0-B91E-4793-97BE-9C78202D4ADD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Script_Test_Template" key="{34983E59-0D22-4D9A-A768-2EE1330F98B6}" group="False" parallel="False" enabled="True" testMoniker="{89442D72-2254-4E79-B2F0-BBBB804AF27D}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Test_New_Function" key="{61982E3C-1EE9-47E9-9766-601F6128F792}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="Test_String_Manipulation" key="{9644CBDF-C45F-4B09-84A5-8610CECB8805}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_String_Sample" key="{174D6839-1BF3-4BE3-B3AA-932A688BDB1A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0716EDEE-581D-468E-8474-FB29FA3D35BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_String_Sample" key="{174D6839-1BF3-4BE3-B3AA-932A688BDB1A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0716EDEE-581D-468E-8474-FB29FA3D35BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_PDF_Read" key="{F40CD61A-EF9F-471F-9588-203C2E99E4FC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D4241B37-0725-48C5-BBCC-6E3AA8732126}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Excel_Actions" key="{875729A4-EF9E-4E8F-969D-F21EBCBDB95F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{71D0EDB0-C4A4-40C2-90D9-63CFEF3B774E}" count="3" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="0 Common" key="{1C3FCA33-91BD-4BB1-BA2B-350E2EDA21BB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Browser Utility" key="{3F092102-F915-46E7-AE29-8A8792C70CAC}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="EventControls" key="{DF002D1E-1930-48FE-8434-C2A01C4966E6}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="3 Deep Dive" key="{1AA1AE48-D19A-4BD0-878A-ABEDE469920F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Excel_Actions_2" key="{AC8ED576-0F0E-4FC9-B734-EA3E3DBA3475}" group="False" parallel="False" enabled="True" testMoniker="KDT\{71D0EDB0-C4A4-40C2-90D9-63CFEF3B774E}" count="3" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_PDF_Read_2" key="{E3FEE37B-2408-42B6-B95D-BC0E9CE7DB08}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D4241B37-0725-48C5-BBCC-6E3AA8732126}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_String_Manipulation_2" key="{8E8B3812-9958-4410-93EA-727F829F6797}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_String_Sample_2" key="{A0695EDB-AC33-4C90-B76A-5E9B47218976}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0716EDEE-581D-468E-8474-FB29FA3D35BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="VET_17_Salesforce_Sample_2" key="{257B9F77-F4BF-4EB3-B3D4-7870480885B1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6C6CF1FB-D208-48ED-8B36-8F83D844987D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -107,11 +156,17 @@
 				<Variable Name="RefNumber" Type="Integer" Local="False" Descr="This is the number extracted from the string passed to the routine">
 					<DefValue IntValue="0" />
 				</Variable>
+				<Variable Name="Pesistant_Project_String" Type="String" Local="True">
+					<DefValue StrValue="Real Programmers Count 0123456789 From Zero" />
+				</Variable>
+				<Variable Name="OriginalString" Type="String" Local="False">
+					<DefValue StrValue="Real Programmers Count 0123456789 From Zero" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{57A5BA2C-AF78-4788-950F-E04C0C04694B}">
-		<settingsVersion value="15.49" />
+		<settingsVersion value="15.50" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -142,6 +197,8 @@
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">

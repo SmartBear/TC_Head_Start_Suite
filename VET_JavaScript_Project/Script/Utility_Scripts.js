@@ -52,6 +52,7 @@ function Extract_Substring_2(Phrase, Pos1, Length1, Pos2, Length2)
   Log.AppendFolder("Extract_Substring_2", "Sample Script", pmNormal, Project.Variables.LogAtrribModTitle);
   var Str = Phrase;
   Log.Message(Str);
+  Project.Variables.OriginalString = Str;
   var Str = aqString.Remove(Phrase, Pos1, Length1);
   Log.Message(Str);
   var Str = aqString.Remove(Str, Pos2, Length2);

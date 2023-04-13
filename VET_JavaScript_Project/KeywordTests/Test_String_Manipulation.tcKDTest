@@ -37,7 +37,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Test_Template_Module_Group" />
+				<Data GroupName="Test_String_Manipulation_Module_Group" />
 				<Children>
 					<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
 						<Data Description="Iterates through the specified browsers.">
@@ -120,6 +120,9 @@
 												<Parameter Name="Length2" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="3" ValueType="1" ValueValue="10" />
 											</Parameters>
 										</Data>
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Excel_Actions" />
 									</Operation>
 								</Children>
 							</Operation>

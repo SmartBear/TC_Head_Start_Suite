@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="Contact_List1">
+		<Source Object="C:\KMJ\TC_Head_Start_Suite\VET_JavaScript_Project\Data_Files\Contact_List.xlsx">
+			<DataExtraction Type="ExcelTableSheet" SheetTitle="Captured_Values" FirstRowIsHeader="True" />
+		</Source>
+		<Columns>
+			<Column CompareStyle="Default">Number</Column>
+			<Column CompareStyle="Default">Text1</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="Double">123456789</Cell>
+				<Cell Type="String">The Z3 was a German electromechanical computer designed by Konrad Zuse in 1935, and completed with the help of Helmut Schreyer in 1941 in Berlin. It was the world&apos;s first working programmable, fully automatic digital computer.</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Double">123456789</Cell>
+				<Cell Type="String">The Z3 was a German electromechanical computer designed by Konrad Zuse in 1935, and completed with the help of Helmut Schreyer in 1941 in Berlin. It was the world&apos;s first working programmable, fully automatic digital computer.</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Double">123456789</Cell>
+				<Cell Type="String">Real Programmers Count 0123456789 From Zero</Cell>
+			</Row>
+			<Row>
+				<Cell Type="Double">123456789</Cell>
+				<Cell Type="String">This is a simple string with an integer 123454 inside of it</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>
