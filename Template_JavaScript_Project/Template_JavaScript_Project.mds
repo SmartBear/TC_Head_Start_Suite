@@ -63,7 +63,7 @@
 		</data>
 	</variables>
 	<settings key="{41EE1436-17B9-4846-BE4D-1D9B3464119E}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.50" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -94,6 +94,8 @@
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
@@ -107,6 +109,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />
@@ -688,7 +691,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -698,7 +701,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
