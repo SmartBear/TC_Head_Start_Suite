@@ -44,13 +44,13 @@
 	<variables key="{E64181F1-A286-4086-9ACF-266138ECD9A8}">
 		<data Version="4">
 			<Items>
-				<Variable Name="Password1" Type="Password" Local="False">
+				<Variable Name="Password1" Type="Password" Local="False" Descr="Encrypted Login Password">
 					<DefValue StrValue="38003900360031003600330044003300460034004400380046003300460036004500430039003900320037003900310035004100460044003900420037003900420045003700390044003800410043003800350043003000" />
 				</Variable>
-				<Variable Name="Password2" Type="Password" Local="False">
+				<Variable Name="Password2" Type="Password" Local="False" Descr="Encrypted Login Password">
 					<DefValue StrValue="3800390036003100310033004400330046003400440038004600330046003600450043003900390032003700390031003500410046004400390042003700390042003600370039003600300039003200300035004400320038003000340044004600310031004100350044003000310042003100410043004100340038003500460035003300300039004500" />
 				</Variable>
-				<Variable Name="Password3" Type="Password" Local="False">
+				<Variable Name="Password3" Type="Password" Local="False" Descr="Encrypted Login Password">
 					<DefValue StrValue="3800390036003100310033004400330046003400440038004600330046003600450043003900390032003700390031003500410046004400340033003700450042003600370039003600300039003200300035004400320038003000340044004600310031004100350044003000310042003100410043004100340038004500300037003300300044004600" />
 				</Variable>
 				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
@@ -72,7 +72,7 @@
 		</data>
 	</variables>
 	<settings key="{BCC3F239-C216-4D7B-A7CE-22BA0CD7A62D}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.50" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -103,6 +103,8 @@
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
@@ -116,6 +118,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />

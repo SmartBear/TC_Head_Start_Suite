@@ -143,20 +143,20 @@
 				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="Contact_User" Type="DB Table" Local="False">
+				<Variable Name="Contact_User" Type="DB Table" Local="False" Descr="CSV File used for Data Driving">
 					<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
 						<ConnectionInfo FileName="Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
 					</DefValue>
 				</Variable>
-				<Variable Name="Password1" Type="Password" Local="False">
+				<Variable Name="Password1" Type="Password" Local="False" Descr="Encrypted Password used in Login Test">
 					<DefValue StrValue="3800390036003100390033004400310046003400440038003800420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320030003200300041003600440044004600" />
 				</Variable>
-				<Variable Name="Contact_User1" Type="DB Table" Local="False">
+				<Variable Name="Contact_User1" Type="DB Table" Local="False" Descr="Excel File used for Data Driving">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
-				<Variable Name="User_Info" Type="Table" Local="False">
+				<Variable Name="User_Info" Type="Table" Local="False" Descr="Data Generated Table used for Data Driving">
 					<DefValue RowCount="100" ColumnCount="7">
 						<Columns ColumnName0="UserID" ColumnName1="EMail" ColumnName2="FirstName" ColumnName3="LastName" ColumnName4="Day" ColumnName5="Month" ColumnName6="Year" />
 						<Row No="0" Cell0="PowerUser001" Cell1="moore@porttitor.us" Cell2="Nissim" Cell3="Haney" Cell4="31" Cell5="January" Cell6="1961" />
@@ -265,7 +265,7 @@
 		</data>
 	</variables>
 	<settings key="{65790EC2-BA5D-4B61-8876-0539EA767551}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.50" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -296,6 +296,8 @@
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
@@ -833,7 +835,7 @@
 				<row val0="Breadth-first" />
 			</data>
 		</setting>
-		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="True" />
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />

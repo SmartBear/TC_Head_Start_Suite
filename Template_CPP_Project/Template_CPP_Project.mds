@@ -8,14 +8,14 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{5C5F5938-0499-433B-B091-97254221A102}" version="14">
 		<children>
-			<testItem name="Test_New_Function" key="{7E30EE69-168C-4F40-B7EC-6C9E051B6DA2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EAFF2A13-DE30-4DBE-9A15-27D8BCCE5C3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test_New_Function" key="{7E30EE69-168C-4F40-B7EC-6C9E051B6DA2}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EAFF2A13-DE30-4DBE-9A15-27D8BCCE5C3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Test_Sample_Web_App_Open" key="{53BD4557-463A-44A5-BFB6-7709F53683D1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FCF568F8-6178-4810-8486-E264C190DC5E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test_Sample_Web_App_Open" key="{53BD4557-463A-44A5-BFB6-7709F53683D1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{FCF568F8-6178-4810-8486-E264C190DC5E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="Test_Template" key="{B238BCF9-AC8E-4865-96DD-0B8D083D9295}" group="False" parallel="False" enabled="True" testMoniker="KDT\{98B71177-CA42-494A-9EFC-5773344D3EA7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -617,11 +617,11 @@
 				<row val0="Breadth-first" />
 			</data>
 		</setting>
-		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="True" />
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
@@ -675,7 +675,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -685,7 +685,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

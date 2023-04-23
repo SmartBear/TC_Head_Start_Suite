@@ -6,9 +6,45 @@
 	</children>
 	<config language="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" />
 	<testItems key="{1D53DD8A-1F7F-4996-9359-DCBB16B1F746}" version="14">
-		<children />
+		<children>
+			<testItem name="VET_17_Salesforce_Sample" key="{5BEC8E17-5DC0-4889-8F3E-9D219400D921}" group="False" parallel="False" enabled="False" testMoniker="KDT\{FF0F5DC7-1A51-4E6A-8B18-B8DDF0276AD5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="Test_Template" key="{23E44AAA-7677-499B-94A0-AACB9C53675B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B6946B4-0E66-470A-A631-028839DE7C5A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="Test_New_Function" key="{BCA6A585-ECF9-49DE-89BE-7AB47DF5003E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0BDE7E27-4AAE-4772-A8C6-D11B8E9ABC81}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
-	<variables key="{5E9EEF78-3495-4ABA-B102-4B1E04B35490}" />
+	<variables key="{5E9EEF78-3495-4ABA-B102-4B1E04B35490}">
+		<data Version="4">
+			<Items>
+				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribModTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Module Title messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribInformation" Type="Object" Local="False" Descr="Use as log attribute to highlight Information messages">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{52FAB693-E63D-4268-BFE3-7898C1F496A0}">
 		<settingsVersion value="15.50" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
@@ -580,7 +616,7 @@
 				<row val0="Breadth-first" />
 			</data>
 		</setting>
-		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="True" />
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
