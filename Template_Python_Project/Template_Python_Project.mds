@@ -19,7 +19,7 @@
 				<children>
 					<testItem name="Test_Sample_Web_App_Open" key="{6D9B751D-E714-425A-905A-1EB60FD66A17}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F6DF90C8-DD30-4322-B0B6-E066BE46E7BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Template" key="{BBF70BB7-310E-45A0-9A50-845D63EB21DA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DBAE9B8F-2EB5-4193-BBB3-CB10712305E3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

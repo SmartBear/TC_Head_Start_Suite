@@ -17,14 +17,14 @@
 			</Operation>
 			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 				<Data Description="Replaces the current indicator text with the specified one.">
-					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Test_Template" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
-					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Sample" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -48,7 +48,9 @@
 						<Data Description="Runs a keyword test." TestName="Mod_Template" />
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="Mod_Template" Unit="Unit1" />
+						<Data Description="Runs a script routine." TestName="Mod_Template" Unit="Unit1">
+							<CommonData Disabled="True" />
+						</Data>
 					</Operation>
 				</Children>
 			</Operation>
