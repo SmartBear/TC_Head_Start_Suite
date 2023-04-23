@@ -25,21 +25,21 @@
 	</children>
 	<testItems key="{746E2B81-9116-449C-BD7E-87D672B7CACE}">
 		<children>
-			<testItem key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{80A30188-0576-44AC-A37E-35E7062611B8}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript" />
-			<testItem key="{8FCB1155-42C4-42A4-A559-19368A4DE100}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript" />
-			<testItem key="{BDA7135C-0239-47A8-863D-673A261D08C2}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript" />
-			<testItem key="{5C83C21E-42D7-4F96-82DD-AC87C0DF911D}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{A074BA27-A5B8-434F-BB17-7C530A52768E}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{92E7C7DB-71F1-40A9-A2F7-6744E7F6AB84}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{D4A094B9-41BC-40FC-A258-EEE4D52CF2A9}" enabled="True" timeout="0" stopOnError="False" description="Template using JavaScript" />
-			<testItem key="{E1544087-E278-4E6D-9DFF-C4590A613CE3}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{5B6FAA58-E881-41D2-9D03-1F44E4434760}" enabled="True" timeout="0" stopOnError="False" description="Template using Python" />
-			<testItem key="{17330EBF-8EB0-4EB5-A311-E4D2C18CD115}" enabled="True" timeout="0" stopOnError="False" description="Template using VBScript" />
-			<testItem key="{DCE59DAE-4066-416F-9406-2C386E444996}" enabled="True" timeout="0" stopOnError="False" description="Utility Project showcasing Brower Actions" />
-			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="0" stopOnError="False" description="Utility Project showcasing Misc Actions" />
-			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript and Jira Naming Conventions" />
-			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
+			<testItem key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using C$ Script" />
+			<testItem key="{80A30188-0576-44AC-A37E-35E7062611B8}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using JavaScript" />
+			<testItem key="{8FCB1155-42C4-42A4-A559-19368A4DE100}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using JavaScript" />
+			<testItem key="{BDA7135C-0239-47A8-863D-673A261D08C2}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using JavaScript" />
+			<testItem key="{5C83C21E-42D7-4F96-82DD-AC87C0DF911D}" enabled="True" timeout="60" stopOnError="False" description="Template using C++ Script (Legacy)" />
+			<testItem key="{A074BA27-A5B8-434F-BB17-7C530A52768E}" enabled="True" timeout="60" stopOnError="False" description="Template using C# Script (Legacy)" />
+			<testItem key="{92E7C7DB-71F1-40A9-A2F7-6744E7F6AB84}" enabled="True" timeout="60" stopOnError="False" description="Template using Delphi (Legacy)" />
+			<testItem key="{D4A094B9-41BC-40FC-A258-EEE4D52CF2A9}" enabled="True" timeout="60" stopOnError="False" description="Template using JavaScript" />
+			<testItem key="{E1544087-E278-4E6D-9DFF-C4590A613CE3}" enabled="True" timeout="60" stopOnError="False" description="Template using JScript (Legacy)" />
+			<testItem key="{5B6FAA58-E881-41D2-9D03-1F44E4434760}" enabled="True" timeout="60" stopOnError="False" description="Template using Python" />
+			<testItem key="{17330EBF-8EB0-4EB5-A311-E4D2C18CD115}" enabled="True" timeout="60" stopOnError="False" description="Template using VBScript" />
+			<testItem key="{DCE59DAE-4066-416F-9406-2C386E444996}" enabled="True" timeout="60" stopOnError="False" description="Utility Project showcasing Brower Actions" />
+			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="60" stopOnError="False" description="Utility Project showcasing Misc Actions" />
+			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using JavaScript and Jira Naming Conventions" />
+			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
