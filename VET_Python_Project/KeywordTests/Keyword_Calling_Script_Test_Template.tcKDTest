@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{EE664160-6250-4543-A95F-D3B574D8C4DA}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{97787F95-152D-4AB3-9E2F-5C0CCE9899AE}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -12,14 +12,14 @@
 			</Operation>
 			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 				<Data Description="Replaces the current indicator text with the specified one.">
-					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Keyword_Calling_Script_Test_Template" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
-					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Keyword_Calling_Script_Test_Template" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="All tests should follow this formatting in order to provide consistency to the look and feel of output logs" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -37,11 +37,11 @@
 				</Data>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Keyword_Calling_Script_Test_Template" />
+				<Data GroupName="Test_Template_Script_Routine_Group" />
 				<Children>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an information message to the test log." MessageType="0">
-							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Keyword Calling Script Test Template Information Message" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Log entry in the Test Template Keyword Test" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -72,5 +72,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{F98550F5-8646-41AF-B807-F2C50FCF27A9}" />
+	<Parameters Key="{E298C84F-7E35-487A-8F3B-3EFDB72E4011}" />
 </Root>
