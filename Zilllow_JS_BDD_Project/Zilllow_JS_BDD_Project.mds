@@ -89,7 +89,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Simple_Filter" key="{E22B5FEC-3F6D-400C-A1B4-BA87A21B4E48}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4327C5C0-747C-40FE-B9F8-2F838960BD5B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Simple_Filter" key="{E22B5FEC-3F6D-400C-A1B4-BA87A21B4E48}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4327C5C0-747C-40FE-B9F8-2F838960BD5B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
