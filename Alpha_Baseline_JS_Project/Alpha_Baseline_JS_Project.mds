@@ -88,12 +88,7 @@
 							</testItem>
 							<testItem name="Test_Template_All_Browser_Loop" key="{0B7EA01E-A075-443A-BE15-A3A069B47BED}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9C3ACC8C-82DE-4E73-A567-B0508B4ADE40}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Test_Register_User_2" key="{4B18EC9C-7A50-4EF6-B2EB-07EE8A5898FC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C288BA28-0C93-4417-89DD-B9F6388A3BDA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="Mod_Filter_Rental_SomervilleMA&#13;&#10;Filters rentals by Somerville MA" Key="{1D86361B-38B5-4648-AC1A-64A125F00083}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="Mod_Filter_Rental_SomervilleMA&#13;&#10;Filters rentals by Somerville MA" Key="{1D86361B-38B5-4648-AC1A-64A125F00083}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
