@@ -62,7 +62,7 @@
 						</Data>
 					</Operation>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-						<Data Description="Posts a warning to the test log." MessageType="2">
+						<Data Description="Posts an information message to the test log." MessageType="0">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Researching failure KMJ 20230425" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
