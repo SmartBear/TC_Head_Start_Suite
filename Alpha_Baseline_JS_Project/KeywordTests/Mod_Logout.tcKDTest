@@ -62,7 +62,7 @@
 						</Data>
 					</Operation>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-						<Data Description="Posts an information message to the test log." MessageType="0">
+						<Data Description="Posts a warning to the test log." MessageType="2">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Researching failure KMJ 20230425" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
@@ -75,7 +75,7 @@
 										<Value Type="1" Value="500" Text="pmHighest" />
 									</Values>
 								</Parameter>
-								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribWarning" />
 								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
 								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
