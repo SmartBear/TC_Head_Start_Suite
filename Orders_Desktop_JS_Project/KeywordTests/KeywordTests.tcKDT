@@ -8,5 +8,6 @@
 		<child name="Test_Open_Orders_App" key="{EE8CCD72-DEA5-4CE3-8CEB-8DD877E96DBA}" path="Test_Open_Orders_App.tcKDTest" />
 		<child name="Test_New_Function" key="{61049B82-E1A4-4245-A1EA-11310BAE85B4}" path="Test_New_Function.tcKDTest" />
 		<child name="Test_Menu_Navigation" key="{E9FF42EC-EC91-4C0B-B045-9CFB89A54C2F}" path="Test_Menu_Navigation.tcKDTest" />
+		<child name="Test_Loop_Sample" key="{791567AC-EE8A-4584-A0BD-1A86ED17BCE1}" path="Test_Loop_Sample.tcKDTest" />
 	</children>
 </Root>

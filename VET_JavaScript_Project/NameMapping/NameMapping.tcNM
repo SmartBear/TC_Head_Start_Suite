@@ -429,9 +429,172 @@
 								<Children>
 									<Child Name="Item" Key="{3439C968-A753-4A1B-AA31-D1E7C996ED9A}">
 										<TypeInfo Item0="{456C8236-D10F-4BAB-A266-AB9A8AE98FFB}" />
+										<Children>
+											<Child Name="Explorer_Pane" Key="{FFC8E8DE-AD31-4E2C-9571-1BB33C398F43}">
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="HWNDView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Explorer_Pane" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="FloatNotifySink" Key="{4392AB53-832E-41BC-A3D2-B76E6874D4B4}">
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="FloatNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ComboBox" Key="{D1E6F87A-0A77-4BB3-ACF5-3CDDF9E5A266}">
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="ComboBox" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Edit" Key="{1446E2B9-F4A7-4CA6-ACC9-147D22ABE094}">
+																		<TypeInfo Item0="{BC43A5B9-3293-431C-95FA-887AAB33DA79}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Edit" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="CtrlNotifySink" Key="{305C69FC-3A1A-43C9-A8FD-08AA30AFD383}">
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="CtrlNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ShellView" Key="{DF034F8A-CAD4-4DAF-816E-8E912A16153F}" ExtendedFind="True">
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SHELLDLL_DefView" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="ShellView" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Items_View" Key="{EF4487C5-C0B4-4C0E-AA10-0B478A528958}">
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="DirectUI" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="UIItemsView" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="list" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Items_View" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Saved_tbl" Key="{DC70CA89-8B87-4E6E-AD6E-EF370EEBC84B}">
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list item" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Saved_tbl" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Name" Key="{29B1E355-67BC-4D21-9D11-5F441AC461F6}">
+																						<TypeInfo Item0="{48E75F1B-A6DB-4DC4-9AB8-49C107A23F33}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIProperty" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="edit" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Name" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="CtrlNotifySink" Key="{7FBF2F58-C672-4EB3-8EF5-03BD472D5B2C}">
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="7" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnYes" Key="{DE1AFFDB-2A5F-48FC-BF65-F0442CB18583}">
+														<TypeInfo Item0="{EC3E1584-2B6E-4004-9C3F-85CE306AA91A}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="&amp;Yes" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
 									</Child>
 									<Child Name="panelContentWrapper" Key="{F271302E-0F6E-4AF8-88FF-84DD453626DC}">
-										<Image FileName="1983567771" Left="0" Top="-133" Right="1903" Bottom="2038" />
 										<TypeInfo Item0="{6D5431C5-1EF4-4AD0-B6CE-E4F199810B32}" />
 										<Selectors>
 											<Selector>
@@ -440,7 +603,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeUsd" Key="{754C4222-3140-406F-BA7F-F3E501CF492E}">
-										<Image FileName="1888767677" Left="0" Top="-336" Right="1903" Bottom="2415" />
 										<TypeInfo Item0="{6D5431C5-1EF4-4AD0-B6CE-E4F199810B32}" />
 										<Selectors>
 											<Selector>
@@ -453,6 +615,35 @@
 												<Value Value="//body" />
 											</Selector>
 										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Orders" Key="{F240934B-DDA0-49DF-AA4E-91ADFCD94B77}">
+						<TypeInfo Item0="{310837B1-8B20-4F9F-88D5-7ABD5B7789DE}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{B753F5A4-C966-4429-9F92-A27332F829D5}">
+								<TypeInfo Item0="{BDAE3877-EB70-4292-91D6-F3F28F817E35}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ToolBar" Key="{7ED89CD7-C441-4B99-8790-F438F88A6531}">
+										<Image FileName="-1375008519" Left="8" Top="51" Right="600" Bottom="79" />
+										<TypeInfo Item0="{7DCD363F-3E70-4346-9C5B-964B25E99160}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ToolBar" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -503,9 +694,34 @@
 		</Child>
 		<Child Name="Item" Owner="{42F01AD3-DD78-4AC5-A3DD-EDCF278385F8}">
 			<Child Name="Item" Owner="{D5CF3251-5CF2-41B8-A60F-E733F2811FEC}">
-				<Child Name="Item" Owner="{3439C968-A753-4A1B-AA31-D1E7C996ED9A}" />
+				<Child Name="Item" Owner="{3439C968-A753-4A1B-AA31-D1E7C996ED9A}">
+					<Child Name="Explorer_Pane" Owner="{FFC8E8DE-AD31-4E2C-9571-1BB33C398F43}">
+						<Child Name="FloatNotifySink" Owner="{4392AB53-832E-41BC-A3D2-B76E6874D4B4}">
+							<Child Name="ComboBox" Owner="{D1E6F87A-0A77-4BB3-ACF5-3CDDF9E5A266}">
+								<Child Name="Edit" Owner="{1446E2B9-F4A7-4CA6-ACC9-147D22ABE094}" />
+							</Child>
+						</Child>
+						<Child Name="CtrlNotifySink" Owner="{305C69FC-3A1A-43C9-A8FD-08AA30AFD383}">
+							<Child Name="ShellView" Owner="{DF034F8A-CAD4-4DAF-816E-8E912A16153F}">
+								<Child Name="Items_View" Owner="{EF4487C5-C0B4-4C0E-AA10-0B478A528958}">
+									<Child Name="Saved_tbl" Owner="{DC70CA89-8B87-4E6E-AD6E-EF370EEBC84B}">
+										<Child Name="Name" Owner="{29B1E355-67BC-4D21-9D11-5F441AC461F6}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+					<Child Name="CtrlNotifySink" Owner="{7FBF2F58-C672-4EB3-8EF5-03BD472D5B2C}">
+						<Child Name="btnYes" Owner="{DE1AFFDB-2A5F-48FC-BF65-F0442CB18583}" />
+					</Child>
+				</Child>
 				<Child Name="panelContentWrapper" Owner="{F271302E-0F6E-4AF8-88FF-84DD453626DC}" />
 				<Child Name="textnodeUsd" Owner="{754C4222-3140-406F-BA7F-F3E501CF492E}" />
+			</Child>
+		</Child>
+		<Child Name="Orders" Owner="{F240934B-DDA0-49DF-AA4E-91ADFCD94B77}">
+			<Child Name="MainForm" Owner="{B753F5A4-C966-4429-9F92-A27332F829D5}">
+				<Child Name="ToolBar" Owner="{7ED89CD7-C441-4B99-8790-F438F88A6531}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

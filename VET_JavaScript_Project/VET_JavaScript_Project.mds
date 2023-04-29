@@ -11,6 +11,7 @@
 		<child name="NameMapping" key="{81069960-11CF-4B28-AD6D-2B35EA2F9499}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="README.md" key="{4A94B001-3716-4982-B2F9-3CE048C1E188}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
 		<child name="Stores" key="{40005821-7C6C-4C66-B433-C660E9768A55}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="TestedApps" key="{E6DBB3BF-E5E7-4140-911A-9B07078B700E}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{CD86EDBC-244C-469D-A756-BAAF50979499}" version="14">
@@ -88,6 +89,26 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="1 Sanity" key="{14C71C93-CFA0-41A4-AF26-E026908AB6BE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Santiy_001" key="{467E2C25-D1A8-47B4-8DC2-CC1B50D3F175}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0AE1C2B-A0F4-40F1-BCAB-430D8E0638A6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="2 Smoke" key="{4B9EEC25-7AF2-4B1C-84D5-C60895DA1B4A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Smoke_001" key="{4665BE9D-D4A2-4140-B4A4-D4EC567E5715}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CAB6F5A8-9DA1-4A8F-AFED-7F7FC8C5A95E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 			<testItem name="3 Deep Dive" key="{1AA1AE48-D19A-4BD0-878A-ABEDE469920F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
@@ -112,6 +133,21 @@
 						<children />
 					</testItem>
 					<testItem name="VET_17_Salesforce_Sample_2" key="{257B9F77-F4BF-4EB3-B3D4-7870480885B1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6C6CF1FB-D208-48ED-8B36-8F83D844987D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="4 Debug" key="{4F92320F-F731-4FCD-B41E-2C59A8F8235D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Looping_Examples" key="{46039E1C-7B12-4B15-8A53-16173650EE7C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F63AE162-3BF1-47E7-8D8A-124E753AAC8D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_New_Function_2" key="{F09093A3-1387-4444-B557-21E7BF513CC8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -736,7 +772,7 @@
 				<row val0="Breadth-first" />
 			</data>
 		</setting>
-		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="True" />
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
@@ -746,12 +782,12 @@
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
-		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
-		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="True" />
 		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
 		<setting name="RecreateActiveXObjects" type="1" value="False" />
 		<setting name="RunStandaloneServer" type="1" value="False" />

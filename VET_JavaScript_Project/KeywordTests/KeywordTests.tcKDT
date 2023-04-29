@@ -4,7 +4,9 @@
 		<folder name="1 Sanity">
 			<child name="Santiy_001" key="{E0AE1C2B-A0F4-40F1-BCAB-430D8E0638A6}" path="Santiy_001.tcKDTest" />
 		</folder>
-		<folder name="2 Smoke" />
+		<folder name="2 Smoke">
+			<child name="Smoke_001" key="{CAB6F5A8-9DA1-4A8F-AFED-7F7FC8C5A95E}" path="Smoke_001.tcKDTest" />
+		</folder>
 		<folder name="3 Deep Dive">
 			<child name="Test_String_Manipulation" key="{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" path="Test_String_Manipulation.tcKDTest" />
 			<child name="Test_String_Sample" key="{0716EDEE-581D-468E-8474-FB29FA3D35BA}" path="Test_String_Sample.tcKDTest" />
@@ -19,6 +21,7 @@
 		</folder>
 		<folder name="4 Debug">
 			<child name="Test_New_Function" key="{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" path="Test_New_Function.tcKDTest" />
+			<child name="Test_Looping_Examples" key="{F63AE162-3BF1-47E7-8D8A-124E753AAC8D}" path="Test_Looping_Examples.tcKDTest" />
 		</folder>
 		<folder name="0 Common">
 			<folder name="Templates">
