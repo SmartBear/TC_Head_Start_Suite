@@ -648,7 +648,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://bearstore-testsite.smartbear.com/login*" />
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
 									</Property>
 								</Properties>
 								<Children>
