@@ -49,7 +49,7 @@
 					</testItem>
 					<testItem name="Test_Loop_Sample" key="{B0169776-F01F-49F1-89D9-B1908ADEF7DD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{791567AC-EE8A-4584-A0BD-1A86ED17BCE1}" count="3" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
