@@ -932,6 +932,65 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMozillaFirefox" Key="{1F21B6BE-7E86-4E46-880A-8681398BCD97}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://browser/content/browser.xhtml" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="popupsetMainpopupset" Key="{92FE40B2-8B27-406E-B6D1-FDE0F1C03536}">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="popupset" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="mainPopupSet" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelAppmenuNotificationPopup" Key="{7ECE7236-A316-4239-93E0-DD93E12F99EB}">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="panel" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="appMenu-notification-popup" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="buttonDismiss" Key="{2E8328C2-414E-4B9F-9CE7-7DD8E7E8992A}">
+														<TypeInfo Item0="{CF150FBD-AC37-4F70-866B-3F76449D59A4}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Dismiss" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageNewtab" Key="{009107AE-6CE8-4F2C-BF10-7603DD4A6739}">
+								<Image FileName="330934896" Left="8" Top="79" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{5BA4889D-4348-49B8-9176-216CA1DAA947}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://newtab/" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Item" Key="{42F01AD3-DD78-4AC5-A3DD-EDCF278385F8}">
@@ -1849,6 +1908,10 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageMozillaFirefox" Owner="{1F21B6BE-7E86-4E46-880A-8681398BCD97}">
+				<Child Name="buttonDismiss" Owner="{2E8328C2-414E-4B9F-9CE7-7DD8E7E8992A}" />
+			</Child>
+			<Child Name="pageNewtab" Owner="{009107AE-6CE8-4F2C-BF10-7603DD4A6739}" />
 		</Child>
 		<Child Name="Item" Owner="{42F01AD3-DD78-4AC5-A3DD-EDCF278385F8}">
 			<Child Name="Item" Owner="{D5CF3251-5CF2-41B8-A60F-E733F2811FEC}">

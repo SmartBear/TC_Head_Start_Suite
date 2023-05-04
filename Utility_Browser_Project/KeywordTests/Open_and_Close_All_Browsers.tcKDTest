@@ -38,6 +38,7 @@
 					<Item>
 						<BrowserItem BrowserName="edge" />
 						<BrowserItem BrowserName="chrome" />
+						<BrowserItem BrowserName="firefox" />
 					</Item>
 				</Data>
 				<Children>

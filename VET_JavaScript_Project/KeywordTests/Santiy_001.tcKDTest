@@ -6,6 +6,14 @@
 				<NodeBitmaps />
 			</Extenders>
 		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Mod_Open_Bearstore_Chrome" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+			</Operation>
+		</Children>
 	</TestData>
 	<Parameters Key="{B67B4691-636E-4C72-B9AF-95AEEACC2D5A}" />
 </Root>

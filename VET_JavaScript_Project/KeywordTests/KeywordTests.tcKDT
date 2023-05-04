@@ -24,6 +24,7 @@
 		<folder name="4 Debug">
 			<child name="Test_New_Function" key="{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" path="Test_New_Function.tcKDTest" />
 			<child name="Test_Looping_Examples" key="{F63AE162-3BF1-47E7-8D8A-124E753AAC8D}" path="Test_Looping_Examples.tcKDTest" />
+			<child name="Test_Browser_Loop" key="{D6E1AB27-756E-43B4-B082-91D678152433}" path="Test_Browser_Loop.tcKDTest" />
 		</folder>
 		<folder name="0 Common">
 			<folder name="Templates">
@@ -39,7 +40,6 @@
 			<folder name="BearStore">
 				<child name="Mod_Open_Bearstore_Chrome" key="{CB1FD8F2-F1A2-49C7-9946-CBD544A7A3D7}" path="Mod_Open_Bearstore_Chrome.tcKDTest" />
 			</folder>
-			<child name="Modules" key="{B7A6E0EE-AAEE-44C2-AA05-35230B89E829}" path="Modules.tcKDTest" />
 		</folder>
 	</children>
 </Root>

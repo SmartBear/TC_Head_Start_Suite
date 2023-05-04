@@ -13904,7 +13904,6 @@
 							</Child>
 							<Child Name="pageClearAllHistory2" Key="{094385AB-228B-4045-A9E5-A7D8D989A86D}">
 								<Image FileName="1997893748" Left="764" Top="88" Right="1172" Bottom="530" />
-								<TypeInfo Item0="{7B637CE7-1F81-4E33-B078-DE60CC40CD49}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -13916,7 +13915,6 @@
 								<Children>
 									<Child Name="ulwindowSanitizedialog" Key="{D1E8DD5F-101C-45B5-B2BD-DB12FF0D8B61}">
 										<Image FileName="1997893748" Left="764" Top="88" Right="1172" Bottom="530" />
-										<TypeInfo Item0="{6271C7BF-6209-4FFB-8496-DC28CC372A54}" />
 										<Properties>
 											<Property Name="ObjectType">
 												<Value Value="XULWindow" />
@@ -13928,7 +13926,6 @@
 										<Children>
 											<Child Name="dialog" Key="{4A6F0688-58E2-46B9-AE59-9355809556AF}">
 												<Image FileName="1997893748" Left="764" Top="88" Right="1172" Bottom="530" />
-												<TypeInfo Item0="{6271C7BF-6209-4FFB-8496-DC28CC372A54}" />
 												<Properties>
 													<Property Name="ObjectType">
 														<Value Value="dialog" />
@@ -13963,7 +13960,6 @@
 																		</Properties>
 																		<Children>
 																			<Child Name="descriptionSanitizeeverythingwar" Key="{7C886A61-A451-4CFD-8816-78E93752872B}">
-																				<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
 																				<Properties>
 																					<Property Name="ObjectType">
 																						<Value Value="description" />
@@ -13990,7 +13986,6 @@
 														</Properties>
 														<Children>
 															<Child Name="menulistSanitizedurationchoice" Key="{2936A25A-25EF-4C24-8BBB-8DD71E06501E}">
-																<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
 																<Properties>
 																	<Property Name="ObjectType">
 																		<Value Value="menulist" />
@@ -14011,7 +14006,6 @@
 																		</Properties>
 																		<Children>
 																			<Child Name="menuitemLastFourHours" Key="{967C3C17-6619-49A5-88F2-81718E324A7E}">
-																				<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
 																				<Properties>
 																					<Property Name="ObjectType">
 																						<Value Value="menuitem" />
@@ -14022,7 +14016,6 @@
 																				</Properties>
 																			</Child>
 																			<Child Name="menuitemEverything" Key="{11604AC3-64E4-41A6-AB0B-F1EAE744845E}">
-																				<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
 																				<Properties>
 																					<Property Name="ObjectType">
 																						<Value Value="menuitem" />
@@ -14073,7 +14066,6 @@
 																				</Properties>
 																				<Children>
 																					<Child Name="labelButtonText" Key="{6369240C-AB92-419F-9434-4750D61883B8}">
-																						<TypeInfo Item0="{1982E9D9-A553-40C8-A6FE-840F34737968}" />
 																						<Properties>
 																							<Property Name="ObjectType">
 																								<Value Value="label" />
@@ -14096,7 +14088,6 @@
 							</Child>
 							<Child Name="MozillaDropShadowWindowClass" Key="{754AEB55-73DD-4BD3-9EFA-9ECBEED5A769}">
 								<Image FileName="-1287825029" Left="0" Top="0" Right="404" Bottom="137" />
-								<TypeInfo Item0="{F8E102AF-A4B1-4F5C-96E6-2A87952FA3A8}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="MozillaDropShadowWindowClass" />
@@ -14105,7 +14096,6 @@
 							</Child>
 							<Child Name="pagePrivacy" Key="{6EB8C106-3A3B-4C8D-988E-928D3C399356}">
 								<Image FileName="-915611821" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{49718709-27D2-416F-8AAF-FB43F2572BF4}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />

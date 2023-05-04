@@ -232,7 +232,6 @@
 									</Child>
 									<Child Name="panel" Key="{812A5BAE-B044-4730-8641-805DFC167AED}">
 										<Image FileName="-1099323798" Left="397" Top="179" Right="659" Bottom="226" />
-										<TypeInfo Item0="{3C8177BF-B7B0-41BD-A6FF-6B062E3895A9}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;shop-logo&apos;)]" />
@@ -1029,7 +1028,6 @@
 							</Child>
 							<Child Name="pageNewtab" Key="{5E8769F3-1A36-4A0D-AA74-61BBC86E1660}">
 								<Image FileName="-217541112" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{94A8E794-CF55-495C-8C3A-0C73BC0E6C87}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />

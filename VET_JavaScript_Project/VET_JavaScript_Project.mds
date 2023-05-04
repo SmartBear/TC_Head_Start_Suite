@@ -94,7 +94,7 @@
 				<children>
 					<testItem name="Santiy_001" key="{467E2C25-D1A8-47B4-8DC2-CC1B50D3F175}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0AE1C2B-A0F4-40F1-BCAB-430D8E0638A6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
@@ -147,6 +147,11 @@
 			<testItem name="4 Debug" key="{4F92320F-F731-4FCD-B41E-2C59A8F8235D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
+					<testItem name="Test_Browser_Loop" key="{418AECF0-C0A8-47A2-A849-99FD1F5038B1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D6E1AB27-756E-43B4-B082-91D678152433}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 					<testItem name="Test_Looping_Examples" key="{46039E1C-7B12-4B15-8A53-16173650EE7C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F63AE162-3BF1-47E7-8D8A-124E753AAC8D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
