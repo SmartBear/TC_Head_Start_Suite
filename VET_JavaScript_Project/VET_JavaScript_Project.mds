@@ -144,20 +144,25 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="4 Debug" key="{4F92320F-F731-4FCD-B41E-2C59A8F8235D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="4 Debug" key="{4F92320F-F731-4FCD-B41E-2C59A8F8235D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Browser_Loop" key="{418AECF0-C0A8-47A2-A849-99FD1F5038B1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D6E1AB27-756E-43B4-B082-91D678152433}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Browser_Loop" key="{418AECF0-C0A8-47A2-A849-99FD1F5038B1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D6E1AB27-756E-43B4-B082-91D678152433}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Looping_Examples" key="{46039E1C-7B12-4B15-8A53-16173650EE7C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F63AE162-3BF1-47E7-8D8A-124E753AAC8D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_LoginLogout_Loop" key="{E0CCFCA4-8F90-4D46-8FB3-383509E0C613}" group="False" parallel="False" enabled="True" testMoniker="KDT\{002195DF-A8BC-49CA-8345-21EBDF3F5606}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_New_Function_2" key="{F09093A3-1387-4444-B557-21E7BF513CC8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Looping_Examples" key="{46039E1C-7B12-4B15-8A53-16173650EE7C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F63AE162-3BF1-47E7-8D8A-124E753AAC8D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_New_Function_2" key="{F09093A3-1387-4444-B557-21E7BF513CC8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -184,18 +189,6 @@
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003900330044003100460034004400380037003300460033003500340039003800310046003900350032003200460038004600420037004400370036003100380039004100370043003400430030003100310043003600430037003800420039004400370041004600" />
-				</Variable>
-				<Variable Name="Password2" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310039003300440033004600340044003800370033004600330035003400390038003100460039003500320032004600380046004200370044003700360031003800390041003700430034004300300031003400430030003800360045004200420043004500410045003300360031004600" />
-				</Variable>
-				<Variable Name="Password3" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003100330044003000460034004400380037003300460033003500340039003800310046003900350032003200460043003700420037004400380045003100410045003200370038003400430030003300350034003000380041003600330038003200370041004300320044004100440039003800320045003300300045003800" />
-				</Variable>
-				<Variable Name="Password4" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310031003300440032004600340044003800370033004600330035003400390038003100460039003500320032004600430037004200370044003800450031004100450032003700380034004300300033003500340030003800410036003300380032003700410043003200440042003900420044004300360037003600310044003900460035003500" />
-				</Variable>
 				<Variable Name="RefString" Type="String" Local="False" Descr="This is the string passed to the routine">
 					<DefValue />
 				</Variable>
@@ -208,26 +201,8 @@
 				<Variable Name="OriginalString" Type="String" Local="False">
 					<DefValue StrValue="Real Programmers Count 0123456789 From Zero" />
 				</Variable>
-				<Variable Name="Password5" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310036003300440032004600340044003800460033004600320036004300460041003200440045003300390034004200430034004400350033003300380032004400440034003100380039003200460036003100450042003400" />
-				</Variable>
-				<Variable Name="Password6" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100360033004400310046003400440038003700330046003700410043003900380032003700390034004400410046004500430042003100390042003900330031004400330039003900" />
-				</Variable>
-				<Variable Name="Password7" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100360033004400310046003400440038003700330046003700380043003900380032003700390034004400410046004500430042003100390042003600370031004400330042003900" />
-				</Variable>
-				<Variable Name="Password8" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310039003300440030004600340044003800380042004600350045004300390039004300370046003100440030004500410034004400360035003300380035004200350034003000430038003200320031003100410032003900360038004200420046003800370043003300370031003700" />
-				</Variable>
-				<Variable Name="Password9" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003900330044003300460034004400380038004200460035004500430039003900430037004600310044003000450041003400440033004200330038003000350035003400300043003800320032003100310041003600430034004200370039004400360042003700" />
-				</Variable>
-				<Variable Name="Password10" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310039003300440030004600340044003800380042004600350045004300390039004300370046003100440030004500410034004400330042003300380030003500350034003000430038003200320031003100410032003900360038004200420046003800340032003300370031003700" />
-				</Variable>
-				<Variable Name="Password11" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003900330044003300460034004400380038004200460035004500430039003900430037004600310044003000450041003400440036003500330038003500420035003400300043003800320032003100310041003600430034004200300037004400360042003700" />
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310039003300440030004600340044003800380042004600330036004300390039003200370039003200330041004600380030003300370038004600360031004300450032003100380043003600320031003100410032003900360038004200420046004300340045003300370039004300" />
 				</Variable>
 			</Items>
 		</data>
