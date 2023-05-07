@@ -6,7 +6,6 @@
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Children>
 			<Child Name="Sys" Key="{433315B7-96D9-4385-A832-BBD347BB4A49}">
-				<TypeInfo Item0="{4A1DC1F5-C6CA-4F7A-AFE3-81682160AF2D}" />
 				<Properties>
 					<Property Name="Name">
 						<Value Value="Sys" />
@@ -14,7 +13,6 @@
 				</Properties>
 				<Children>
 					<Child Name="browser" Key="{3D1DDD12-7F28-4891-8E88-249D070D8D71}">
-						<TypeInfo Item0="{A93D69CA-B323-4DA8-8074-9A1ACD3992D4}" />
 						<Properties>
 							<Property Name="ObjectType">
 								<Value Value="Browser" />
@@ -23,7 +21,6 @@
 						<Children>
 							<Child Name="pageLogin" Key="{FA07320C-FB04-483C-AE87-615FA55D77FF}">
 								<Image FileName="1994368271" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{93704C5E-6FFE-4989-A926-7E37FCA5A12B}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -35,7 +32,6 @@
 								<Children>
 									<Child Name="sectionContent" Key="{12CC3DED-7DA8-4D31-BD06-51E4A1162A28}">
 										<Image FileName="1994368271" Left="390" Top="314" Right="1530" Bottom="751" />
-										<TypeInfo Item0="{0CB77C00-78BE-4AEC-BDCC-DB8ECFE44590}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
@@ -56,7 +52,6 @@
 									</Child>
 									<Child Name="textnodeSignIn" Key="{491ED8C7-8F40-4FFB-9882-3A58785AB529}">
 										<Image FileName="1994368271" Left="405" Top="314" Right="1515" Bottom="362" />
-										<TypeInfo Item0="{0CB77C00-78BE-4AEC-BDCC-DB8ECFE44590}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Sign In&apos;]" />
@@ -71,7 +66,6 @@
 									</Child>
 									<Child Name="textnodeTheCredentialsProvidedAr" Key="{9823486B-014F-4803-9837-31C61346A676}">
 										<Image FileName="-228723331" Left="1184" Top="553" Right="1464" Bottom="576" />
-										<TypeInfo Item0="{0CB77C00-78BE-4AEC-BDCC-DB8ECFE44590}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//li[.=&apos;The credentials provided are incorrect&apos;]" />
@@ -86,7 +80,6 @@
 									</Child>
 									<Child Name="textboxUsernameoremail" Key="{B1EA97F8-F53B-4F21-9112-4E816FF1629B}">
 										<Image FileName="-1505878803" Left="1092" Top="488" Right="1475" Bottom="539" />
-										<TypeInfo Item0="{1FB9254B-175D-4ABA-920B-17F27EF76AC0}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#UsernameOrEmail" />
@@ -110,7 +103,6 @@
 									</Child>
 									<Child Name="passwordboxPassword" Key="{EA8C159E-1485-48FF-A86B-5F9CDFCA5AB6}">
 										<Image FileName="1711364036" Left="1092" Top="555" Right="1475" Bottom="606" />
-										<TypeInfo Item0="{1FB9254B-175D-4ABA-920B-17F27EF76AC0}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#Password" />
@@ -134,7 +126,6 @@
 									</Child>
 									<Child Name="buttonLogIn" Key="{75B97390-A551-445E-BF42-B1C2FAB76452}">
 										<Image FileName="778616357" Left="1092" Top="661" Right="1475" Bottom="712" />
-										<TypeInfo Item0="{9DD4542E-5801-4A0A-AC72-8AB3CA17808F}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//button[contains(text(), &apos;Log in&apos;)]" />
@@ -155,7 +146,6 @@
 									</Child>
 									<Child Name="header" Key="{ACA30624-2796-451F-8A7C-E1DE897AC02D}">
 										<Image FileName="322934001" Left="8" Top="111" Right="1911" Bottom="290" />
-										<TypeInfo Item0="{0CB77C00-78BE-4AEC-BDCC-DB8ECFE44590}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -170,7 +160,6 @@
 									</Child>
 									<Child Name="formSearch" Key="{25AE1D76-BFA5-4F77-AC70-ECF123B8BC58}">
 										<Image FileName="322934001" Left="665" Top="180" Right="1195" Bottom="225" />
-										<TypeInfo Item0="{0CB77C00-78BE-4AEC-BDCC-DB8ECFE44590}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
@@ -185,7 +174,6 @@
 									</Child>
 									<Child Name="textboxQ" Key="{BA026714-52FF-4562-A97A-4FE0E5115C4E}">
 										<Image FileName="322934001" Left="665" Top="180" Right="1195" Bottom="225" />
-										<TypeInfo Item0="{511C072F-19C0-4BEC-B5B7-8D30A711EDDA}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@name=&apos;q&apos;]" />
@@ -272,7 +260,6 @@
 									</Child>
 									<Child Name="textnodeLogIn" Key="{4CFF0D50-8EA4-422C-90A1-7BDB6EFA3A52}">
 										<Image FileName="-1954933479" Left="1448" Top="120" Right="1496" Bottom="137" />
-										<TypeInfo Item0="{5C93ADB4-17EE-45B2-8D11-0AD3D2685BC0}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log in&apos;]" />
@@ -348,7 +335,6 @@
 										<Children>
 											<Child Name="FolderView" Key="{E9E6826C-8038-4FDE-AB04-36F367126B4F}">
 												<Image FileName="810137280" Left="0" Top="0" Right="2560" Bottom="2160" />
-												<TypeInfo Item0="{85980169-BF96-4CEC-A62C-F52C9A2DF83C}" />
 												<Properties>
 													<Property Name="WndClass">
 														<Value Value="SysListView32" />
@@ -357,6 +343,148 @@
 														<Value Value="FolderView" />
 													</Property>
 												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Terminals" Key="{18AC905E-C193-480C-B0FF-88BC5A40A115}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Terminals" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{E319A31F-FF9C-4E3A-8D77-F0446B5F7D7A}">
+								<Image FileName="-170911674" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="toolStripContainer" Key="{A2F550D4-444C-491B-9BC7-AD1A6CCE12D2}">
+										<Image FileName="-170911674" Left="0" Top="23" Right="1920" Bottom="1080" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="toolStripContainer" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ToolStripContentPanel" Key="{D93884E4-BFE6-4ACF-B54C-FE5620E1C1ED}">
+												<Image FileName="-170911674" Left="0" Top="23" Right="1920" Bottom="1080" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Forms.ToolStripContentPanel" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="splitContainer1" Key="{00BE45DD-7652-4082-9E7E-79998B31AF7A}">
+														<Image FileName="-170911674" Left="0" Top="23" Right="1920" Bottom="1080" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="splitContainer1" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="SplitterPanel" Key="{6474DDEA-32EC-474E-99A3-F50387C406F9}">
+																<Image FileName="-170911674" Left="13" Top="23" Right="1920" Bottom="1080" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Forms.SplitterPanel" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="tcTerminals" Key="{818722DA-C54F-43B7-B5E1-D895ADCAEA14}">
+																		<Image FileName="-170911674" Left="13" Top="23" Right="1920" Bottom="1080" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="tcTerminals" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="TerminalTabControlItem" Key="{49FBC272-F09F-4818-914B-8F24AF3DFEDA}">
+																				<Image FileName="-170911674" Left="13" Top="43" Right="1920" Bottom="1080" />
+																				<Properties>
+																					<Property Name="ClrFullClassName">
+																						<Value Value="Terminals.TerminalTabControlItem" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="" />
+																					</Property>
+																					<Property Name="Index">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="AxMsRdpClient6NotSafeForScripting" Key="{EDBBD945-BF7D-4D6E-A97C-E33CD8B33965}">
+																						<Image FileName="-170911674" Left="13" Top="43" Right="1920" Bottom="1080" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="AxMSTSCLib.AxMsRdpClient6NotSafeForScripting" />
+																							</Property>
+																							<Property Name="WndCaption">
+																								<Value Value="" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="UIMainClass" Key="{90B43DD3-9163-4E3E-B9EE-5A7D032FE88F}">
+																								<Image FileName="-170911674" Left="13" Top="43" Right="1920" Bottom="1080" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="UIMainClass" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="UIContainerClass" Key="{0E37E259-7938-47EC-B6E4-0C7B4397996F}">
+																										<Image FileName="-170911674" Left="152" Top="43" Right="1780" Bottom="1080" />
+																										<Properties>
+																											<Property Name="WndClass">
+																												<Value Value="UIContainerClass" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="IHWindowClass" Key="{AD751893-156F-4614-98FF-47AD66B147F4}">
+																												<Image FileName="-170911674" Left="152" Top="43" Right="1780" Bottom="1080" />
+																												<TypeInfo Item0="{E6738CE5-2ED2-4783-842C-9B11B0369CFD}" />
+																												<Properties>
+																													<Property Name="WndClass">
+																														<Value Value="IHWindowClass" />
+																													</Property>
+																													<Property Name="WndCaption">
+																														<Value Value="Input Capture Window" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -403,6 +531,29 @@
 			<Child Name="wndProgman" Owner="{E03934CF-DCC8-4E47-BAB3-6C9353EF4139}">
 				<Child Name="SHELLDLL_DefView" Owner="{DD45BC0B-115B-4437-A33F-F998FEE42F81}">
 					<Child Name="FolderView" Owner="{E9E6826C-8038-4FDE-AB04-36F367126B4F}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Terminals" Owner="{18AC905E-C193-480C-B0FF-88BC5A40A115}">
+			<Child Name="MainForm" Owner="{E319A31F-FF9C-4E3A-8D77-F0446B5F7D7A}">
+				<Child Name="toolStripContainer" Owner="{A2F550D4-444C-491B-9BC7-AD1A6CCE12D2}">
+					<Child Name="ToolStripContentPanel" Owner="{D93884E4-BFE6-4ACF-B54C-FE5620E1C1ED}">
+						<Child Name="splitContainer1" Owner="{00BE45DD-7652-4082-9E7E-79998B31AF7A}">
+							<Child Name="SplitterPanel" Owner="{6474DDEA-32EC-474E-99A3-F50387C406F9}">
+								<Child Name="tcTerminals" Owner="{818722DA-C54F-43B7-B5E1-D895ADCAEA14}">
+									<Child Name="TerminalTabControlItem" Owner="{49FBC272-F09F-4818-914B-8F24AF3DFEDA}">
+										<Child Name="AxMsRdpClient6NotSafeForScripting" Owner="{EDBBD945-BF7D-4D6E-A97C-E33CD8B33965}">
+											<Child Name="UIMainClass" Owner="{90B43DD3-9163-4E3E-B9EE-5A7D032FE88F}">
+												<Child Name="UIContainerClass" Owner="{0E37E259-7938-47EC-B6E4-0C7B4397996F}">
+													<Child Name="IHWindowClass" Owner="{AD751893-156F-4614-98FF-47AD66B147F4}" />
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 		</Child>

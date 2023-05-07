@@ -17,7 +17,7 @@
 			<testItem name="Templates" key="{3CBDFA01-5C2C-4300-8B3A-EA247B6BB931}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Sample_Web_App_Open" key="{62524C66-D21D-46A0-AE4C-98C6784EBDDD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AA40D0CD-E104-43B8-82F9-E6F124D47AE2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Sample_Web_App_Open" key="{62524C66-D21D-46A0-AE4C-98C6784EBDDD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AA40D0CD-E104-43B8-82F9-E6F124D47AE2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -27,7 +27,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Keyword_Calling_Script_Test_Template" key="{74B4D2A6-1CA3-46F9-AE4E-3E70ADD2851A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BDA31BA9-9689-42F2-8C72-FF116E61148D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Keyword_Calling_Script_Test_Template" key="{74B4D2A6-1CA3-46F9-AE4E-3E70ADD2851A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BDA31BA9-9689-42F2-8C72-FF116E61148D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
