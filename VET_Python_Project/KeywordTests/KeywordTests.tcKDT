@@ -11,5 +11,6 @@
 		<child name="Mod_Trim_String" key="{FE1429ED-55A6-44AE-B648-477F6FB184E5}" path="Mod_Trim_String.tcKDTest" />
 		<child name="Test_String_Sample" key="{93F81138-1E04-4ACE-9D1A-EFE9B72F9871}" path="Test_String_Sample.tcKDTest" />
 		<child name="Test_Browser_ID_Loop" key="{03B1A94C-4586-4E98-9B8F-4921D0B84C72}" path="Test_Browser_ID_Loop.tcKDTest" />
+		<child name="Test_Basic_Object_Recognition" key="{5876631F-70CB-4579-9C2A-4E746F2ED909}" path="Test_Basic_Object_Recognition.tcKDTest" />
 	</children>
 </Root>

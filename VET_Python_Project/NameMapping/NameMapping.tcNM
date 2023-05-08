@@ -13,7 +13,6 @@
 				</Properties>
 				<Children>
 					<Child Name="browser" Key="{761789BA-85F8-40AB-8832-E6128271C245}">
-						<TypeInfo Item0="{8A84F9A7-0EF5-4F9C-9932-4A3AF12BED11}" />
 						<Properties>
 							<Property Name="ObjectType">
 								<Value Value="Browser" />
@@ -22,7 +21,6 @@
 						<Children>
 							<Child Name="pageShop" Key="{E306E98D-63C8-4680-BDD5-875E2B9B5675}">
 								<Image FileName="1595987405" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{8B7A34A7-E4C3-464E-8383-E374A974E19E}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -34,7 +32,6 @@
 								<Children>
 									<Child Name="header" Key="{897E9F81-4F1E-4F93-B11B-0970C159195D}">
 										<Image FileName="1595987405" Left="8" Top="111" Right="1911" Bottom="290" />
-										<TypeInfo Item0="{8502AAAD-69CB-405F-886D-964ADF80E327}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -49,14 +46,87 @@
 									</Child>
 									<Child Name="panelCompare" Key="{9CAB80D3-7E00-4FE2-992D-3ECDD8C1631C}">
 										<Image FileName="1595987405" Left="8" Top="164" Right="1911" Bottom="241" />
-										<TypeInfo Item0="{8502AAAD-69CB-405F-886D-964ADF80E327}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;shopbar-section&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelContentWrapper" Key="{38ECDED1-8A90-4890-8E81-9DFC01A42828}">
+										<Image FileName="1348647066" Left="0" Top="-1067" Right="1903" Bottom="1104" />
+										<TypeInfo Item0="{8615883E-30BF-48C9-AB33-067DE0343A52}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content-wrapper" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsd" Key="{5FDF56D1-EF60-4411-A2D4-7E98E1D29D58}">
+										<Image FileName="1343436988" Left="0" Top="-1270" Right="1903" Bottom="1481" />
+										<TypeInfo Item0="{8615883E-30BF-48C9-AB33-067DE0343A52}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;lyt-cols-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navUsd" Key="{9ECD87C8-C564-4BC0-A2FE-E6C7B53DA685}">
+										<Image FileName="724391382" Left="405" Top="111" Right="1515" Bottom="163" />
+										<TypeInfo Item0="{08F93CFB-EF0F-4009-99C0-BFD99776A93F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navMenubarMyAccount" Key="{64B39FE9-F785-46B9-9944-96CEA3B13C1E}">
+										<Image FileName="724391382" Left="1428" Top="111" Right="1515" Bottom="163" />
+										<TypeInfo Item0="{08F93CFB-EF0F-4009-99C0-BFD99776A93F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menubar-my-account" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogIn" Key="{CADA75B1-C3C2-4AAA-8A68-1C369BB897F4}">
+										<Image FileName="1515609740" Left="1428" Top="111" Right="1515" Bottom="163" />
+										<TypeInfo Item0="{9D08A02E-91FC-4C2C-92AF-5A6D5DE1F195}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{538CDA44-F034-4AC0-8EB2-0F697DAC91BB}">
+								<Image FileName="1348647066" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -69,8 +139,16 @@
 			<Child Name="pageShop" Owner="{E306E98D-63C8-4680-BDD5-875E2B9B5675}">
 				<Child Name="header" Owner="{897E9F81-4F1E-4F93-B11B-0970C159195D}">
 					<Child Name="panelCompare" Owner="{9CAB80D3-7E00-4FE2-992D-3ECDD8C1631C}" />
+					<Child Name="navUsd" Owner="{9ECD87C8-C564-4BC0-A2FE-E6C7B53DA685}">
+						<Child Name="navMenubarMyAccount" Owner="{64B39FE9-F785-46B9-9944-96CEA3B13C1E}">
+							<Child Name="linkLogIn" Owner="{CADA75B1-C3C2-4AAA-8A68-1C369BB897F4}" />
+						</Child>
+					</Child>
 				</Child>
+				<Child Name="panelContentWrapper" Owner="{38ECDED1-8A90-4890-8E81-9DFC01A42828}" />
+				<Child Name="textnodeUsd" Owner="{5FDF56D1-EF60-4411-A2D4-7E98E1D29D58}" />
 			</Child>
+			<Child Name="BrowserWindow" Owner="{538CDA44-F034-4AC0-8EB2-0F697DAC91BB}" />
 		</Child>
 	</LogicalNodes>
 </Root>

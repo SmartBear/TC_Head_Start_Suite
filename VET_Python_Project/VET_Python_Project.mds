@@ -57,6 +57,16 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Test_Browser_ID_Loop" key="{A743D8E9-1A0E-4018-8453-99E41FCEB109}" group="False" parallel="False" enabled="True" testMoniker="KDT\{03B1A94C-4586-4E98-9B8F-4921D0B84C72}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Basic_Object_Recognition" key="{3F572BA8-4EC2-4555-BF5D-BA1B8454A6DB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5876631F-70CB-4579-9C2A-4E746F2ED909}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 		</children>
