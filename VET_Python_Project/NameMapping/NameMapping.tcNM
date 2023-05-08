@@ -11,8 +11,66 @@
 						<Value Value="Sys" />
 					</Property>
 				</Properties>
+				<Children>
+					<Child Name="browser" Key="{761789BA-85F8-40AB-8832-E6128271C245}">
+						<TypeInfo Item0="{8A84F9A7-0EF5-4F9C-9932-4A3AF12BED11}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageShop" Key="{E306E98D-63C8-4680-BDD5-875E2B9B5675}">
+								<Image FileName="1595987405" Left="8" Top="111" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{8B7A34A7-E4C3-464E-8383-E374A974E19E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{897E9F81-4F1E-4F93-B11B-0970C159195D}">
+										<Image FileName="1595987405" Left="8" Top="111" Right="1911" Bottom="290" />
+										<TypeInfo Item0="{8502AAAD-69CB-405F-886D-964ADF80E327}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCompare" Key="{9CAB80D3-7E00-4FE2-992D-3ECDD8C1631C}">
+										<Image FileName="1595987405" Left="8" Top="164" Right="1911" Bottom="241" />
+										<TypeInfo Item0="{8502AAAD-69CB-405F-886D-964ADF80E327}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;shopbar-section&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
 			</Child>
 		</Children>
 	</Nodes>
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{761789BA-85F8-40AB-8832-E6128271C245}">
+			<Child Name="pageShop" Owner="{E306E98D-63C8-4680-BDD5-875E2B9B5675}">
+				<Child Name="header" Owner="{897E9F81-4F1E-4F93-B11B-0970C159195D}">
+					<Child Name="panelCompare" Owner="{9CAB80D3-7E00-4FE2-992D-3ECDD8C1631C}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>
