@@ -15,6 +15,8 @@
 		<folder name="3 - Deep Dive" />
 		<folder name="4 - Debug">
 			<child name="Test_Browser_Acid_Test" key="{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" path="Test_Browser_Acid_Test.tcKDTest" />
+			<child name="Test1" key="{C4D8C004-03B7-4ACF-B51B-FAD3EE402B74}" path="Test1.tcKDTest" />
+			<child name="Test_Desktop_Acid_Test" key="{FC99A949-F620-4E00-9A95-D53B792D9B12}" path="Test_Desktop_Acid_Test.tcKDTest" />
 		</folder>
 	</children>
 </Root>

@@ -21,7 +21,6 @@
 						<Children>
 							<Child Name="BrowserWindow" Key="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}">
 								<Image FileName="329796899" Left="-8" Top="-8" Right="3848" Bottom="2168" />
-								<TypeInfo Item0="{12E26B76-DF8B-4EA2-AAED-44A7F0C2D874}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="BrowserWindow" />
@@ -86,7 +85,6 @@
 									</Child>
 									<Child Name="textnodeLogIn" Key="{257D0FAE-B63A-466E-A982-0B7E8C5E442C}">
 										<Image FileName="1155834765" Left="2408" Top="120" Right="2456" Bottom="137" />
-										<TypeInfo Item0="{DBF91EA9-6D83-42FA-B41C-C8925CDD5D4A}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log in&apos;]" />
@@ -101,7 +99,6 @@
 									</Child>
 									<Child Name="sectionContent" Key="{33A01843-29A2-488C-80E9-FEB715FB9443}">
 										<Image FileName="-1219889163" Left="1350" Top="314" Right="2490" Bottom="2485" />
-										<TypeInfo Item0="{32CDA1B3-4872-4824-B684-2B46F9EDA252}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
@@ -122,7 +119,6 @@
 									</Child>
 									<Child Name="panelPhTitle6" Key="{81B318D9-D5F8-4D10-965A-6925F24488E0}">
 										<Image FileName="-1219889163" Left="1365" Top="314" Right="2475" Bottom="374" />
-										<TypeInfo Item0="{32CDA1B3-4872-4824-B684-2B46F9EDA252}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#ph-title-6" />
@@ -139,7 +135,6 @@
 							</Child>
 							<Child Name="pageLogin" Key="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
 								<Image FileName="1155834765" Left="0" Top="103" Right="3840" Bottom="2160" />
-								<TypeInfo Item0="{01434AC6-DFB7-4EF6-9B67-81D8B1B0BA02}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -171,7 +166,6 @@
 									</Child>
 									<Child Name="textboxUsernameoremail" Key="{ABEFDEF9-DD3F-44EC-97C5-18CDA44C8204}">
 										<Image FileName="718232312" Left="2061" Top="488" Right="2444" Bottom="539" />
-										<TypeInfo Item0="{67104926-86F9-4E40-9A9C-75E8863F836E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#UsernameOrEmail" />
@@ -195,7 +189,6 @@
 									</Child>
 									<Child Name="passwordboxPassword" Key="{7D1F5F92-4E97-4CF1-B08A-90E715108D2B}">
 										<Image FileName="-276124759" Left="2061" Top="555" Right="2444" Bottom="606" />
-										<TypeInfo Item0="{67104926-86F9-4E40-9A9C-75E8863F836E}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#Password" />
@@ -218,6 +211,24 @@
 										</Selectors>
 									</Child>
 								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Orders" Key="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{22907E00-6826-4980-B265-89012D835EF5}">
+								<Image FileName="1587277091" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{4D14D1C1-25C6-48A7-B04E-469D2A88EB5B}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -246,6 +257,9 @@
 					<Child Name="passwordboxPassword" Owner="{7D1F5F92-4E97-4CF1-B08A-90E715108D2B}" />
 				</Child>
 			</Child>
+		</Child>
+		<Child Name="Orders" Owner="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
+			<Child Name="MainForm" Owner="{22907E00-6826-4980-B265-89012D835EF5}" />
 		</Child>
 	</LogicalNodes>
 </Root>

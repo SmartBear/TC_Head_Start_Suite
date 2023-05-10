@@ -10,6 +10,7 @@
 		<child name="Events" key="{30BFB5BB-E07D-4C11-8C49-D3387108146D}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="NameMapping" key="{570BEC17-C2F9-4E63-90D2-E9BD5A1C1F43}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="README.md" key="{4AB32F02-1FD1-4590-8604-F05764A46213}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="TestedApps" key="{DC4A7D01-A9DA-409E-8825-0125948A8FBF}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{6EAB27E6-B84C-4020-95CB-14FE48B58867}" version="14">
@@ -50,6 +51,29 @@
 					<testItem name="Test_Sanity" key="{0B392E08-35B5-460E-8EBA-632BDB93B5E4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E3BD271F-3ABD-413E-A351-3A88B3E0FA7E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="2 - Smoke" key="{C668FCA3-6BDE-48E6-8655-0D6DE99F02BC}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="3 - Deep Dive" key="{916422D1-8C92-4C0E-B7A7-7187B700AB30}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="4 - Debug" key="{51C2531C-EF54-486D-BC2C-43C84235E7D8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Browser_Acid_Test" key="{EADF8D2C-3AAA-4383-90C1-DC19976F7A7C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Desktop_Acid_Test" key="{924E05CF-0EF4-4C0B-8910-331E46E1765D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC99A949-F620-4E00-9A95-D53B792D9B12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
