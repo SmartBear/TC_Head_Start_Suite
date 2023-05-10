@@ -13,6 +13,8 @@
 		</folder>
 		<folder name="2 - Smoke" />
 		<folder name="3 - Deep Dive" />
-		<folder name="4 - Debug" />
+		<folder name="4 - Debug">
+			<child name="Test_Browser_Acid_Test" key="{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" path="Test_Browser_Acid_Test.tcKDTest" />
+		</folder>
 	</children>
 </Root>
