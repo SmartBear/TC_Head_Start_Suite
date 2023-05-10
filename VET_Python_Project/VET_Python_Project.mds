@@ -68,7 +68,7 @@
 				<children>
 					<testItem name="Test_Browser_Acid_Test" key="{EADF8D2C-3AAA-4383-90C1-DC19976F7A7C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Desktop_Acid_Test" key="{924E05CF-0EF4-4C0B-8910-331E46E1765D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC99A949-F620-4E00-9A95-D53B792D9B12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
