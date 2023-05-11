@@ -22,7 +22,15 @@
 			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
 		</children>
 	</testItems>
-	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
+	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}">
+		<data Version="4">
+			<Items>
+				<Variable Name="EventControl" Type="Object" Local="False" Descr="MILSPEC GREEN">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<analysis key="{836D053D-2261-42DA-B467-887BF36B0F38}" />
 	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
