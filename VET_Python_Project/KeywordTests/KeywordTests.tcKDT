@@ -11,12 +11,16 @@
 			<child name="Test_Template" key="{7B46A65D-71FA-47F5-B159-2520769E4E0E}" path="Test_Template.tcKDTest" />
 			<child name="Test_New_Function" key="{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" path="Test_New_Function.tcKDTest" />
 		</folder>
-		<folder name="2 - Smoke" />
-		<folder name="3 - Deep Dive" />
+		<folder name="2 - Smoke">
+			<child name="Test_Logon_Fail" key="{26006C8A-B81B-4802-BD4E-45DC5BB0FF3F}" path="Test_Logon_Fail.tcKDTest" />
+		</folder>
+		<folder name="3 - Deep Dive">
+			<child name="Test_Data_Drive" key="{ADD73D95-4136-4398-BE57-44A968A7F274}" path="Test_Data_Drive.tcKDTest" />
+		</folder>
 		<folder name="4 - Debug">
 			<child name="Test_Browser_Acid_Test" key="{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" path="Test_Browser_Acid_Test.tcKDTest" />
-			<child name="Test1" key="{C4D8C004-03B7-4ACF-B51B-FAD3EE402B74}" path="Test1.tcKDTest" />
 			<child name="Test_Desktop_Acid_Test" key="{FC99A949-F620-4E00-9A95-D53B792D9B12}" path="Test_Desktop_Acid_Test.tcKDTest" />
+			<child name="Test_Empty" key="{47FC67CE-D620-46B3-A492-1057250517E0}" path="Test_Empty.tcKDTest" />
 		</folder>
 	</children>
 </Root>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="Mod_Close_Browser" Key="{6511576C-D2A5-49E9-B6B9-603EE5E98DC6}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{7B2B08DC-7343-48B4-9EC4-04B507172FE4}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -8,20 +8,20 @@
 		</Data>
 		<Children>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-				<Data Comment="Mod_Close_Browser" />
+				<Data Comment="**** Consider duplicating this text as comment inside of the keyword test&#13;&#10;**** This can serve as a flowerbox description when converted to a script&#13;&#10;**** KMJ 09122022" />
 			</Operation>
 			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 				<Data Description="Replaces the current indicator text with the specified one.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Close_Browser" />
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Test_Template" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Close_Browser" />
-						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Closes the open browser" />
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test_Template" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="All tests should follow this formatting in order to provide consistency to the look and feel of output logs" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
 								<Value Type="1" Value="100" Text="pmLowest" />
@@ -31,19 +31,19 @@
 								<Value Type="1" Value="500" Text="pmHighest" />
 							</Values>
 						</Parameter>
-						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
+						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribTestTitle" />
 						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Mod_Filter_Specific_User" />
+				<Data GroupName="Test_Template_Module_Group" />
 				<Children>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an information message to the test log." MessageType="0">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Close_Browser" />
-								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Closes the open browser" />
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Test Template Information Message" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Log entry in the Test Template Keyword Test" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
 										<Value Type="1" Value="100" Text="pmLowest" />
@@ -59,13 +59,8 @@
 							</Parameters>
 						</Data>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Closes the &apos;%n&apos; window." Action="Close">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
-						</Data>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Template" />
 					</Operation>
 				</Children>
 			</Operation>
@@ -77,5 +72,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{33A764BB-9341-495D-86AD-5A5008831F68}" />
+	<Parameters Key="{DF31BBC9-10A1-4DAF-8575-556ADF6A2466}" />
 </Root>
