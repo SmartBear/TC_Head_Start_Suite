@@ -20,6 +20,7 @@
 		</folder>
 		<folder name="3 - Deep Dive">
 			<child name="Test_Data_Drive" key="{ADD73D95-4136-4398-BE57-44A968A7F274}" path="Test_Data_Drive.tcKDTest" />
+			<child name="Mod_Data_Drive" key="{A0827A05-D8A9-41BA-B232-7DE7BF0D1BF2}" path="Mod_Data_Drive.tcKDTest" />
 		</folder>
 		<folder name="4 - Debug">
 			<child name="Test_Browser_Acid_Test" key="{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" path="Test_Browser_Acid_Test.tcKDTest" />

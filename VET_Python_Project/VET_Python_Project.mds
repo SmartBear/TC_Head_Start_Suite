@@ -65,7 +65,7 @@
 				<children>
 					<testItem name="Test_Data_Drive" key="{EC30BECC-AB20-463A-B8B7-5B9FECFDF8B5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ADD73D95-4136-4398-BE57-44A968A7F274}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
