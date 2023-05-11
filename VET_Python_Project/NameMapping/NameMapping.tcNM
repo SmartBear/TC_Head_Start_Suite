@@ -210,6 +210,42 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelLoginWasUnsuccessfulPlease" Key="{61A7F29B-6FC8-4419-9599-A4679F61D55D}">
+										<Image FileName="100945398" Left="1100" Top="496" Right="1483" Bottom="588" />
+										<TypeInfo Item0="{A25331EA-806C-4F73-9EF3-61DF87B9243D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{51D492F9-6A7A-449F-BDE8-CA4E1A13D1EF}">
+										<Image FileName="1713860946" Left="1092" Top="661" Right="1475" Bottom="712" />
+										<TypeInfo Item0="{CC60BD4A-F4BC-43A4-B095-003CDE2F8D30}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -223,7 +259,6 @@
 						<Children>
 							<Child Name="MainForm" Key="{22907E00-6826-4980-B265-89012D835EF5}">
 								<Image FileName="1587277091" Left="0" Top="0" Right="608" Bottom="408" />
-								<TypeInfo Item0="{4D14D1C1-25C6-48A7-B04E-469D2A88EB5B}" />
 								<Properties>
 									<Property Name="WinFormsControlName">
 										<Value Value="MainForm" />
@@ -255,6 +290,8 @@
 				<Child Name="sectionContent" Owner="{9C4A7027-D137-47F4-B8E0-0CCF792F8FFE}">
 					<Child Name="textboxUsernameoremail" Owner="{ABEFDEF9-DD3F-44EC-97C5-18CDA44C8204}" />
 					<Child Name="passwordboxPassword" Owner="{7D1F5F92-4E97-4CF1-B08A-90E715108D2B}" />
+					<Child Name="panelLoginWasUnsuccessfulPlease" Owner="{61A7F29B-6FC8-4419-9599-A4679F61D55D}" />
+					<Child Name="buttonLogIn" Owner="{51D492F9-6A7A-449F-BDE8-CA4E1A13D1EF}" />
 				</Child>
 			</Child>
 		</Child>

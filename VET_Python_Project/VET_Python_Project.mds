@@ -55,7 +55,7 @@
 				<children>
 					<testItem name="Test_Logon_Fail" key="{C0D6E077-C7B6-4DAA-9930-C13622463B28}" group="False" parallel="False" enabled="True" testMoniker="KDT\{26006C8A-B81B-4802-BD4E-45DC5BB0FF3F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
@@ -112,12 +112,6 @@
 				</Variable>
 				<Variable Name="Password1" Type="Password" Local="False">
 					<DefValue />
-				</Variable>
-				<Variable Name="Password2" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310039003300440030004600340044003800380042004600330036004300390039003200370039003200440041004600460045003300370039003700360031003800390041003700440042003400360032003500450032004600360038004200420046004500420041003300370044003200" />
-				</Variable>
-				<Variable Name="Password3" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100390033004400320046003400440038003800420046003300360043003900390032003700390032004400410046004600450033003700390037003600310038003900410037004400420034003600320035004500320046003600380046004500440033003200300030003700410033004100370036003400" />
 				</Variable>
 			</Items>
 		</data>
