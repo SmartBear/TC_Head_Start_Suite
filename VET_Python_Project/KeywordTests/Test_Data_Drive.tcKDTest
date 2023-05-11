@@ -54,7 +54,7 @@
 									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 										<Data Description="Posts an information message to the test log." MessageType="0">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Call module with no parms defined (default parm value used in mod)" />
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="No Loop: Call module with no parms defined (default parm value used in mod)" />
 												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 													<Values IsEnum="True">
@@ -91,7 +91,7 @@
 									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 										<Data Description="Posts an information message to the test log." MessageType="0">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Call module with hard coded values passed" />
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="No Loop: Call module with hard coded values passed" />
 												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 													<Values IsEnum="True">
@@ -102,7 +102,7 @@
 														<Value Type="1" Value="500" Text="pmHighest" />
 													</Values>
 												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="1" VariableName="EventControl" />
 												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
 												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
@@ -128,7 +128,7 @@
 									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 										<Data Description="Posts an information message to the test log." MessageType="0">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop to module using CSV data file" />
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using CSV data file" />
 												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 													<Values IsEnum="True">
@@ -139,7 +139,7 @@
 														<Value Type="1" Value="500" Text="pmHighest" />
 													</Values>
 												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="1" VariableName="EventControl" />
 												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
 												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
@@ -192,7 +192,7 @@
 									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 										<Data Description="Posts an information message to the test log." MessageType="0">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop to module using MS-SQL DB Table" />
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using MS-SQL DB Table" />
 												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 													<Values IsEnum="True">
@@ -214,26 +214,6 @@
 											<Records FromBegin="False" ToEnd="False" StartRecord="1" StopIndex="5" />
 										</Data>
 										<Children>
-											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-												<Data Description="Posts an information message to the test log." MessageType="0">
-													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-														<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Counter" />
-														<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-															<Values IsEnum="True">
-																<Value Type="1" Value="100" Text="pmLowest" />
-																<Value Type="1" Value="200" Text="pmLower" />
-																<Value Type="1" Value="300" Text="pmNormal" />
-																<Value Type="1" Value="400" Text="pmHigher" />
-																<Value Type="1" Value="500" Text="pmHighest" />
-															</Values>
-														</Parameter>
-														<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
-														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-													</Parameters>
-												</Data>
-											</Operation>
 											<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 												<Data VariableType="4" VariableName="Counter">
 													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
@@ -311,7 +291,7 @@
 									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 										<Data Description="Posts an information message to the test log." MessageType="0">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop to module using MS-SQL DB Table" />
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using MS-SQL DB Query" />
 												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 													<Values IsEnum="True">
@@ -322,7 +302,7 @@
 														<Value Type="1" Value="500" Text="pmHighest" />
 													</Values>
 												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="1" VariableName="EventControl" />
 												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
 												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
@@ -333,26 +313,6 @@
 											<Records FromBegin="False" ToEnd="False" StartRecord="1" StopIndex="5" />
 										</Data>
 										<Children>
-											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-												<Data Description="Posts an information message to the test log." MessageType="0">
-													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-														<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Counter" />
-														<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-															<Values IsEnum="True">
-																<Value Type="1" Value="100" Text="pmLowest" />
-																<Value Type="1" Value="200" Text="pmLower" />
-																<Value Type="1" Value="300" Text="pmNormal" />
-																<Value Type="1" Value="400" Text="pmHigher" />
-																<Value Type="1" Value="500" Text="pmHighest" />
-															</Values>
-														</Parameter>
-														<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
-														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-													</Parameters>
-												</Data>
-											</Operation>
 											<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 												<Data VariableType="4" VariableName="Counter">
 													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
@@ -441,7 +401,7 @@
 														<Value Type="1" Value="500" Text="pmHighest" />
 													</Values>
 												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="1" VariableName="EventControl" />
 												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
 												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
@@ -541,7 +501,7 @@
 									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 										<Data Description="Posts an information message to the test log." MessageType="0">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop to module using Excel data file" />
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Excel Data File" />
 												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 													<Values IsEnum="True">
@@ -552,7 +512,7 @@
 														<Value Type="1" Value="500" Text="pmHighest" />
 													</Values>
 												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="1" VariableName="EventControl" />
 												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
 												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
