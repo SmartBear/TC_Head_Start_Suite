@@ -125,7 +125,7 @@
 									<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 										<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageLogin.FindElement(&quot;//div[contains(@class, &apos;validation-summary-errors&apos;)]&quot;)" />
+												<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageLogin.sectionContent.panelLoginWasUnsuccessfulPlease" />
 												<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 												<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 												<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="4C006F00670069006E002000770061007300200075006E007300750063006300650073007300660075006C002E00200050006C006500610073006500200063006F0072007200650063007400200074006800650020006500720072006F0072007300200061006E0064002000740072007900200061006700610069006E002E000A005400680065002000630072006500640065006E007400690061006C0073002000700072006F00760069006400650064002000610072006500200069006E0063006F0072007200650063007400" />
