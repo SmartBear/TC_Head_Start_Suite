@@ -38,11 +38,6 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_New_Function" key="{8F75A030-6243-45AE-A7D1-772D883D3C05}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
 				</children>
 			</testItem>
 			<testItem name="1 - Sanity" key="{AE56D050-76E6-44E5-B775-3A6E977CE111}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -78,6 +73,11 @@
 			<testItem name="4 - Debug" key="{51C2531C-EF54-486D-BC2C-43C84235E7D8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
+					<testItem name="Test_New_Function" key="{8F75A030-6243-45AE-A7D1-772D883D3C05}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="THis test will fail by design. Turn off from exeution plan for Jenkins project/suite to pass." tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 					<testItem name="Test_Browser_Acid_Test" key="{EADF8D2C-3AAA-4383-90C1-DC19976F7A7C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
