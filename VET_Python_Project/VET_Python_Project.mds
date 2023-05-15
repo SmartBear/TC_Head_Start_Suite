@@ -58,6 +58,11 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Test_Smoke_Anna" key="{C486A250-2DBF-4CF2-AF0D-AB08EECFCC77}" group="False" parallel="False" enabled="True" testMoniker="KDT\{05590DE0-9C64-4D0D-99BB-A44386F7AFC5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="3 - Deep Dive" key="{916422D1-8C92-4C0E-B7A7-7187B700AB30}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -690,7 +695,7 @@
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="True" />
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
-		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="True" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
