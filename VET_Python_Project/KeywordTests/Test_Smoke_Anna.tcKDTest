@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+<<<<<<< HEAD
 	<TestData Description="Sample created by Anna - KMJ20230515" Key="{9EB24075-6517-408A-B6DA-3A05CA2B375B}" Tags="@Smoke" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+=======
+	<TestData Description="" Key="{9EB24075-6517-408A-B6DA-3A05CA2B375B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+>>>>>>> 0c2097a8de2f9680293bfee44c3df7bd18d15427
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
