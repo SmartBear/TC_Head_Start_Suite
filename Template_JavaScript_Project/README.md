@@ -1,4 +1,4 @@
-# Template_JavaScript_Project
+# Template_JavaScript_Project (Basic Branch)
 
 This readme file is a basic outline of potential talking points regarding a given project.
 
