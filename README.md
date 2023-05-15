@@ -1,4 +1,4 @@
-# TC_Head_Start_Suite
+# TC_Head_Start_Suite (Basic Branch)
 
 This is a basic TestComplete suite to demonstrate misc. features and techniques.
 This is intended as a collection of best practice examples. 
@@ -17,7 +17,9 @@ The following topics detail asset conventions used for items within the TC_Head_
 
 ### Project Suites and Projects
 
-Project suite, and project names within the suite should be brief and descriptive and end with _Suite or _Project as needed
+Project suite, and project names within the suite should be brief and descriptive and end with _Suite or _Project as needed. 
+
+Each project should contain a Readme.md file to describe the purpose and contents of the project.
 
 ### Keyword Tests
 
