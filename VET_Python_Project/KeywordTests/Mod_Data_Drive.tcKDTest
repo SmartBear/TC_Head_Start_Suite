@@ -202,8 +202,8 @@
 							<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 								<Data Description="Delays the test execution for the specified time period.">
 									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-										<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
-										<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="3 Second delay to allow page to QUIESCE" />
+										<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+										<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="5 Second delay to allow page to QUIESCE" />
 									</Parameters>
 								</Data>
 							</Operation>
