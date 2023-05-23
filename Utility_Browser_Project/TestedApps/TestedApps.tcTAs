@@ -10,7 +10,7 @@
 					<param name="RunAs" parameters="-incognito" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="-incognito" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="-incognito" workFolder="" />
-					<param name="Simple" fileName="chrome.exe" filePath="C:\Program Files\Google\Chrome\Application\" parameters="-incognito" workFolder="" />
+					<param name="Simple" fileName="chrome.exe" filePath="C:\Program Files (x86)\Google\Chrome\Application\" parameters="-incognito" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -22,7 +22,7 @@
 					<param name="RunAs" parameters="--profile-directory=Default -inprivate" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="--profile-directory=Default -inprivate" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="--profile-directory=Default -inprivate" workFolder="" />
-					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="--profile-directory=Default -inprivate" workFolder="" />
+					<param name="Simple" fileName="msedge.exe" filePath="..\..\..\..\Program Files (x86)\Microsoft\Edge\Application\" parameters="--profile-directory=Default -inprivate" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -34,7 +34,7 @@
 					<param name="RunAs" parameters="-private-window" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="-private-window" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="-private-window" workFolder="" />
-					<param name="Simple" fileName="firefox.exe" filePath="C:\Program Files\Mozilla Firefox\" parameters="-private-window" workFolder="" />
+					<param name="Simple" fileName="firefox.exe" filePath="C:\Program Files (x86)\Mozilla Firefox\" parameters="-private-window" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
