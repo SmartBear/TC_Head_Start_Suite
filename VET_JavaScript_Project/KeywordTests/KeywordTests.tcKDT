@@ -7,27 +7,30 @@
 			<child name="Mod_Template" key="{0AD0F0BF-CD1E-4714-A919-7CC25BCE3E02}" path="Mod_Template.tcKDTest" />
 			<child name="Test_New_Function" key="{141BEF75-5EAB-4C27-AD5C-E0F182F38025}" path="Test_New_Function.tcKDTest" />
 			<child name="Test_Template" key="{CFA713BF-8A23-40B9-97F8-E47A16E93366}" path="Test_Template.tcKDTest" />
-		</folder>
-		<folder name="1 - Sanity" />
-		<folder name="2 - Smoke" />
-		<folder name="3 - Deep Dive" />
-		<folder name="4 - Debug">
 			<child name="Mod_Chrome_Open_Smartstore" key="{3B11A7E0-ACC0-4977-B422-2B8751436F7B}" path="Mod_Chrome_Open_Smartstore.tcKDTest" />
 			<child name="Mod_Close_Browser" key="{77F42F88-B5FB-4397-8646-828FA9B3CAE1}" path="Mod_Close_Browser.tcKDTest" />
-			<child name="Mod_Data_Drive" key="{5E3FD945-E48E-47EF-9F6E-AA6FBE32977C}" path="Mod_Data_Drive.tcKDTest" />
 			<child name="Mod_Edge_Open_Smartstore" key="{46F6D161-8FA7-4DAE-B0BE-7856675C1D50}" path="Mod_Edge_Open_Smartstore.tcKDTest" />
 			<child name="Mod_Firefox_Open_Smartstore" key="{AA7C0CF7-1BDD-4E4D-B85D-07D8BB661A33}" path="Mod_Firefox_Open_Smartstore.tcKDTest" />
-			<child name="Mod_Logon_Fail" key="{FA97CB6D-64EB-4A1C-AD4C-B789759FBB8D}" path="Mod_Logon_Fail.tcKDTest" />
 			<child name="Mod_Open_BearStore_Chrome" key="{44D41798-64FE-4CFA-8606-8522C3BBC975}" path="Mod_Open_BearStore_Chrome.tcKDTest" />
 			<child name="Mod_Open_BearStore_Edge" key="{9A69532C-B41B-4D92-A906-099B597BB3BB}" path="Mod_Open_BearStore_Edge.tcKDTest" />
 			<child name="Mod_Open_BearStore_FireFox" key="{00DCDDB0-9669-405E-81EC-8C4F7AD74B9A}" path="Mod_Open_BearStore_FireFox.tcKDTest" />
+		</folder>
+		<folder name="1 - Sanity">
 			<child name="Test_Browser_Acid_Test" key="{B4948858-9B0D-4EC9-B48D-528B8D4F0F33}" path="Test_Browser_Acid_Test.tcKDTest" />
-			<child name="Test_Data_Drive" key="{2C7E4E4A-5DAE-4CA2-A62C-2B15332B078F}" path="Test_Data_Drive.tcKDTest" />
 			<child name="Test_Desktop_Acid_Test" key="{6E43BA22-42EE-41DD-9D35-AA6790688C5A}" path="Test_Desktop_Acid_Test.tcKDTest" />
-			<child name="Test_Empty" key="{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" path="Test_Empty.tcKDTest" />
-			<child name="Test_Logon_Fail" key="{60E3702C-C2B5-4C30-9098-E7A538166B0E}" path="Test_Logon_Fail.tcKDTest" />
 			<child name="Test_Sample" key="{A4908CC5-AA32-4C0F-A23D-0DD829027394}" path="Test_Sample.tcKDTest" />
 			<child name="Test_Sanity" key="{52807BA1-0EB8-4D4E-B0B6-EE0DEC307FBF}" path="Test_Sanity.tcKDTest" />
+		</folder>
+		<folder name="2 - Smoke">
+			<child name="Mod_Logon_Fail" key="{FA97CB6D-64EB-4A1C-AD4C-B789759FBB8D}" path="Mod_Logon_Fail.tcKDTest" />
+			<child name="Test_Logon_Fail" key="{60E3702C-C2B5-4C30-9098-E7A538166B0E}" path="Test_Logon_Fail.tcKDTest" />
+		</folder>
+		<folder name="3 - Deep Dive">
+			<child name="Mod_Data_Drive" key="{5E3FD945-E48E-47EF-9F6E-AA6FBE32977C}" path="Mod_Data_Drive.tcKDTest" />
+			<child name="Test_Data_Drive" key="{2C7E4E4A-5DAE-4CA2-A62C-2B15332B078F}" path="Test_Data_Drive.tcKDTest" />
+		</folder>
+		<folder name="4 - Debug">
+			<child name="Test_Empty" key="{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" path="Test_Empty.tcKDTest" />
 			<child name="Test_Smoke_Anna" key="{402CEAA2-AA08-4A87-ADC1-3CBA50867F39}" path="Test_Smoke_Anna.tcKDTest" />
 		</folder>
 	</children>
