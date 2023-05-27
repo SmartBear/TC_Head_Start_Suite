@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
@@ -14,7 +14,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{0ABD4512-BF82-4632-90BF-798D75A10BDE}" version="14">
 		<children>
-			<testItem name="Templates" key="{9D17E6CF-32D1-4272-94AC-EE776EAC513C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Templates" key="{9D17E6CF-32D1-4272-94AC-EE776EAC513C}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Template" key="{57F41B14-9392-43B5-AF55-BA0397EDDE03}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CFA713BF-8A23-40B9-97F8-E47A16E93366}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -35,6 +35,81 @@
 					<testItem name="Test_New_Function" key="{EE1D4536-1BD9-4090-94B0-ED4D393F894D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{141BEF75-5EAB-4C27-AD5C-E0F182F38025}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="0 - Common" key="{4F7F77E6-93AC-4C5F-B70B-BDAC69800D12}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_New_Function_2" key="{88FCE9A1-9958-4D2F-831F-FCF8D3E047EF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{141BEF75-5EAB-4C27-AD5C-E0F182F38025}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Template_2" key="{F23BCF74-DA5F-40C3-BE79-E5AEDD00520A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CFA713BF-8A23-40B9-97F8-E47A16E93366}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="1 - Sanity" key="{1EA507AD-439A-4306-B5EC-EBA4AADC31E6}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Browser_Acid_Test" key="{8197C1EE-5B7B-4893-8D6B-D50FE12B9568}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B4948858-9B0D-4EC9-B48D-528B8D4F0F33}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Desktop_Acid_Test" key="{80C91354-A76D-4E2A-AC86-BF506DADE214}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6E43BA22-42EE-41DD-9D35-AA6790688C5A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Sample" key="{62251EEA-BC55-4A1E-837A-673BD51C7C5B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A4908CC5-AA32-4C0F-A23D-0DD829027394}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Sanity" key="{C6CF785E-D8D4-4C60-96BE-B7791BDF8AAD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{52807BA1-0EB8-4D4E-B0B6-EE0DEC307FBF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="2 - Smoke" key="{9DDDC4C1-C615-42DC-AA5B-5A6141CC180B}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Logon_Fail" key="{212F1DC3-7092-4F81-BFB2-6A7987F77787}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60E3702C-C2B5-4C30-9098-E7A538166B0E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="3 - Deep Dive" key="{7FC091CA-EA80-4A2E-BD94-FA72228BFFCB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Data_Drive" key="{C7428E58-7C95-40A8-942B-384AD1946F2D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2C7E4E4A-5DAE-4CA2-A62C-2B15332B078F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Empty" key="{EEDAAE5E-80C8-4C98-8D58-0196D038C778}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Smoke_Anna" key="{8B0BB156-F35C-4C27-81BA-941D87A325C3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{402CEAA2-AA08-4A87-ADC1-3CBA50867F39}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
