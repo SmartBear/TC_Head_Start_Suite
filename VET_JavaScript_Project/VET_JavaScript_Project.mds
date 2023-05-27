@@ -43,9 +43,9 @@
 			<testItem name="0 - Common" key="{4F7F77E6-93AC-4C5F-B70B-BDAC69800D12}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_New_Function_2" key="{88FCE9A1-9958-4D2F-831F-FCF8D3E047EF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{141BEF75-5EAB-4C27-AD5C-E0F182F38025}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_New_Function_2" key="{88FCE9A1-9958-4D2F-831F-FCF8D3E047EF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{141BEF75-5EAB-4C27-AD5C-E0F182F38025}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Template_2" key="{F23BCF74-DA5F-40C3-BE79-E5AEDD00520A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CFA713BF-8A23-40B9-97F8-E47A16E93366}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -60,7 +60,7 @@
 				<children>
 					<testItem name="Test_Browser_Acid_Test" key="{8197C1EE-5B7B-4893-8D6B-D50FE12B9568}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B4948858-9B0D-4EC9-B48D-528B8D4F0F33}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Desktop_Acid_Test" key="{80C91354-A76D-4E2A-AC86-BF506DADE214}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6E43BA22-42EE-41DD-9D35-AA6790688C5A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -135,20 +135,10 @@
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100360033004400310046003400440038004600330046003600450043003900390032003700390031003500410046004400430042003100390042003900320031004400330039003800" />
-				</Variable>
-				<Variable Name="Password2" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100310033004400330046003400440038004600330046003600450043003900390032003700390031003500410046004400430033003100390036004300420043003900320034003000340041004600320044003300330043004100410032004200310037003400300046004300410044004100340038004500420044003300300038004400" />
-				</Variable>
-				<Variable Name="Password3" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003100330044003000460034004400380046003300460036004500430039003900320037003900310035004100460044004300330031003900360043004200430039003200340030003400410046003200440033003300430041004100320042003100370034003000460043003000440036004300430036003300330036003600410037003500300033004400" />
-				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{E5EDEEC4-B610-48D2-BF15-A461A715F89A}">
-		<settingsVersion value="15.51" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
