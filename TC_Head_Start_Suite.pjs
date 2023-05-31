@@ -7,6 +7,7 @@
 		</folder>
 		<folder name="AUT_Projects">
 			<child name="VET_Python_Project" key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" path="VET_Python_Project\VET_Python_Project.mds" />
+			<child name="Gherkin_And_JavaScript_Project" key="{41BAA250-67F1-490F-A34A-59B704C15523}" path="Gherkin_And_JavaScript_Project\Gherkin_And_JavaScript_Project.mds" />
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Browser_Project" key="{DCE59DAE-4066-416F-9406-2C386E444996}" path="Utility_Browser_Project\Utility_Browser_Project.mds" />
@@ -20,6 +21,7 @@
 			<testItem key="{DCE59DAE-4066-416F-9406-2C386E444996}" enabled="True" timeout="60" stopOnError="False" description="Utility Project showcasing Brower Actions" />
 			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="60" stopOnError="False" description="Utility Project showcasing Misc Actions" />
 			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
+			<testItem key="{41BAA250-67F1-490F-A34A-59B704C15523}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}">
