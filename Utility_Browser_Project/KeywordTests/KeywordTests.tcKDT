@@ -1,11 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<folder name="Configure_Browsers">
 			<child name="Configure_Edge" key="{4AC8CC42-41EF-4521-AAE0-FF4C605A4830}" path="Configure_Edge.tcKDTest" />
 			<child name="Configure_FireFox" key="{A59C3566-6B57-40DE-B24B-04CA0F2AFBB2}" path="Configure_FireFox.tcKDTest" />
 			<child name="Configure_Chrome" key="{427EAE33-F40A-448A-99A0-DB5F279C7723}" path="Configure_Chrome.tcKDTest" />
-			<child name="Configure_IE" key="{635ED0BD-6E17-4547-9E69-545C0A4D927C}" path="Configure_IE.tcKDTest" />
 			<child name="Open_All_Browsers_No_Close" key="{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" path="Open_All_Browsers_No_Close.tcKDTest" />
 			<child name="Open_Browsers_and_Delete_History" key="{72434DA8-1869-4AE4-B920-D0179537D5E4}" path="Open_Browsers_and_Delete_History.tcKDTest" />
 			<child name="Open_and_Close_All_Browsers" key="{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" path="Open_and_Close_All_Browsers.tcKDTest" />
