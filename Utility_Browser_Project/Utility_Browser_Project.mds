@@ -132,6 +132,16 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Clear_Browser_History" key="{88839244-5333-488B-BF29-C0EBD24DD0E0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CF2F3744-38DE-406A-A5AC-C622627947B7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Clear_Browser_History_Via_Keys" key="{2ADFF72E-A642-4940-9E68-17FDB13DD3AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9267F4CC-F1EC-44E9-8476-3AFBD28C3E69}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 		</children>
@@ -158,7 +168,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.52" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

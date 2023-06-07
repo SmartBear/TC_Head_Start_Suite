@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Images>
+		<Image File="126905296.png" Checksum="-1007413793" />
+		<Image File="130008359.png" Checksum="-1366562153" />
 		<Image File="259639265.png" Checksum="762679723" />
 		<Image File="308037968.png" Checksum="1334912724" />
 		<Image File="308038203.png" Checksum="1218801134" />
@@ -40,6 +42,7 @@
 		<Image File="327215640.png" Checksum="1374751907" />
 		<Image File="327215812.png" Checksum="-870002072" />
 		<Image File="327216250.png" Checksum="-3587566" />
+		<Image File="41720734.png" Checksum="-1732736402" />
 		<Image File="58688296.png" Checksum="1894454631" />
 	</Images>
 </Root>

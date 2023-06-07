@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{EF4182CB-3801-45AD-B171-C509191384B8}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.pageClearAllHistory2" Data="61717A697000000001000000360400007801D593BD0DC32014842F5206C80829338107489F1DD8948A3D2828286828282890F31EF64956624511AE0CFA38DECF010DCFD774451F93AC0FE1B672C15D7632D6FA122CEB8C93CF59DE7F90D61A46E0BDB55628C6982FD5DC36BF8DE92FA540D19A73AEEBAF98FDF4E79C41F48CCF3D7354D6E94F2941D1BAB5B62BE33D653FFD314628EAFF47D94F7F080123D0EFBDC708F41FD293FF9F371D745901" />
+					<Bitmap Name="Aliases.browser.pageClearAllHistory2.shadowroot" Data="61717A6970000000010000003604000078018D937B4853511CC7EF9C69F8605A2165699AA1336DA66EB3C9D4DADD526B4B9D5ED39289AB885E14189421565029525696A16698640FC5D03F2A12678D3229149960DAC44B1406823DB612868FFC76EEF4A27FF88707BEE79C7B7EE7F37B9C73AE4A2777A59C4D4E7A3191CFBC0454109991366F9FFB58BAF7A3A2E409D4959A7D94C97A88FA3C79981A9ECE15BCFDB2D3B5E2E17A57A57A698AA2DC286F114DDD7A92EFFE155AFF5F480A73203E720ACAAD93D048269015FE0305C1DF911CDCDCE1E1B6D67FB11F774AE4AB777961490DB0411A338BD85838258D03E434A048079406407D7006B97B6CD0D303DF3C3D0383781FB4B0A6958BC773B152401A0FC42503F159408211483A0DA84A805D65B3C83EE64032F3BE47E02214AEA3E48974C8C4022B03B4093F5143B7C1A4A942A7BA0EA5060B52CB097B1348B90FE81A888F8BFF10146B3044F956D6F171A5726037FD0716FA2A58F5D939A98AC0C695A3F6640F32DB09FB1C483301998F484E85269324ACAF9FE3A50A52AB06B89B6606AB3ABFC0D3E7C02ACA60DD568FBCDE69304380FE0390D50DA437DAEDD1D176BB4C496A4D25677400B87ECA8291C44B60394E4D945402565A0156DC80E36FEC4E9EE900984F44AF6767A5090EC7761D399B1340460D596B038EB4FC4669B505EF72EAC0CA081B790F43112DD83F3803A697EC3113913C749D636351747FBF329F9C5925C9AB95D446786D13C9AD6906D5857D24EE03B0214F51757908C62E07988F84ED271A26F77ABBB93930BAB898BF1BCD352099E460B8FD175D8A5760373511356328FC19DA33CCC8EF9E046325EC08B0B7777CDC4FA152B9BA8B44CA33A3A3DCDDA86F8C8DA593D81111DAEC0BAB0B2A5F6EBE6335A798505B3C803CCB9493635860C763B3597CB4A8887F3FA28D72B9A6DA665B23D1686485F5F5A2108984B3F96E8989E1E3711C276DF7E8A8777068A870A58707CF73A3D706B17885970FF7CB5102818B8B73140A85DC7E9ED50F3A1CAB243219675B6E0BD0E5E4F07C3063342E975BBC2F28ABA020AEA2B171F11A3FFF0F0FECE26A" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+				<Data GroupName="Clear_Browser_History" />
+				<Children>
+					<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
+						<Data Description="Iterates through the specified browsers.">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="about:blank" />
+								<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+							<Item>
+								<BrowserItem BrowserName="chrome" />
+								<BrowserItem BrowserName="edge" />
+								<BrowserItem BrowserName="firefox" />
+							</Item>
+						</Data>
+						<Children>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Open the Clear History Dialog" />
+								<Children>
+									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+										<Data Comment="This group operation open the clear browser history dialog using the Ctrl-Shift-Delete key chord" />
+									</Operation>
+									<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+										<Data Description="Maximizes the specified Window object." Action="Maximize">
+											<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Browser Name = &quot;+ Aliases.browser.Name + &quot; :Version = &quot; + aqConvert.VarToStr( Aliases.browser.FileVersionInfo) + &quot; :Process Type = &quot; + Aliases.browser.ProcessType" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+										<Data Description="Simulates one or several keypresses." Action="Keys">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="^![Del]" />
+											</Parameters>
+											<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="The previous step should have opened the Clear All History Window" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Browser Name = &quot; + Aliases.browser.Name + &quot; :Version = &quot; + aqConvert.VarToStr(Aliases.browser.FileVersionInfo) + &quot; :Process Type = &quot; + Aliases.browser.ProcessType" />
+												<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+										<Data Description="Delays the test execution for the specified time period.">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="3 Second Delay to allow browser to quite down" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Purge History Routine By Browser" />
+								<Children>
+									<Operation Type="{5AEB51A8-0E80-4A25-BACF-B10D279EF111}">
+										<Data Description="Checks whether the %n browser is currently being used for testing." BrowserName="chrome" />
+										<Children>
+											<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
+												<Data Description="Posts an image to the test log.">
+													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.BrowserWindow.Picture()" />
+														<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Post picture of current browser window" />
+														<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+												<Data Description="Simulates a user action over the area that contains the recognized text." Action="Click" TBlockIntType="1">
+													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Clear data" />
+														<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+															<Values>
+																<Value Type="1" Value="-10" Text="spNone" />
+																<Value Type="1" Value="-11" Text="spNearestToCenter" />
+																<Value Type="1" Value="-12" Text="spLeftMost" />
+																<Value Type="1" Value="-13" Text="spRightMost" />
+																<Value Type="1" Value="-14" Text="spTopMost" />
+																<Value Type="1" Value="-15" Text="spBottomMost" />
+																<Value Type="1" Value="-16" Text="spLargest" />
+																<Value Type="1" Value="-17" Text="spSmallest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="x" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+														<Parameter Name="y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+														<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+															<Values IsEnum="True">
+																<Value Type="1" Value="0" Text="skNoShift" />
+																<Value Type="1" Value="8192" Text="skShift" />
+																<Value Type="1" Value="32768" Text="skAlt" />
+																<Value Type="1" Value="16384" Text="skCtrl" />
+															</Values>
+														</Parameter>
+													</Parameters>
+													<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageSettingsClearbrowserdata;" />
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{5AEB51A8-0E80-4A25-BACF-B10D279EF111}">
+										<Data Description="Checks whether the %n browser is currently being used for testing." BrowserName="edge" />
+										<Children>
+											<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
+												<Data Description="Posts an image to the test log.">
+													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.BrowserWindow.Picture()" />
+														<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Post picture of current browser window" />
+														<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+												<Data Description="Simulates a user action over the area that contains the recognized text." Action="Click" TBlockIntType="1">
+													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Clear now" />
+														<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+															<Values>
+																<Value Type="1" Value="-10" Text="spNone" />
+																<Value Type="1" Value="-11" Text="spNearestToCenter" />
+																<Value Type="1" Value="-12" Text="spLeftMost" />
+																<Value Type="1" Value="-13" Text="spRightMost" />
+																<Value Type="1" Value="-14" Text="spTopMost" />
+																<Value Type="1" Value="-15" Text="spBottomMost" />
+																<Value Type="1" Value="-16" Text="spLargest" />
+																<Value Type="1" Value="-17" Text="spSmallest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="x" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+														<Parameter Name="y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+														<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+															<Values IsEnum="True">
+																<Value Type="1" Value="0" Text="skNoShift" />
+																<Value Type="1" Value="8192" Text="skShift" />
+																<Value Type="1" Value="32768" Text="skAlt" />
+																<Value Type="1" Value="16384" Text="skCtrl" />
+															</Values>
+														</Parameter>
+													</Parameters>
+													<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageClearbrowserdata;" />
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{5AEB51A8-0E80-4A25-BACF-B10D279EF111}">
+										<Data Description="Checks whether the %n browser is currently being used for testing." BrowserName="firefox" />
+										<Children>
+											<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
+												<Data Description="Posts an image to the test log.">
+													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.BrowserWindow.Picture()" />
+														<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Post picture of current browser window" />
+														<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Performs a single click on the specified button." Action="ClickButton">
+													<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageClearAllHistory2.shadowroot.buttonClearNow" />
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Close the Browser" />
+								<Children>
+									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+										<Data Description="Delays the test execution for the specified time period.">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="3 Second Delay to allow browser to quite down" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+										<Data Description="Closes the process by sending the WM_CLOSE message to its main window." Action="Close">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="3000" VarType="3" ValueType="1" ValueValue="3000" />
+											</Parameters>
+											<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser" />
+										</Data>
+									</Operation>
+									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+										<Data Description="Delays the test execution for the specified time period.">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="3 Second Delay to allow browser to close" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{28D0701F-1674-42D1-A1D9-5FBDE4C34394}" />
+</Root>
