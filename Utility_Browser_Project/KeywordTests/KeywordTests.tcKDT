@@ -11,8 +11,9 @@
 			<child name="Open_and_Close_All_Browsers" key="{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" path="Open_and_Close_All_Browsers.tcKDTest" />
 			<child name="Open_Close_and_Terminate_Browsers" key="{BA73FE6D-226B-4A3F-B624-FAC61C136619}" path="Open_Close_and_Terminate_Browsers.tcKDTest" />
 			<child name="Dismiss_Pop_Up_Blocker" key="{A63F49AD-9FD6-491A-9D5F-CD7B93B8D053}" path="Dismiss_Pop_Up_Blocker.tcKDTest" />
-			<child name="Clear_Browser_History" key="{CF2F3744-38DE-406A-A5AC-C622627947B7}" path="Clear_Browser_History.tcKDTest" />
+			<child name="Clear_Browser_History_Via_OCR" key="{CF2F3744-38DE-406A-A5AC-C622627947B7}" path="Clear_Browser_History_Via_OCR.tcKDTest" />
 			<child name="Clear_Browser_History_Via_Keys" key="{9267F4CC-F1EC-44E9-8476-3AFBD28C3E69}" path="Clear_Browser_History_Via_Keys.tcKDTest" />
+			<child name="Open_The_Clear_History_Dialog" key="{059D532B-E421-4B41-9AFE-491B3CA8EBD4}" path="Open_The_Clear_History_Dialog.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />
