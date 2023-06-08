@@ -139,7 +139,7 @@
 					</testItem>
 					<testItem name="Clear_Browser_History_Via_Keys" key="{2ADFF72E-A642-4940-9E68-17FDB13DD3AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9267F4CC-F1EC-44E9-8476-3AFBD28C3E69}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
