@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<child name="EventControl_TestEngine_OnStartTest" key="{488C1110-1649-42F5-B8A9-42CCCFD4566E}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
@@ -6,5 +6,12 @@
 		<child name="Mod_Template" key="{B56796FD-2D0D-4C6E-B73F-FD15DEBDECA5}" path="Mod_Template.tcKDTest" />
 		<child name="Keyword_Calling_Script_Test_Template" key="{7D7A8655-CFDA-4F75-8FD9-6565A026B387}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
 		<child name="Test_New_Function" key="{9A259D3A-79DC-4379-8D48-BBB34FB0289A}" path="Test_New_Function.tcKDTest" />
+		<child name="Mod_LaunchBrowser" key="{61EC6F7B-26B3-4C95-B181-7B81E4A161CD}" path="Mod_LaunchBrowser.tcKDTest" />
+		<child name="Mod_LoadWebStore" key="{95509CC4-FB9B-4DA0-99D0-7C6316104717}" path="Mod_LoadWebStore.tcKDTest" />
+		<child name="Mod_WebStoreLoads" key="{EBCF023F-282A-4E20-BDCC-147CF13EB695}" path="Mod_WebStoreLoads.tcKDTest" />
+		<child name="Mod_Login" key="{46AC9C72-154F-4966-A4F0-9DB98A11FE50}" path="Mod_Login.tcKDTest" />
+		<child name="Mod_Register" key="{DD774F1C-3E7B-4D9E-902E-C583B213B6F7}" path="Mod_Register.tcKDTest" />
+		<child name="Mod_EnterCreds" key="{40E6AC5E-2DF0-40DD-9D3F-D643B8A7DE87}" path="Mod_EnterCreds.tcKDTest" />
+		<child name="Mod_SuccessfulLogin" key="{38A6219C-A525-4B5F-BCEE-0CEC1868760C}" path="Mod_SuccessfulLogin.tcKDTest" />
 	</children>
 </Root>

@@ -19,9 +19,4 @@ Common functionality for all Test Levels
     Given Edge is available
     When we load the application url
     Then the webStore loads
- 
-  @0 @Common
-  Scenario: Our Application Loads in Headless Browser
-    Given Browser is available
-    When we load the application url
-    Then the webStore loads       
+    

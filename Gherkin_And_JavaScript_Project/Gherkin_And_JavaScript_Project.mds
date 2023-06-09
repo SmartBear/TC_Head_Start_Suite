@@ -15,7 +15,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{25949C18-2FA0-460C-ADDA-477A04F918F2}" version="14">
 		<children>
-			<testItem name="Templates" key="{EE1C23A8-E1BD-4217-BB1E-8B5DCA9664DA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Templates" key="{EE1C23A8-E1BD-4217-BB1E-8B5DCA9664DA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Template" key="{FFCE0332-2CC6-47B6-B323-546B15BAA2AC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8E6DE658-1243-4534-9CD3-06DF33DD6519}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -40,6 +40,21 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Gherkin Scenarios" key="{8662298C-058E-4461-AB0B-53C9F4A63AEF}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Common" key="{5D6D4419-178C-468F-B9A5-9E80670BC2AF}" group="False" parallel="False" enabled="True" testMoniker="*|@0" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Sanity" key="{72EC59FA-EF44-4594-9C23-417D89C2A9C4}" group="False" parallel="False" enabled="True" testMoniker="*|@1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{947BECF2-2B00-45FA-94D6-0C2F05E679A6}">
@@ -60,11 +75,17 @@
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
 				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100390033004400310046003400440038004100420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320033004300300041003600440033004600" />
+				</Variable>
+				<Variable Name="DermotPassword" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310036003300440030004600340044003800430042004600330038004300390038004100370039003500320032004600380046004200370044004600360031003800440032003100380038004200410030003100450036003000" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{1EAC27B8-3D5A-4A07-A870-429C1FF3A50D}">
-		<settingsVersion value="15.51" />
+		<settingsVersion value="15.52" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
