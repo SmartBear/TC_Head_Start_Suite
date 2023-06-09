@@ -9,7 +9,7 @@ Scenarios that check the basic sanity of the application environment
     Then login is successful
   
   @1 @Sanity
-  Scenario Outline: A user can login to the application
+  Scenario Outline: Users can login to the application
     Given we can load our application
     When we enter <Username> and <Password>
     Then login is successful
