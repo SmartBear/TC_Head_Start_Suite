@@ -47,9 +47,9 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
@@ -77,12 +77,12 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Warning_Test" key="{E7C5F629-13BA-4805-BE1E-CF624F9E2D52}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D030BBD3-9309-49DA-8A28-80186319B9F2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Warning_Test" key="{E7C5F629-13BA-4805-BE1E-CF624F9E2D52}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D030BBD3-9309-49DA-8A28-80186319B9F2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Failing_Test" key="{AB2FC552-BBCC-45E1-921E-6AB8192DE6E9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AB76932E-4A2B-4749-B7CF-540C8A800EDF}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Failing_Test" key="{AB2FC552-BBCC-45E1-921E-6AB8192DE6E9}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AB76932E-4A2B-4749-B7CF-540C8A800EDF}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -148,7 +148,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.51" />
+		<settingsVersion value="15.52" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

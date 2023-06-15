@@ -132,7 +132,7 @@
 		</data>
 	</variables>
 	<settings key="{DCC40435-CB55-4835-B784-878254660374}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.52" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -438,21 +438,21 @@
 			</columns>
 			<data>
 				<row val0="NativeSlObject" />
-				<row val0="NativeWebObject" />
 				<row val0="NativeVBObject" />
 				<row val0="NativeDelphiObject" />
 				<row val0="NativeTextObject" />
 				<row val0="NativeJavaObject" />
-				<row val0="NativeChromeObject" />
-				<row val0="NativeClrObject" />
+				<row val0="NativeWebObject" />
 				<row val0="NativeCPPObject" />
-				<row val0="NativeFirefoxObject" />
+				<row val0="NativeClrObject" />
 				<row val0="NativeJavaFXObject" />
 				<row val0="NativeSAPObject" />
 				<row val0="NativeQtObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeFirefoxObject" />
 				<row val0="NativeWebDriverObject" />
-				<row val0="NativeUIAObject" />
 				<row val0="NativeMSAA" />
+				<row val0="NativeUIAObject" />
 			</data>
 		</setting>
 		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
