@@ -20,6 +20,7 @@
 			<child name="Mod_Navigate_Home_Page" key="{417316A5-8B60-40F1-AC93-28B86B11F15B}" path="Mod_Navigate_Home_Page.tcKDTest" />
 			<child name="Test_Login_Logout_Data_Driven" key="{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" path="Test_Login_Logout_Data_Driven.tcKDTest" />
 			<child name="Mod_Login_Data_Driven_1" key="{0612601B-BF67-431F-81AE-29BFA0C88A99}" path="Mod_Login_Data_Driven_1.tcKDTest" />
+			<child name="Mod_Logout_Jack_Power" key="{CF39AB2E-0B33-4E0D-817A-6879F1763DBA}" path="Mod_Logout_Jack_Power.tcKDTest" />
 		</folder>
 		<folder name="GeneralEvents">
 			<child name="GeneralEvents_OnStartTest" key="{E1230F69-6011-42FE-BDE6-DF22D2BC94FF}" path="GeneralEvents_OnStartTest.tcKDTest" />

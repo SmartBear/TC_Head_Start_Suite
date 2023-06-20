@@ -163,7 +163,7 @@
 												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+												<Value Value="xpath=//a[contains(., &apos;*&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />
