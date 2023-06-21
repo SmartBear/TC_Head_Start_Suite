@@ -62,6 +62,7 @@ Given("we login to our application", function (){
     KeywordTests.Mod_WebStoreLoads.Run();
     KeywordTests.Mod_EnterCreds.Run("dermotc",Project.Variables.DermotPassword);
     Project.Variables.tempUsername = "dermotc";
+    KeywordTests.Mod_SuccessfulLogin.Run(Project.Variables.tempUsername);
 });
 
 When("we click to purchase an item", function (){
