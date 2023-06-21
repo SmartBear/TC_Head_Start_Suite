@@ -40,7 +40,6 @@ Given("we can load our application", function (){
 
 When("we enter valid credentials", function (){
     KeywordTests.Mod_EnterCreds.Run("dermotc",Project.Variables.DermotPassword);
-    Log.Message(aqConvert.VarToStr(Project.Variables.DermotPassword));
     Project.Variables.tempUsername = "dermotc";
 });
 
