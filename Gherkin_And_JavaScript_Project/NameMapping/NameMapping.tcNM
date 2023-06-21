@@ -104,9 +104,6 @@
 										<TypeInfo Item0="{8C53D787-6573-4B1E-B075-A02A3061B10D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//a[contains(., &apos;dermotC&apos;)]" />
-											</Selector>
-											<Selector>
 												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
 											</Selector>
 											<Selector>
@@ -122,45 +119,7 @@
 										<TypeInfo Item0="{5EBB951A-BA67-4DB1-9517-09E9B6DF9EDB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;dermotC&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//span[@title=&apos;dermotC&apos;]" />
-											</Selector>
-											<Selector>
 												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a/span" />
-											</Selector>
-											<Selector>
-												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="linkLoginReturnurl2f" Key="{B36BDC9B-0949-4B4C-BF41-B9DDAB7B36B8}">
-										<Image FileName="-1457276674" Left="1427" Top="85" Right="1515" Bottom="137" />
-										<Selectors>
-											<Selector>
-												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />
-											</Selector>
-											<Selector>
-												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="textnodeLogIn" Key="{4A5AADB8-6EAD-4D57-AB66-ADFF49885F23}">
-										<Image FileName="-1457276674" Left="1456" Top="103" Right="1505" Bottom="120" />
-										<TypeInfo Item0="{E734DD36-3AA0-4ACF-930A-9D437537708C}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//span[.=&apos;Log in&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//span" />
 											</Selector>
 											<Selector>
 												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
@@ -632,11 +591,8 @@
 				<Child Name="header" Owner="{F1FC1A17-6E89-4FD4-B899-31765D93E463}">
 					<Child Name="navMenubarNavbarNavbarSlide" Owner="{068B1ADA-B700-4388-8711-B3D08133F341}">
 						<Child Name="linkCustomerInfo" Owner="{F93421DA-0801-4AE1-967E-9D0C366FFBC0}">
-							<Child Name="textnodeDermotc" Owner="{2C1BB275-0F4C-4633-A28E-94E9E11A8086}" />
+							<Child Name="LoginOrUsernameLink" Owner="{2C1BB275-0F4C-4633-A28E-94E9E11A8086}" />
 							<Child Name="textnodeFalFaAngleDownMenubarCar" Owner="{C0D17D68-3BD2-4541-A1BC-27ED4E559097}" />
-						</Child>
-						<Child Name="linkLoginReturnurl2f" Owner="{B36BDC9B-0949-4B4C-BF41-B9DDAB7B36B8}">
-							<Child Name="textnodeLogIn" Owner="{4A5AADB8-6EAD-4D57-AB66-ADFF49885F23}" />
 						</Child>
 						<Child Name="linkLogout" Owner="{83270961-02F6-44AE-9EE9-239804EA6889}">
 							<Child Name="textnodeLogOut" Owner="{548C3E3E-2056-4B86-87C3-53BD3C926142}" />

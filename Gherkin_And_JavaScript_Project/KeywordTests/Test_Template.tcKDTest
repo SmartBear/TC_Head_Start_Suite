@@ -70,6 +70,14 @@
 			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
 				<Data Description="Restores the previous indicator text." />
 			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the browser." Action="Close">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="60000" VarType="3" ValueType="1" ValueValue="60000" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser;" />
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{543C44E0-2577-424A-B377-A4BCFA0925A5}" />

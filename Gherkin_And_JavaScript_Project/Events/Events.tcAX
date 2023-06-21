@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{1D3BBA61-2D42-47BF-8B46-696B7F8DEDC2}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
 	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
 	<testData />

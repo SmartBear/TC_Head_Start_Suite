@@ -1,4 +1,13 @@
-﻿// 0 - Common
+﻿// Hooks
+
+AfterScenario(function (scenario){
+  // Perform some action after executing a scenario, for example:
+  Log.Message("The " + scenario.Name + " scenario has been executed");
+    Aliases.browser.Close();
+})
+
+
+// 0 - Common
 
 Given("Chrome is available", function (){
    KeywordTests.Mod_LaunchBrowser.Run("Chrome");
@@ -31,16 +40,15 @@ Given("we can load our application", function (){
 
 When("we enter valid credentials", function (){
     KeywordTests.Mod_EnterCreds.Run("dermotc",Project.Variables.DermotPassword);
+    Log.Message(aqConvert.VarToStr(Project.Variables.DermotPassword));
+    Project.Variables.tempUsername = "dermotc";
 });
 
 Then("login is successful", function (){
-    KeywordTests.Mod_SuccessfulLogin.Run("dermotc");
+    KeywordTests.Mod_SuccessfulLogin.Run(Project.Variables.tempUsername);
 });
 
-When("we enter Dermot and password", function (){
-    throw new NotImplementedError();
-});
-
-When("we enter Kevin and password", function (){
-    throw new NotImplementedError();
+When("we enter {arg} and {arg}", function (user, pass){
+   KeywordTests.Mod_EnterCreds.Run(user,pass);
+   Project.Variables.tempUsername = user;
 });
