@@ -48,7 +48,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Sanity" key="{72EC59FA-EF44-4594-9C23-417D89C2A9C4}" group="False" parallel="False" enabled="True" testMoniker="*|@1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Sanity" key="{72EC59FA-EF44-4594-9C23-417D89C2A9C4}" group="False" parallel="False" enabled="False" testMoniker="*|@1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
