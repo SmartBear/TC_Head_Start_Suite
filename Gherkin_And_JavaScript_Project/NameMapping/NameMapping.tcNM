@@ -158,6 +158,46 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="articleArt" Key="{70EE49C0-3EE6-4D2F-9089-81701E375210}">
+										<Image FileName="-149020106" Left="405" Top="432" Right="577" Bottom="635" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Sports&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowProductsInCategorySports" Key="{BC47BEC3-277B-4364-8D67-430DED3262E5}">
+										<Image FileName="-149020106" Left="421" Top="448" Right="561" Bottom="588" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/a[@title=&apos;Show products in category Sports&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article//a[contains(@class, &apos;art-picture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//article//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSportsJpgSize256" Key="{52C03278-7D68-4CEB-AF4E-666347394D9C}">
+										<Image FileName="-149020106" Left="421" Top="448" Right="561" Bottom="588" />
+										<TypeInfo Item0="{E734DD36-3AA0-4ACF-930A-9D437537708C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Show products in category Sports&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;sports&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//article//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageShopLogin" Key="{E869AFDB-ED25-4417-836F-C577901A688D}">
@@ -542,6 +582,169 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShopSoccer" Key="{E05F3438-157A-45DA-BE88-C84FA4E11026}">
+								<Image FileName="-23602616" Left="8" Top="93" Right="1928" Bottom="1040" />
+								<TypeInfo Item0="{92AD83CE-AABB-41CD-B532-0AD8DAAAC554}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/soccer" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="asideOffcanvasCart" Key="{0CD3A9DA-0C09-4D74-ABAD-353F8B1C8D1E}">
+										<Image FileName="-23602616" Left="1448" Top="93" Right="1928" Bottom="1040" />
+										<TypeInfo Item0="{F7433157-FC5C-4642-ABF0-CD7BB7E15E46}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#offcanvas-cart" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(., &apos;Shopping Cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(@class, &apos;on&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTheProduct" Key="{7A5FC789-D0E8-4EC8-8010-6FFD6FA53FA2}">
+										<Image FileName="-23602616" Left="1512" Top="161" Right="1842" Bottom="203" />
+										<TypeInfo Item0="{5EBB951A-BA67-4DB1-9517-09E9B6DF9EDB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;The product&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;occ-cart&apos;]//div[@role=&apos;alert&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContent" Key="{1997427F-9DA3-42F5-9019-8557898702A1}">
+										<Image FileName="-1182061018" Left="390" Top="289" Right="1530" Bottom="1282" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sports&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBtnBtnPrimaryAjaxCartLinkPxS" Key="{9C4AD17D-0314-4EDD-9E3A-0E04C9DBE8FB}">
+										<Image FileName="-1182061018" Left="689" Top="868" Right="756" Bottom="910" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-describedby=(//div[.=&apos;Add to cart&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]/div[@id=&apos;content-center&apos;]//div[2]/article/div[6]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFaFaCartArrowDown" Key="{3B5D247C-89A1-4E71-9118-128DF55FA2E6}">
+										<Image FileName="-1182061018" Left="713" Top="881" Right="731" Bottom="897" />
+										<TypeInfo Item0="{E734DD36-3AA0-4ACF-930A-9D437537708C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]/div[@id=&apos;content-center&apos;]//div[2]/article/div[6]//a/i[contains(@class, &apos;fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div[2]/article/div[6]//a/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]/div[@id=&apos;content-center&apos;]//div[2]/article/div[6]//a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShopSports" Key="{952C1EAF-321E-4182-A35C-8DE006F0C89A}">
+								<TypeInfo Item0="{A70BC13D-A2FD-4656-B240-D82666F57E4B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/sports" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{9776A622-05D3-4AB2-8F12-17E544C0BA8F}">
+										<Image FileName="-1833134078" Left="390" Top="289" Right="1530" Bottom="1939" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sports&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleArt" Key="{31997FAE-D4A2-44C5-A0E0-EF85A345224D}">
+										<Image FileName="-1833134078" Left="690" Top="426" Right="884" Bottom="652" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Soccer&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowProductsInCategorySoccer" Key="{D18736B4-9647-42AA-B432-4AD0BF20EFA3}">
+										<Image FileName="-1833134078" Left="706" Top="442" Right="868" Bottom="605" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/a[@title=&apos;Show products in category Soccer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/article//a[contains(@class, &apos;art-picture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]/div[@id=&apos;content-center&apos;]//article//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSoccerPngSize256" Key="{DEE6731C-BC82-47E0-B8F9-FF098F0AB5C9}">
+										<Image FileName="-1833134078" Left="707" Top="442" Right="867" Bottom="605" />
+										<TypeInfo Item0="{E734DD36-3AA0-4ACF-930A-9D437537708C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Show products in category Soccer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;soccer&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/article//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="OUTLOOK" Key="{113B2AE5-842F-4402-89A3-DB38FF41E04C}">
@@ -587,6 +790,11 @@
 			<Child Name="pageShop" Owner="{F6764AD6-3A08-47EA-A141-EEB9751B2C92}">
 				<Child Name="sectionContent" Owner="{08B7DFB6-D2F3-48C6-A34F-1391750FB8C9}">
 					<Child Name="textnodeWelcomeToOurStore" Owner="{020A661E-D835-4FF1-8852-4815AD934A9C}" />
+					<Child Name="articleArt" Owner="{70EE49C0-3EE6-4D2F-9089-81701E375210}">
+						<Child Name="linkShowProductsInCategorySports" Owner="{BC47BEC3-277B-4364-8D67-430DED3262E5}">
+							<Child Name="imageSportsJpgSize256" Owner="{52C03278-7D68-4CEB-AF4E-666347394D9C}" />
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="header" Owner="{F1FC1A17-6E89-4FD4-B899-31765D93E463}">
 					<Child Name="navMenubarNavbarNavbarSlide" Owner="{068B1ADA-B700-4388-8711-B3D08133F341}">
@@ -626,6 +834,25 @@
 						<Child Name="buttonRegister" Owner="{7B9004D3-574B-4167-8300-8AB8A493CA28}" />
 					</Child>
 					<Child Name="linkContinue" Owner="{67B11F1B-224C-4CB9-96DE-32219B335F2C}" />
+				</Child>
+			</Child>
+			<Child Name="pageShopSoccer" Owner="{E05F3438-157A-45DA-BE88-C84FA4E11026}">
+				<Child Name="asideOffcanvasCart" Owner="{0CD3A9DA-0C09-4D74-ABAD-353F8B1C8D1E}">
+					<Child Name="textnodeTheProduct" Owner="{7A5FC789-D0E8-4EC8-8010-6FFD6FA53FA2}" />
+				</Child>
+				<Child Name="sectionContent" Owner="{1997427F-9DA3-42F5-9019-8557898702A1}">
+					<Child Name="linkBtnBtnPrimaryAjaxCartLinkPxS" Owner="{9C4AD17D-0314-4EDD-9E3A-0E04C9DBE8FB}">
+						<Child Name="textnodeFaFaCartArrowDown" Owner="{3B5D247C-89A1-4E71-9118-128DF55FA2E6}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageShopSports" Owner="{952C1EAF-321E-4182-A35C-8DE006F0C89A}">
+				<Child Name="sectionContent" Owner="{9776A622-05D3-4AB2-8F12-17E544C0BA8F}">
+					<Child Name="articleArt" Owner="{31997FAE-D4A2-44C5-A0E0-EF85A345224D}">
+						<Child Name="linkShowProductsInCategorySoccer" Owner="{D18736B4-9647-42AA-B432-4AD0BF20EFA3}">
+							<Child Name="imageSoccerPngSize256" Owner="{DEE6731C-BC82-47E0-B8F9-FF098F0AB5C9}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 		</Child>

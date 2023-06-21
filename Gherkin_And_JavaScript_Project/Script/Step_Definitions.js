@@ -51,3 +51,24 @@ When("we enter {arg} and {arg}", function (user, pass){
    KeywordTests.Mod_EnterCreds.Run(user,pass);
    Project.Variables.tempUsername = user;
 });
+
+
+// @Smoke
+
+
+Given("we login to our application", function (){
+    KeywordTests.Mod_LaunchBrowser.Run("Firefox");
+    KeywordTests.Mod_LoadWebStore.Run();
+    KeywordTests.Mod_WebStoreLoads.Run();
+    KeywordTests.Mod_EnterCreds.Run("dermotc",Project.Variables.DermotPassword);
+    Project.Variables.tempUsername = "dermotc";
+});
+
+When("we click to purchase an item", function (){
+    KeywordTests.Mod_PurchaseItem.Run();
+});
+
+Then("the item is in our cart", function (){
+    KeywordTests.Mod_ItemInCart.Run();
+});
+
