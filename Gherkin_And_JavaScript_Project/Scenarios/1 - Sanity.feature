@@ -11,11 +11,11 @@ Scenarios that check the basic sanity of the application environment
   @1 @Sanity
   Scenario Outline: Users can login to the application
     Given we can load our application
-    When we enter <Username> and <Password>
+    When we enter "<Username>" and "<Password>"
     Then login is successful
   
     Examples:
-    | Username | Password |
-    | Dermot | password |
-    | Kevin | password |
+      | Username       | Password |
+      | aliceAngular   | password |
+      | bobBourneShell | password |
     

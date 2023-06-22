@@ -140,11 +140,14 @@
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="Password1" Type="Password" Local="False">
+				<Variable Name="KevinPassword" Type="Password" Local="False">
 					<DefValue StrValue="3800390036003100390033004400310046003400440038004100420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320033004300300041003600440033004600" />
 				</Variable>
 				<Variable Name="DermotPassword" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310036003300440030004600340044003800430042004600330038004300390038004100370039003500320032004600380046004200370044004600360031003800440032003100380038004200410030003100450036003000" />
+				</Variable>
+				<Variable Name="tempUsername" Type="String" Local="False">
+					<DefValue StrValue="dermotc" />
 				</Variable>
 			</Items>
 		</data>

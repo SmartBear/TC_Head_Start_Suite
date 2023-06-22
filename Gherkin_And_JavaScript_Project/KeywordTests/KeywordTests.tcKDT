@@ -13,5 +13,7 @@
 		<child name="Mod_Register" key="{DD774F1C-3E7B-4D9E-902E-C583B213B6F7}" path="Mod_Register.tcKDTest" />
 		<child name="Mod_EnterCreds" key="{40E6AC5E-2DF0-40DD-9D3F-D643B8A7DE87}" path="Mod_EnterCreds.tcKDTest" />
 		<child name="Mod_SuccessfulLogin" key="{38A6219C-A525-4B5F-BCEE-0CEC1868760C}" path="Mod_SuccessfulLogin.tcKDTest" />
+		<child name="Mod_PurchaseItem" key="{9484A278-7FAB-4ECC-BBDB-695F7A608403}" path="Mod_PurchaseItem.tcKDTest" />
+		<child name="Mod_ItemInCart" key="{BEC62EB1-5CD3-44B1-9ABF-BEDA2393FAC4}" path="Mod_ItemInCart.tcKDTest" />
 	</children>
 </Root>

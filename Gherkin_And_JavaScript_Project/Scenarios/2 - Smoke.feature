@@ -2,7 +2,7 @@
 Various Scenarios that test the happy path functionality of our application
 
   @2 @Smoke
-  Scenario: A description of your business scenario
-    Given some precondition
-    When an action is performed
-    Then validate a condition
+  Scenario: Purchase a Product
+    Given we login to our application
+    When we click to purchase an item
+    Then the item is in our cart
