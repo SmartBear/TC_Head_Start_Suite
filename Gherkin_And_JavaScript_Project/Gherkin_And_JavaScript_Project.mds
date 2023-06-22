@@ -40,10 +40,10 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Gherkin Scenarios" key="{8662298C-058E-4461-AB0B-53C9F4A63AEF}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Gherkin Scenarios" key="{8662298C-058E-4461-AB0B-53C9F4A63AEF}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Common" key="{5D6D4419-178C-468F-B9A5-9E80670BC2AF}" group="False" parallel="False" enabled="True" testMoniker="*|@0" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Common" key="{5D6D4419-178C-468F-B9A5-9E80670BC2AF}" group="False" parallel="False" enabled="False" testMoniker="*|@0" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -51,6 +51,71 @@
 					<testItem name="Sanity" key="{72EC59FA-EF44-4594-9C23-417D89C2A9C4}" group="False" parallel="False" enabled="False" testMoniker="*|@1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="0 - Common" key="{F0E391B0-5F28-420B-BE26-4E3CF0D33928}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Our Application Loads in Chrome" key="{0F4A244A-E5F8-407B-88B8-BC88BD4798A8}" group="False" parallel="False" enabled="True" testMoniker="0 - Common|Our Application Loads in Chrome" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Our Application Loads in Firefox" key="{E0947336-2DB2-400A-83DD-E0E035A4363C}" group="False" parallel="False" enabled="True" testMoniker="0 - Common|Our Application Loads in Firefox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Our Application Loads in Edge" key="{894A3DC7-EB6E-49E3-B26B-8DD3C320D6E4}" group="False" parallel="False" enabled="True" testMoniker="0 - Common|Our Application Loads in Edge" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="1 - Sanity" key="{855CF9BC-E64C-45C4-BA54-0206E69F17F7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="A user can login to the application" key="{356C7E5A-47E6-4AEF-A3D2-79BFD665CFAB}" group="False" parallel="False" enabled="True" testMoniker="1 - Sanity|A user can login to the application" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Users can login to the application" key="{77BE8F76-7DB4-4DED-BFD8-7FC4A3EC1364}" group="False" parallel="False" enabled="True" testMoniker="1 - Sanity|Users can login to the application" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="2 - Smoke" key="{8896DAB2-B460-4278-8226-AACC180F0E3B}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="A description of your business scenario_2" key="{368161F9-6E71-4D70-A96A-71D1741E7969}" group="False" parallel="False" enabled="True" testMoniker="2 - Smoke|A description of your business scenario" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="3 - Deep Dive" key="{0DF5762A-0EB3-4952-8CC2-AE97E3AAE702}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="A description of your business scenario_3" key="{C1C8A1FE-64EC-4632-8AA8-191F90DCEDF7}" group="False" parallel="False" enabled="True" testMoniker="3 - Deep Dive|A description of your business scenario" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="4 - Debug" key="{7B9273B3-BE67-4C96-B03A-7A513F3A4C96}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="A description of your business scenario_4" key="{37A69CF6-1C28-45D7-AE7E-3DA3B47F619C}" group="False" parallel="False" enabled="True" testMoniker="4 - Debug|A description of your business scenario" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
