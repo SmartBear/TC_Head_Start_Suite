@@ -93,19 +93,21 @@
 			<testItem name="2 - Smoke" key="{8896DAB2-B460-4278-8226-AACC180F0E3B}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="A description of your business scenario_2" key="{368161F9-6E71-4D70-A96A-71D1741E7969}" group="False" parallel="False" enabled="True" testMoniker="2 - Smoke|A description of your business scenario" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="A description of your business scenario_2" key="{368161F9-6E71-4D70-A96A-71D1741E7969}" group="False" parallel="False" enabled="True" testMoniker="2 - Smoke|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="3 - Deep Dive" key="{0DF5762A-0EB3-4952-8CC2-AE97E3AAE702}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="3 - Deep Dive" key="{0DF5762A-0EB3-4952-8CC2-AE97E3AAE702}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="A description of your business scenario_3" key="{C1C8A1FE-64EC-4632-8AA8-191F90DCEDF7}" group="False" parallel="False" enabled="True" testMoniker="3 - Deep Dive|A description of your business scenario" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
+					<testItem name="A description of your business scenario_3" key="{C1C8A1FE-64EC-4632-8AA8-191F90DCEDF7}" group="False" parallel="False" enabled="True" testMoniker="*|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="Expression" type="1" localVarName="" value="@Common OR @Sanity OR @Smoke" />
+						</testParameters>
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
@@ -113,9 +115,9 @@
 			<testItem name="4 - Debug" key="{7B9273B3-BE67-4C96-B03A-7A513F3A4C96}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="A description of your business scenario_4" key="{37A69CF6-1C28-45D7-AE7E-3DA3B47F619C}" group="False" parallel="False" enabled="True" testMoniker="4 - Debug|A description of your business scenario" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="A description of your business scenario_4" key="{37A69CF6-1C28-45D7-AE7E-3DA3B47F619C}" group="False" parallel="False" enabled="True" testMoniker="*|@Debug" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
