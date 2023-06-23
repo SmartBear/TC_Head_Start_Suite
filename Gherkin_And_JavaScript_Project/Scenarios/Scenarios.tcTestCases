@@ -2,7 +2,6 @@
 <Scenarios>
 	<Feature Path="1 - Sanity.feature" />
 	<Feature Path="2 - Smoke.feature" />
-	<Feature Path="3 - Deep Dive.feature" />
 	<Feature Path="4 - Debug.feature" />
 	<Feature Path="0 - Common.feature" />
 </Scenarios>
