@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
@@ -34,7 +34,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Zillow_Project" key="{4D1A2E47-2CDE-4C5F-90CF-E2938E4421DE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4C383432-6E5C-4EB2-B97D-AC0350123312}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Zillow_Project" key="{4D1A2E47-2CDE-4C5F-90CF-E2938E4421DE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4C383432-6E5C-4EB2-B97D-AC0350123312}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -71,7 +71,7 @@
 		</data>
 	</variables>
 	<settings key="{F1AEBE97-038E-4ABD-B445-778D085EDB45}">
-		<settingsVersion value="15.46" />
+		<settingsVersion value="15.52" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -102,6 +102,8 @@
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="0" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
@@ -115,6 +117,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />
