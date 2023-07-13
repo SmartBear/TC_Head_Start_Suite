@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{6B3CB2D7-F8E7-43B6-863A-A76CCFD10FB5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{3558C765-80A1-4D1A-AA4C-EB9F4520F460}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -355,14 +355,14 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="4" Key="{461389FF-F4A5-489D-8B9B-4F5F2258D64E}">
+	<Variables Version="4" Key="{BC6FD9A8-BDB0-4ACB-8933-2FAFBC3160E9}">
 		<Items>
 			<Variable Name="LogAttribEventTitle" Type="Object" Local="False">
 				<DefValue />
 			</Variable>
 		</Items>
 	</Variables>
-	<Parameters Key="{0F96BE11-8050-468A-AF01-3C72C6A5DDD9}">
+	<Parameters Key="{4E556FD4-7D72-47DA-95AD-2ADE3E2E95FF}">
 		<Parameter0 Name="Sender" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
 	</Parameters>
 </Root>

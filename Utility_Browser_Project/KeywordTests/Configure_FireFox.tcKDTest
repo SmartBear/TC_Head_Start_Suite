@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{21297DB3-4914-44D2-802C-263A72714A8F}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{21297DB3-4914-44D2-802C-263A72714A8F}" Tags="#@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -54,36 +54,6 @@
 						<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.BrowserWindow" />
 						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
-				<Data Description="Simulates a user action over the area that contains the recognized text." Action="SendKeys" TBlockIntType="1">
-					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Dismiss" />
-						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-15">
-							<Values>
-								<Value Type="1" Value="-10" Text="spNone" />
-								<Value Type="1" Value="-11" Text="spNearestToCenter" />
-								<Value Type="1" Value="-12" Text="spLeftMost" />
-								<Value Type="1" Value="-13" Text="spRightMost" />
-								<Value Type="1" Value="-14" Text="spTopMost" />
-								<Value Type="1" Value="-15" Text="spBottomMost" />
-								<Value Type="1" Value="-16" Text="spLargest" />
-								<Value Type="1" Value="-17" Text="spSmallest" />
-							</Values>
-						</Parameter>
-						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
-						<Parameter Name="Direction" DefVarType="12" VarType="3" ValueType="1" ValueValue="-21">
-							<Values>
-								<Value Type="1" Value="-18" Text="toLeft" />
-								<Value Type="1" Value="-19" Text="toTop" />
-								<Value Type="1" Value="-20" Text="toRight" />
-								<Value Type="1" Value="-21" Text="toBottom" />
-							</Values>
-						</Parameter>
-						<Parameter Name="Offset" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-					</Parameters>
-					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.MozillaDropShadowWindowClass;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">

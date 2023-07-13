@@ -6,9 +6,12 @@
 		<child name="Mod_Template" key="{F9818139-417B-4A5B-B995-07F8481CE473}" path="Mod_Template.tcKDTest" />
 		<child name="Keyword_Calling_Script_Test_Template" key="{EE201B77-825F-474E-9AC7-B18C934C983A}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
 		<child name="Test_New_Function" key="{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" path="Test_New_Function.tcKDTest" />
+<<<<<<< Experimentation
 		<child name="Test_String_Manipulation" key="{BCC4D674-C5C9-4A81-A024-42D2AA244C59}" path="Test_String_Manipulation.tcKDTest" />
 		<child name="Mod_Capture_String" key="{C9000DB9-7262-471B-8A9F-18E674718ADA}" path="Mod_Capture_String.tcKDTest" />
 		<child name="Mod_Trim_String" key="{FE1429ED-55A6-44AE-B648-477F6FB184E5}" path="Mod_Trim_String.tcKDTest" />
 		<child name="Test_String_Sample" key="{93F81138-1E04-4ACE-9D1A-EFE9B72F9871}" path="Test_String_Sample.tcKDTest" />
+=======
+>>>>>>> local
 	</children>
 </Root>

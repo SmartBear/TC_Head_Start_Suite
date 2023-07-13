@@ -53,6 +53,9 @@
 			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
 				<Data Description="Restores the previous indicator text." />
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Mod_Login_Jack_Power" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="4" Key="{9F980863-DFE7-4660-B0C1-FA2B72E9462D}">

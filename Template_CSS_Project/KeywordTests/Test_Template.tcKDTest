@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="**** Consider duplicating this text as comment inside of the keyword test&#13;&#10;**** This can serve as a flowerbox description when converted to a script&#13;&#10;**** KMJ 09122022" Key="{C2B150F8-740E-4294-BE52-002E896B3452}" Tags="@Seed @Vet @Functional @Smoke @Sample" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{9697733B-48A6-4589-8546-E172ECF3E083}" Tags="@Seed @Smoke" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -72,5 +72,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{FA17E6E1-203B-480F-9B4B-FBBDE379A372}" />
+	<Parameters Key="{543C44E0-2577-424A-B377-A4BCFA0925A5}" />
 </Root>

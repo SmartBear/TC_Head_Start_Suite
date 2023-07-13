@@ -93,7 +93,7 @@
 	</testItems>
 	<variables key="{73079149-8167-46AC-B07B-25D4093DA9F1}" />
 	<settings key="{4E375D7C-8622-4361-A19D-5C8AC6519FA6}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -721,7 +721,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -731,7 +731,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

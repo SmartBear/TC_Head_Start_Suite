@@ -73,7 +73,7 @@
 		</data>
 	</variables>
 	<settings key="{60C1ABFD-EC5E-4D2A-A04D-B8DAF75C0389}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -647,7 +647,7 @@
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
@@ -701,7 +701,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -711,7 +711,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

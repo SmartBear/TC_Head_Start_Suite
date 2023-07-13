@@ -36,7 +36,7 @@
 								<Value Type="1" Value="500" Text="pmHighest" />
 							</Values>
 						</Parameter>
-						<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
 						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 					</Parameters>
 				</Data>
@@ -48,7 +48,9 @@
 						<Data Description="Runs a keyword test." TestName="Mod_Template" />
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="Script_Mod_Template" Unit="Module_Scripts" />
+						<Data Description="Runs a script routine." TestName="Mod_Template" Unit="Unit1">
+							<CommonData Disabled="True" />
+						</Data>
 					</Operation>
 				</Children>
 			</Operation>

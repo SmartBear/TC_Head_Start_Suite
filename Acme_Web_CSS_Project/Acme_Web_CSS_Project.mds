@@ -28,7 +28,7 @@
 				<children>
 					<testItem name="Test_Purge_Chrome_History" key="{3C1FBE77-DCC7-4A82-8C1F-241F370DA52A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DBDFC626-A9AE-4A40-BD24-ACA7F0822ED1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Purge_Edge_History" key="{BAD30F51-EF6F-4D50-9DCC-8CA808DC613B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{871A2A0C-9EE9-41CB-A0DD-5C09E4E99B76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -68,14 +68,11 @@
 						<ConnectionInfo FileName="Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
 					</DefValue>
 				</Variable>
-				<Variable Name="Var1" Type="String" Local="False">
-					<DefValue />
-				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{3D24D377-1D72-4823-8B9D-1F5DA82489ED}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -703,7 +700,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -713,7 +710,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

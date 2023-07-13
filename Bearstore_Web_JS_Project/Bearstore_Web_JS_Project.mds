@@ -68,9 +68,14 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Login_Negative" key="{3A48AE51-F74A-4307-8382-40183274DADE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Data_Driven" key="{2E5DFA51-5C6E-43B6-AF41-DFE2B34F21F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4209C8C9-05F9-478E-9AA1-5E25845A597F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Login_Negative" key="{3A48AE51-F74A-4307-8382-40183274DADE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D0D0783F-3739-4EFA-9CDA-7AFA5EFF5636}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Register_User" key="{9D36B19C-8CDE-46E2-B5F8-B2F38702EB81}" group="False" parallel="False" enabled="False" testMoniker="KDT\{49DC6DFC-FF2A-4237-BDED-80F7E10AFADC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -83,11 +88,6 @@
 							<param5 name="Month" type="1" localVarName="" value="July" />
 							<param6 name="Year" type="1" localVarName="" value="1970" />
 						</testParameters>
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Test_Data_Driven" key="{2E5DFA51-5C6E-43B6-AF41-DFE2B34F21F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4209C8C9-05F9-478E-9AA1-5E25845A597F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
@@ -143,20 +143,20 @@
 				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="Contact_User" Type="DB Table" Local="False">
+				<Variable Name="Contact_User" Type="DB Table" Local="False" Descr="CSV File used for Data Driving">
 					<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
 						<ConnectionInfo FileName="Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
 					</DefValue>
 				</Variable>
-				<Variable Name="Password1" Type="Password" Local="False">
+				<Variable Name="Password1" Type="Password" Local="False" Descr="Encrypted Password used in Login Test">
 					<DefValue StrValue="3800390036003100390033004400310046003400440038003800420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320030003200300041003600440044004600" />
 				</Variable>
-				<Variable Name="Contact_User1" Type="DB Table" Local="False">
+				<Variable Name="Contact_User1" Type="DB Table" Local="False" Descr="Excel File used for Data Driving">
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
 					</DefValue>
 				</Variable>
-				<Variable Name="User_Info" Type="Table" Local="False">
+				<Variable Name="User_Info" Type="Table" Local="False" Descr="Data Generated Table used for Data Driving">
 					<DefValue RowCount="100" ColumnCount="7">
 						<Columns ColumnName0="UserID" ColumnName1="EMail" ColumnName2="FirstName" ColumnName3="LastName" ColumnName4="Day" ColumnName5="Month" ColumnName6="Year" />
 						<Row No="0" Cell0="PowerUser001" Cell1="moore@porttitor.us" Cell2="Nissim" Cell3="Haney" Cell4="31" Cell5="January" Cell6="1961" />
@@ -265,7 +265,7 @@
 		</data>
 	</variables>
 	<settings key="{65790EC2-BA5D-4B61-8876-0539EA767551}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -893,7 +893,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -903,7 +903,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

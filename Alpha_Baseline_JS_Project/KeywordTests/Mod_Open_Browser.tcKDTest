@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{365BF83A-7721-4A1D-9E1F-F61DD168F849}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{365BF83A-7721-4A1D-9E1F-F61DD168F849}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -49,136 +49,6 @@
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Maximizes the specified Window object." Action="Maximize">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
-						</Data>
-					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Pauses the script execution until the specified Web page is downloaded or until the specified time limit elapses." Action="Wait">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="60000" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop;" />
-						</Data>
-					</Operation>
-					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-						<Data GroupName="While delay loop" />
-						<Children>
-							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
-								<Data VariableType="4" VariableName="Count">
-									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-										<Parameter Name="NewValue" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
-									</Parameters>
-								</Data>
-							</Operation>
-							<Operation Type="{BE98E2BD-F90C-4DA4-8914-6D6246ED3CAC}">
-								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-									<Root Type="0" Operator="1">
-										<Expression Type="1" Operator="0">
-											<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageShop.sectionContent.textnodeFeaturedProducts.Exists" />
-											<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="False" />
-										</Expression>
-										<Expression Type="1" Operator="0">
-											<Left DefVarType="0" VarType="8" ValueType="6" ValueValue="Aliases.browser.pageShop.sectionContent.textnodeFeaturedProducts.Enabled" />
-											<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="False" />
-										</Expression>
-										<Expression Type="1" Operator="5">
-											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Count" />
-											<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="5" />
-										</Expression>
-									</Root>
-								</Data>
-								<Children>
-									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
-										<Data VariableType="4" VariableName="Count">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.Mod_Open_Browser.Variables.Count + 1" />
-											</Parameters>
-										</Data>
-									</Operation>
-									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-										<Data Description="Posts a warning to the test log." MessageType="2">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Object Not Found" />
-												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-													<Values IsEnum="True">
-														<Value Type="1" Value="100" Text="pmLowest" />
-														<Value Type="1" Value="200" Text="pmLower" />
-														<Value Type="1" Value="300" Text="pmNormal" />
-														<Value Type="1" Value="400" Text="pmHigher" />
-														<Value Type="1" Value="500" Text="pmHighest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribWarning" />
-												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-											</Parameters>
-										</Data>
-									</Operation>
-									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
-										<Data Description="Delays the test execution for the specified time period.">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
-												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="2 Second Delay to ensure test runs successfully" />
-											</Parameters>
-										</Data>
-									</Operation>
-									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-										<Data Description="Posts an information message to the test log." MessageType="0">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;KeywordTests.Mod_Open_Browser.Variables.Count =&#32;&#32;&quot; + KeywordTests.Mod_Open_Browser.Variables.Count" />
-												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-													<Values IsEnum="True">
-														<Value Type="1" Value="100" Text="pmLowest" />
-														<Value Type="1" Value="200" Text="pmLower" />
-														<Value Type="1" Value="300" Text="pmNormal" />
-														<Value Type="1" Value="400" Text="pmHigher" />
-														<Value Type="1" Value="500" Text="pmHighest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-											</Parameters>
-										</Data>
-									</Operation>
-								</Children>
-							</Operation>
-							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-									<Root Type="1" Operator="3">
-										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Count" />
-										<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="6" />
-									</Root>
-								</Data>
-								<Children>
-									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-										<Data Description="Posts an error to the test log." MessageType="1">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Object Not Found" />
-												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-													<Values IsEnum="True">
-														<Value Type="1" Value="100" Text="pmLowest" />
-														<Value Type="1" Value="200" Text="pmLower" />
-														<Value Type="1" Value="300" Text="pmNormal" />
-														<Value Type="1" Value="400" Text="pmHigher" />
-														<Value Type="1" Value="500" Text="pmHighest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribFailed" />
-												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-											</Parameters>
-										</Data>
-									</Operation>
-								</Children>
-							</Operation>
-						</Children>
-					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
@@ -195,6 +65,14 @@
 							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop.header.link.imageYourStoreName;" />
 						</Data>
 					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="30000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="30 Second delay to allow page to quiesce" />
+							</Parameters>
+						</Data>
+					</Operation>
 					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -203,14 +81,6 @@
 								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="SmartStore" />
 								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
-							</Parameters>
-						</Data>
-					</Operation>
-					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
-						<Data Description="Delays the test execution for the specified time period.">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
-								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="2 Second Delay to ensure test runs successfully" />
 							</Parameters>
 						</Data>
 					</Operation>
@@ -255,12 +125,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="4" Key="{DCCD5DE8-A869-432E-B61F-5A12AAD18DCB}">
-		<Items>
-			<Variable Name="Count" Type="Integer" Local="False">
-				<DefValue IntValue="0" />
-			</Variable>
-		</Items>
-	</Variables>
 	<Parameters Key="{590751BD-B78C-483B-98A6-0377A55D2FCC}" />
 </Root>

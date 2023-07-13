@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+<<<<<<< Experimentation
 	<TestData Description="" Key="{F8EC987C-EE53-4E26-AC43-C798F87018BC}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+=======
+	<TestData Description="" Key="{229C6AC5-3D69-4A6E-A06D-226E986AE955}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+>>>>>>> local
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -92,5 +96,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{1722AFD3-662B-446C-9167-B610A3F5BB96}" />
+	<Parameters Key="{77D7AA10-322E-4976-9A4D-E4F50A8A90A7}" />
 </Root>

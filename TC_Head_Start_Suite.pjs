@@ -6,6 +6,9 @@
 			<child name="Template_Python_Project" key="{5B6FAA58-E881-41D2-9D03-1F44E4434760}" path="Template_Python_Project\Template_Python_Project.mds" />
 			<child name="Template_VBScript_Project" key="{17330EBF-8EB0-4EB5-A311-E4D2C18CD115}" path="Template_VBScript_Project\Template_VBScript_Project.mds" />
 			<child name="Template_CSS_Project" key="{A074BA27-A5B8-434F-BB17-7C530A52768E}" path="Template_CSS_Project\Template_CSS_Project.mds" />
+			<child name="Template_CPP_Project" key="{5C83C21E-42D7-4F96-82DD-AC87C0DF911D}" path="Template_CPP_Project\Template_CPP_Project.mds" />
+			<child name="Template_Delphi_Project" key="{92E7C7DB-71F1-40A9-A2F7-6744E7F6AB84}" path="Template_Delphi_Project\Template_Delphi_Project.mds" />
+			<child name="Template_JScript_Project" key="{E1544087-E278-4E6D-9DFF-C4590A613CE3}" path="Template_JScript_Project\Template_JScript_Project.mds" />
 		</folder>
 		<folder name="AUT_Projects">
 			<child name="VET_Python_Project" key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" path="VET_Python_Project\VET_Python_Project.mds" />
@@ -14,8 +17,6 @@
 			<child name="Bearstore_Web_JS_Project" key="{8FCB1155-42C4-42A4-A559-19368A4DE100}" path="Bearstore_Web_JS_Project\Bearstore_Web_JS_Project.mds" />
 			<child name="Orders_Desktop_JS_Project" key="{BDA7135C-0239-47A8-863D-673A261D08C2}" path="Orders_Desktop_JS_Project\Orders_Desktop_JS_Project.mds" />
 			<child name="Acme_Web_CSS_Project" key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" path="Acme_Web_CSS_Project\Acme_Web_CSS_Project.mds" />
-			<child name="Acme_Mobile_PY_Project" key="{16E0B46C-9BDF-4570-830A-86474C3ED01C}" path="Acme_Mobile_PY_Project\Acme_Mobile_PY_Project.mds" />
-			<child name="Zilllow_JS_BDD_Project" key="{09844CEB-7738-4D56-AEAE-05066CD931AA}" path="Zilllow_JS_BDD_Project\Zilllow_JS_BDD_Project.mds" />
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Browser_Project" key="{DCE59DAE-4066-416F-9406-2C386E444996}" path="Utility_Browser_Project\Utility_Browser_Project.mds" />
@@ -24,48 +25,25 @@
 	</children>
 	<testItems key="{746E2B81-9116-449C-BD7E-87D672B7CACE}">
 		<children>
-			<testItem key="{16E0B46C-9BDF-4570-830A-86474C3ED01C}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using Python" />
-			<testItem key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using C# Script" />
-			<testItem key="{80A30188-0576-44AC-A37E-35E7062611B8}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript" />
-			<testItem key="{8FCB1155-42C4-42A4-A559-19368A4DE100}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript" />
-			<testItem key="{BDA7135C-0239-47A8-863D-673A261D08C2}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript" />
-			<testItem key="{A074BA27-A5B8-434F-BB17-7C530A52768E}" enabled="True" timeout="0" stopOnError="False" description="Template using C# Script" />
-			<testItem key="{D4A094B9-41BC-40FC-A258-EEE4D52CF2A9}" enabled="True" timeout="0" stopOnError="False" description="Template using JavaScript" />
-			<testItem key="{5B6FAA58-E881-41D2-9D03-1F44E4434760}" enabled="True" timeout="0" stopOnError="False" description="Template using Python" />
-			<testItem key="{17330EBF-8EB0-4EB5-A311-E4D2C18CD115}" enabled="True" timeout="0" stopOnError="False" description="Template using VBScript" />
-			<testItem key="{DCE59DAE-4066-416F-9406-2C386E444996}" enabled="True" timeout="0" stopOnError="False" description="Utility Project showcasing Brower Actions" />
-			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="0" stopOnError="False" description="Utility Project showcasing Misc Actions" />
-			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript and Jira Naming Conventions" />
-			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
-			<testItem key="{09844CEB-7738-4D56-AEAE-05066CD931AA}" enabled="True" timeout="0" stopOnError="False" description="AUT Project using JavaScript with BDD samples" />
+			<testItem key="{D4A094B9-41BC-40FC-A258-EEE4D52CF2A9}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{5B6FAA58-E881-41D2-9D03-1F44E4434760}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{17330EBF-8EB0-4EB5-A311-E4D2C18CD115}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{A074BA27-A5B8-434F-BB17-7C530A52768E}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{5C83C21E-42D7-4F96-82DD-AC87C0DF911D}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{92E7C7DB-71F1-40A9-A2F7-6744E7F6AB84}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{E1544087-E278-4E6D-9DFF-C4590A613CE3}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{3E4F29C1-38A4-466A-B813-C0ECF76D225F}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{80A30188-0576-44AC-A37E-35E7062611B8}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{8FCB1155-42C4-42A4-A559-19368A4DE100}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{BDA7135C-0239-47A8-863D-673A261D08C2}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{601AFC46-31DB-42CC-AEF9-EB82D0DD3029}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{DCE59DAE-4066-416F-9406-2C386E444996}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
-	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}">
-		<data Version="4">
-			<Items>
-				<Variable Name="Saved_Number" Type="Integer" Local="True" Descr="THis is an example of a persistent variable">
-					<DefValue IntValue="0" />
-				</Variable>
-				<Variable Name="Example_Temp" Type="String" Local="False" Descr="Just because">
-					<DefValue StrValue="This is a simple string with an integer 123454 inside of it" />
-				</Variable>
-				<Variable Name="Example_Persistent" Type="String" Local="True">
-					<DefValue StrValue="This is a simple string with an integer 123454 inside of it" />
-				</Variable>
-				<Variable Name="Contact_List_CSV" Type="DB Table" Local="False">
-					<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
-						<ConnectionInfo FileName="VET_JavaScript_Project\Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
-					</DefValue>
-				</Variable>
-				<Variable Name="Contact_List_XLS" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="VET_JavaScript_Project\Data_Files\Contact_List.xlsx" Table="Contact_Information$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-			</Items>
-		</data>
-	</variables>
-	<analysis key="{836D053D-2261-42DA-B467-887BF36B0F38}" />
+	<variables key="{4C1B8EDE-637E-4C75-BDCF-4358C566E637}" />
+	<analysis key="{A6E5293B-13CD-4078-850A-3B4B5CF482AA}" />
 	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
 	</scc>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="**** Consider duplicating this text as comment inside of the keyword test&#13;&#10;**** This can serve as a flowerbox description when converted to a script&#13;&#10;**** KMJ 09122022" Key="{445A81EC-A3CE-4280-9030-10FF331FC02F}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{A1787666-60FF-4CC2-98D5-140301988CAE}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -12,14 +12,14 @@
 			</Operation>
 			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 				<Data Description="Replaces the current indicator text with the specified one.">
-					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
 						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Template" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
-					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
 						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Template" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="All test modules should follow this formatting in order to provide consistency to the look and feel of output logs" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -41,7 +41,7 @@
 				<Children>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an information message to the test log." MessageType="0">
-							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
 								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Module Template Information Message" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Log entry in the Mod_Template Keyword Test" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -69,5 +69,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{0229EA72-CFFC-4AD6-B238-46E2DD0D72D2}" />
+	<Parameters Key="{4D3CC726-C5C9-40F1-B84A-C999CE59D673}" />
 </Root>

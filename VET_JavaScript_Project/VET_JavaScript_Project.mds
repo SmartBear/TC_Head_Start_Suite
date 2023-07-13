@@ -10,163 +10,14 @@
 		<child name="Events" key="{D17DBC95-9638-45A2-BB83-C29B73812684}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="NameMapping" key="{81069960-11CF-4B28-AD6D-2B35EA2F9499}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="README.md" key="{4A94B001-3716-4982-B2F9-3CE048C1E188}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
-		<child name="Stores" key="{40005821-7C6C-4C66-B433-C660E9768A55}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
-	<testItems key="{CD86EDBC-244C-469D-A756-BAAF50979499}" version="14">
-		<children>
-			<testItem name="Jira Tests" key="{E1988D66-9199-457B-A325-1093569C1DB1}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="VET_17_Salesforce_Sample" key="{1D60CD95-882D-467C-8A95-032FAC9DE2F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6C6CF1FB-D208-48ED-8B36-8F83D844987D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Utility Tests" key="{56428E9D-6B2E-4FDA-9AFC-BBEE7B8F0430}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Templates" key="{263D31CF-D907-4628-A26D-6EA9D462F7DA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children>
-							<testItem name="Test_Template" key="{6EFEE8CD-3ABE-4F2C-ADFA-5E3655679103}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5C66A461-F663-48B1-8E89-858C6DC341A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="Keyword_Calling_Script_Test_Template" key="{F8D8B7D0-EA67-4918-BD31-6ABFDE045972}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FF104CD0-B91E-4793-97BE-9C78202D4ADD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Script_Test_Template" key="{34983E59-0D22-4D9A-A768-2EE1330F98B6}" group="False" parallel="False" enabled="True" testMoniker="{89442D72-2254-4E79-B2F0-BBBB804AF27D}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="Test_New_Function" key="{61982E3C-1EE9-47E9-9766-601F6128F792}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0FB81EE7-EF6A-4A1C-9FAC-B4F6C6881E3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Test_String_Manipulation" key="{9644CBDF-C45F-4B09-84A5-8610CECB8805}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_String_Sample" key="{174D6839-1BF3-4BE3-B3AA-932A688BDB1A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0716EDEE-581D-468E-8474-FB29FA3D35BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_PDF_Read" key="{F40CD61A-EF9F-471F-9588-203C2E99E4FC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D4241B37-0725-48C5-BBCC-6E3AA8732126}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_Excel_Actions" key="{875729A4-EF9E-4E8F-969D-F21EBCBDB95F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{71D0EDB0-C4A4-40C2-90D9-63CFEF3B774E}" count="3" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="0 Common" key="{1C3FCA33-91BD-4BB1-BA2B-350E2EDA21BB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Browser Utility" key="{3F092102-F915-46E7-AE29-8A8792C70CAC}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="EventControls" key="{DF002D1E-1930-48FE-8434-C2A01C4966E6}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="3 Deep Dive" key="{1AA1AE48-D19A-4BD0-878A-ABEDE469920F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Test_Excel_Actions_2" key="{AC8ED576-0F0E-4FC9-B734-EA3E3DBA3475}" group="False" parallel="False" enabled="True" testMoniker="KDT\{71D0EDB0-C4A4-40C2-90D9-63CFEF3B774E}" count="3" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_PDF_Read_2" key="{E3FEE37B-2408-42B6-B95D-BC0E9CE7DB08}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D4241B37-0725-48C5-BBCC-6E3AA8732126}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_String_Manipulation_2" key="{8E8B3812-9958-4410-93EA-727F829F6797}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B6B2F7CE-0628-4453-8306-EEC1F5B0F25F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_String_Sample_2" key="{A0695EDB-AC33-4C90-B76A-5E9B47218976}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0716EDEE-581D-468E-8474-FB29FA3D35BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="VET_17_Salesforce_Sample_2" key="{257B9F77-F4BF-4EB3-B3D4-7870480885B1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6C6CF1FB-D208-48ED-8B36-8F83D844987D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-		</children>
+	<testItems key="{D65E0B9C-1F64-48B8-A3E0-699F88DE030E}" version="14">
+		<children />
 	</testItems>
-	<variables key="{57926FB4-16EE-4F80-9B9E-A08E0A84D31B}">
-		<data Version="4">
-			<Items>
-				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribModTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Module Title messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribInformation" Type="Object" Local="False" Descr="Use as log attribute to highlight Information messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003900330044003100460034004400380037003300460033003500340039003800310046003900350032003200460038004600420037004400370036003100380039004100370043003400430030003100310043003600430037003800420039004400370041004600" />
-				</Variable>
-				<Variable Name="Password2" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310039003300440033004600340044003800370033004600330035003400390038003100460039003500320032004600380046004200370044003700360031003800390041003700430034004300300031003400430030003800360045004200420043004500410045003300360031004600" />
-				</Variable>
-				<Variable Name="Password3" Type="Password" Local="False">
-					<DefValue StrValue="38003900360031003100330044003000460034004400380037003300460033003500340039003800310046003900350032003200460043003700420037004400380045003100410045003200370038003400430030003300350034003000380041003600330038003200370041004300320044004100440039003800320045003300300045003800" />
-				</Variable>
-				<Variable Name="Password4" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310031003300440032004600340044003800370033004600330035003400390038003100460039003500320032004600430037004200370044003800450031004100450032003700380034004300300033003500340030003800410036003300380032003700410043003200440042003900420044004300360037003600310044003900460035003500" />
-				</Variable>
-				<Variable Name="RefString" Type="String" Local="False" Descr="This is the string passed to the routine">
-					<DefValue />
-				</Variable>
-				<Variable Name="RefNumber" Type="Integer" Local="False" Descr="This is the number extracted from the string passed to the routine">
-					<DefValue IntValue="0" />
-				</Variable>
-				<Variable Name="Pesistant_Project_String" Type="String" Local="True">
-					<DefValue StrValue="Real Programmers Count 0123456789 From Zero" />
-				</Variable>
-				<Variable Name="OriginalString" Type="String" Local="False">
-					<DefValue StrValue="Real Programmers Count 0123456789 From Zero" />
-				</Variable>
-			</Items>
-		</data>
-	</variables>
-	<settings key="{57A5BA2C-AF78-4788-950F-E04C0C04694B}">
-		<settingsVersion value="15.50" />
+	<variables key="{DA343FB1-B3D7-477E-B9CD-59A82C6F1BD8}" />
+	<settings key="{87277F11-77EB-4F00-A433-474CF65B7F58}">
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -264,7 +115,7 @@
 		</setting>
 		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
 		<setting name="DraggingDelay" type="2" value="5" />
-		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_165_" />
 		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="False" />
 		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
 		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
@@ -740,7 +591,7 @@
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
@@ -781,7 +632,7 @@
 				<row val0="Update existing frames only" />
 			</data>
 		</setting>
-		<setting name="Visualizer_BindToSCC" type="1" value="False" />
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
 		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -794,7 +645,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -804,7 +655,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -847,16 +698,16 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{36D04695-D76D-48C1-8FF3-D013167F202E}" />
+	<analysis key="{3EAA547E-1437-40A8-8CEA-D13EB1BDF850}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{C8E821CA-0F28-485A-B94A-8D7794FF7248}">
+	<issueTracking key="{BB435239-B881-4050-976E-2BF709C422EE}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{0BCF559F-80C2-4FAF-9F4D-F98182FCBD87}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{C0DC736A-3131-4521-944E-3096CDD720F5}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{FFADA634-731A-4D76-8D13-783308749255}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{5DE8C270-6CB1-4CFC-BE5A-F7E16EA07129}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>

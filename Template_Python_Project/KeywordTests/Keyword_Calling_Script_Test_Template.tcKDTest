@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{EE664160-6250-4543-A95F-D3B574D8C4DA}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{97787F95-152D-4AB3-9E2F-5C0CCE9899AE}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -37,7 +37,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Keyword_Calling_Script_Test_Template" />
+				<Data GroupName="Test_Template_Script_Routine_Group" />
 				<Children>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an information message to the test log." MessageType="0">
@@ -72,5 +72,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{F98550F5-8646-41AF-B807-F2C50FCF27A9}" />
+	<Parameters Key="{E298C84F-7E35-487A-8F3B-3EFDB72E4011}" />
 </Root>

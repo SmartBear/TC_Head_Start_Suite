@@ -279,6 +279,7 @@
 									</Child>
 								</Children>
 							</Child>
+<<<<<<< Experimentation
 							<Child Name="pageShop" Key="{C6546473-870C-4413-8163-130595154CA2}">
 								<Image FileName="1890165967" Left="8" Top="111" Right="1928" Bottom="1086" />
 								<TypeInfo Item0="{5BA4889D-4348-49B8-9176-216CA1DAA947}" />
@@ -456,6 +457,8 @@
 									</Child>
 								</Children>
 							</Child>
+=======
+>>>>>>> local
 						</Children>
 					</Child>
 				</Children>
@@ -486,6 +489,7 @@
 					</Child>
 				</Child>
 			</Child>
+<<<<<<< Experimentation
 			<Child Name="pageShop" Owner="{C6546473-870C-4413-8163-130595154CA2}">
 				<Child Name="sectionContent" Owner="{E53246E3-446A-4D19-9C8B-7C4A46A66912}">
 					<Child Name="articleTheZ3ZuseZ3" Owner="{64CD3F49-F43E-4747-AFE4-B5A1314DB640}">
@@ -507,6 +511,8 @@
 				<Child Name="panelContentWrapper" Owner="{F271302E-0F6E-4AF8-88FF-84DD453626DC}" />
 				<Child Name="textnodeUsd" Owner="{754C4222-3140-406F-BA7F-F3E501CF492E}" />
 			</Child>
+=======
+>>>>>>> local
 		</Child>
 	</LogicalNodes>
 </Root>

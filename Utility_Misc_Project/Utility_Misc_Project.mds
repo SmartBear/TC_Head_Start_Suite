@@ -10,7 +10,6 @@
 		<child name="NameMapping" key="{F898C251-2D14-4E03-9E2F-99BA0B639ABE}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Script" key="{86A79C33-4AA4-4DB7-BD20-23531B738519}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="README.md" key="{1E8EBEBD-0AD7-4B1A-BA05-BD9ED7D8B532}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
-		<child name="Scenarios" key="{B9B6D7F2-BF59-4A90-95BA-E0DC4047FBE6}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{6C1403FC-B734-443A-84BC-90D41A74AC51}" version="14">
@@ -23,7 +22,7 @@
 						<children>
 							<testItem name="Passing_Test" key="{5E6F2C6E-FD22-4A6E-A6F4-784AB36FFAC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{20341139-7F33-4050-8C35-6E9AFED95BF2}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 							<testItem name="Warning_Test" key="{E213A273-C07B-4A25-BDDF-B9CFF23E303A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BD68E1E7-74C3-46AA-B8A8-97C9C4DB75FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -106,14 +105,11 @@
 				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
 					<DefValue />
 				</Variable>
-				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100310033004400300046003400440038003400420046003400360043003900420032003700390035003500410046004200380033003700450039003600310046003100410031004600370037003300300044004300440030003600320039004200430045003200300036004500350037004100310032004600" />
-				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{A06D61E5-7AA0-416C-8EA1-9AF7448E7799}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -689,12 +685,12 @@
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
-		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
-		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="False" />
-		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="False" />
-		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="False" />
-		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
 		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
 		<setting name="RecreateActiveXObjects" type="1" value="False" />
 		<setting name="RunStandaloneServer" type="1" value="False" />
@@ -737,7 +733,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -748,7 +744,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

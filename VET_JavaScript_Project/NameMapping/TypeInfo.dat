@@ -567,6 +567,7 @@
 			</FunctionDescriptions>
 		</Data>
 	</Child>
+<<<<<<< Experimentation
 	<Child Hash="708204753" Key="{0CFA6FE9-9397-4D39-9AB0-9AE4F94AE53E}">
 		<Data Properties="ZZKFFFFFFFFFFFFFFFFN8L4K2ZZZ">
 			<FunctionDescriptions>
@@ -2776,4 +2777,6 @@
 			</FunctionDescriptions>
 		</Data>
 	</Child>
+=======
+>>>>>>> local
 </TypeInfo>

@@ -39,57 +39,16 @@
 					</testItem>
 					<testItem name="Test_New_Function" key="{8F75A030-6243-45AE-A7D1-772D883D3C05}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Utility Tests" key="{EC626530-0FDA-47E5-B617-660B5FF614C2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Test_String_Manipulation" key="{3DCCB7C4-CD77-4512-B73B-5C23BABED902}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BCC4D674-C5C9-4A81-A024-42D2AA244C59}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_String_Sample" key="{22227960-C9C8-4A09-BE42-A06488A2B3C7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{93F81138-1E04-4ACE-9D1A-EFE9B72F9871}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{E1029A78-C55D-43BA-AFB2-5EA36282443C}">
-		<data Version="4">
-			<Items>
-				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribModTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Module Title messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribInformation" Type="Object" Local="False" Descr="Use as log attribute to highlight Information messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="RefNumber" Type="Integer" Local="False" Descr="This is the number extracted from the string passed to the routine">
-					<DefValue IntValue="0" />
-				</Variable>
-				<Variable Name="RefString" Type="String" Local="False" Descr="This is the string passed to the routine">
-					<DefValue />
-				</Variable>
-			</Items>
-		</data>
-	</variables>
-	<settings key="{DCC40435-CB55-4835-B784-878254660374}">
-		<settingsVersion value="15.50" />
+	<variables key="{953DB682-E938-4BE3-B229-7FD85E2802CA}" />
+	<settings key="{4EDE4F74-7810-4BA5-9198-3F54C813D4A1}">
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -704,7 +663,7 @@
 				<row val0="Update existing frames only" />
 			</data>
 		</setting>
-		<setting name="Visualizer_BindToSCC" type="1" value="False" />
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
 		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -717,7 +676,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -727,7 +686,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -770,16 +729,16 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{25F6249B-1729-4C65-90E5-9D4377D26D99}" />
+	<analysis key="{69A1B464-5BD8-4EF4-9DF8-CAC27E0790B1}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{8751AEE1-4E34-40A5-A936-61F079C47ED0}">
+	<issueTracking key="{F6FC5188-7FCF-42FA-8197-A09EAF126CC9}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{82B451C4-D665-4900-A5F1-C95CFB6EF8DB}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{2990B42F-EF61-486B-868B-73DC2367B0CA}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{FFADA634-731A-4D76-8D13-783308749255}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{5DE8C270-6CB1-4CFC-BE5A-F7E16EA07129}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>

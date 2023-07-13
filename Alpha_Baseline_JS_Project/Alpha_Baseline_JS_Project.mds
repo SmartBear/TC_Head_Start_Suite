@@ -15,7 +15,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{416E8763-237B-4BB8-BA36-9FD9D85C73B6}" version="14">
 		<children>
-			<testItem name="Bearstore" key="{F9EB1E84-F6C4-4AF4-9F83-79785AA4BA8A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Bearstore" key="{F9EB1E84-F6C4-4AF4-9F83-79785AA4BA8A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Open_and_Close_Bearstore" key="{5EE345F3-984E-4FF7-A520-419D8F68449B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{910F8168-EA2A-4633-BA18-637990641CB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -23,103 +23,13 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Login_Logout" key="{CF1D84C4-3FA9-4448-AEB5-913EA926F3BC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DF087B9F-8409-4A23-8BC1-BBF40499BD62}" count="10" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_Data_Driven" key="{6E7514ED-D278-4158-955F-1313C1BDC2C6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{2868AEF4-2E0E-44D5-BAE2-56B0F1E44A20}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Test_Register_User" key="{4DE93DF5-B212-4DFD-8FEF-A61665238A95}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C288BA28-0C93-4417-89DD-B9F6388A3BDA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Misc_Tests" key="{A1CF0DA5-47DE-4719-BCDA-EEF7E77C6A6B}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Browser_Utilities" key="{91989610-C516-40A2-BE07-1123C5A8D50A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children>
-							<testItem name="T_Purge_Chrome_History" key="{C0D15AE3-641E-4850-8AB6-BAD8FEA1BFFB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{951A3558-73D3-4861-8D92-D35530CAC7DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="T_Purge_Edge_History" key="{55484B9B-1DB8-471A-B515-EE4B17431CBA}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4C71C635-B293-49B1-AF31-9251498E0069}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Terminate_Chrome" key="{FCF3D091-6693-414A-A703-E5AD7431D015}" group="False" parallel="False" enabled="True" testMoniker="KDT\{577940A4-CC9F-4BC3-834F-9B8AF25B360D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Terminate_Edge" key="{477ACE12-1E51-405E-97EB-DF997ACE4257}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EA489D22-28F4-4EDC-A1BF-0C6BE8F7660D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Terminate_Firefox" key="{07156C35-D4B5-4EDD-A126-6800814ED528}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A870E3D2-2B7F-4CBC-AF0B-92114D58B599}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Terminate_All_Browsers" key="{E434C1A2-30B4-484A-868E-9C29CB584F83}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BAE9D34E-F15B-4C35-9976-FBE6F4A3DB3F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-					<testItem name="Z_Templates" key="{F5F8268F-3813-4309-9975-FE6089D52471}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children>
-							<testItem name="Test_Template" key="{E1C827CE-0BD8-4936-9E25-38A852964C4A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6A4C8680-3C84-40C8-9636-0DBF914B7B0E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Test_Template_All_Browser_Loop" key="{0B7EA01E-A075-443A-BE15-A3A069B47BED}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9C3ACC8C-82DE-4E73-A567-B0508B4ADE40}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
 				</children>
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{F9647801-564F-465F-99AE-3F11D30A4CD0}">
-		<data Version="4">
-			<Items>
-				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribInformation" Type="Object" Local="False" Descr="Use as log attribute to highlight Information messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribModTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Module Title messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False" Descr="Use as log attribute to highlight Test Title messages">
-					<DefValue />
-				</Variable>
-				<Variable Name="LogAtrribWarning" Type="Object" Local="False" Descr="Use as log attribute to highlight Warning messages">
-					<DefValue />
-				</Variable>
-			</Items>
-		</data>
-	</variables>
-	<settings key="{E307E9A9-47FB-4250-A5F4-0B87884028A6}">
-		<settingsVersion value="15.50" />
+	<variables key="{1A924444-D6F3-41EF-BCE9-6A7ECB4D04B9}" />
+	<settings key="{63432804-3807-46B3-963B-B89F81C79DA6}">
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -690,15 +600,15 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="1000" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
-		<setting name="Playback_TestItemMaxReRunCount" type="2" value="3" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
@@ -734,7 +644,7 @@
 				<row val0="Update existing frames only" />
 			</data>
 		</setting>
-		<setting name="Visualizer_BindToSCC" type="1" value="False" />
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
 		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -747,7 +657,7 @@
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
 		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -757,7 +667,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
-		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -768,7 +678,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
-		<setting name="WebCloudProvider" type="6" rowIndex="1" colIndex="0">
+		<setting name="WebCloudProvider" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -800,16 +710,16 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{99FBE791-7A08-4ED9-8385-B71DAF90DB6B}" />
+	<analysis key="{8E0426CA-8AEC-4E77-A515-DA7CD64953BA}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{FAF89FDB-F437-4AFE-9125-11C902C2B4B0}">
+	<issueTracking key="{835E77B3-6889-4E6A-B6AC-B4AEA0395F47}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{0BCF559F-80C2-4FAF-9F4D-F98182FCBD87}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{C0DC736A-3131-4521-944E-3096CDD720F5}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{FFADA634-731A-4D76-8D13-783308749255}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{5DE8C270-6CB1-4CFC-BE5A-F7E16EA07129}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>
