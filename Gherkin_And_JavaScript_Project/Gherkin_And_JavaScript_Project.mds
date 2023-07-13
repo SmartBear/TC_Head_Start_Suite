@@ -75,7 +75,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="1 - Sanity" key="{855CF9BC-E64C-45C4-BA54-0206E69F17F7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="1 - Sanity" key="{855CF9BC-E64C-45C4-BA54-0206E69F17F7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="A user can login to the application" key="{356C7E5A-47E6-4AEF-A3D2-79BFD665CFAB}" group="False" parallel="False" enabled="True" testMoniker="1 - Sanity|A user can login to the application" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -155,7 +155,7 @@
 		</data>
 	</variables>
 	<settings key="{1EAC27B8-3D5A-4A07-A870-429C1FF3A50D}">
-		<settingsVersion value="15.52" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
