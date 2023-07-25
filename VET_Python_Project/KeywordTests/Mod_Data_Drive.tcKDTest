@@ -221,21 +221,10 @@
 							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop.FindElement(&quot;//h1[.=&apos;Welcome to our store.&apos;]&quot;)" />
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop.sectionContent.textnodeWelcomeToOurStore" />
 										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Welcome to our store." />
-										<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
-									</Parameters>
-								</Data>
-							</Operation>
-							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
-									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop.FindElement(&quot;//nav[contains(., &apos;Books&apos;)]&quot;)" />
-										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
-										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="42006F006F006B0073000A004600750072006E00690074007500720065000A00530070006F007200740073000A00470061006D0069006E0067000A0057006100740063006800650073000A0047006900660074002000430061007200640073000A005300500049004500470045004C002D004200650073007400730065006C006C00650072000A0043006F006F006B00200061006E006400200065006E006A006F0079000A004300680061006900720073000A0053006F006600610073000A005400610062006C00650073000A004200610073006B0065007400620061006C006C000A0047006F006C0066000A0053006F0063006300650072000A00470061006D0069006E00670020004100630063006500730073006F007200690065007300" />
 										<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 									</Parameters>
 								</Data>

@@ -484,7 +484,6 @@
 							</Child>
 							<Child Name="pageShop2" Key="{C0CEE1F7-208D-4790-82D4-0D1D8ADF38DF}">
 								<Image FileName="1681037417" Left="8" Top="111" Right="1928" Bottom="1086" />
-								<TypeInfo Item0="{B0AD02E6-DFEC-4A1B-847F-87F6379BDA83}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -496,7 +495,6 @@
 								<Children>
 									<Child Name="header" Key="{77A2BB24-CCDF-4E98-A2F0-F0CE0D738467}">
 										<Image FileName="1681037417" Left="8" Top="111" Right="1911" Bottom="290" />
-										<TypeInfo Item0="{45223619-99D4-4579-A3F9-37637DE5D7C1}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -511,7 +509,6 @@
 									</Child>
 									<Child Name="link" Key="{CABCDB26-01AD-4F97-844D-0664C9A83359}">
 										<Image FileName="1681037417" Left="403" Top="187" Right="653" Bottom="218" />
-										<TypeInfo Item0="{571139A4-ACE7-48A0-B179-697A8012BA60}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -526,7 +523,6 @@
 									</Child>
 									<Child Name="imageSmartstore" Key="{944607F4-4D10-4A70-8619-F149646ED17C}">
 										<Image FileName="1681037417" Left="403" Top="187" Right="653" Bottom="218" />
-										<TypeInfo Item0="{45223619-99D4-4579-A3F9-37637DE5D7C1}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
