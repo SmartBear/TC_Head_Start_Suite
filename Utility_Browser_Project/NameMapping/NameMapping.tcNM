@@ -17479,7 +17479,6 @@
 							</Child>
 							<Child Name="pageClearAllHistory2" Key="{3AB5B254-787A-41F2-BA48-5D1E652BE572}">
 								<Image FileName="-1732736402" Left="764" Top="116" Right="1172" Bottom="558" />
-								<TypeInfo Item0="{F96A0DC4-2B7F-421F-8413-717D3EAF766D}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -17491,7 +17490,6 @@
 								<Children>
 									<Child Name="ulwindowSanitizedialog" Key="{C947040B-EE9A-4209-8022-83A9B45A99EB}">
 										<Image FileName="-1366562153" Left="764" Top="116" Right="1172" Bottom="558" />
-										<TypeInfo Item0="{402031F6-6F51-4B88-8D0C-FA6993A43942}" />
 										<Properties>
 											<Property Name="ObjectType">
 												<Value Value="XULWindow" />
@@ -17503,7 +17501,6 @@
 										<Children>
 											<Child Name="dialog" Key="{B0B40DE8-8054-472C-B1FE-11CF4F5384AF}">
 												<Image FileName="-1366562153" Left="764" Top="116" Right="1172" Bottom="558" />
-												<TypeInfo Item0="{402031F6-6F51-4B88-8D0C-FA6993A43942}" />
 												<Properties>
 													<Property Name="ObjectType">
 														<Value Value="dialog" />
@@ -17512,7 +17509,6 @@
 												<Children>
 													<Child Name="shadowroot" Key="{E848358E-3ED0-4B08-B6B9-F9078DCBAD2D}">
 														<Image FileName="-1366562153" Left="764" Top="116" Right="1172" Bottom="558" />
-														<TypeInfo Item0="{ED897916-9C81-4EBD-9F6E-E5B8080B4059}" />
 														<Properties>
 															<Property Name="ObjectType">
 																<Value Value="ShadowRoot" />
@@ -17521,7 +17517,6 @@
 														<Children>
 															<Child Name="hboxDialogButtonBox" Key="{D80D2A0C-8781-46CC-B5C4-6661241F9865}">
 																<Image FileName="-1366562153" Left="776" Top="510" Right="1160" Bottom="542" />
-																<TypeInfo Item0="{402031F6-6F51-4B88-8D0C-FA6993A43942}" />
 																<Properties>
 																	<Property Name="ObjectType">
 																		<Value Value="hbox" />
@@ -17532,19 +17527,17 @@
 																</Properties>
 																<Children>
 																	<Child Name="buttonClearNow" Key="{0ED03898-CF04-4FF3-88E0-F44D08486FBB}">
-																		<Image FileName="-1366562153" Left="995" Top="510" Right="1081" Bottom="542" />
-																		<TypeInfo Item0="{948BA6A3-0915-4FC4-8EB7-F10ACDC69D63}" />
+																		<Image FileName="-1768187750" Left="1089" Top="482" Right="1156" Bottom="514" />
 																		<Properties>
 																			<Property Name="ObjectType">
 																				<Value Value="button" />
 																			</Property>
 																			<Property Name="ObjectIdentifier">
-																				<Value Value="Clear Now" />
+																				<Value Value="Cancel" />
 																			</Property>
 																		</Properties>
 																	</Child>
 																	<Child Name="buttonCancel" Key="{3EBD86FB-7FDA-44C9-AB3C-4B640DC07394}">
-																		<TypeInfo Item0="{811812C5-500C-459F-BB39-686F4601C08D}" />
 																		<Properties>
 																			<Property Name="ObjectType">
 																				<Value Value="button" />
@@ -17569,7 +17562,6 @@
 														</Properties>
 														<Children>
 															<Child Name="menulistSanitizedurationchoice" Key="{4CA4E64A-638E-4A65-B416-83E91358CCE9}">
-																<TypeInfo Item0="{811812C5-500C-459F-BB39-686F4601C08D}" />
 																<Properties>
 																	<Property Name="ObjectType">
 																		<Value Value="menulist" />
@@ -17589,7 +17581,6 @@
 							</Child>
 							<Child Name="pagePrivacy" Key="{3DCCB366-07D5-4315-9D7B-D1D6CA3A0D9A}">
 								<Image FileName="-1007413793" Left="0" Top="103" Right="1920" Bottom="1040" />
-								<TypeInfo Item0="{DC3514A6-19CC-4668-8723-B1E400ABC8CE}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -17600,7 +17591,6 @@
 								</Properties>
 							</Child>
 							<Child Name="pagePrivacy2" Key="{C5A81134-B6CB-404B-8420-54943451D1AE}">
-								<TypeInfo Item0="{DC3514A6-19CC-4668-8723-B1E400ABC8CE}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
