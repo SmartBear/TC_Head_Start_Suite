@@ -10,6 +10,7 @@
 		<child name="KeywordTests" key="{60FEF272-E8CF-4056-86A5-6D070E9010E7}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{644B8DF7-0A86-4810-A630-F7E8572532AF}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="README.md" key="{C8AA2FF4-D234-42D8-84A6-B6B847141D44}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="TestedApps" key="{C38F7AC7-2679-474E-BE2A-54D86A13A2EF}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{5BF73F76-CDAF-4BE8-8932-4267396D1ED0}" version="14">
@@ -47,9 +48,14 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Browsers_As_TestedApps" key="{36C0D4BE-7B65-44AB-A3B0-6CC6B82B6817}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A1F3C2D8-AF25-4D88-A433-D209E5074E31}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
@@ -148,7 +154,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.52" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

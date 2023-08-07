@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{C38F7AC7-2679-474E-BE2A-54D86A13A2EF}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{78AA79F9-E2D8-497B-8ABB-6994095E82AF}">
+			<config nodeName="chrome_incognito" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="--incognito" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="--incognito" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="--incognito" workFolder="" />
+					<param name="Simple" fileName="chrome.exe" filePath="C:\Program Files\Google\Chrome\Application\" parameters="--incognito" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{1E584D70-A665-4235-8E1D-C660BD4C690F}">
+			<config nodeName="firefox_private" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-private" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-private" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-private" workFolder="" />
+					<param name="Simple" fileName="firefox.exe" filePath="C:\Program Files\Mozilla Firefox\" parameters="-private" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{93A8A47A-D319-4B29-A491-8779A5D90921}">
+			<config nodeName="edge_inprivate" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="--inprivate" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="--inprivate" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="--inprivate" workFolder="" />
+					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="--inprivate" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

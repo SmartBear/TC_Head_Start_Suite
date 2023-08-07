@@ -63,7 +63,7 @@
 		</data>
 	</variables>
 	<settings key="{41EE1436-17B9-4846-BE4D-1D9B3464119E}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.53" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -586,7 +586,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -639,7 +639,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />

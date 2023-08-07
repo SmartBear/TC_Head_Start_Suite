@@ -17421,7 +17421,6 @@
 							</Child>
 							<Child Name="pageShop2" Key="{17657FE2-26D7-4539-AB82-4CE1C9263766}">
 								<Image FileName="762679723" Left="8" Top="121" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{92857D31-BA50-4C1B-9304-3EF240B18598}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -17433,7 +17432,6 @@
 								<Children>
 									<Child Name="header" Key="{EF4BB26A-98A7-419C-9830-C1D90521921C}">
 										<Image FileName="762679723" Left="8" Top="121" Right="1911" Bottom="301" />
-										<TypeInfo Item0="{A4A2333F-AB18-4600-9B8B-7000908D958A}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -17448,7 +17446,6 @@
 									</Child>
 									<Child Name="link" Key="{2C786EA9-5739-4874-9FC7-BC312924980D}">
 										<Image FileName="762679723" Left="403" Top="190" Right="653" Bottom="235" />
-										<TypeInfo Item0="{8B0F142D-1253-464F-A0E0-6F38239D182B}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -17463,7 +17460,6 @@
 									</Child>
 									<Child Name="imageCompanyLogoPng" Key="{C3894063-7574-40E4-A4AD-4CE7F89B2BEC}">
 										<Image FileName="762679723" Left="403" Top="190" Right="653" Bottom="235" />
-										<TypeInfo Item0="{A4A2333F-AB18-4600-9B8B-7000908D958A}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -17480,6 +17476,65 @@
 										</Selectors>
 									</Child>
 								</Children>
+							</Child>
+							<Child Name="pageNewtab" Key="{BEBAA253-963C-4FC5-AADD-377E3D22D639}">
+								<Image FileName="1764707373" Left="8" Top="111" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{739E9443-057B-4CD1-9B24-A89212035F66}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="edge://newtab/" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageNewtab2" Key="{92072A6D-0D9B-447F-91C9-2C19867BFAD4}">
+								<Image FileName="-1857049950" Left="8" Top="117" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{739E9443-057B-4CD1-9B24-A89212035F66}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://newtab/" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAboutPrivatebrowsing" Key="{E32AD05E-DD48-48A9-B425-04C5C0DD16A6}">
+								<Image FileName="-809033889" Left="8" Top="121" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{BC352454-481F-4F0C-A637-0BCAE2F3D63E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="about:privatebrowsing" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{7020DCBF-170B-40A6-8511-B35AC7724ADB}" ExtendedFind="True">
+										<Image FileName="1239114007" Left="584" Top="650" Right="1352" Bottom="777" />
+										<TypeInfo Item0="{274BB542-B3E4-4C57-9F05-657E02EDFFA4}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="50007200690076006100740065002000770069006E0064006F0077003A002000460069007200650066006F007800200063006C006500610072007300200079006F00750072002000730065006100720063006800200061006E0064002000620072006F007700730069006E006700200068006900730074006F007200790020007700680065006E00200079006F007500200063006C006F0073006500200061006C006C00200070007200690076006100740065002000770069006E0064006F00770073002E0020005400680069007300200064006F00650073006E001920740020006D0061006B006500200079006F007500200061006E006F006E0079006D006F00750073002E000A004C006500610072006E0020006D006F0072006500" Type="7" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="MozillaDropShadowWindowClass" Key="{3D8947E6-3212-49E1-9539-8976E8318BDB}">
+								<Image FileName="-1446885816" Left="0" Top="0" Right="404" Bottom="137" />
+								<TypeInfo Item0="{C95A1371-7752-457E-B2F7-7875D31E3B18}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="MozillaDropShadowWindowClass" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -17633,6 +17688,31 @@
 										</Children>
 									</Child>
 								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="msedge" Key="{356C0775-1A17-409B-AD91-544B4782474A}">
+						<TypeInfo Item0="{197D29B8-9075-4E5A-A349-3454E0275921}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="msedge" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageNewtab" Key="{EED51C5E-3EC3-4789-A4B2-9B55BD7B5862}">
+								<Image FileName="-1445432078" Left="8" Top="111" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{739E9443-057B-4CD1-9B24-A89212035F66}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="edge://newtab/" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -19935,6 +20015,12 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageNewtab" Owner="{BEBAA253-963C-4FC5-AADD-377E3D22D639}" />
+			<Child Name="pageNewtab2" Owner="{92072A6D-0D9B-447F-91C9-2C19867BFAD4}" />
+			<Child Name="pageAboutPrivatebrowsing" Owner="{E32AD05E-DD48-48A9-B425-04C5C0DD16A6}">
+				<Child Name="panel" Owner="{7020DCBF-170B-40A6-8511-B35AC7724ADB}" />
+			</Child>
+			<Child Name="MozillaDropShadowWindowClass" Owner="{3D8947E6-3212-49E1-9539-8976E8318BDB}" />
 		</Child>
 		<Child Name="dlgFileOpenEdge" Owner="{C014C044-889E-4774-AEC9-EE48F2D90A5B}">
 			<Child Name="dlgOpen" Owner="{DD610780-E01C-4BF6-BD1A-99BC961BDDB8}">
@@ -19961,6 +20047,9 @@
 					<Child Name="FolderView" Owner="{9DEE119B-D944-48F2-9F20-39DEDFD75EB9}" />
 				</Child>
 			</Child>
+		</Child>
+		<Child Name="msedge" Owner="{356C0775-1A17-409B-AD91-544B4782474A}">
+			<Child Name="pageNewtab" Owner="{EED51C5E-3EC3-4789-A4B2-9B55BD7B5862}" />
 		</Child>
 	</LogicalNodes>
 </Root>
