@@ -48,7 +48,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
