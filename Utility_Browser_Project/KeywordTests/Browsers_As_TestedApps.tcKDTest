@@ -25,7 +25,9 @@
 				</Children>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Edge" />
+				<Data GroupName="Edge">
+					<CommonData Disabled="True" />
+				</Data>
 				<Children>
 					<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
 						<Data Description="Runs the &quot;edge_inprivate&quot; tested application." TestedApp="edge_inprivate">
@@ -175,7 +177,9 @@
 				</Children>
 			</Operation>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Chrome" />
+				<Data GroupName="Chrome">
+					<CommonData Disabled="True" />
+				</Data>
 				<Children>
 					<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
 						<Data Description="Runs the &quot;chrome_incognito&quot; tested application." TestedApp="chrome_incognito">
