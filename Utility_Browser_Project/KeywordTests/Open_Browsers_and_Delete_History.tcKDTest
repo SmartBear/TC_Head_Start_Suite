@@ -278,7 +278,7 @@
 																	</Values>
 																</Parameter>
 																<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-																<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSettingsClearbrowserdata" />
+																<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageClearbrowserdata2" />
 																<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 															</Parameters>
 														</Data>
@@ -288,14 +288,16 @@
 															<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 																<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
 															</Parameters>
-															<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageSettingsClearbrowserdata" />
+															<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageClearbrowserdata2" />
 														</Data>
 													</Operation>
 													<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 														<Data Comment="These steps are deprecated leaving in as example of techniques" />
 													</Operation>
 													<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-														<Data GroupName="Deprecated Dismiss steps" />
+														<Data GroupName="Deprecated Dismiss steps">
+															<CommonData Disabled="True" />
+														</Data>
 														<Children>
 															<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 																<Data LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
@@ -371,7 +373,7 @@
 																	</Values>
 																</Parameter>
 																<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-																<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSettingsClearbrowserdata" />
+																<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pagePrivacy" />
 																<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 															</Parameters>
 														</Data>

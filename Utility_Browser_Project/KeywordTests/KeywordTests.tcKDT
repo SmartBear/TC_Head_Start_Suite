@@ -11,6 +11,7 @@
 			<child name="Open_Close_and_Terminate_Browsers" key="{BA73FE6D-226B-4A3F-B624-FAC61C136619}" path="Open_Close_and_Terminate_Browsers.tcKDTest" />
 			<child name="Dismiss_Pop_Up_Blocker" key="{A63F49AD-9FD6-491A-9D5F-CD7B93B8D053}" path="Dismiss_Pop_Up_Blocker.tcKDTest" />
 			<child name="Browsers_As_TestedApps" key="{A1F3C2D8-AF25-4D88-A433-D209E5074E31}" path="Browsers_As_TestedApps.tcKDTest" />
+			<child name="Browser_Chrome_Incognito" key="{5F036C75-9AF2-4821-989C-79E3DB05B267}" path="Browser_Chrome_Incognito.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />

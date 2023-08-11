@@ -70,7 +70,7 @@
 					</testItem>
 					<testItem name="Test_Sample" key="{62251EEA-BC55-4A1E-837A-673BD51C7C5B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A4908CC5-AA32-4C0F-A23D-0DD829027394}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Sanity" key="{C6CF785E-D8D4-4C60-96BE-B7791BDF8AAD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{52807BA1-0EB8-4D4E-B0B6-EE0DEC307FBF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -142,7 +142,7 @@
 		</data>
 	</variables>
 	<settings key="{E5EDEEC4-B610-48D2-BF15-A461A715F89A}">
-		<settingsVersion value="15.51" />
+		<settingsVersion value="15.54" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
