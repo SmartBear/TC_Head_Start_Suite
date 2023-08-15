@@ -58,6 +58,11 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="Browsers_As_TestedApps_2" key="{FC143337-1FDD-4F77-98CF-CDDA62E03B85}" group="False" parallel="False" enabled="True" testMoniker="{609925C2-92BF-4CA6-945E-9528E1A3BDB7}Browsers_As_TestedApps" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="Debug Smartbear Issues" key="{CE2329D6-CA59-4888-B146-9536A1CCEBBD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
