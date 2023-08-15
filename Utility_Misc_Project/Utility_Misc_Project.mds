@@ -57,7 +57,7 @@
 							</testItem>
 							<testItem name="State_Failing" key="{FC693020-5DA4-407B-BF2F-E7CD1A29352B}" group="False" parallel="False" enabled="False" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Failing_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 							<testItem name="State_Event" key="{3C568E7D-2B82-4EE7-B3D2-68F743273290}" group="False" parallel="False" enabled="True" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Event_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -109,7 +109,7 @@
 		</data>
 	</variables>
 	<settings key="{A06D61E5-7AA0-416C-8EA1-9AF7448E7799}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.54" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
