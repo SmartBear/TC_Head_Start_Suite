@@ -24,6 +24,7 @@
 		<folder name="2 - Smoke">
 			<child name="Mod_Logon_Fail" key="{FA97CB6D-64EB-4A1C-AD4C-B789759FBB8D}" path="Mod_Logon_Fail.tcKDTest" />
 			<child name="Test_Logon_Fail" key="{60E3702C-C2B5-4C30-9098-E7A538166B0E}" path="Test_Logon_Fail.tcKDTest" />
+			<child name="Test_Logon_Pass" key="{35A9AE49-53DB-4BF9-993B-72E10D63B497}" path="Test_Logon_Pass.tcKDTest" />
 		</folder>
 		<folder name="3 - Deep Dive">
 			<child name="Mod_Data_Drive" key="{5E3FD945-E48E-47EF-9F6E-AA6FBE32977C}" path="Mod_Data_Drive.tcKDTest" />

@@ -187,6 +187,83 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="navMenubarMyAccount" Key="{6CB85E98-813E-4EF4-9F6B-F5756A1DD22E}">
+										<Image FileName="-2119651764" Left="1356" Top="117" Right="1515" Bottom="169" />
+										<TypeInfo Item0="{92058D3B-7563-409C-A521-A8613471850E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menubar-my-account" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOldsailor1960" Key="{E7FDACA1-87E5-45A2-AB45-90F7B2BA1170}">
+										<Image FileName="-2119651764" Left="1356" Top="117" Right="1515" Bottom="169" />
+										<TypeInfo Item0="{97529B4D-E9E4-47E5-890B-625662322D37}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;OldSailor1960&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOldsailor1960" Key="{68436333-B80E-4E86-BA44-D64EADF24ED2}">
+										<Image FileName="-1384844739" Left="1376" Top="126" Right="1478" Bottom="143" />
+										<TypeInfo Item0="{E61C60D7-B49B-4C17-8AC6-CB5869593CC3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;OldSailor1960&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;OldSailor1960&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{61B74156-220D-45B1-9000-C086DD669DC2}">
+										<Image FileName="-370528412" Left="1342" Top="309" Right="1506" Bottom="348" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log out&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogOut" Key="{B7D8A63F-DB55-4D77-BF60-A6A5D548A56D}">
+										<Image FileName="-370528412" Left="1389" Top="318" Right="1440" Bottom="338" />
+										<TypeInfo Item0="{E61C60D7-B49B-4C17-8AC6-CB5869593CC3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;logout&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/nav[@id=&apos;menubar-my-account&apos;]//div/a[4]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUsd" Key="{BF7091B7-6A55-48E8-BA33-EA0F1BD523CB}">
+										<Image FileName="-1553787615" Left="0" Top="109" Right="1903" Bottom="162" />
+										<TypeInfo Item0="{E61C60D7-B49B-4C17-8AC6-CB5869593CC3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;menubar-section&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
@@ -517,8 +594,17 @@
 						<Child Name="navContactUs" Owner="{D0C7A940-1E45-4171-A815-E70CFF3E4D54}">
 							<Child Name="linkContactUs" Owner="{C0251C3F-DAAB-4EE3-8C9F-D815AC49308B}" />
 						</Child>
+						<Child Name="navMenubarMyAccount" Owner="{6CB85E98-813E-4EF4-9F6B-F5756A1DD22E}">
+							<Child Name="linkOldsailor1960" Owner="{E7FDACA1-87E5-45A2-AB45-90F7B2BA1170}">
+								<Child Name="textnodeOldsailor1960" Owner="{68436333-B80E-4E86-BA44-D64EADF24ED2}" />
+							</Child>
+						</Child>
+						<Child Name="linkLogOut" Owner="{61B74156-220D-45B1-9000-C086DD669DC2}">
+							<Child Name="textnodeLogOut" Owner="{B7D8A63F-DB55-4D77-BF60-A6A5D548A56D}" />
+						</Child>
 					</Child>
 					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}" />
+					<Child Name="panelUsd" Owner="{BF7091B7-6A55-48E8-BA33-EA0F1BD523CB}" />
 				</Child>
 				<Child Name="sectionContent" Owner="{33A01843-29A2-488C-80E9-FEB715FB9443}">
 					<Child Name="panelPhTitle6" Owner="{81B318D9-D5F8-4D10-965A-6925F24488E0}" />
