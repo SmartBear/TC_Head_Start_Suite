@@ -12,6 +12,7 @@
 			<child name="Dismiss_Pop_Up_Blocker" key="{A63F49AD-9FD6-491A-9D5F-CD7B93B8D053}" path="Dismiss_Pop_Up_Blocker.tcKDTest" />
 			<child name="Browsers_As_TestedApps" key="{A1F3C2D8-AF25-4D88-A433-D209E5074E31}" path="Browsers_As_TestedApps.tcKDTest" />
 			<child name="Browser_Chrome_Incognito" key="{5F036C75-9AF2-4821-989C-79E3DB05B267}" path="Browser_Chrome_Incognito.tcKDTest" />
+			<child name="Force_IE_Mode_Edge" key="{883EF8E2-7D8E-47D3-AE95-7C1780206218}" path="Force_IE_Mode_Edge.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />

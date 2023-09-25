@@ -63,6 +63,11 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="Force_IE_Mode_Edge" key="{8B25AD5B-41C2-4012-90E2-8F85722DF60C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{883EF8E2-7D8E-47D3-AE95-7C1780206218}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="Debug Smartbear Issues" key="{CE2329D6-CA59-4888-B146-9536A1CCEBBD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -159,7 +164,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.54" />
+		<settingsVersion value="15.55" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

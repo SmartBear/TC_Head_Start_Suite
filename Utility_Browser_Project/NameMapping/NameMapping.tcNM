@@ -422,7 +422,6 @@
 							</Child>
 							<Child Name="pageAboutPrivatebrowsing" Key="{E32AD05E-DD48-48A9-B425-04C5C0DD16A6}">
 								<Image FileName="-809033889" Left="8" Top="121" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{BC352454-481F-4F0C-A637-0BCAE2F3D63E}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -434,7 +433,6 @@
 								<Children>
 									<Child Name="panel" Key="{7020DCBF-170B-40A6-8511-B35AC7724ADB}" ExtendedFind="True">
 										<Image FileName="1239114007" Left="584" Top="650" Right="1352" Bottom="777" />
-										<TypeInfo Item0="{274BB542-B3E4-4C57-9F05-657E02EDFFA4}" />
 										<Properties>
 											<Property Name="ObjectType">
 												<Value Value="Panel" />
@@ -448,7 +446,6 @@
 							</Child>
 							<Child Name="MozillaDropShadowWindowClass" Key="{3D8947E6-3212-49E1-9539-8976E8318BDB}">
 								<Image FileName="-1446885816" Left="0" Top="0" Right="404" Bottom="137" />
-								<TypeInfo Item0="{C95A1371-7752-457E-B2F7-7875D31E3B18}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="MozillaDropShadowWindowClass" />
@@ -457,7 +454,6 @@
 							</Child>
 							<Child Name="pageNewtab" Key="{8AF1AD3E-59EA-4BD8-B5C7-7D36199797BE}">
 								<Image FileName="-1857049950" Left="8" Top="117" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{739E9443-057B-4CD1-9B24-A89212035F66}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -469,7 +465,6 @@
 							</Child>
 							<Child Name="pageSettings" Key="{2C028D3C-98F8-4BFB-B9FD-48B0FDD8156D}">
 								<Image FileName="210903953" Left="8" Top="117" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{739E9443-057B-4CD1-9B24-A89212035F66}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -481,7 +476,6 @@
 							</Child>
 							<Child Name="pageClearbrowserdata2" Key="{0A1EFFA3-0B3A-4A41-9F56-53006CFFED0A}">
 								<Image FileName="1283962424" Left="8" Top="117" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{739E9443-057B-4CD1-9B24-A89212035F66}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -493,7 +487,6 @@
 							</Child>
 							<Child Name="pagePrivacy" Key="{09A50FD1-AEB7-4CE5-9295-2897E2210842}">
 								<Image FileName="84979364" Left="8" Top="117" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{739E9443-057B-4CD1-9B24-A89212035F66}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -505,7 +498,6 @@
 							</Child>
 							<Child Name="pageShop" Key="{586DA262-36FD-4194-9919-3B1BAC8D4DE9}">
 								<Image FileName="95946230" Left="8" Top="93" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{BC352454-481F-4F0C-A637-0BCAE2F3D63E}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -517,7 +509,6 @@
 								<Children>
 									<Child Name="header" Key="{4083B4AF-C3F6-45E5-A68B-5AAC23994E57}">
 										<Image FileName="95946230" Left="8" Top="93" Right="1911" Bottom="273" />
-										<TypeInfo Item0="{274BB542-B3E4-4C57-9F05-657E02EDFFA4}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -532,7 +523,6 @@
 									</Child>
 									<Child Name="linkBrand" Key="{E5DF17C5-1599-4987-915A-26B3CAB1A8D7}">
 										<Image FileName="95946230" Left="403" Top="169" Right="653" Bottom="200" />
-										<TypeInfo Item0="{5A853AF4-7B32-4E0A-91FF-1C5159573328}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -547,7 +537,6 @@
 									</Child>
 									<Child Name="imageSbHorizontalClrPng" Key="{3B78161C-A5E4-490E-B1DA-DB202BC3A362}">
 										<Image FileName="95946230" Left="403" Top="169" Right="653" Bottom="200" />
-										<TypeInfo Item0="{274BB542-B3E4-4C57-9F05-657E02EDFFA4}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -560,6 +549,93 @@
 											</Selector>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navUsd" Key="{D49DB89B-6E89-4E74-B753-DC12837BB3E6}">
+										<Image FileName="-664817261" Left="398" Top="151" Right="1508" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navMenubarMyAccount" Key="{0EA9F4B2-E9BC-4D92-B23C-C807F9AD4FB6}">
+										<Image FileName="-664817261" Left="1421" Top="151" Right="1508" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menubar-my-account" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogIn" Key="{FEBCF864-35CE-4DDF-A2D7-320372012C56}">
+										<Image FileName="-664817261" Left="1421" Top="151" Right="1508" Bottom="203" />
+										<TypeInfo Item0="{D3715EC8-68BA-4E97-B9F0-E835A5107867}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{B652AAED-CF5F-4D17-B300-1ABA2C66CC24}">
+								<Image FileName="266096169" Left="12" Top="159" Right="1924" Bottom="1044" />
+								<TypeInfo Item0="{8F63C93F-0B10-4308-AF34-CD383B6F042E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{1B554DB8-44A5-4EAF-9621-9A2DB2E53586}">
+										<Image FileName="266096169" Left="391" Top="362" Right="1531" Bottom="799" />
+										<TypeInfo Item0="{585F3DC9-B24C-45AD-A858-7F409F180E75}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNotRegisteredYet" Key="{6CBE35CA-8C7E-48FB-8691-8EF374FA2F0F}">
+										<Image FileName="266096169" Left="406" Top="461" Right="558" Bottom="485" />
+										<TypeInfo Item0="{585F3DC9-B24C-45AD-A858-7F409F180E75}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;Not registered yet?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ph-topic-body-7&apos;]//strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/strong" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -638,7 +714,6 @@
 						</Properties>
 					</Child>
 					<Child Name="msedge" Key="{356C0775-1A17-409B-AD91-544B4782474A}">
-						<TypeInfo Item0="{197D29B8-9075-4E5A-A349-3454E0275921}" />
 						<Properties>
 							<Property Name="ProcessName">
 								<Value Value="msedge" />
@@ -650,7 +725,6 @@
 						<Children>
 							<Child Name="pageNewtab" Key="{EED51C5E-3EC3-4789-A4B2-9B55BD7B5862}">
 								<Image FileName="-1445432078" Left="8" Top="111" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{739E9443-057B-4CD1-9B24-A89212035F66}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -743,6 +817,16 @@
 					<Child Name="linkBrand" Owner="{E5DF17C5-1599-4987-915A-26B3CAB1A8D7}">
 						<Child Name="imageSbHorizontalClrPng" Owner="{3B78161C-A5E4-490E-B1DA-DB202BC3A362}" />
 					</Child>
+					<Child Name="navUsd" Owner="{D49DB89B-6E89-4E74-B753-DC12837BB3E6}">
+						<Child Name="navMenubarMyAccount" Owner="{0EA9F4B2-E9BC-4D92-B23C-C807F9AD4FB6}">
+							<Child Name="linkLogIn" Owner="{FEBCF864-35CE-4DDF-A2D7-320372012C56}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLogin" Owner="{B652AAED-CF5F-4D17-B300-1ABA2C66CC24}">
+				<Child Name="sectionContent" Owner="{1B554DB8-44A5-4EAF-9621-9A2DB2E53586}">
+					<Child Name="textnodeNotRegisteredYet" Owner="{6CBE35CA-8C7E-48FB-8691-8EF374FA2F0F}" />
 				</Child>
 			</Child>
 		</Child>

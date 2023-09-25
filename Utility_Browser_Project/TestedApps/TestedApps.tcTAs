@@ -4,6 +4,18 @@
 	<testData />
 	<data />
 	<children>
+		<child key="{BC1598B5-D4A1-4B4C-B6C5-0A36A9A35A7D}">
+			<config nodeName="edge_IE_Mode" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="--ie-mode-force" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="--ie-mode-force" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="--ie-mode-force" workFolder="" />
+					<param name="Simple" fileName="msedge.exe" filePath="C:\Program Files (x86)\Microsoft\Edge\Application\" parameters="--ie-mode-force" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 		<child key="{78AA79F9-E2D8-497B-8ABB-6994095E82AF}">
 			<config nodeName="chrome_incognito" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
