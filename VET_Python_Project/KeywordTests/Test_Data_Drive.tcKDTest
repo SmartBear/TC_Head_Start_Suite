@@ -13,6 +13,9 @@
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 						<Data Comment="This test attempts to logon to the Smartstore with an invalid password" />
 					</Operation>
+					<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+						<Data Description="Restores the previous indicator text." />
+					</Operation>
 					<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 						<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
@@ -55,7 +58,7 @@
 														<Value Type="1" Value="500" Text="pmHighest" />
 													</Values>
 												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribModTitle" />
 												<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
 										</Data>
@@ -576,9 +579,7 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using Excel Data File">
-									<CommonData Disabled="True" />
-								</Data>
+								<Data GroupName="Loop Module Operations using Excel Data File" />
 								<Children>
 									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
@@ -704,9 +705,6 @@
 					</Operation>
 					<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
 						<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
-					</Operation>
-					<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
-						<Data Description="Restores the previous indicator text." />
 					</Operation>
 					<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 						<Data Description="Replaces the current indicator text with the specified one.">
