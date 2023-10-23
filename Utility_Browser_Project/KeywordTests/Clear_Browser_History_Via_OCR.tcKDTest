@@ -123,6 +123,46 @@
 													<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageSettingsClearbrowserdata;" />
 												</Data>
 											</Operation>
+											<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+												<Data Description="Simulates a user action over the area that contains the recognized text." Action="Click" TBlockIntType="1">
+													<CommonData Disabled="True" />
+													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Clear data" />
+														<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+															<Values>
+																<Value Type="1" Value="-10" Text="spNone" />
+																<Value Type="1" Value="-11" Text="spNearestToCenter" />
+																<Value Type="1" Value="-12" Text="spLeftMost" />
+																<Value Type="1" Value="-13" Text="spRightMost" />
+																<Value Type="1" Value="-14" Text="spTopMost" />
+																<Value Type="1" Value="-15" Text="spBottomMost" />
+																<Value Type="1" Value="-16" Text="spLargest" />
+																<Value Type="1" Value="-17" Text="spSmallest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="x" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+														<Parameter Name="y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+														<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+															<Values IsEnum="True">
+																<Value Type="1" Value="0" Text="skNoShift" />
+																<Value Type="1" Value="8192" Text="skShift" />
+																<Value Type="1" Value="32768" Text="skAlt" />
+																<Value Type="1" Value="16384" Text="skCtrl" />
+															</Values>
+														</Parameter>
+													</Parameters>
+													<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageSettingsClearbrowserdata;" />
+												</Data>
+											</Operation>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Simulates one or several keypresses." Action="Keys">
+													<CommonData Disabled="True" />
+													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
+													</Parameters>
+													<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageSettingsClearbrowserdata" />
+												</Data>
+											</Operation>
 										</Children>
 									</Operation>
 									<Operation Type="{5AEB51A8-0E80-4A25-BACF-B10D279EF111}">
@@ -183,6 +223,37 @@
 									<Operation Type="{5AEB51A8-0E80-4A25-BACF-B10D279EF111}">
 										<Data Description="Checks whether the %n browser is currently being used for testing." BrowserName="firefox" />
 										<Children>
+											<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+												<Data Description="Simulates a user action over the area that contains the recognized text." Action="Click" TBlockIntType="1">
+													<CommonData Disabled="True" />
+													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+														<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Dismiss" />
+														<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+															<Values>
+																<Value Type="1" Value="-10" Text="spNone" />
+																<Value Type="1" Value="-11" Text="spNearestToCenter" />
+																<Value Type="1" Value="-12" Text="spLeftMost" />
+																<Value Type="1" Value="-13" Text="spRightMost" />
+																<Value Type="1" Value="-14" Text="spTopMost" />
+																<Value Type="1" Value="-15" Text="spBottomMost" />
+																<Value Type="1" Value="-16" Text="spLargest" />
+																<Value Type="1" Value="-17" Text="spSmallest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="x" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+														<Parameter Name="y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+														<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+															<Values IsEnum="True">
+																<Value Type="1" Value="0" Text="skNoShift" />
+																<Value Type="1" Value="8192" Text="skShift" />
+																<Value Type="1" Value="32768" Text="skAlt" />
+																<Value Type="1" Value="16384" Text="skCtrl" />
+															</Values>
+														</Parameter>
+													</Parameters>
+													<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageAboutBlank;" />
+												</Data>
+											</Operation>
 											<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
 												<Data Description="Posts an image to the test log.">
 													<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
