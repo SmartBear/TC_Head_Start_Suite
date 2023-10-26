@@ -12,11 +12,7 @@
     #Runs a script routine.
     Kill_Process.Kill_Using_While("chrome")
     #Runs a script routine.
-    Kill_Process.Kill_Using_While("iexplore")
-    #Runs a script routine.
     Kill_Process.Kill_Using_While("msedge")
-    #Runs a script routine.
-    #Kill_Process.Kill_Using_While("opera")
     #The end of the Kill_All_Browsers group
     #Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
     Log.PopLogFolder()
