@@ -19,9 +19,6 @@
 			<child name="Close_Open_Browsers" key="{1573626A-7358-484D-9693-4B235F618FA4}" path="Close_Open_Browsers.tcKDTest" />
 			<child name="GeneralEvents_OnStartTest" key="{43260909-6B88-442B-A7FE-98DE1C1CD642}" path="GeneralEvents_OnStartTest.tcKDTest" />
 			<child name="Kill_All_Browsers" key="{F48651CF-0169-456B-BFC5-9E587B25027E}" path="Kill_All_Browsers.tcKDTest" />
-			<child name="Kill_Edge" key="{26CE19EA-48CC-43DF-9F7D-CB1653B3DA5A}" path="Kill_Edge.tcKDTest" />
-			<child name="Kill_Chrome" key="{8B836984-43C4-4581-93BB-A339DD693480}" path="Kill_Chrome.tcKDTest" />
-			<child name="Kill_Firefox" key="{235EEEC1-FEC1-4A21-ACF8-482345D9BCD5}" path="Kill_Firefox.tcKDTest" />
 			<child name="Kill_Internet_Explorer" key="{92EBE834-7E41-4FDD-9843-DE4C95AD421B}" path="Kill_Internet_Explorer.tcKDTest" />
 			<child name="Kill_Opera" key="{FADC98C7-271C-4567-95C5-F7339F59366E}" path="Kill_Opera.tcKDTest" />
 			<child name="Close_Browser" key="{62BA8FF1-1590-49F8-A06E-ECC90B05BF7A}" path="Close_Browser.tcKDTest" />
