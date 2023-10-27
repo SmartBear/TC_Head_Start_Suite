@@ -46,9 +46,29 @@
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{953DB682-E938-4BE3-B229-7FD85E2802CA}" />
+	<variables key="{953DB682-E938-4BE3-B229-7FD85E2802CA}">
+		<data Version="4">
+			<Items>
+				<Variable Name="LogAtrribInformation" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribFailed" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribModTitle" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribTestTitle" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="LogAtrribWarning" Type="Object" Local="False">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{4EDE4F74-7810-4BA5-9198-3F54C813D4A1}">
-		<settingsVersion value="15.53" />
+		<settingsVersion value="15.57" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

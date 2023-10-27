@@ -13,11 +13,17 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{D65E0B9C-1F64-48B8-A3E0-699F88DE030E}" version="14">
-		<children />
+		<children>
+			<testItem name="Script_Test_Template" key="{C8557D9F-CC73-43CD-9CB3-51CB19832FEA}" group="False" parallel="False" enabled="True" testMoniker="{89442D72-2254-4E79-B2F0-BBBB804AF27D}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{DA343FB1-B3D7-477E-B9CD-59A82C6F1BD8}" />
 	<settings key="{87277F11-77EB-4F00-A433-474CF65B7F58}">
-		<settingsVersion value="15.53" />
+		<settingsVersion value="15.57" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

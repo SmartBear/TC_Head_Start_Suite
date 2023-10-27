@@ -26,6 +26,7 @@
 			<child name="Common_Exit_Routine_Logout" key="{87AC4DA3-9493-4DD7-8DD7-C3DFF4C47DA7}" path="Common_Exit_Routine_Logout.tcKDTest" />
 			<child name="Get_TestExecute_Version_Information" key="{7DD21AE1-4288-4881-A63F-6AA3AB72A392}" path="Get_TestExecute_Version_Information.tcKDTest" />
 			<child name="Get_TestComplete_Version_Information" key="{9F11C07B-E834-4ACA-8861-078C34E6A857}" path="Get_TestComplete_Version_Information.tcKDTest" />
+			<child name="Kill_Chrome" key="{099D6393-821E-47D8-8322-2669C85E56FD}" path="Kill_Chrome.tcKDTest" />
 		</folder>
 		<folder name="Debug Smartbear Issues">
 			<child name="Simple_Browser_Open_and_Close_Firefox_Only" key="{B1760A5E-B72A-4F49-ADFA-58ED1654F095}" path="Simple_Browser_Open_and_Close_Firefox_Only.tcKDTest" />

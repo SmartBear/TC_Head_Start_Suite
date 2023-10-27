@@ -11,7 +11,7 @@
   //Posts an information message to the test log.
   Log.Message("Test Template Information Message", "Log entry in the Test Template Keyword Test", pmNormal, Project.Variables.LogAtrribInformation);
   //Runs a keyword test.
-  KeywordTests.Mod_Template.Run();
+//  KeywordTests.Mod_Template.Run();
   //The end of the Test_Template_Module_Group group
   //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
   Log.PopLogFolder();
