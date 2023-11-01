@@ -25,6 +25,8 @@
 			<child name="Get_TestExecute_Version_Information" key="{7DD21AE1-4288-4881-A63F-6AA3AB72A392}" path="Get_TestExecute_Version_Information.tcKDTest" />
 			<child name="Get_TestComplete_Version_Information" key="{9F11C07B-E834-4ACA-8861-078C34E6A857}" path="Get_TestComplete_Version_Information.tcKDTest" />
 			<child name="Kill_Chrome" key="{099D6393-821E-47D8-8322-2669C85E56FD}" path="Kill_Chrome.tcKDTest" />
+			<child name="Kill_Firefox" key="{A55A465E-092C-4530-9FF4-F9850422A7B0}" path="Kill_Firefox.tcKDTest" />
+			<child name="Kill_Edge" key="{AE84218F-8DBA-4B75-B1CA-D14A62A0E88D}" path="Kill_Edge.tcKDTest" />
 		</folder>
 		<folder name="Debug Smartbear Issues">
 			<child name="Simple_Browser_Open_and_Close_Firefox_Only" key="{B1760A5E-B72A-4F49-ADFA-58ED1654F095}" path="Simple_Browser_Open_and_Close_Firefox_Only.tcKDTest" />

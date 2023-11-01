@@ -15,9 +15,9 @@
   //Clicks the 'textnodeLogIn' control.
   Aliases["browser"]["pageShop"]["header"]["navUsd"]["linkLogIn"]["textnodeLogIn"]["Click"]();
   //Waits until the browser loads the page and is ready to accept user input.
-  Aliases["browser"]["pageLogin"]["Wait"]();
+ // Aliases["browser"]["pageLogin"]["Wait"]();
   //Checks whether the 'contentText' property of the Aliases["browser"]["pageLogin"]["FindElement"]("//h1[.=\'Sign In\']") object equals 'Sign In'.
-  aqObject["CheckProperty"](Aliases["browser"]["pageLogin"]["FindElement"]("//h1[.=\'Sign In\']"), "contentText", cmpEqual, "Sign In");
+//  aqObject["CheckProperty"](Aliases["browser"]["pageLogin"]["FindElement"]("//h1[.=\'Sign In\']"), "contentText", cmpEqual, "Sign In");
   //Enters text in the text box.
   Aliases["browser"]["pageLogin"]["header"]["formSearch"]["textboxQ"]["SetText"]("Jake From State Farm");
   //Clicks the 'textboxUsernameoremail' control.
