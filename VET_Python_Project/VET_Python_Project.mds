@@ -38,11 +38,6 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_New_Function" key="{8F75A030-6243-45AE-A7D1-772D883D3C05}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
 				</children>
 			</testItem>
 			<testItem name="1 - Sanity" key="{AE56D050-76E6-44E5-B775-3A6E977CE111}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -74,6 +69,11 @@
 					<testItem name="Test_Desktop_Acid_Test" key="{924E05CF-0EF4-4C0B-8910-331E46E1765D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC99A949-F620-4E00-9A95-D53B792D9B12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_New_Function" key="{8F75A030-6243-45AE-A7D1-772D883D3C05}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
@@ -111,7 +111,7 @@
 		</data>
 	</variables>
 	<settings key="{DCC40435-CB55-4835-B784-878254660374}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.57" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
