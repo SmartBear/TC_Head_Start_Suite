@@ -3,6 +3,8 @@
 	<children>
 		<folder name="1 - Sanity">
 			<child name="Test_Sanity" key="{E3BD271F-3ABD-413E-A351-3A88B3E0FA7E}" path="Test_Sanity.tcKDTest" />
+			<child name="Test_Browser_Acid_Test" key="{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" path="Test_Browser_Acid_Test.tcKDTest" />
+			<child name="Test_Desktop_Acid_Test" key="{FC99A949-F620-4E00-9A95-D53B792D9B12}" path="Test_Desktop_Acid_Test.tcKDTest" />
 		</folder>
 		<folder name="0 - Common">
 			<child name="EventControl_TestEngine_OnStartTest" key="{BE649026-0831-436F-95D0-22DF764D0C71}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
@@ -14,9 +16,7 @@
 		<folder name="2 - Smoke" />
 		<folder name="3 - Deep Dive" />
 		<folder name="4 - Debug">
-			<child name="Test_Browser_Acid_Test" key="{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" path="Test_Browser_Acid_Test.tcKDTest" />
 			<child name="Test1" key="{C4D8C004-03B7-4ACF-B51B-FAD3EE402B74}" path="Test1.tcKDTest" />
-			<child name="Test_Desktop_Acid_Test" key="{FC99A949-F620-4E00-9A95-D53B792D9B12}" path="Test_Desktop_Acid_Test.tcKDTest" />
 		</folder>
 	</children>
 </Root>
