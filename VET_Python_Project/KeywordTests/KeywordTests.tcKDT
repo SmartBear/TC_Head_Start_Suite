@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<folder name="1 - Sanity">
-			<child name="Test_Sanity" key="{E3BD271F-3ABD-413E-A351-3A88B3E0FA7E}" path="Test_Sanity.tcKDTest" />
+		<folder name="1 - Acid">
+			<child name="Test_Acid" key="{E3BD271F-3ABD-413E-A351-3A88B3E0FA7E}" path="Test_Acid.tcKDTest" />
 			<child name="Test_Browser_Acid_Test" key="{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" path="Test_Browser_Acid_Test.tcKDTest" />
 			<child name="Test_Desktop_Acid_Test" key="{FC99A949-F620-4E00-9A95-D53B792D9B12}" path="Test_Desktop_Acid_Test.tcKDTest" />
 		</folder>
