@@ -10,6 +10,7 @@
 		<child name="Events" key="{80B83DAC-867E-4F4D-B1EC-32DED0A8E01F}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 		<child name="NameMapping" key="{A72192A7-B5D7-43FE-9ED5-6B9A310E8809}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="README.md" key="{4CC00681-755F-4847-B304-961B6602D311}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="README.md" />
+		<child name="TestedApps" key="{AD85DEAA-C269-4048-B3DF-7D88977C4B7E}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{5F1250D7-6F81-47F8-A877-26D8AEE21230}" version="14">
@@ -24,7 +25,7 @@
 					<testItem name="Events" key="{711637BA-817B-42DC-BB32-66A367D29F41}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="EventControl_TestEngine_OnStartTest" key="{7B90A5FC-57A1-4FCB-840C-63CC4FE19D69}" group="False" parallel="False" enabled="True" testMoniker="KDT\{71369A7B-9070-4A7D-A77E-4A781E72C986}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="EventControl_TestEngine_OnStartTest" key="{341F9E20-D7C6-4DE4-B71A-1E0DB8C45F42}" group="False" parallel="False" enabled="True" testMoniker="KDT\{71369A7B-9070-4A7D-A77E-4A781E72C986}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters>
 									<param0 name="Sender" type="3" localVarName="" varType="0" value="" />
 								</testParameters>
@@ -36,9 +37,9 @@
 					<testItem name="Samples" key="{9F68B4DA-4BDA-473F-86F9-2546E1F755EA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Test_New_Function_2" key="{77E261FF-30C4-4ECE-8E9A-D00F9454F25E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1C74141E-C842-4C4B-B8C7-1B9B3222C5A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Test_New_Function" key="{A977C4EB-DE95-497E-AA2A-14605E0CD277}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1C74141E-C842-4C4B-B8C7-1B9B3222C5A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
@@ -46,32 +47,7 @@
 					<testItem name="Templates" key="{E461DEAF-98F3-476F-9EB6-87D4F01742E4}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="Test_Template" key="{E14D5245-4301-49EB-95ED-377B6C7201F5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B151FFC1-F023-4976-9B68-CF7D8093AC3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="Keyword_Calling_Script_Test_Template" key="{52EE2372-062A-4B51-85F9-A2C486B9ADEF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3EC54F2A-B1CD-48EC-B384-6EF22CE21836}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Script_Test_Template" key="{4AC23327-CEDB-46D3-92F7-3A9AA6E98F63}" group="False" parallel="False" enabled="True" testMoniker="{61C94D13-EB18-4CD9-BD34-6C9B8C7C72E1}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="Test_New_Function" key="{3981AB1D-6AF5-4995-9F4A-61861132072F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1C74141E-C842-4C4B-B8C7-1B9B3222C5A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Test_Template_2" key="{DB199D50-AC36-45F4-813A-93FAC1492044}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B151FFC1-F023-4976-9B68-CF7D8093AC3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="Keyword_Calling_Script_Test_Template_2" key="{64A79643-927B-43F1-96F4-4E4DEFC1838D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3EC54F2A-B1CD-48EC-B384-6EF22CE21836}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Test_Template" key="{D8E929B5-68E0-4723-BC53-99973EADF3AD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B151FFC1-F023-4976-9B68-CF7D8093AC3C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
@@ -115,6 +91,9 @@
 				</Variable>
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003100330044003100460034004400380046003300460037004500430039003900430037004600360044003000380034003400440034004400330038003100420035003400310034003000320032004500390041003600450036003800460038004400330036003500330032004100440039004200450034003300370034004500" />
 				</Variable>
 			</Items>
 		</data>

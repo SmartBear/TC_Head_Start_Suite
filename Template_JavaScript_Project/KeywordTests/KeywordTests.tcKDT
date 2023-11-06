@@ -13,9 +13,26 @@
 				<child name="Test_Template" key="{B151FFC1-F023-4976-9B68-CF7D8093AC3C}" path="Test_Template.tcKDTest" />
 				<child name="Keyword_Calling_Script_Test_Template" key="{3EC54F2A-B1CD-48EC-B384-6EF22CE21836}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
 			</folder>
-			<folder name="Core" />
+			<folder name="Core">
+				<child name="Open_AUT" key="{D9A9C789-E0CA-40CF-9F64-EDF0EDD6CB1C}" path="Open_AUT.tcKDTest" />
+				<child name="Mod_Close_Browser" key="{3504C48E-ECDE-44F0-A6B5-7A9F842BA9C7}" path="Mod_Close_Browser.tcKDTest" />
+				<child name="Mod_EnterCreds" key="{FC2034D6-9627-4DB2-95C1-A3D02BA16EA7}" path="Mod_EnterCreds.tcKDTest" />
+				<child name="Mod_ItemInCart" key="{861849EA-C64C-4ED2-BF89-AB87DD4C7433}" path="Mod_ItemInCart.tcKDTest" />
+				<child name="Mod_LaunchBrowser" key="{26E0B5A2-08E8-4891-8366-B03178029E4E}" path="Mod_LaunchBrowser.tcKDTest" />
+				<child name="Mod_LoadWebStore" key="{ADA68618-E41C-48DF-99BA-F4FC36614551}" path="Mod_LoadWebStore.tcKDTest" />
+				<child name="Mod_Login" key="{3164ADCE-0411-48FF-ABDD-D9685C56A9A4}" path="Mod_Login.tcKDTest" />
+				<child name="Mod_Logon_Power_User" key="{A7087F33-973A-4282-9F5F-45C2F7835D49}" path="Mod_Logon_Power_User.tcKDTest" />
+				<child name="Mod_Logout_Power_User" key="{BE975933-2C9C-4402-A5AE-9FD88BB6E3B9}" path="Mod_Logout_Power_User.tcKDTest" />
+				<child name="Mod_PurchaseItem" key="{7EB617EA-CA7E-4342-BA2C-720C7B254886}" path="Mod_PurchaseItem.tcKDTest" />
+				<child name="Mod_Register" key="{11B567B0-C0AB-44E3-A159-08985AEB2F47}" path="Mod_Register.tcKDTest" />
+				<child name="Mod_SuccessfulLogin" key="{D7171AB7-FB83-4590-9B3A-A0E63F33457A}" path="Mod_SuccessfulLogin.tcKDTest" />
+				<child name="Mod_WebStoreLoads" key="{6639D066-8C67-4DB0-A1CA-F72C2D0BE642}" path="Mod_WebStoreLoads.tcKDTest" />
+				<child name="Open_Chrome_Incognito" key="{01DC2403-C318-42B2-9530-A1645017F90B}" path="Open_Chrome_Incognito.tcKDTest" />
+			</folder>
 		</folder>
-		<folder name="1 - Acid Test" />
+		<folder name="1 - Acid Test">
+			<child name="Test_Acid_Test" key="{D1E094CF-681F-4DE1-930C-80372D66C960}" path="Test_Acid_Test.tcKDTest" />
+		</folder>
 		<folder name="2 - Smoke Tests" />
 		<folder name="3 - Deep Dive Tests" />
 		<folder name="4 - Debug Tests" />
