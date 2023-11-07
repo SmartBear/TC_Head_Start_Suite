@@ -20,7 +20,7 @@
 			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loading Web store" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_LoadWebStore" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="All test modules should follow this formatting in order to provide consistency to the look and feel of output logs" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
@@ -42,7 +42,7 @@
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an information message to the test log." MessageType="0">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Module Template Information Message" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_LoadWebStore" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="Log entry in the Mod_Template Keyword Test" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
