@@ -127,7 +127,7 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{271174DC-221B-43CA-B764-CA70AA6F36FD}">
-		<Parameter0 Name="username" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter0 Name="username" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="OldSailor1960" Description="" />
 		<Parameter1 Name="password" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

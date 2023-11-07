@@ -20,7 +20,13 @@
 				<children>
 					<testItem name="Core" key="{A1893D8A-4676-4CF7-9304-F5AE24C64750}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<children />
+						<children>
+							<testItem name="Test_Core_Sample" key="{7A385323-04E7-485E-8BEA-B8F0505C8093}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E88651D-1A79-461C-9AC5-905ABE3B6C68}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 					<testItem name="Events" key="{711637BA-817B-42DC-BB32-66A367D29F41}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
@@ -58,11 +64,23 @@
 			</testItem>
 			<testItem name="1 - Acid Test" key="{834E6913-7137-4BE6-9416-FDC7D77EFE73}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children />
+				<children>
+					<testItem name="Test_Acid_Test" key="{22F883A4-E9B1-4993-AB5C-A06881EA3B5B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D1E094CF-681F-4DE1-930C-80372D66C960}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 			<testItem name="2 - Smoke Tests" key="{614A7E7E-B057-452B-95EB-7012D82471A5}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children />
+				<children>
+					<testItem name="Test_Login_Charlie_Brown" key="{594956A9-6FFA-4B86-BDF4-912C8220EC0A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{50872ECB-95EF-4420-A799-95CF3EA3B24F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 			<testItem name="3 - Deep Dive Tests" key="{504B9A6D-C516-4002-9F13-93D7116FD8BF}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
@@ -94,6 +112,9 @@
 				</Variable>
 				<Variable Name="Password1" Type="Password" Local="False">
 					<DefValue StrValue="38003900360031003100330044003100460034004400380046003300460037004500430039003900430037004600360044003000380034003400440034004400330038003100420035003400310034003000320032004500390041003600450036003800460038004400330036003500330032004100440039004200450034003300370034004500" />
+				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310039003300440032004600340044003800380042004600330036004300390038004100370039003300330041004600410045003300370038004600360031004200390041003100440033003700360045003000350037003800370037004200420045003000410041003300300041003700" />
 				</Variable>
 			</Items>
 		</data>

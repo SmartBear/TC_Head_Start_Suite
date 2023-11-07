@@ -28,12 +28,19 @@
 				<child name="Mod_SuccessfulLogin" key="{D7171AB7-FB83-4590-9B3A-A0E63F33457A}" path="Mod_SuccessfulLogin.tcKDTest" />
 				<child name="Mod_WebStoreLoads" key="{6639D066-8C67-4DB0-A1CA-F72C2D0BE642}" path="Mod_WebStoreLoads.tcKDTest" />
 				<child name="Open_Chrome_Incognito" key="{01DC2403-C318-42B2-9530-A1645017F90B}" path="Open_Chrome_Incognito.tcKDTest" />
+				<child name="Test_Core_Sample" key="{1E88651D-1A79-461C-9AC5-905ABE3B6C68}" path="Test_Core_Sample.tcKDTest" />
+				<child name="Mod_Select_Log_In" key="{477971E3-98BB-4721-A3AD-68C228E3A67C}" path="Mod_Select_Log_In.tcKDTest" />
+				<child name="Mod_Select_Register" key="{8E057EEE-18C4-4A05-B7B5-71E718ACE084}" path="Mod_Select_Register.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="1 - Acid Test">
 			<child name="Test_Acid_Test" key="{D1E094CF-681F-4DE1-930C-80372D66C960}" path="Test_Acid_Test.tcKDTest" />
 		</folder>
-		<folder name="2 - Smoke Tests" />
+		<folder name="2 - Smoke Tests">
+			<child name="Test_Login_Charlie_Brown" key="{50872ECB-95EF-4420-A799-95CF3EA3B24F}" path="Test_Login_Charlie_Brown.tcKDTest" />
+			<child name="Mod_Logon_Charlie_Brown" key="{11BB0254-A6EE-4BDD-B321-2B31A99155E4}" path="Mod_Logon_Charlie_Brown.tcKDTest" />
+			<child name="Mod_Logoff_Charlie_Brown" key="{47A7576A-3AAD-4135-BCC3-83F84EA17E48}" path="Mod_Logoff_Charlie_Brown.tcKDTest" />
+		</folder>
 		<folder name="3 - Deep Dive Tests" />
 		<folder name="4 - Debug Tests" />
 	</children>
