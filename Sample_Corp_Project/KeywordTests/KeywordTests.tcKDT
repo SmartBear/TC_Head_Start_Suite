@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="0 - Common">
+			<folder name="Events">
+				<child name="EventControl_TestEngine_OnStartTest" key="{8E279132-49D6-4C8D-B31D-58AA3400BE7B}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
+			</folder>
+			<folder name="Samples">
+				<child name="Test_New_Function" key="{7935433D-5DAA-46D3-B34C-E6D185A3CF85}" path="Test_New_Function.tcKDTest" />
+			</folder>
+			<folder name="Templates">
+				<child name="Mod_Template" key="{BB5B2994-2AD0-4B4B-BD49-4E57F8CC5576}" path="Mod_Template.tcKDTest" />
+				<child name="Test_Template" key="{06BEC611-D8FA-4C5E-8D11-FD484C83F10C}" path="Test_Template.tcKDTest" />
+				<child name="Keyword_Calling_Script_Test_Template" key="{6E4A0267-11EB-42B4-952B-5D502946B768}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
+			</folder>
+			<folder name="Core">
+				<child name="Open_AUT" key="{4D8B8AB6-D5A2-4B7F-B368-1D0475234968}" path="Open_AUT.tcKDTest" />
+				<child name="Mod_Close_Browser" key="{AEB5DC06-BE1D-4B6D-B2F0-EF2609C0863E}" path="Mod_Close_Browser.tcKDTest" />
+				<child name="Mod_EnterCreds" key="{F7908DA0-7659-459D-BEEA-C96644E8BE3A}" path="Mod_EnterCreds.tcKDTest" />
+				<child name="Mod_ItemInCart" key="{8A88D213-038C-4BB7-B636-37F0B5490937}" path="Mod_ItemInCart.tcKDTest" />
+				<child name="Mod_LaunchBrowser" key="{AFA93B24-6ACF-45D6-BB19-06D48B666D62}" path="Mod_LaunchBrowser.tcKDTest" />
+				<child name="Mod_LoadWebStore" key="{7EC7D4C9-7A85-4E81-98D8-CCD83BC53BC0}" path="Mod_LoadWebStore.tcKDTest" />
+				<child name="Mod_Login" key="{F7F35039-A810-4AAD-BE6B-0B32C434EEF2}" path="Mod_Login.tcKDTest" />
+				<child name="Mod_Logon_Power_User" key="{7B662760-DC9F-4570-9085-70FD9A7D912F}" path="Mod_Logon_Power_User.tcKDTest" />
+				<child name="Mod_Logout_Power_User" key="{404A2F38-1F92-4279-8C80-6CC0A22338CE}" path="Mod_Logout_Power_User.tcKDTest" />
+				<child name="Mod_PurchaseItem" key="{D5B9A3F8-A8B7-4CAB-B13F-D3EDA52BB131}" path="Mod_PurchaseItem.tcKDTest" />
+				<child name="Mod_Register" key="{85CA66CF-F4D7-499C-8C06-7D4CB6D6BDC9}" path="Mod_Register.tcKDTest" />
+				<child name="Mod_SuccessfulLogin" key="{8BA7E6F8-C7E3-45B8-B574-A898596985AC}" path="Mod_SuccessfulLogin.tcKDTest" />
+				<child name="Mod_WebStoreLoads" key="{44149DA9-8F47-4187-8611-BBD217D0CE01}" path="Mod_WebStoreLoads.tcKDTest" />
+				<child name="Open_Chrome_Incognito" key="{85ACBC64-1813-4057-8066-D6446E22B751}" path="Open_Chrome_Incognito.tcKDTest" />
+				<child name="Test_Core_Sample" key="{86259214-F97A-477F-8ADA-E77B29FC4A5E}" path="Test_Core_Sample.tcKDTest" />
+				<child name="Mod_Select_Log_In" key="{5CA6024C-2F31-4E24-8CE9-057A8ACB2C1E}" path="Mod_Select_Log_In.tcKDTest" />
+				<child name="Mod_Select_Register" key="{6DFDA762-A9E0-4347-9DFF-B8EB61DA6EB1}" path="Mod_Select_Register.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="1 - Acid Test">
+			<child name="Test_Acid_Test" key="{3623D148-A237-4C75-86EE-05FAD95E5997}" path="Test_Acid_Test.tcKDTest" />
+		</folder>
+		<folder name="2 - Smoke Tests">
+			<child name="Test_Login_Charlie_Brown" key="{58417DD9-D1A7-4032-BD18-D87240144AE0}" path="Test_Login_Charlie_Brown.tcKDTest" />
+			<child name="Mod_Logon_Charlie_Brown" key="{3C8E221B-B8B0-4EA7-9C5E-16E469B0F33F}" path="Mod_Logon_Charlie_Brown.tcKDTest" />
+			<child name="Mod_Logoff_Charlie_Brown" key="{47837498-8F8F-43CD-80C0-4F0D533CC77B}" path="Mod_Logoff_Charlie_Brown.tcKDTest" />
+		</folder>
+		<folder name="3 - Deep Dive Tests" />
+		<folder name="4 - Debug Tests" />
+	</children>
+</Root>

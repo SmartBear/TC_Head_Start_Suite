@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Template_Scripts" key="{32D81F0A-EAE1-4EC6-AC54-A485E7D08A76}" path="Template_Scripts.js" />
+		<child name="Module_Scripts" key="{E301488B-EEEE-4CCC-88D4-4F8C4BAFB8D0}" path="Module_Scripts.js" />
+		<child name="Utility_Scripts" key="{0FD33342-8412-46CD-AAB5-298A65DAC974}" path="Utility_Scripts.js" />
+	</children>
+</Root>

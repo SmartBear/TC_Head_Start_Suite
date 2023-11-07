@@ -9,9 +9,11 @@
 			<child name="Template_CPP_Project" key="{5C83C21E-42D7-4F96-82DD-AC87C0DF911D}" path="Template_CPP_Project\Template_CPP_Project.mds" />
 			<child name="Template_Delphi_Project" key="{92E7C7DB-71F1-40A9-A2F7-6744E7F6AB84}" path="Template_Delphi_Project\Template_Delphi_Project.mds" />
 			<child name="Template_JScript_Project" key="{E1544087-E278-4E6D-9DFF-C4590A613CE3}" path="Template_JScript_Project\Template_JScript_Project.mds" />
+			<child name="TestProject1" key="{29F37A37-93AC-48AA-84E8-0E32037971CD}" path="TestProject1\TestProject1.mds" />
 		</folder>
 		<folder name="AUT_Projects">
 			<child name="VET_Python_Project" key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" path="VET_Python_Project\VET_Python_Project.mds" />
+			<child name="Sample_Corp_Project" key="{938D3531-A258-465B-826E-48E2F7DC5943}" path="Sample_Corp_Project\Sample_Corp_Project.mds" />
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Browser_Project" key="{DCE59DAE-4066-416F-9406-2C386E444996}" path="Utility_Browser_Project\Utility_Browser_Project.mds" />
@@ -30,6 +32,8 @@
 			<testItem key="{DCE59DAE-4066-416F-9406-2C386E444996}" enabled="True" timeout="60" stopOnError="False" description="Utility Project showcasing Brower Actions" />
 			<testItem key="{2BF7D936-CD94-4463-AFD5-3070738C8341}" enabled="True" timeout="60" stopOnError="False" description="Utility Project showcasing Misc Actions" />
 			<testItem key="{91B6FBF9-289F-462F-9AEB-99348F0CA4B7}" enabled="True" timeout="60" stopOnError="False" description="AUT Project using Python and Jira Naming Conventions" />
+			<testItem key="{29F37A37-93AC-48AA-84E8-0E32037971CD}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{938D3531-A258-465B-826E-48E2F7DC5943}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
