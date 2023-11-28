@@ -20,6 +20,7 @@
 			<child name="Test_Desktop_Acid_Test" key="{6E43BA22-42EE-41DD-9D35-AA6790688C5A}" path="Test_Desktop_Acid_Test.tcKDTest" />
 			<child name="Test_Sample" key="{A4908CC5-AA32-4C0F-A23D-0DD829027394}" path="Test_Sample.tcKDTest" />
 			<child name="Test_Sanity" key="{52807BA1-0EB8-4D4E-B0B6-EE0DEC307FBF}" path="Test_Sanity.tcKDTest" />
+			<child name="HeadLess_Browser" key="{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" path="HeadLess_Browser.tcKDTest" />
 		</folder>
 		<folder name="2 - Smoke">
 			<child name="Mod_Logon_Fail" key="{FA97CB6D-64EB-4A1C-AD4C-B789759FBB8D}" path="Mod_Logon_Fail.tcKDTest" />

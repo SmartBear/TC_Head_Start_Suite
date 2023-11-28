@@ -29,6 +29,20 @@
 										<Value Value="0" Type="0" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{29E9A971-02ED-4ABA-89EC-D8ACC19AC4C9}">
+										<Image FileName="700386452" Left="8" Top="117" Right="1928" Bottom="1048" />
+										<TypeInfo Item0="{F77758DA-115C-4F05-8E12-15E809C85927}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="pageShop" Key="{C98CB8CE-BD48-4CEA-9BBB-34CF459D423F}">
 								<Image FileName="1155834765" Left="0" Top="103" Right="3840" Bottom="2160" />
@@ -507,7 +521,9 @@
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{DB0F4D63-1F57-4F4C-97B0-0F84B8F663BE}">
-			<Child Name="BrowserWindow" Owner="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}" />
+			<Child Name="BrowserWindow" Owner="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{29E9A971-02ED-4ABA-89EC-D8ACC19AC4C9}" />
+			</Child>
 			<Child Name="pageShop" Owner="{C98CB8CE-BD48-4CEA-9BBB-34CF459D423F}">
 				<Child Name="header" Owner="{ABC76A0C-2D09-48EF-8EC0-25FF3CB64359}">
 					<Child Name="navUsd" Owner="{4EB683EA-CC38-473C-B84C-36299A656308}">
