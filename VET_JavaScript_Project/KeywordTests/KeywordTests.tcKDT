@@ -20,7 +20,6 @@
 			<child name="Test_Desktop_Acid_Test" key="{6E43BA22-42EE-41DD-9D35-AA6790688C5A}" path="Test_Desktop_Acid_Test.tcKDTest" />
 			<child name="Test_Sample" key="{A4908CC5-AA32-4C0F-A23D-0DD829027394}" path="Test_Sample.tcKDTest" />
 			<child name="Test_Sanity" key="{52807BA1-0EB8-4D4E-B0B6-EE0DEC307FBF}" path="Test_Sanity.tcKDTest" />
-			<child name="HeadLess_Browser" key="{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" path="HeadLess_Browser.tcKDTest" />
 		</folder>
 		<folder name="2 - Smoke">
 			<child name="Mod_Logon_Fail" key="{FA97CB6D-64EB-4A1C-AD4C-B789759FBB8D}" path="Mod_Logon_Fail.tcKDTest" />
@@ -33,6 +32,10 @@
 		<folder name="4 - Debug">
 			<child name="Test_Empty" key="{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" path="Test_Empty.tcKDTest" />
 			<child name="Test_Smoke_Anna" key="{402CEAA2-AA08-4A87-ADC1-3CBA50867F39}" path="Test_Smoke_Anna.tcKDTest" />
+			<child name="HeadLess_Browser" key="{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" path="HeadLess_Browser.tcKDTest" />
+			<child name="Test_Headless_Chrome" key="{78633675-0793-41C3-9DCA-38745F77624D}" path="Test_Headless_Chrome.tcKDTest" />
+			<child name="Test_Headless_Firefox" key="{96D6D650-1B4E-4A0C-A5F0-BBAABA5C9AD2}" path="Test_Headless_Firefox.tcKDTest" />
+			<child name="Test_Headless_Edge" key="{5D700F95-FA42-4D29-9DF1-2CA6EE9B1CE0}" path="Test_Headless_Edge.tcKDTest" />
 		</folder>
 	</children>
 </Root>

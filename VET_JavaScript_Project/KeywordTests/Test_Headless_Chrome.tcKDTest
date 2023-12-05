@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{5E00F2DF-81D5-492E-9EEF-9EC0A188F7F0}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{2D996E7B-5C4E-45B4-B38C-323C00405A71}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -8,7 +8,7 @@
 		</Data>
 		<Children>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="HeadLess_Browser" />
+				<Data GroupName="Test_Headless_Chrome" />
 				<Children>
 					<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 						<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
@@ -232,5 +232,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{96281133-4F64-4BC9-8EBF-BCC5D0BCDC27}" />
+	<Parameters Key="{76CC4932-2D86-4BEE-BF36-428FFC464E04}" />
 </Root>

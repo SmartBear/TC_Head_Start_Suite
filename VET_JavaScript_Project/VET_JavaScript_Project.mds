@@ -103,6 +103,49 @@
 			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
+					<testItem name="Headless_Browser" key="{BA7B61A6-B9A6-4B5B-89AB-CF78085E93AD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="HeadLess_Browser_2" key="{6F12524C-65C0-4688-B1E5-BA6E93752A99}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="LocalHeadlessBrowser">
+									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
+										<capabilities Enabled="True" Browser="Edge" Resolution="1920x1080" CustomJSON="" />
+										<capabilities Enabled="False" Browser="Chrome" Resolution="1920x1080" CustomJSON="" />
+										<capabilities Enabled="False" Browser="Firefox" Resolution="1920x1080" CustomJSON="" />
+									</cloud>
+								</environments>
+								<children />
+							</testItem>
+							<testItem name="Test_Headless_Chrome" key="{7FC3F68D-74CC-48BF-BDC3-5A7DE70485D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{78633675-0793-41C3-9DCA-38745F77624D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="LocalHeadlessBrowser">
+									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
+										<capabilities Enabled="True" Browser="Chrome" Resolution="1920x1080" CustomJSON="" />
+									</cloud>
+								</environments>
+								<children />
+							</testItem>
+							<testItem name="Test_Headless_Edge" key="{F187B754-C09E-4C54-A44E-76F29B6EDAEF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5D700F95-FA42-4D29-9DF1-2CA6EE9B1CE0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="LocalHeadlessBrowser">
+									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
+										<capabilities Enabled="True" Browser="Edge" Resolution="1920x1080" CustomJSON="" />
+									</cloud>
+								</environments>
+								<children />
+							</testItem>
+							<testItem name="Test_Headless_Firefox" key="{C4C1ABD8-D785-48D2-B72D-04EE7D392146}" group="False" parallel="False" enabled="True" testMoniker="KDT\{96D6D650-1B4E-4A0C-A5F0-BBAABA5C9AD2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="LocalHeadlessBrowser">
+									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
+										<capabilities Enabled="True" Browser="Firefox" Resolution="1920x1080" CustomJSON="" />
+									</cloud>
+								</environments>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
 					<testItem name="Test_Empty" key="{EEDAAE5E-80C8-4C98-8D58-0196D038C778}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
@@ -111,22 +154,6 @@
 					<testItem name="Test_Smoke_Anna" key="{8B0BB156-F35C-4C27-81BA-941D87A325C3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{402CEAA2-AA08-4A87-ADC1-3CBA50867F39}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Headless_Browser" key="{BA7B61A6-B9A6-4B5B-89AB-CF78085E93AD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="HeadLess_Browser_2" key="{6F12524C-65C0-4688-B1E5-BA6E93752A99}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="LocalHeadlessBrowser">
-							<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
-								<capabilities Enabled="True" Browser="Edge" Resolution="1920x1080" CustomJSON="" />
-								<capabilities Enabled="True" Browser="Chrome" Resolution="1920x1080" CustomJSON="" />
-								<capabilities Enabled="True" Browser="Firefox" Resolution="1920x1080" CustomJSON="" />
-							</cloud>
-						</environments>
 						<children />
 					</testItem>
 				</children>
@@ -158,7 +185,7 @@
 		</data>
 	</variables>
 	<settings key="{E5EDEEC4-B610-48D2-BF15-A461A715F89A}">
-		<settingsVersion value="15.58" />
+		<settingsVersion value="15.59" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
