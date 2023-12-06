@@ -41,6 +41,9 @@
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 								<Data GroupName="No Loop: Call module with no parms defined (default parm value used in mod)" />
 								<Children>
+									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+										<Data Comment="No Loop: Call module with no parms defined (default parm value used in mod)" />
+									</Operation>
 									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -59,9 +62,6 @@
 												<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
 										</Data>
-									</Operation>
-									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-										<Data Comment="No Loop: Call module with no parms defined (default parm value used in mod)" />
 									</Operation>
 									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 										<Data Description="Posts an information message to the test log." MessageType="0">
@@ -88,7 +88,7 @@
 											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 												<Parameter Name="Name" DefVarType="8" DefValueType="6" DefValueValue="Default Name" VarType="8" ValueType="6" ValueValue="Default Name" />
 												<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="Default.Name@Null.Org" VarType="8" ValueType="6" ValueValue="Default.Name@Null.Org" />
-												<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="Default text for enquiry" VarType="8" ValueType="6" ValueValue="Default text for enquiry" />
 											</Parameters>
 										</Data>
 									</Operation>
@@ -606,9 +606,7 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using Excel Data File">
-									<CommonData Disabled="True" />
-								</Data>
+								<Data GroupName="Loop Module Operations using Excel Data File" />
 								<Children>
 									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
