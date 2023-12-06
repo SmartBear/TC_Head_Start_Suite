@@ -494,6 +494,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelContactUs" Key="{4DF4727E-57E9-40B3-89A7-E2BE1A3FEFB3}">
+										<Image FileName="-1947593052" Left="405" Top="320" Right="1515" Bottom="834" />
+										<TypeInfo Item0="{340D7386-1DC4-41C4-90FB-3A31EEF9C562}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;contact-page&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -558,6 +573,7 @@
 						<Child Name="textareaEnquiry" Owner="{8223E29C-4C76-4066-9802-714A10567877}" />
 						<Child Name="buttonSendEmail" Owner="{86E46528-15E8-463B-B36F-0456604521E1}" />
 					</Child>
+					<Child Name="panelContactUs" Owner="{4DF4727E-57E9-40B3-89A7-E2BE1A3FEFB3}" />
 				</Child>
 				<Child Name="header" Owner="{7C503027-70BE-4A0E-B1DA-55E0403AF402}">
 					<Child Name="link" Owner="{3E1A0272-DCD7-473D-8672-20D4527103ED}">
