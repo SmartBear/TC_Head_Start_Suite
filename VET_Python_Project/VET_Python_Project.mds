@@ -75,7 +75,7 @@
 					</testItem>
 					<testItem name="Test_Sample" key="{AF981C46-E517-4892-AD6D-04AF0B886846}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2186FDB2-9142-48EB-9AD2-9108DB103F70}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
@@ -95,6 +95,15 @@
 					</testItem>
 					<testItem name="Test_Empty" key="{D673BE8A-1768-485B-A1ED-93095772E8A7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{47FC67CE-D620-46B3-A492-1057250517E0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_With_Parameters" key="{73245631-CEB3-4696-A6BD-32A3B4561073}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EA36653D-488B-4695-8084-5B687190ED47}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="Param1" type="1" localVarName="" value="Passed Parameter Text" />
+							<param1 name="Param2" type="2" localVarName="" value="False" />
+							<param2 name="Param3" type="0" localVarName="" value="10" />
+						</testParameters>
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
@@ -132,7 +141,7 @@
 		</data>
 	</variables>
 	<settings key="{DCC40435-CB55-4835-B784-878254660374}">
-		<settingsVersion value="15.58" />
+		<settingsVersion value="15.59" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

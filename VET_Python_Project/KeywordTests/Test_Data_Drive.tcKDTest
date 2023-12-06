@@ -88,7 +88,7 @@
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 												<Parameter Name="Name" DefVarType="8" DefValueType="6" DefValueValue="Default Name" VarType="8" ValueType="6" ValueValue="Default Name" />
 												<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="Default.Name@Null.Org" VarType="8" ValueType="6" ValueValue="Default.Name@Null.Org" />
-												<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="Default text for enquiry" VarType="8" ValueType="6" ValueValue="Default text for enquiry" />
 											</Parameters>
 										</Data>
 									</Operation>
@@ -576,9 +576,7 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using Excel Data File">
-									<CommonData Disabled="True" />
-								</Data>
+								<Data GroupName="Loop Module Operations using Excel Data File" />
 								<Children>
 									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">

@@ -32,6 +32,7 @@
 			<child name="Test_Desktop_Acid_Test" key="{FC99A949-F620-4E00-9A95-D53B792D9B12}" path="Test_Desktop_Acid_Test.tcKDTest" />
 			<child name="Test_Empty" key="{47FC67CE-D620-46B3-A492-1057250517E0}" path="Test_Empty.tcKDTest" />
 			<child name="Test_New_Function" key="{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" path="Test_New_Function.tcKDTest" />
+			<child name="Test_With_Parameters" key="{EA36653D-488B-4695-8084-5B687190ED47}" path="Test_With_Parameters.tcKDTest" />
 		</folder>
 	</children>
 </Root>
