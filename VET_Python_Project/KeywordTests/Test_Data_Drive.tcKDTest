@@ -576,7 +576,9 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using Excel Data File" />
+								<Data GroupName="Loop Module Operations using Excel Data File">
+									<CommonData Disabled="True" />
+								</Data>
 								<Children>
 									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">

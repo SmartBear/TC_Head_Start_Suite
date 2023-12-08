@@ -67,11 +67,29 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Mod_Chrome_Open_Smartstore" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Mod_Data_Drive">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Name" DefVarType="8" DefValueType="6" DefValueValue="Default Name" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Param1" />
+						<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="Default.Name@Null.Org" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Param2" />
+						<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="Default text for enquiry" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Param3" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="OCR_Checkpoints" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{9F530FA1-D0ED-4E81-B103-DA6DDF46C2AE}">
 		<Parameter0 Name="Param1" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="Basic Parameter Text" Description="" />
-		<Parameter1 Name="Param2" VarType="11" IsOptional="True" DefValueType="7" DefValueValue="True" Description="" />
-		<Parameter2 Name="Param3" VarType="3" IsOptional="True" DefValueType="1" DefValueValue="0" Description="" />
+		<Parameter1 Name="Param2" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="FakeUser@Null.Org" Description="" />
+		<Parameter2 Name="Param3" VarType="8" IsOptional="True" DefValueType="6" DefValueValue="This is sample enquiry Text" Description="" />
 	</Parameters>
 </Root>
