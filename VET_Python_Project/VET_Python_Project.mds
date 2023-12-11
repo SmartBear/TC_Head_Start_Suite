@@ -98,7 +98,7 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_With_Parameters" key="{73245631-CEB3-4696-A6BD-32A3B4561073}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EA36653D-488B-4695-8084-5B687190ED47}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_With_Parameters" key="{73245631-CEB3-4696-A6BD-32A3B4561073}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EA36653D-488B-4695-8084-5B687190ED47}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="Param1" type="1" localVarName="" value="Passed Parameter Text" />
 							<param1 name="Param2" type="2" localVarName="" value="False" />
