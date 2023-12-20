@@ -201,6 +201,39 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel" Key="{606AF0BA-89E3-41BC-8F98-C0B3542E21F4}">
+										<Image FileName="-1990359212" Left="398" Top="180" Right="660" Bottom="227" />
+										<TypeInfo Item0="{340D7386-1DC4-41C4-90FB-3A31EEF9C562}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;shop-logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWelcomeToOurStore2" Key="{12842201-FF7D-4A59-AD0D-0E260F683FCC}">
+										<Image FileName="-58110320" Left="405" Top="332" Right="1515" Bottom="370" />
+										<TypeInfo Item0="{340D7386-1DC4-41C4-90FB-3A31EEF9C562}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Welcome to our store.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
@@ -509,7 +542,37 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeContactUs" Key="{1C2D3F15-3472-46CE-A776-C8F817AF4022}">
+										<Image FileName="1095487203" Left="405" Top="332" Right="1515" Bottom="370" />
+										<TypeInfo Item0="{340D7386-1DC4-41C4-90FB-3A31EEF9C562}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Contact Us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
+							</Child>
+							<Child Name="page" Key="{02FC48A2-DA25-4733-B128-9E6CF8AEAC8B}">
+								<Image FileName="-54720763" Left="8" Top="129" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{001B0304-905D-43D0-9739-6DA5E23E9079}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -550,10 +613,12 @@
 						</Child>
 					</Child>
 					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}" />
+					<Child Name="panel" Owner="{606AF0BA-89E3-41BC-8F98-C0B3542E21F4}" />
 				</Child>
 				<Child Name="sectionContent" Owner="{33A01843-29A2-488C-80E9-FEB715FB9443}">
 					<Child Name="panelPhTitle6" Owner="{81B318D9-D5F8-4D10-965A-6925F24488E0}" />
 					<Child Name="textnodeWelcomeToOurStore" Owner="{D040C9F6-F448-4788-8483-6874806B3B62}" />
+					<Child Name="textnodeWelcomeToOurStore2" Owner="{12842201-FF7D-4A59-AD0D-0E260F683FCC}" />
 				</Child>
 			</Child>
 			<Child Name="pageLogin" Owner="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
@@ -574,6 +639,7 @@
 						<Child Name="buttonSendEmail" Owner="{86E46528-15E8-463B-B36F-0456604521E1}" />
 					</Child>
 					<Child Name="panelContactUs" Owner="{4DF4727E-57E9-40B3-89A7-E2BE1A3FEFB3}" />
+					<Child Name="textnodeContactUs" Owner="{1C2D3F15-3472-46CE-A776-C8F817AF4022}" />
 				</Child>
 				<Child Name="header" Owner="{7C503027-70BE-4A0E-B1DA-55E0403AF402}">
 					<Child Name="link" Owner="{3E1A0272-DCD7-473D-8672-20D4527103ED}">
@@ -581,6 +647,7 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="page" Owner="{02FC48A2-DA25-4733-B128-9E6CF8AEAC8B}" />
 		</Child>
 		<Child Name="Orders" Owner="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
 			<Child Name="MainForm" Owner="{22907E00-6826-4980-B265-89012D835EF5}" />

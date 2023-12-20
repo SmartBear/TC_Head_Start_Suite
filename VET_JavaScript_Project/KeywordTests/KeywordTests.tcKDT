@@ -28,6 +28,7 @@
 		<folder name="3 - Deep Dive">
 			<child name="Mod_Data_Drive" key="{5E3FD945-E48E-47EF-9F6E-AA6FBE32977C}" path="Mod_Data_Drive.tcKDTest" />
 			<child name="Test_Data_Drive" key="{2C7E4E4A-5DAE-4CA2-A62C-2B15332B078F}" path="Test_Data_Drive.tcKDTest" />
+			<child name="Test_Browser_Version" key="{83100CCA-41AA-48A1-B4E7-72B7140475E6}" path="Test_Browser_Version.tcKDTest" />
 		</folder>
 		<folder name="4 - Debug">
 			<child name="Test_Empty" key="{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" path="Test_Empty.tcKDTest" />
@@ -36,6 +37,7 @@
 			<child name="Test_Headless_Chrome" key="{78633675-0793-41C3-9DCA-38745F77624D}" path="Test_Headless_Chrome.tcKDTest" />
 			<child name="Test_Headless_Firefox" key="{96D6D650-1B4E-4A0C-A5F0-BBAABA5C9AD2}" path="Test_Headless_Firefox.tcKDTest" />
 			<child name="Test_Headless_Edge" key="{5D700F95-FA42-4D29-9DF1-2CA6EE9B1CE0}" path="Test_Headless_Edge.tcKDTest" />
+			<child name="Test_Experiment" key="{0BF01E53-5E40-4118-A5CB-A2175744E05C}" path="Test_Experiment.tcKDTest" />
 		</folder>
 	</children>
 </Root>

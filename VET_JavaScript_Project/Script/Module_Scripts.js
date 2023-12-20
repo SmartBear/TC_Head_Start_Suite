@@ -16,3 +16,97 @@
   //Restores the previous indicator text.
   Indicator.PopText();
 }
+
+function Test_Edge_Headless()
+{
+  var server = "localhost";
+  var capabilities = {
+    "browserName": "edge",
+    "screenResolution": "1920x1080"
+  };
+
+  var url = "https://bearstore-testsite.smartbear.com/";
+  Browsers.RemoteItem(server, capabilities).Run(url);
+  
+  aqObject.CheckProperty(Aliases.browser.pageShop.sectionContent.panelPhTitle6, "contentText", cmpEqual, "Welcome to our store.");
+  //Posts an image to the test log.
+  Log.Picture(Aliases.browser.pageShop.sectionContent.panelPhTitle6.Picture(), "", "");
+  
+  //Checks whether the 'contentText' property of the Aliases.browser.pageShop.FindElement("//h1[.='Welcome to our store.']") object equals 'Welcome to our store.'.
+  aqObject.CheckProperty(Aliases.browser.pageShop.FindElement("//h1[.='Welcome to our store.']"), "contentText", cmpEqual, "Welcome to our store.");
+  //Clicks the 'linkContactUs' link.
+  Aliases.browser.pageShop.header.navUsd.navContactUs.linkContactUs.Click();
+  //Waits until the browser loads the page and is ready to accept user input.
+  Aliases.browser.pageContactus.Wait();
+  //Checks whether the 'contentText' property of the Aliases.browser.pageContactus.FindElement("//h1[.='Contact Us']") object equals 'Contact Us'.
+  aqObject.CheckProperty(Aliases.browser.pageContactus.FindElement("//h1[.='Contact Us']"), "contentText", cmpEqual, "Contact Us");
+  //Clicks the 'imageSmartstore' control.
+  Aliases.browser.pageContactus.header.link.imageSmartstore.Click();
+  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "", "");
+  //Closes the browser.
+  Aliases.browser.Close();
+  
+}
+
+function Test_Chrome_Headless()
+{
+  var server = "localhost";
+  var capabilities = {
+    "browserName": "chrome",
+    "screenResolution": "1920x1080"
+  };
+
+  var url = "https://bearstore-testsite.smartbear.com/";
+  Browsers.RemoteItem(server, capabilities).Run(url);
+  
+  aqObject.CheckProperty(Aliases.browser.pageShop.sectionContent.panelPhTitle6, "contentText", cmpEqual, "Welcome to our store.");
+  //Posts an image to the test log.
+  Log.Picture(Aliases.browser.pageShop.sectionContent.panelPhTitle6.Picture(), "", "");
+  
+  //Checks whether the 'contentText' property of the Aliases.browser.pageShop.FindElement("//h1[.='Welcome to our store.']") object equals 'Welcome to our store.'.
+  aqObject.CheckProperty(Aliases.browser.pageShop.FindElement("//h1[.='Welcome to our store.']"), "contentText", cmpEqual, "Welcome to our store.");
+  //Clicks the 'linkContactUs' link.
+  Aliases.browser.pageShop.header.navUsd.navContactUs.linkContactUs.Click();
+  //Waits until the browser loads the page and is ready to accept user input.
+  Aliases.browser.pageContactus.Wait();
+  //Checks whether the 'contentText' property of the Aliases.browser.pageContactus.FindElement("//h1[.='Contact Us']") object equals 'Contact Us'.
+  aqObject.CheckProperty(Aliases.browser.pageContactus.FindElement("//h1[.='Contact Us']"), "contentText", cmpEqual, "Contact Us");
+  //Clicks the 'imageSmartstore' control.
+  Aliases.browser.pageContactus.header.link.imageSmartstore.Click();
+  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "", "");
+  //Closes the browser.
+  Aliases.browser.Close();
+  
+}
+
+function Test_Firefox_Headless()
+{
+  var server = "localhost";
+  var capabilities = {
+    "browserName": "firefox",
+    "screenResolution": "1920x1080"
+  };
+
+  var url = "https://bearstore-testsite.smartbear.com/";
+  Browsers.RemoteItem(server, capabilities).Run(url);
+  
+  aqObject.CheckProperty(Aliases.browser.pageShop.sectionContent.panelPhTitle6, "contentText", cmpEqual, "Welcome to our store.");
+  //Posts an image to the test log.
+  Log.Picture(Aliases.browser.pageShop.sectionContent.panelPhTitle6.Picture(), "", "");
+  
+  //Checks whether the 'contentText' property of the Aliases.browser.pageShop.FindElement("//h1[.='Welcome to our store.']") object equals 'Welcome to our store.'.
+  aqObject.CheckProperty(Aliases.browser.pageShop.FindElement("//h1[.='Welcome to our store.']"), "contentText", cmpEqual, "Welcome to our store.");
+  //Clicks the 'linkContactUs' link.
+  Aliases.browser.pageShop.header.navUsd.navContactUs.linkContactUs.Click();
+  //Waits until the browser loads the page and is ready to accept user input.
+  Aliases.browser.pageContactus.Wait();
+  //Checks whether the 'contentText' property of the Aliases.browser.pageContactus.FindElement("//h1[.='Contact Us']") object equals 'Contact Us'.
+  aqObject.CheckProperty(Aliases.browser.pageContactus.FindElement("//h1[.='Contact Us']"), "contentText", cmpEqual, "Contact Us");
+  //Clicks the 'imageSmartstore' control.
+  Aliases.browser.pageContactus.header.link.imageSmartstore.Click();
+  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "", "");
+  //Closes the browser.
+  Aliases.browser.Close();
+  
+}
+

@@ -45,7 +45,7 @@
 				<children>
 					<testItem name="Test_Sanity" key="{0B392E08-35B5-460E-8EBA-632BDB93B5E4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E3BD271F-3ABD-413E-A351-3A88B3E0FA7E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
@@ -108,6 +108,21 @@
 						<children />
 					</testItem>
 					<testItem name="Test_New_Function" key="{8F75A030-6243-45AE-A7D1-772D883D3C05}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="THis test will fail by design. Turn off from exeution plan for Jenkins project/suite to pass." tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Edge_Headless" key="{9D5C1CB0-2B58-44F6-A893-7A7EA2361FFB}" group="False" parallel="False" enabled="True" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Edge_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Chrome_Headless" key="{3811FEC8-2E82-4D11-9981-90693BA97495}" group="False" parallel="False" enabled="True" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Chrome_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Firefox_Headless" key="{B8B5D0E1-0389-4D7F-A303-94BE973BFDE7}" group="False" parallel="False" enabled="True" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Firefox_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />

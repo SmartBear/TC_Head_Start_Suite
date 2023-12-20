@@ -29,7 +29,7 @@
 					</testItem>
 					<testItem name="Configure_FireFox" key="{DA7C83C3-69FB-4E87-B16B-B39C0E355138}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A59C3566-6B57-40DE-B24B-04CA0F2AFBB2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Open_and_Close_All_Browsers" key="{11786AEC-752C-4CA9-9345-317E571BF7EF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -148,7 +148,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.52" />
+		<settingsVersion value="15.59" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

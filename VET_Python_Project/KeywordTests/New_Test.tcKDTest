@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{90B5A85B-7697-4B2E-BED3-4E76209B4A14}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="Var1">
+					<Records FromBegin="False" ToEnd="False" StartRecord="1" StopIndex="3" />
+				</Data>
+				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Data_Drive">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="Name" DefVarType="8" DefValueType="6" DefValueValue="Default Name" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Name" />
+								<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="Default.Name@Null.Org" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Email" />
+								<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="Default text for enquiry" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Enquiry" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{E3CC4E7E-9272-42C3-811C-3B17AE41D80D}">
+		<Items>
+			<Variable Name="Var1" Type="DB Table" Local="False">
+				<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+					<ConnectionInfo FileName="..\..\Template_Python_Project\Data_Files\Contact_List.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{B8249446-3D14-4599-8FE2-7181C675196C}" />
+</Root>
