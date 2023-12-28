@@ -48,6 +48,16 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="Test_Browser_Acid_Test" key="{EADF8D2C-3AAA-4383-90C1-DC19976F7A7C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Desktop_Acid_Test" key="{924E05CF-0EF4-4C0B-8910-331E46E1765D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC99A949-F620-4E00-9A95-D53B792D9B12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="2 - Smoke" key="{C668FCA3-6BDE-48E6-8655-0D6DE99F02BC}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -83,49 +93,59 @@
 			<testItem name="4 - Debug" key="{51C2531C-EF54-486D-BC2C-43C84235E7D8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Browser_Acid_Test" key="{EADF8D2C-3AAA-4383-90C1-DC19976F7A7C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Local Headless Browser" key="{71DF8E95-9F51-4339-8F9D-D903BA9CAB31}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="Test_Edge_Headless" key="{9D5C1CB0-2B58-44F6-A893-7A7EA2361FFB}" group="False" parallel="False" enabled="True" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Edge_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Test_Chrome_Headless" key="{3811FEC8-2E82-4D11-9981-90693BA97495}" group="False" parallel="False" enabled="False" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Chrome_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Test_Firefox_Headless" key="{B8B5D0E1-0389-4D7F-A303-94BE973BFDE7}" group="False" parallel="False" enabled="False" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Firefox_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
-					<testItem name="Test_Desktop_Acid_Test" key="{924E05CF-0EF4-4C0B-8910-331E46E1765D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC99A949-F620-4E00-9A95-D53B792D9B12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="OCR Samples" key="{73D5D462-8C1A-4F1C-BAC2-C9C2AAE968FE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="OCR_Checkpoints" key="{AD4994B3-697E-4971-B5C9-2C8E19ABC357}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ECE2F7AC-5CB8-4B6A-BA83-E93BBACA311A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
-					<testItem name="Test_Empty" key="{D673BE8A-1768-485B-A1ED-93095772E8A7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{47FC67CE-D620-46B3-A492-1057250517E0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Misc" key="{6D9063A4-7121-4810-BCCD-54C64012F2D2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_With_Parameters" key="{73245631-CEB3-4696-A6BD-32A3B4561073}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EA36653D-488B-4695-8084-5B687190ED47}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters>
-							<param0 name="Param1" type="1" localVarName="" value="Passed Parameter Text" />
-							<param1 name="Param2" type="2" localVarName="" value="False" />
-							<param2 name="Param3" type="0" localVarName="" value="10" />
-						</testParameters>
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_New_Function" key="{8F75A030-6243-45AE-A7D1-772D883D3C05}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="THis test will fail by design. Turn off from exeution plan for Jenkins project/suite to pass." tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_Edge_Headless" key="{9D5C1CB0-2B58-44F6-A893-7A7EA2361FFB}" group="False" parallel="False" enabled="True" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Edge_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_Chrome_Headless" key="{3811FEC8-2E82-4D11-9981-90693BA97495}" group="False" parallel="False" enabled="False" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Chrome_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="Test_Firefox_Headless" key="{B8B5D0E1-0389-4D7F-A303-94BE973BFDE7}" group="False" parallel="False" enabled="False" testMoniker="{44035AAA-3164-4C1A-9166-74FEEC6C594B}Test_Firefox_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
+						<children>
+							<testItem name="Test_Empty" key="{D673BE8A-1768-485B-A1ED-93095772E8A7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{47FC67CE-D620-46B3-A492-1057250517E0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Test_With_Parameters" key="{73245631-CEB3-4696-A6BD-32A3B4561073}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EA36653D-488B-4695-8084-5B687190ED47}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="Param1" type="1" localVarName="" value="Passed Parameter Text" />
+									<param1 name="Param2" type="2" localVarName="" value="False" />
+									<param2 name="Param3" type="0" localVarName="" value="10" />
+								</testParameters>
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Test_New_Function" key="{8F75A030-6243-45AE-A7D1-772D883D3C05}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="THis test will fail by design. Turn off from exeution plan for Jenkins project/suite to pass." tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 				</children>
 			</testItem>

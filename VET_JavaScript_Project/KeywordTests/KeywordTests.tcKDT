@@ -14,6 +14,8 @@
 			<child name="Mod_Open_BearStore_Chrome" key="{44D41798-64FE-4CFA-8606-8522C3BBC975}" path="Mod_Open_BearStore_Chrome.tcKDTest" />
 			<child name="Mod_Open_BearStore_Edge" key="{9A69532C-B41B-4D92-A906-099B597BB3BB}" path="Mod_Open_BearStore_Edge.tcKDTest" />
 			<child name="Mod_Open_BearStore_FireFox" key="{00DCDDB0-9669-405E-81EC-8C4F7AD74B9A}" path="Mod_Open_BearStore_FireFox.tcKDTest" />
+			<child name="Mod_Logout_SampleUser" key="{07757C63-EA64-4283-BE5C-ADEE83141A3F}" path="Mod_Logout_SampleUser.tcKDTest" />
+			<child name="Mod_Login_SampleUser" key="{7CAE4F43-A4CF-4B4D-A2F5-D3137B885913}" path="Mod_Login_SampleUser.tcKDTest" />
 		</folder>
 		<folder name="1 - Sanity">
 			<child name="Test_Browser_Acid_Test" key="{B4948858-9B0D-4EC9-B48D-528B8D4F0F33}" path="Test_Browser_Acid_Test.tcKDTest" />
@@ -31,13 +33,21 @@
 			<child name="Test_Browser_Version" key="{83100CCA-41AA-48A1-B4E7-72B7140475E6}" path="Test_Browser_Version.tcKDTest" />
 		</folder>
 		<folder name="4 - Debug">
-			<child name="Test_Empty" key="{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" path="Test_Empty.tcKDTest" />
-			<child name="Test_Smoke_Anna" key="{402CEAA2-AA08-4A87-ADC1-3CBA50867F39}" path="Test_Smoke_Anna.tcKDTest" />
-			<child name="HeadLess_Browser" key="{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" path="HeadLess_Browser.tcKDTest" />
-			<child name="Test_Headless_Chrome" key="{78633675-0793-41C3-9DCA-38745F77624D}" path="Test_Headless_Chrome.tcKDTest" />
-			<child name="Test_Headless_Firefox" key="{96D6D650-1B4E-4A0C-A5F0-BBAABA5C9AD2}" path="Test_Headless_Firefox.tcKDTest" />
-			<child name="Test_Headless_Edge" key="{5D700F95-FA42-4D29-9DF1-2CA6EE9B1CE0}" path="Test_Headless_Edge.tcKDTest" />
-			<child name="Test_Experiment" key="{0BF01E53-5E40-4118-A5CB-A2175744E05C}" path="Test_Experiment.tcKDTest" />
+			<folder name="Local Headless Browser">
+				<child name="Test_Headless_Chrome" key="{78633675-0793-41C3-9DCA-38745F77624D}" path="Test_Headless_Chrome.tcKDTest" />
+				<child name="Test_Headless_Edge" key="{5D700F95-FA42-4D29-9DF1-2CA6EE9B1CE0}" path="Test_Headless_Edge.tcKDTest" />
+				<child name="Test_Headless_Firefox" key="{96D6D650-1B4E-4A0C-A5F0-BBAABA5C9AD2}" path="Test_Headless_Firefox.tcKDTest" />
+				<child name="HeadLess_Browser" key="{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" path="HeadLess_Browser.tcKDTest" />
+			</folder>
+			<folder name="OCR Samples">
+				<child name="Test_OCR_General" key="{B59CCE84-63C8-4F46-ACC1-EB0E8556662B}" path="Test_OCR_General.tcKDTest" />
+				<child name="Mod_OCR_Checkpoints" key="{255B001E-DB2B-4943-A9CE-1C16ECCB5A3F}" path="Mod_OCR_Checkpoints.tcKDTest" />
+			</folder>
+			<folder name="Misc">
+				<child name="Test_Empty" key="{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" path="Test_Empty.tcKDTest" />
+				<child name="Test_Experiment" key="{0BF01E53-5E40-4118-A5CB-A2175744E05C}" path="Test_Experiment.tcKDTest" />
+				<child name="Test_Smoke_Anna" key="{402CEAA2-AA08-4A87-ADC1-3CBA50867F39}" path="Test_Smoke_Anna.tcKDTest" />
+			</folder>
 		</folder>
 	</children>
 </Root>

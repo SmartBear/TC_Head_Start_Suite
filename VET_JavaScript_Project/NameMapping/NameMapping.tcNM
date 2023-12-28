@@ -32,7 +32,6 @@
 								<Children>
 									<Child Name="Chrome_RenderWidgetHostHWND" Key="{29E9A971-02ED-4ABA-89EC-D8ACC19AC4C9}">
 										<Image FileName="700386452" Left="8" Top="117" Right="1928" Bottom="1048" />
-										<TypeInfo Item0="{F77758DA-115C-4F05-8E12-15E809C85927}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="Chrome_RenderWidgetHostHWND" />
@@ -203,7 +202,6 @@
 									</Child>
 									<Child Name="panel" Key="{606AF0BA-89E3-41BC-8F98-C0B3542E21F4}">
 										<Image FileName="-1990359212" Left="398" Top="180" Right="660" Bottom="227" />
-										<TypeInfo Item0="{340D7386-1DC4-41C4-90FB-3A31EEF9C562}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;shop-logo&apos;)]" />
@@ -218,7 +216,6 @@
 									</Child>
 									<Child Name="textnodeWelcomeToOurStore2" Key="{12842201-FF7D-4A59-AD0D-0E260F683FCC}">
 										<Image FileName="-58110320" Left="405" Top="332" Right="1515" Bottom="370" />
-										<TypeInfo Item0="{340D7386-1DC4-41C4-90FB-3A31EEF9C562}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Welcome to our store.&apos;]" />
@@ -231,6 +228,64 @@
 											</Selector>
 											<Selector>
 												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSampleuser001" Key="{6A3070C2-5D9B-4254-B8D5-4E1A4AC3FB3A}">
+										<Image FileName="836131801" Left="1337" Top="104" Right="1508" Bottom="156" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;SampleUser_001!&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSampleuser001" Key="{00DF74A5-F056-4B02-832C-3B359E65EAFA}">
+										<Image FileName="836131801" Left="1365" Top="121" Right="1479" Bottom="138" />
+										<TypeInfo Item0="{B6D80AB7-B96D-4E55-B8AE-14D626426718}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;SampleUser_001!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;SampleUser_001!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{DB491B00-CC67-4B35-BDE7-C708A839C9C0}">
+										<Image FileName="2135678615" Left="1343" Top="304" Right="1507" Bottom="343" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log out&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogOut" Key="{92870441-55CB-4A76-801A-D3CFFE6371E7}">
+										<Image FileName="2135678615" Left="1390" Top="313" Right="1441" Bottom="333" />
+										<TypeInfo Item0="{B6D80AB7-B96D-4E55-B8AE-14D626426718}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;logout&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/nav[@id=&apos;menubar-my-account&apos;]//div/a[4]/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -529,7 +584,6 @@
 									</Child>
 									<Child Name="panelContactUs" Key="{4DF4727E-57E9-40B3-89A7-E2BE1A3FEFB3}">
 										<Image FileName="-1947593052" Left="405" Top="320" Right="1515" Bottom="834" />
-										<TypeInfo Item0="{340D7386-1DC4-41C4-90FB-3A31EEF9C562}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;contact-page&apos;)]" />
@@ -544,7 +598,6 @@
 									</Child>
 									<Child Name="textnodeContactUs" Key="{1C2D3F15-3472-46CE-A776-C8F817AF4022}">
 										<Image FileName="1095487203" Left="405" Top="332" Right="1515" Bottom="370" />
-										<TypeInfo Item0="{340D7386-1DC4-41C4-90FB-3A31EEF9C562}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Contact Us&apos;]" />
@@ -564,7 +617,6 @@
 							</Child>
 							<Child Name="page" Key="{02FC48A2-DA25-4733-B128-9E6CF8AEAC8B}">
 								<Image FileName="-54720763" Left="8" Top="129" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{001B0304-905D-43D0-9739-6DA5E23E9079}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -593,6 +645,138 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="InputApp" Key="{FA102C70-68CF-4F42-818C-1344DF309444}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="InputApp" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Microsoft_Text_Input_Application" Key="{BAE160BD-89AB-460F-8077-266EE02A3189}">
+								<Image FileName="1575168602" Left="0" Top="0" Right="292" Bottom="390" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="XAML" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Windows.UI.Core.CoreWindow" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="window" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Microsoft_Text_Input_Application" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Clipboard_" Key="{A68E62E6-119B-4EF3-AF02-B3DD7E99E1C6}">
+										<Image FileName="1575168602" Left="0" Top="44" Right="292" Bottom="390" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="ListView" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="list" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Clipboard_" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="SampleUser_001_" Key="{BD5E2FE1-1811-4596-A8DD-979E4AB01BBF}">
+												<Image FileName="1575168602" Left="16" Top="89" Right="276" Bottom="157" />
+												<TypeInfo Item0="{6A3989D4-D9AA-4FD3-913C-2286714CEE0E}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="ListViewItem" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="list item" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="SampleUser_001_" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="SampleUser_001_" Key="{5B8265A8-D843-4B9E-8E0C-9063BA8E4AC0}">
+														<Image FileName="-882606887" Left="28" Top="304" Right="119" Bottom="320" />
+														<TypeInfo Item0="{6A3989D4-D9AA-4FD3-913C-2286714CEE0E}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="TextBlock" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="text" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="SampleUser_001_" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{D1582C8A-3192-4BD2-BE6C-FE543DEC78EF}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{A629C631-AFB1-4A56-9FEC-6CE2918A5F8F}">
+								<Image FileName="1042408745" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{31113F1C-6466-4DD3-BDF4-2E26C48A9AB7}">
+										<Image FileName="1042408745" Left="96" Top="0" Right="1856" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{3479B418-6531-4C0B-95E5-6EABBF8CE578}">
+												<Image FileName="1042408745" Left="96" Top="0" Right="1856" Bottom="40" />
+												<TypeInfo Item0="{D4CF70BF-1CDE-4A0A-97F4-382D5C7DC515}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -610,6 +794,12 @@
 						</Child>
 						<Child Name="navContactUs" Owner="{D0C7A940-1E45-4171-A815-E70CFF3E4D54}">
 							<Child Name="linkContactUs" Owner="{C0251C3F-DAAB-4EE3-8C9F-D815AC49308B}" />
+						</Child>
+						<Child Name="linkSampleuser001" Owner="{6A3070C2-5D9B-4254-B8D5-4E1A4AC3FB3A}">
+							<Child Name="textnodeSampleuser001" Owner="{00DF74A5-F056-4B02-832C-3B359E65EAFA}" />
+						</Child>
+						<Child Name="linkLogOut" Owner="{DB491B00-CC67-4B35-BDE7-C708A839C9C0}">
+							<Child Name="textnodeLogOut" Owner="{92870441-55CB-4A76-801A-D3CFFE6371E7}" />
 						</Child>
 					</Child>
 					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}" />
@@ -651,6 +841,22 @@
 		</Child>
 		<Child Name="Orders" Owner="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
 			<Child Name="MainForm" Owner="{22907E00-6826-4980-B265-89012D835EF5}" />
+		</Child>
+		<Child Name="InputApp" Owner="{FA102C70-68CF-4F42-818C-1344DF309444}">
+			<Child Name="Microsoft_Text_Input_Application" Owner="{BAE160BD-89AB-460F-8077-266EE02A3189}">
+				<Child Name="Clipboard_" Owner="{A68E62E6-119B-4EF3-AF02-B3DD7E99E1C6}">
+					<Child Name="SampleUser_001_" Owner="{BD5E2FE1-1811-4596-A8DD-979E4AB01BBF}">
+						<Child Name="SampleUser_001_" Owner="{5B8265A8-D843-4B9E-8E0C-9063BA8E4AC0}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{D1582C8A-3192-4BD2-BE6C-FE543DEC78EF}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{A629C631-AFB1-4A56-9FEC-6CE2918A5F8F}">
+				<Child Name="WorkerW" Owner="{31113F1C-6466-4DD3-BDF4-2E26C48A9AB7}">
+					<Child Name="MSTaskListWClass" Owner="{3479B418-6531-4C0B-95E5-6EABBF8CE578}" />
+				</Child>
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

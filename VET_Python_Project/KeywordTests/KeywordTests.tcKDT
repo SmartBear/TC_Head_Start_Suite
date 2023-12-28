@@ -4,6 +4,7 @@
 		<folder name="1 - Sanity">
 			<child name="Test_Sanity" key="{E3BD271F-3ABD-413E-A351-3A88B3E0FA7E}" path="Test_Sanity.tcKDTest" />
 			<child name="Test_Browser_Acid_Test" key="{7A1A41FC-C8D6-4CE4-A858-486574FB9C6F}" path="Test_Browser_Acid_Test.tcKDTest" />
+			<child name="Test_Desktop_Acid_Test" key="{FC99A949-F620-4E00-9A95-D53B792D9B12}" path="Test_Desktop_Acid_Test.tcKDTest" />
 		</folder>
 		<folder name="0 - Common">
 			<child name="EventControl_TestEngine_OnStartTest" key="{BE649026-0831-436F-95D0-22DF764D0C71}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
@@ -30,12 +31,16 @@
 			<child name="New_Test" key="{3753BCC9-13C4-4B47-A284-EC8CE28612A6}" path="New_Test.tcKDTest" />
 		</folder>
 		<folder name="4 - Debug">
-			<child name="Test_Desktop_Acid_Test" key="{FC99A949-F620-4E00-9A95-D53B792D9B12}" path="Test_Desktop_Acid_Test.tcKDTest" />
-			<child name="Test_Empty" key="{47FC67CE-D620-46B3-A492-1057250517E0}" path="Test_Empty.tcKDTest" />
-			<child name="Test_New_Function" key="{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" path="Test_New_Function.tcKDTest" />
-			<child name="Test_With_Parameters" key="{EA36653D-488B-4695-8084-5B687190ED47}" path="Test_With_Parameters.tcKDTest" />
-			<child name="OCR_Checkpoints" key="{ECE2F7AC-5CB8-4B6A-BA83-E93BBACA311A}" path="OCR_Checkpoints.tcKDTest" />
-			<child name="Test_Experiment" key="{C76541AF-72F8-4EAE-AD2C-974955C4657E}" path="Test_Experiment.tcKDTest" />
+			<folder name="OCR Samples">
+				<child name="OCR_Checkpoints" key="{ECE2F7AC-5CB8-4B6A-BA83-E93BBACA311A}" path="OCR_Checkpoints.tcKDTest" />
+			</folder>
+			<folder name="Misc">
+				<child name="Test_Empty" key="{47FC67CE-D620-46B3-A492-1057250517E0}" path="Test_Empty.tcKDTest" />
+				<child name="Test_Experiment" key="{C76541AF-72F8-4EAE-AD2C-974955C4657E}" path="Test_Experiment.tcKDTest" />
+				<child name="Test_New_Function" key="{B48EA844-94E2-413D-84C4-CE2EF7DB0ADF}" path="Test_New_Function.tcKDTest" />
+				<child name="Test_With_Parameters" key="{EA36653D-488B-4695-8084-5B687190ED47}" path="Test_With_Parameters.tcKDTest" />
+			</folder>
+			<folder name="Local Headless Browser" />
 		</folder>
 	</children>
 </Root>
