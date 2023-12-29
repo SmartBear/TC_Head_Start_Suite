@@ -122,6 +122,26 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Delete History" key="{1F3EC624-EAB9-4BA7-821D-D7BD0D6EF35B}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Delete_History_Chrome" key="{73F0EFF3-69E7-47B1-BF1B-8CD22E873E0A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C24DD065-746A-41B4-84A8-F02E6F6A2542}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Delete_History_Edge" key="{99A02F60-FD7C-44ED-B6D7-32AE8F71EE2F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FCBD4C42-EEF7-418E-A971-6E74ED3AECA4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Delete_History_Firefox" key="{897FA067-0D11-4F75-96DC-2B4464536272}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0D32220E-6306-4D0A-A882-8FA8DA5D785C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
 				</children>
 			</testItem>
 		</children>

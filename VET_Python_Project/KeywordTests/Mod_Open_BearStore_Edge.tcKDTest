@@ -29,6 +29,13 @@
 							</Parameters>
 						</Data>
 					</Operation>
+					<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+						<Data Description="Replaces the current indicator text with the specified one.">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Mod_Open_BearStore_Edge" />
+							</Parameters>
+						</Data>
+					</Operation>
 					<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
 						<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="edge">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
@@ -75,6 +82,9 @@
 					</Operation>
 					<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
 						<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+					</Operation>
+					<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+						<Data Description="Restores the previous indicator text." />
 					</Operation>
 				</Children>
 			</Operation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{636839F3-56FB-4DF6-A0F4-55CFC80A16BA}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.pageMozillaFirefox" Data="61717A697000000001000000360400007801D593BD0DC32014842F5206C80829338107489F1DD8948A3D2828286828282890F31EF64956624511AE0CFA38DECF010DCFD774451F93AC0FE1B672C15D7632D6FA122CEB8C93CF59DE7F90D61A46E0BDB55628C6982FD5DC36BF8DE92FA540D19A73AEEBAF98FDF4E79C41F48CCF3D7354D6E94F2941D1BAB5B62BE33D653FFD314628EAFF47D94F7F080123D0EFBDC708F41FD293FF9F371D745901" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="firefox">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="about:blank" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{2730FB49-F955-470A-B2DA-99A5AD24C438}" />
+</Root>

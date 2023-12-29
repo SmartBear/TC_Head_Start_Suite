@@ -10,6 +10,10 @@
 			<child name="Open_and_Close_All_Browsers" key="{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" path="Open_and_Close_All_Browsers.tcKDTest" />
 			<child name="Open_Close_and_Terminate_Browsers" key="{BA73FE6D-226B-4A3F-B624-FAC61C136619}" path="Open_Close_and_Terminate_Browsers.tcKDTest" />
 			<child name="Dismiss_Pop_Up_Blocker" key="{A63F49AD-9FD6-491A-9D5F-CD7B93B8D053}" path="Dismiss_Pop_Up_Blocker.tcKDTest" />
+			<child name="Delete_History_Chrome" key="{C24DD065-746A-41B4-84A8-F02E6F6A2542}" path="Delete_History_Chrome.tcKDTest" />
+			<child name="Delete_History_Edge" key="{FCBD4C42-EEF7-418E-A971-6E74ED3AECA4}" path="Delete_History_Edge.tcKDTest" />
+			<child name="Delete_History_Firefox" key="{0D32220E-6306-4D0A-A882-8FA8DA5D785C}" path="Delete_History_Firefox.tcKDTest" />
+			<child name="Open_Clear_History" key="{5D023A82-156B-44CB-BD9A-53A2AEF73377}" path="Open_Clear_History.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />
@@ -28,6 +32,9 @@
 			<child name="Common_Exit_Routine_Logout" key="{87AC4DA3-9493-4DD7-8DD7-C3DFF4C47DA7}" path="Common_Exit_Routine_Logout.tcKDTest" />
 			<child name="Get_TestExecute_Version_Information" key="{7DD21AE1-4288-4881-A63F-6AA3AB72A392}" path="Get_TestExecute_Version_Information.tcKDTest" />
 			<child name="Get_TestComplete_Version_Information" key="{9F11C07B-E834-4ACA-8861-078C34E6A857}" path="Get_TestComplete_Version_Information.tcKDTest" />
+			<child name="Open_Chrome_Blank_Page" key="{E6D5B498-99F7-49B9-9A9D-F4F5712AAB13}" path="Open_Chrome_Blank_Page.tcKDTest" />
+			<child name="Open_Edge_Blank_Page" key="{7C4CCFF1-017F-450E-A11F-41CD7BFC335C}" path="Open_Edge_Blank_Page.tcKDTest" />
+			<child name="Open_FireFox_Blank_Page" key="{AE143B95-7448-4945-9FAD-EEA5769EE076}" path="Open_FireFox_Blank_Page.tcKDTest" />
 		</folder>
 		<folder name="Debug Smartbear Issues">
 			<child name="Simple_Browser_Open_and_Close_Firefox_Only" key="{B1760A5E-B72A-4F49-ADFA-58ED1654F095}" path="Simple_Browser_Open_and_Close_Firefox_Only.tcKDTest" />

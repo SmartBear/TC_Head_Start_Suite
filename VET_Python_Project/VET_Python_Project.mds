@@ -118,7 +118,7 @@
 						<children>
 							<testItem name="OCR_Checkpoints" key="{AD4994B3-697E-4971-B5C9-2C8E19ABC357}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ECE2F7AC-5CB8-4B6A-BA83-E93BBACA311A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="CBT" />
+								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
 						</children>
