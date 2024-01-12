@@ -29,19 +29,6 @@
 										<Value Value="0" Type="0" />
 									</Property>
 								</Properties>
-								<Children>
-									<Child Name="Chrome_RenderWidgetHostHWND" Key="{29E9A971-02ED-4ABA-89EC-D8ACC19AC4C9}">
-										<Image FileName="700386452" Left="8" Top="117" Right="1928" Bottom="1048" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="Chrome_RenderWidgetHostHWND" />
-											</Property>
-											<Property Name="WndCaption">
-												<Value Value="Chrome Legacy Window" />
-											</Property>
-										</Properties>
-									</Child>
-								</Children>
 							</Child>
 							<Child Name="pageShop" Key="{C98CB8CE-BD48-4CEA-9BBB-34CF459D423F}">
 								<Image FileName="1155834765" Left="0" Top="103" Right="3840" Bottom="2160" />
@@ -615,17 +602,6 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="page" Key="{02FC48A2-DA25-4733-B128-9E6CF8AEAC8B}">
-								<Image FileName="-54720763" Left="8" Top="129" Right="1928" Bottom="1048" />
-								<Properties>
-									<Property Name="ObjectType">
-										<Value Value="Page" />
-									</Property>
-									<Property Name="URL">
-										<Value Value="" />
-									</Property>
-								</Properties>
-							</Child>
 						</Children>
 					</Child>
 					<Child Name="Orders" Key="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
@@ -645,147 +621,13 @@
 							</Child>
 						</Children>
 					</Child>
-					<Child Name="InputApp" Key="{FA102C70-68CF-4F42-818C-1344DF309444}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="InputApp" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="Microsoft_Text_Input_Application" Key="{BAE160BD-89AB-460F-8077-266EE02A3189}">
-								<Image FileName="1575168602" Left="0" Top="0" Right="292" Bottom="390" />
-								<Properties>
-									<Property Name="FrameworkId">
-										<Value Value="XAML" />
-									</Property>
-									<Property Name="ClassName">
-										<Value Value="Windows.UI.Core.CoreWindow" />
-									</Property>
-									<Property Name="LocalizedControlType">
-										<Value Value="window" />
-									</Property>
-									<Property Name="ObjectIdentifier">
-										<Value Value="Microsoft_Text_Input_Application" />
-									</Property>
-									<Property Name="ObjectGroupIndex">
-										<Value Value="1" Type="0" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="Clipboard_" Key="{A68E62E6-119B-4EF3-AF02-B3DD7E99E1C6}">
-										<Image FileName="1575168602" Left="0" Top="44" Right="292" Bottom="390" />
-										<Properties>
-											<Property Name="FrameworkId">
-												<Value Value="XAML" />
-											</Property>
-											<Property Name="ClassName">
-												<Value Value="ListView" />
-											</Property>
-											<Property Name="LocalizedControlType">
-												<Value Value="list" />
-											</Property>
-											<Property Name="ObjectIdentifier">
-												<Value Value="Clipboard_" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="SampleUser_001_" Key="{BD5E2FE1-1811-4596-A8DD-979E4AB01BBF}">
-												<Image FileName="1575168602" Left="16" Top="89" Right="276" Bottom="157" />
-												<TypeInfo Item0="{6A3989D4-D9AA-4FD3-913C-2286714CEE0E}" />
-												<Properties>
-													<Property Name="FrameworkId">
-														<Value Value="XAML" />
-													</Property>
-													<Property Name="ClassName">
-														<Value Value="ListViewItem" />
-													</Property>
-													<Property Name="LocalizedControlType">
-														<Value Value="list item" />
-													</Property>
-													<Property Name="ObjectIdentifier">
-														<Value Value="SampleUser_001_" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="SampleUser_001_" Key="{5B8265A8-D843-4B9E-8E0C-9063BA8E4AC0}">
-														<Image FileName="-882606887" Left="28" Top="304" Right="119" Bottom="320" />
-														<TypeInfo Item0="{6A3989D4-D9AA-4FD3-913C-2286714CEE0E}" />
-														<Properties>
-															<Property Name="FrameworkId">
-																<Value Value="XAML" />
-															</Property>
-															<Property Name="ClassName">
-																<Value Value="TextBlock" />
-															</Property>
-															<Property Name="LocalizedControlType">
-																<Value Value="text" />
-															</Property>
-															<Property Name="ObjectIdentifier">
-																<Value Value="SampleUser_001_" />
-															</Property>
-														</Properties>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
-						</Children>
-					</Child>
-					<Child Name="explorer" Key="{D1582C8A-3192-4BD2-BE6C-FE543DEC78EF}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="explorer" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="wndShell_SecondaryTrayWnd" Key="{A629C631-AFB1-4A56-9FEC-6CE2918A5F8F}">
-								<Image FileName="1042408745" Left="0" Top="0" Right="1920" Bottom="40" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="Shell_SecondaryTrayWnd" />
-									</Property>
-									<Property Name="WndCaption">
-										<Value Value="" />
-									</Property>
-									<Property Name="Index">
-										<Value Value="2" Type="0" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="WorkerW" Key="{31113F1C-6466-4DD3-BDF4-2E26C48A9AB7}">
-										<Image FileName="1042408745" Left="96" Top="0" Right="1856" Bottom="40" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="WorkerW" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="MSTaskListWClass" Key="{3479B418-6531-4C0B-95E5-6EABBF8CE578}">
-												<Image FileName="1042408745" Left="96" Top="0" Right="1856" Bottom="40" />
-												<TypeInfo Item0="{D4CF70BF-1CDE-4A0A-97F4-382D5C7DC515}" />
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="MSTaskListWClass" />
-													</Property>
-												</Properties>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
-						</Children>
-					</Child>
 				</Children>
 			</Child>
 		</Children>
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{DB0F4D63-1F57-4F4C-97B0-0F84B8F663BE}">
-			<Child Name="BrowserWindow" Owner="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}">
-				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{29E9A971-02ED-4ABA-89EC-D8ACC19AC4C9}" />
-			</Child>
+			<Child Name="BrowserWindow" Owner="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}" />
 			<Child Name="pageShop" Owner="{C98CB8CE-BD48-4CEA-9BBB-34CF459D423F}">
 				<Child Name="header" Owner="{ABC76A0C-2D09-48EF-8EC0-25FF3CB64359}">
 					<Child Name="navUsd" Owner="{4EB683EA-CC38-473C-B84C-36299A656308}">
@@ -837,26 +679,9 @@
 					</Child>
 				</Child>
 			</Child>
-			<Child Name="page" Owner="{02FC48A2-DA25-4733-B128-9E6CF8AEAC8B}" />
 		</Child>
 		<Child Name="Orders" Owner="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
 			<Child Name="MainForm" Owner="{22907E00-6826-4980-B265-89012D835EF5}" />
-		</Child>
-		<Child Name="InputApp" Owner="{FA102C70-68CF-4F42-818C-1344DF309444}">
-			<Child Name="Microsoft_Text_Input_Application" Owner="{BAE160BD-89AB-460F-8077-266EE02A3189}">
-				<Child Name="Clipboard_" Owner="{A68E62E6-119B-4EF3-AF02-B3DD7E99E1C6}">
-					<Child Name="SampleUser_001_" Owner="{BD5E2FE1-1811-4596-A8DD-979E4AB01BBF}">
-						<Child Name="SampleUser_001_" Owner="{5B8265A8-D843-4B9E-8E0C-9063BA8E4AC0}" />
-					</Child>
-				</Child>
-			</Child>
-		</Child>
-		<Child Name="explorer" Owner="{D1582C8A-3192-4BD2-BE6C-FE543DEC78EF}">
-			<Child Name="wndShell_SecondaryTrayWnd" Owner="{A629C631-AFB1-4A56-9FEC-6CE2918A5F8F}">
-				<Child Name="WorkerW" Owner="{31113F1C-6466-4DD3-BDF4-2E26C48A9AB7}">
-					<Child Name="MSTaskListWClass" Owner="{3479B418-6531-4C0B-95E5-6EABBF8CE578}" />
-				</Child>
-			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

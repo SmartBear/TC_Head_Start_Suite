@@ -151,7 +151,9 @@
 							</testItem>
 							<testItem name="Test_Edge_Headless" key="{8D40A395-452B-496B-9D40-EB255B49F568}" group="False" parallel="False" enabled="True" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Edge_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="SWT" />
+								<environments activeCloud="LocalHeadlessBrowser">
+									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/" />
+								</environments>
 								<children />
 							</testItem>
 							<testItem name="Test_Chrome_Headless" key="{60C8CBA6-3A69-4EDF-BCF1-ED9B1FBA0E82}" group="False" parallel="False" enabled="False" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Chrome_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -162,6 +164,20 @@
 							<testItem name="Test_Firefox_Headless" key="{BF8C0E5E-75AE-4E7D-A478-67F6285E3B71}" group="False" parallel="False" enabled="False" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Firefox_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Script_Mod_Template" key="{F4AD1CB3-E4AB-4093-B0E4-71397C51BBA2}" group="False" parallel="False" enabled="True" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Script_Mod_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Test_Generic_Headless" key="{207A3B54-8FAB-46CF-966B-09D8E8BDAE82}" group="False" parallel="False" enabled="True" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Generic_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="LocalHeadlessBrowser">
+									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
+										<capabilities Enabled="True" Browser="Edge" Resolution="1920x1080" CustomJSON="" />
+									</cloud>
+								</environments>
 								<children />
 							</testItem>
 						</children>
@@ -185,6 +201,16 @@
 						<testParameters />
 						<children>
 							<testItem name="Test_OCR_General" key="{23A2B2A7-0C47-48B8-9F87-5C666353FA7F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B59CCE84-63C8-4F46-ACC1-EB0E8556662B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Visual_Demo" key="{4AAB6C15-CD2C-4152-919E-5F9F15E29C74}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
@@ -223,7 +249,7 @@
 		</data>
 	</variables>
 	<settings key="{E5EDEEC4-B610-48D2-BF15-A461A715F89A}">
-		<settingsVersion value="15.59" />
+		<settingsVersion value="15.60" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

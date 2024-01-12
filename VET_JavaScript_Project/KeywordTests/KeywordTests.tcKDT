@@ -48,6 +48,10 @@
 				<child name="Test_Experiment" key="{0BF01E53-5E40-4118-A5CB-A2175744E05C}" path="Test_Experiment.tcKDTest" />
 				<child name="Test_Smoke_Anna" key="{402CEAA2-AA08-4A87-ADC1-3CBA50867F39}" path="Test_Smoke_Anna.tcKDTest" />
 			</folder>
+			<folder name="Visual Test">
+				<child name="Visual_Demo" key="{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" path="Visual_Demo.tcKDTest" />
+				<child name="Visual_Demo_2" key="{36B8318E-E526-4A21-B7B2-ECEAA663D974}" path="Visual_Demo_2.tcKDTest" />
+			</folder>
 		</folder>
 	</children>
 </Root>
