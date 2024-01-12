@@ -41,6 +41,9 @@
 				<child name="Test_With_Parameters" key="{EA36653D-488B-4695-8084-5B687190ED47}" path="Test_With_Parameters.tcKDTest" />
 			</folder>
 			<folder name="Local Headless Browser" />
+			<folder name="Visual Tests">
+				<child name="Visual_Demo" key="{6D5E8852-BA99-483E-B539-52694C023C7D}" path="Visual_Demo.tcKDTest" />
+			</folder>
 		</folder>
 	</children>
 </Root>
