@@ -104,9 +104,4 @@ function HeadlessBearStoreTestII()
   page.FindElement("//button[contains(text(), 'Log in')]").click();
   page.Wait(5000);
   Log.Picture(page.Picture(), "Picture of Page","Detailed description");
-    
-//  page.FindElement("//button[contains(text(), 'Log in')]").click();
-//  page.Wait(5000);
-//  Log.Picture(page.Picture(), "Picture of Page","Detailed description");
-    
 }

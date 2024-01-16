@@ -111,7 +111,7 @@
 					<testItem name="Local Headless Browser" key="{BA7B61A6-B9A6-4B5B-89AB-CF78085E93AD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="HeadLess_Browser_2" key="{6F12524C-65C0-4688-B1E5-BA6E93752A99}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="HeadLess_Browser_2" key="{6F12524C-65C0-4688-B1E5-BA6E93752A99}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="LocalHeadlessBrowser">
 									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
@@ -131,7 +131,7 @@
 								</environments>
 								<children />
 							</testItem>
-							<testItem name="Test_Headless_Edge" key="{F187B754-C09E-4C54-A44E-76F29B6EDAEF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5D700F95-FA42-4D29-9DF1-2CA6EE9B1CE0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Test_Headless_Edge" key="{F187B754-C09E-4C54-A44E-76F29B6EDAEF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{5D700F95-FA42-4D29-9DF1-2CA6EE9B1CE0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="LocalHeadlessBrowser">
 									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
@@ -149,35 +149,50 @@
 								</environments>
 								<children />
 							</testItem>
-							<testItem name="Test_Edge_Headless" key="{8D40A395-452B-496B-9D40-EB255B49F568}" group="False" parallel="False" enabled="True" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Edge_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Test_Edge_Headless" key="{8D40A395-452B-496B-9D40-EB255B49F568}" group="False" parallel="False" enabled="False" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Edge_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="LocalHeadlessBrowser">
 									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/" />
 								</environments>
 								<children />
 							</testItem>
-							<testItem name="Test_Chrome_Headless" key="{60C8CBA6-3A69-4EDF-BCF1-ED9B1FBA0E82}" group="False" parallel="False" enabled="False" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Chrome_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Script_Mod_Template" key="{F4AD1CB3-E4AB-4093-B0E4-71397C51BBA2}" group="False" parallel="False" enabled="False" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Script_Mod_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
-							<testItem name="Test_Firefox_Headless" key="{BF8C0E5E-75AE-4E7D-A478-67F6285E3B71}" group="False" parallel="False" enabled="False" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Firefox_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="Script_Mod_Template" key="{F4AD1CB3-E4AB-4093-B0E4-71397C51BBA2}" group="False" parallel="False" enabled="True" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Script_Mod_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="Test_Generic_Headless" key="{207A3B54-8FAB-46CF-966B-09D8E8BDAE82}" group="False" parallel="False" enabled="True" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Generic_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Test_Generic_Headless" key="{207A3B54-8FAB-46CF-966B-09D8E8BDAE82}" group="False" parallel="False" enabled="False" testMoniker="{7209E6D9-5474-43DD-A911-3971C1AA0615}Test_Generic_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="LocalHeadlessBrowser">
 									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
 										<capabilities Enabled="True" Browser="Edge" Resolution="1920x1080" CustomJSON="" />
 									</cloud>
 								</environments>
+								<children />
+							</testItem>
+							<testItem name="Test_Chrome_Headless_2" key="{A121325B-F1C4-45AB-ACC6-4CEF38666B24}" group="False" parallel="False" enabled="False" testMoniker="{E0708728-BBE4-4577-8254-3F8333B28D4C}Test_Chrome_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Test_Edge_Headless_2" key="{639DCD66-D1D1-4C17-95E0-3F31BFA7ED52}" group="False" parallel="False" enabled="False" testMoniker="{E0708728-BBE4-4577-8254-3F8333B28D4C}Test_Edge_Headless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="BearStoreTest" key="{F2CEC6FD-87EC-4B6B-BB3A-A591EAC018C4}" group="False" parallel="False" enabled="False" testMoniker="{E0708728-BBE4-4577-8254-3F8333B28D4C}BearStoreTest" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="HeadlessBearStoreTest" key="{DF79ECE6-C6B8-4C3B-A424-88EB371880B7}" group="False" parallel="False" enabled="True" testMoniker="{E0708728-BBE4-4577-8254-3F8333B28D4C}HeadlessBearStoreTest" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="HeadlessBearStoreTestII" key="{9D3F2F62-E923-4780-8BD1-228238D6FCFD}" group="False" parallel="False" enabled="True" testMoniker="{E0708728-BBE4-4577-8254-3F8333B28D4C}HeadlessBearStoreTestII" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
 						</children>
