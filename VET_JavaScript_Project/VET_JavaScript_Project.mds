@@ -207,7 +207,7 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Visual_Demo" key="{4AAB6C15-CD2C-4152-919E-5F9F15E29C74}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -240,10 +240,7 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100310033004400310046003400440038004600330046003600450043003900390032003700390031003500410046004400430033003700430039003600370046003400300035004400380038003100420035004300310032003400300032004200440030003200300030004100420042004100300031003600" />
-				</Variable>
-				<Variable Name="Password2" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310039003300440030004600340044003800380042004600330045004300390039003200370039003200330041004600380030003300370038004600360031004300320032003700430041004300360034003800450032003900360032004200420046003900380041003300300041003700" />
+					<DefValue StrValue="380039003600310039003300440032004600340044003800380042004600330036004300390038004100370039003300330041004600410045003300370038004600360031004200390041003100440033003700360045003000350037003800370037004200420045003000410041003300300041003700" />
 				</Variable>
 			</Items>
 		</data>

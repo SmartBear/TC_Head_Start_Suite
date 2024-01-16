@@ -276,6 +276,51 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="navMenubarMyAccount" Key="{9A9440B6-CA14-418B-BAA6-24FE01A85DC9}">
+										<Image FileName="-1566625510" Left="1356" Top="129" Right="1515" Bottom="181" />
+										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menubar-my-account" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOldsailor1960" Key="{763F8A60-1F24-456A-9C29-C9FDF3872DBB}">
+										<Image FileName="-1566625510" Left="1356" Top="129" Right="1515" Bottom="181" />
+										<TypeInfo Item0="{F91DCB16-1493-4B89-BC91-27FEE107D12D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;OldSailor1960&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOldsailor1960" Key="{10FDB60D-77E2-48F5-AE88-6DEC52576E39}">
+										<Image FileName="1281959360" Left="1376" Top="138" Right="1478" Bottom="155" />
+										<TypeInfo Item0="{B6D80AB7-B96D-4E55-B8AE-14D626426718}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;OldSailor1960&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;OldSailor1960&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
@@ -386,6 +431,18 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxRememberMe" Key="{E6F83BE5-0929-4C78-9844-DA33BF0F0A22}">
+										<Image FileName="956836596" Left="1092" Top="645" Right="1105" Bottom="658" />
+										<TypeInfo Item0="{17CC290D-82FD-4D12-8D52-FA374923981A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Remember me?&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#RememberMe" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -621,6 +678,89 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="OUTLOOK" Key="{394B799D-F61A-4B07-A23B-FE923B47F530}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OUTLOOK" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndrctrl_renwnd32" Key="{7D80973A-B0BD-44E4-B981-A3ACD75B1EFD}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Outlook Today - Outlook" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ShellEmbedding" Key="{D8BFC43D-06CC-4E6D-B8D8-613B8B5648EB}">
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Shell Embedding" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ShellDocObjectView" Key="{091168F7-BEB3-4027-9680-57B475B689CA}">
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Shell DocObject View" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="browser" Key="{51ABD095-0EE1-41E7-8E43-DC3DA084AA3F}">
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Internet Explorer_Server" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="pageOutlookToday" Key="{61911FA3-ED49-435A-A177-34BBD5D88969}">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Page" />
+																	</Property>
+																	<Property Name="URL">
+																		<Value Value="outlook:0000000038A1BB1005E5101AA1BB08002B2A56C20000454D534D44422E444C4C00000000000000001B55FA20AA6611CD9BC800AA002FC45A0C0000006B6576696E2E6A6F686E736F6E40736D617274626561722E636F6D002F6F3D45786368616E67654C6162732F6F753D45786368616E67652041646D696E6973747261746976652047726F7570202846594449424F484632335350444C54292F636E3D526563697069656E74732F636E3D65633466313239396163653434306262396338366435363534653264303736372D4B6576696E204A6F686E7300E94632F44A00000002000000100000006B006500760069006E002E006A006F0068006E0073006F006E00400073006D0061007200740062006500610072002E0063006F006D0000000000" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="table" Key="{3A3AEC3F-1BE4-4F2D-9FB1-9EC3415EC187}" ExtendedFind="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Table" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="cell" Key="{53DA851D-02BB-4102-BC9D-7B14E69D80B6}">
+																				<TypeInfo Item0="{EE2772F5-8732-42DE-B94C-484DD04BD761}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Cell" />
+																					</Property>
+																					<Property Name="RowIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																					<Property Name="ColumnIndex">
+																						<Value Value="0" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -643,6 +783,11 @@
 						<Child Name="linkLogOut" Owner="{DB491B00-CC67-4B35-BDE7-C708A839C9C0}">
 							<Child Name="textnodeLogOut" Owner="{92870441-55CB-4A76-801A-D3CFFE6371E7}" />
 						</Child>
+						<Child Name="navMenubarMyAccount" Owner="{9A9440B6-CA14-418B-BAA6-24FE01A85DC9}">
+							<Child Name="linkOldsailor1960" Owner="{763F8A60-1F24-456A-9C29-C9FDF3872DBB}">
+								<Child Name="textnodeOldsailor1960" Owner="{10FDB60D-77E2-48F5-AE88-6DEC52576E39}" />
+							</Child>
+						</Child>
 					</Child>
 					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}" />
 					<Child Name="panel" Owner="{606AF0BA-89E3-41BC-8F98-C0B3542E21F4}" />
@@ -659,6 +804,7 @@
 					<Child Name="passwordboxPassword" Owner="{7D1F5F92-4E97-4CF1-B08A-90E715108D2B}" />
 					<Child Name="panelLoginWasUnsuccessfulPlease" Owner="{61A7F29B-6FC8-4419-9599-A4679F61D55D}" />
 					<Child Name="buttonLogIn" Owner="{51D492F9-6A7A-449F-BDE8-CA4E1A13D1EF}" />
+					<Child Name="checkboxRememberMe" Owner="{E6F83BE5-0929-4C78-9844-DA33BF0F0A22}" />
 				</Child>
 			</Child>
 			<Child Name="pageContactus" Owner="{BF486871-D98E-44FF-AFCC-FB70B42FAB8B}">
@@ -682,6 +828,19 @@
 		</Child>
 		<Child Name="Orders" Owner="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
 			<Child Name="MainForm" Owner="{22907E00-6826-4980-B265-89012D835EF5}" />
+		</Child>
+		<Child Name="OUTLOOK" Owner="{394B799D-F61A-4B07-A23B-FE923B47F530}">
+			<Child Name="wndrctrl_renwnd32" Owner="{7D80973A-B0BD-44E4-B981-A3ACD75B1EFD}">
+				<Child Name="ShellEmbedding" Owner="{D8BFC43D-06CC-4E6D-B8D8-613B8B5648EB}">
+					<Child Name="ShellDocObjectView" Owner="{091168F7-BEB3-4027-9680-57B475B689CA}">
+						<Child Name="browser" Owner="{51ABD095-0EE1-41E7-8E43-DC3DA084AA3F}">
+							<Child Name="pageOutlookToday" Owner="{61911FA3-ED49-435A-A177-34BBD5D88969}">
+								<Child Name="cell" Owner="{53DA851D-02BB-4102-BC9D-7B14E69D80B6}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

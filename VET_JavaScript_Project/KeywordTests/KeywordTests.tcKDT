@@ -51,6 +51,7 @@
 			<folder name="Visual Test">
 				<child name="Visual_Demo" key="{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" path="Visual_Demo.tcKDTest" />
 				<child name="Visual_Demo_2" key="{36B8318E-E526-4A21-B7B2-ECEAA663D974}" path="Visual_Demo_2.tcKDTest" />
+				<child name="Visual_Demo_3" key="{FBD67E25-00A3-4972-9B08-95A19B573218}" path="Visual_Demo_3.tcKDTest" />
 			</folder>
 		</folder>
 	</children>
