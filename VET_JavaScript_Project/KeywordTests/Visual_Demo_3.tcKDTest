@@ -8,12 +8,12 @@
 		</Data>
 		<Children>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Visual Demo 2" />
+				<Data GroupName="Visual Demo 3" />
 				<Children>
 					<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 						<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Visual Demo 2" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Visual Demo 3" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
@@ -62,22 +62,12 @@
 						</Data>
 					</Operation>
 					<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-						<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="DefaultFS" FCaptureName="pageShop FullScreen Default" FCaptureType="8" FComparisonMode="3" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
-							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
-						</Data>
-					</Operation>
-					<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
 						<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="LayoutFS" FCaptureName="pageShop FullScreen Layout" FCaptureType="8" FComparisonMode="4" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
 							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
 						</Data>
 					</Operation>
 					<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
 						<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="DetailedFS" FCaptureName="pageShop FullScreen Detailed" FCaptureType="8" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
-							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
-						</Data>
-					</Operation>
-					<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-						<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="DefaultVP" FCaptureName="pageShop Viewport Default" FCaptureType="7" FComparisonMode="3" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
 							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
 						</Data>
 					</Operation>

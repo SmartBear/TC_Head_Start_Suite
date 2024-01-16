@@ -30,7 +30,7 @@
 						</Data>
 					</Operation>
 					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-						<Data GroupName="Chrome" />
+						<Data GroupName="Edge" />
 						<Children>
 							<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
 								<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="edge">
