@@ -37,7 +37,6 @@
 						<Children>
 							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
 								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="DefaultFS" FCaptureName="pageShop FullScreen Default" FCaptureType="8" FComparisonMode="3" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
-									<CommonData Disabled="True" />
 									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
 								</Data>
 							</Operation>
