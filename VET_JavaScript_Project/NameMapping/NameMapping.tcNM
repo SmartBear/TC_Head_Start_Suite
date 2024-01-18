@@ -793,107 +793,6 @@
 							</Child>
 						</Children>
 					</Child>
-					<Child Name="OUTLOOK" Key="{394B799D-F61A-4B07-A23B-FE923B47F530}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="OUTLOOK" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="wndrctrl_renwnd32" Key="{7D80973A-B0BD-44E4-B981-A3ACD75B1EFD}">
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="rctrl_renwnd32" />
-									</Property>
-									<Property Name="WndCaption">
-										<Value Value="Outlook Today - Outlook" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="ShellEmbedding" Key="{D8BFC43D-06CC-4E6D-B8D8-613B8B5648EB}">
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="Shell Embedding" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="ShellDocObjectView" Key="{091168F7-BEB3-4027-9680-57B475B689CA}">
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="Shell DocObject View" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="browser" Key="{51ABD095-0EE1-41E7-8E43-DC3DA084AA3F}">
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="Internet Explorer_Server" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="pageOutlookToday" Key="{61911FA3-ED49-435A-A177-34BBD5D88969}">
-																<Properties>
-																	<Property Name="ObjectType">
-																		<Value Value="Page" />
-																	</Property>
-																	<Property Name="URL">
-																		<Value Value="outlook:0000000038A1BB1005E5101AA1BB08002B2A56C20000454D534D44422E444C4C00000000000000001B55FA20AA6611CD9BC800AA002FC45A0C0000006B6576696E2E6A6F686E736F6E40736D617274626561722E636F6D002F6F3D45786368616E67654C6162732F6F753D45786368616E67652041646D696E6973747261746976652047726F7570202846594449424F484632335350444C54292F636E3D526563697069656E74732F636E3D65633466313239396163653434306262396338366435363534653264303736372D4B6576696E204A6F686E7300E94632F44A00000002000000100000006B006500760069006E002E006A006F0068006E0073006F006E00400073006D0061007200740062006500610072002E0063006F006D0000000000" />
-																	</Property>
-																</Properties>
-																<Children>
-																	<Child Name="table" Key="{3A3AEC3F-1BE4-4F2D-9FB1-9EC3415EC187}" ExtendedFind="True">
-																		<Properties>
-																			<Property Name="ObjectType">
-																				<Value Value="Table" />
-																			</Property>
-																		</Properties>
-																		<Children>
-																			<Child Name="cell" Key="{53DA851D-02BB-4102-BC9D-7B14E69D80B6}">
-																				<TypeInfo Item0="{EE2772F5-8732-42DE-B94C-484DD04BD761}" />
-																				<Properties>
-																					<Property Name="ObjectType">
-																						<Value Value="Cell" />
-																					</Property>
-																					<Property Name="RowIndex">
-																						<Value Value="1" Type="0" />
-																					</Property>
-																					<Property Name="ColumnIndex">
-																						<Value Value="0" Type="0" />
-																					</Property>
-																				</Properties>
-																			</Child>
-																		</Children>
-																	</Child>
-																</Children>
-															</Child>
-														</Children>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
-						</Children>
-					</Child>
-					<Child Name="vivaldi" Key="{85021856-B3AE-420D-8C96-314092FB5113}">
-						<Properties>
-							<Property Name="ProcessName">
-								<Value Value="vivaldi" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="wndChrome_WidgetWin_1" Key="{13BB9836-5013-4390-8C45-2FAC2317C877}">
-								<Image FileName="-1703349364" Left="0" Top="0" Right="1920" Bottom="1080" />
-								<TypeInfo Item0="{FDEA35B9-F80E-4E21-B99C-16C113CF9B5E}" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="Chrome_WidgetWin_1" />
-									</Property>
-								</Properties>
-							</Child>
-						</Children>
-					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -973,22 +872,6 @@
 		</Child>
 		<Child Name="Orders" Owner="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
 			<Child Name="MainForm" Owner="{22907E00-6826-4980-B265-89012D835EF5}" />
-		</Child>
-		<Child Name="OUTLOOK" Owner="{394B799D-F61A-4B07-A23B-FE923B47F530}">
-			<Child Name="wndrctrl_renwnd32" Owner="{7D80973A-B0BD-44E4-B981-A3ACD75B1EFD}">
-				<Child Name="ShellEmbedding" Owner="{D8BFC43D-06CC-4E6D-B8D8-613B8B5648EB}">
-					<Child Name="ShellDocObjectView" Owner="{091168F7-BEB3-4027-9680-57B475B689CA}">
-						<Child Name="browser" Owner="{51ABD095-0EE1-41E7-8E43-DC3DA084AA3F}">
-							<Child Name="pageOutlookToday" Owner="{61911FA3-ED49-435A-A177-34BBD5D88969}">
-								<Child Name="cell" Owner="{53DA851D-02BB-4102-BC9D-7B14E69D80B6}" />
-							</Child>
-						</Child>
-					</Child>
-				</Child>
-			</Child>
-		</Child>
-		<Child Name="vivaldi" Owner="{85021856-B3AE-420D-8C96-314092FB5113}">
-			<Child Name="wndChrome_WidgetWin_1" Owner="{13BB9836-5013-4390-8C45-2FAC2317C877}" />
 		</Child>
 	</LogicalNodes>
 </Root>

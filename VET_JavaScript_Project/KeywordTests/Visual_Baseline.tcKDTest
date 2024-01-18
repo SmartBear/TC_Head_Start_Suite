@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{C2BC24BB-76E4-4F95-816C-9B6F1A2F1419}" Tags="@Visual" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{DD1CA1DD-1494-4E7D-8CCE-5A69723295C8}" Tags="@Baseline" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -37,17 +37,8 @@
 						<Children>
 							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
 								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="DefaultFS" FCaptureName="pageShop FullScreen Default" FCaptureType="8" FComparisonMode="3" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
+									<CommonData Disabled="True" />
 									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
-								</Data>
-							</Operation>
-							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="DefaultVP" FCaptureName="pageShop Viewport Default" FCaptureType="7" FComparisonMode="3" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
-									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
-								</Data>
-							</Operation>
-							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="RunElement" FCaptureName="pageShop Login Button" FCaptureType="6" FComparisonMode="3" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
-									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop.header.navUsd.linkLogIn;" />
 								</Data>
 							</Operation>
 						</Children>
@@ -63,11 +54,6 @@
 									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
 								</Data>
 							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser">
-									<CommonData Disabled="True" />
-								</Data>
-							</Operation>
 						</Children>
 					</Operation>
 					<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
@@ -77,5 +63,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{BD0258B0-7AE0-47FC-87A7-895B249130DD}" />
+	<Parameters Key="{BD3FA331-C2A6-488C-9F45-B0803E73D2B7}" />
 </Root>

@@ -52,6 +52,8 @@
 				<child name="Visual_Demo" key="{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" path="Visual_Demo.tcKDTest" />
 				<child name="Visual_Demo_2" key="{36B8318E-E526-4A21-B7B2-ECEAA663D974}" path="Visual_Demo_2.tcKDTest" />
 				<child name="Visual_Demo_3" key="{CE9C9E78-F868-41AE-B0D7-E2AF03429CAA}" path="Visual_Demo_3.tcKDTest" />
+				<child name="Visual_Test_4" key="{C7190A67-B903-40BA-822A-9E057FC8A338}" path="Visual_Test_4.tcKDTest" />
+				<child name="Visual_Baseline" key="{FC0E8297-72A6-429F-87E2-7C55684086E2}" path="Visual_Baseline.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

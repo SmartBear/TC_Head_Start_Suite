@@ -243,7 +243,7 @@
 								<environments activeCloud="LocalAppium" />
 								<children />
 							</testItem>
-							<testItem name="Visual_Demo_3" key="{E35B020D-BEC7-40B9-A3B2-0ACE45AC2A8A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE9C9E78-F868-41AE-B0D7-E2AF03429CAA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Visual_Demo_3" key="{E35B020D-BEC7-40B9-A3B2-0ACE45AC2A8A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CE9C9E78-F868-41AE-B0D7-E2AF03429CAA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
