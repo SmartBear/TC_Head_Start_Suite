@@ -108,6 +108,10 @@
 			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
+					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
 					<testItem name="Local Headless Browser" key="{BA7B61A6-B9A6-4B5B-89AB-CF78085E93AD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
@@ -197,6 +201,10 @@
 							</testItem>
 						</children>
 					</testItem>
+					<testItem name="Load Ninja" key="{1D02E2CC-6021-4614-8075-00CA6343C011}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
 					<testItem name="Misc" key="{30A6574C-767B-459A-8F54-8FCE8772F265}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
@@ -222,12 +230,17 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Visual_Demo" key="{4AAB6C15-CD2C-4152-919E-5F9F15E29C74}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Visual_Demo_2" key="{53E9B2B5-6BE9-4CAE-89D0-EA5E1D067DA4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{36B8318E-E526-4A21-B7B2-ECEAA663D974}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="LocalAppium" />
 								<children />
 							</testItem>
 						</children>

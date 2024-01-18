@@ -31,7 +31,6 @@ function Test_Edge_Headless()
   page.CheckProperty(Aliases.browser.pageShop.sectionContent.panelPhTitle6, "contentText", cmpEqual, "Welcome to our store.");
  }
   
-
 //Sample (not headless)
 function BearStoreTest()
 {
