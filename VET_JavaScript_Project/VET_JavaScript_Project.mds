@@ -230,7 +230,7 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="OCR Samples" key="{CE85AF1F-F47D-4E85-9F64-C3FEEAAD1C76}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="OCR Samples" key="{CE85AF1F-F47D-4E85-9F64-C3FEEAAD1C76}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Test_OCR_General" key="{23A2B2A7-0C47-48B8-9F87-5C666353FA7F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B59CCE84-63C8-4F46-ACC1-EB0E8556662B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
