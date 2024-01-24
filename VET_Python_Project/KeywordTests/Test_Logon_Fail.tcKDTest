@@ -42,32 +42,49 @@
 					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 						<Data GroupName="Grouped Modules" />
 						<Children>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Chrome_Open_Smartstore" />
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Chrome" />
+								<Children>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Chrome_Open_Smartstore" />
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Logon_Fail" />
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+									</Operation>
+								</Children>
 							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Logon_Fail" />
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Edge" />
+								<Children>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Edge_Open_Smartstore" />
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Logon_Fail" />
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+									</Operation>
+								</Children>
 							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
-							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Edge_Open_Smartstore" />
-							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Logon_Fail" />
-							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
-							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Firefox_Open_Smartstore" />
-							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Logon_Fail" />
-							</Operation>
-							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-								<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Firefox">
+									<CommonData Disabled="True" />
+								</Data>
+								<Children>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Firefox_Open_Smartstore" />
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Logon_Fail" />
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+									</Operation>
+								</Children>
 							</Operation>
 						</Children>
 					</Operation>

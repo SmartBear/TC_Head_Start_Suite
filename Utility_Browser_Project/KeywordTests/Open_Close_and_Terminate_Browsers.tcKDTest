@@ -17,7 +17,6 @@
 						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 					</Parameters>
 					<Item>
-						<BrowserItem BrowserName="firefox" />
 						<BrowserItem BrowserName="chrome" />
 						<BrowserItem BrowserName="edge" />
 					</Item>
