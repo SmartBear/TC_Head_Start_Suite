@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{DD1CA1DD-1494-4E7D-8CCE-5A69723295C8}" Tags="@Baseline" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{CB2F3167-A26C-4A4E-969C-2051EE24E95B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -8,12 +8,12 @@
 		</Data>
 		<Children>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Visual_Baseline" />
+				<Data GroupName="BitBar_Basic" />
 				<Children>
 					<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 						<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Visual_Baseline" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="BitBar_Basic" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
@@ -32,28 +32,14 @@
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Mod_Open_BearStore_Chrome" />
 					</Operation>
-					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-						<Data GroupName="Visual Test Steps" />
-						<Children>
-							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="Visual_Baseline" FCaptureName="pageShop FullScreen Default" FCaptureType="8" FComparisonMode="3" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
-									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
-								</Data>
-							</Operation>
-						</Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Login_SampleUser" />
 					</Operation>
-					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-						<Data GroupName="Close Browser" />
-						<Children>
-							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-								<Data Description="Closes the &apos;%n&apos; window." Action="Close">
-									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-										<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
-									</Parameters>
-									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
-								</Data>
-							</Operation>
-						</Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Logout_SampleUser" />
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
 					</Operation>
 					<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
 						<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
@@ -62,5 +48,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{BD3FA331-C2A6-488C-9F45-B0803E73D2B7}" />
+	<Parameters Key="{B7E74CFF-7506-413E-8230-30EE5CAF4146}" />
 </Root>

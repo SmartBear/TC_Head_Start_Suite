@@ -110,7 +110,17 @@
 				<children>
 					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<children />
+						<children>
+							<testItem name="BitBar_Basic" key="{603FE467-E5A6-4F08-83E7-05F0412DD6CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT">
+									<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
+										<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Microsoft Edge&quot;,&quot;version&quot;:&quot;120&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Microsoft Edge 120" Resolution="1920x1080" CustomCapabilitiesInfo="" />
+									</cloud>
+								</environments>
+								<children />
+							</testItem>
+						</children>
 					</testItem>
 					<testItem name="Local Headless Browser" key="{BA7B61A6-B9A6-4B5B-89AB-CF78085E93AD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
@@ -230,7 +240,7 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Visual_Demo" key="{4AAB6C15-CD2C-4152-919E-5F9F15E29C74}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" count="2" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -312,7 +322,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="" />
-		<setting name="BitBar_APIKey" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A0416CAF82DD00832B82E1F76B29D22A7B5C61B1A5279E8342C438233B997F7C713A9FEEE63E73847D9499BC385B27D5C9254DD254BF368F1D05EDF30F5516355D" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />

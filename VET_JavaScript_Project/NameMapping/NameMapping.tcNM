@@ -321,6 +321,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelUsd" Key="{4A6D875A-5ADB-4447-B5CA-15F8C8CC9077}">
+										<Image FileName="-1236591641" Left="8" Top="129" Right="1911" Bottom="182" />
+										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;menubar-section&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
@@ -823,6 +832,7 @@
 					</Child>
 					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}" />
 					<Child Name="panel" Owner="{606AF0BA-89E3-41BC-8F98-C0B3542E21F4}" />
+					<Child Name="panelUsd" Owner="{4A6D875A-5ADB-4447-B5CA-15F8C8CC9077}" />
 				</Child>
 				<Child Name="sectionContent" Owner="{33A01843-29A2-488C-80E9-FEB715FB9443}">
 					<Child Name="panelPhTitle6" Owner="{81B318D9-D5F8-4D10-965A-6925F24488E0}" />
