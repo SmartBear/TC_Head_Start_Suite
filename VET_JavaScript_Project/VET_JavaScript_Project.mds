@@ -35,7 +35,7 @@
 					</testItem>
 					<testItem name="Test_New_Function" key="{EE1D4536-1BD9-4090-94B0-ED4D393F894D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{141BEF75-5EAB-4C27-AD5C-E0F182F38025}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
@@ -108,7 +108,7 @@
 			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="BitBar_Basic" key="{603FE467-E5A6-4F08-83E7-05F0412DD6CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -240,7 +240,7 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Visual_Demo" key="{4AAB6C15-CD2C-4152-919E-5F9F15E29C74}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" count="2" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -818,7 +818,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -871,7 +871,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
