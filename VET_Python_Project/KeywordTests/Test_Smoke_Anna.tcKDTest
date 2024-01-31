@@ -38,6 +38,9 @@
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Mod_Open_BearStore_Edge" />
 					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Disable Firefox line due to version issues" />
+					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Mod_Open_BearStore_FireFox">
 							<CommonData Disabled="True" />
