@@ -783,6 +783,59 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShopWatches" Key="{E4EE7708-848E-449C-A0CE-6F6DC9A1B529}">
+								<Image FileName="1576786985" Left="8" Top="129" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{7EA61B0C-F72C-4385-8A90-3275801F18EF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/watches" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{2E07977E-6123-4A9A-94B1-45AF73DAB5F0}">
+										<Image FileName="1576786985" Left="390" Top="332" Right="1530" Bottom="1420" />
+										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Watches&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWatches" Key="{2E325BA5-DA47-49B2-8028-F7D2C7A6321C}">
+										<Image FileName="1576786985" Left="690" Top="383" Right="1515" Bottom="417" />
+										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(text(), &apos;Watches&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;h3&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="Orders" Key="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
@@ -877,6 +930,11 @@
 					<Child Name="link" Owner="{E9C277BD-2B8A-456B-8496-5B1D09E07E56}">
 						<Child Name="imageSmartstore" Owner="{7290477B-4D5F-42F5-BAA9-80761BA85B0A}" />
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageShopWatches" Owner="{E4EE7708-848E-449C-A0CE-6F6DC9A1B529}">
+				<Child Name="sectionContent" Owner="{2E07977E-6123-4A9A-94B1-45AF73DAB5F0}">
+					<Child Name="textnodeWatches" Owner="{2E325BA5-DA47-49B2-8028-F7D2C7A6321C}" />
 				</Child>
 			</Child>
 		</Child>

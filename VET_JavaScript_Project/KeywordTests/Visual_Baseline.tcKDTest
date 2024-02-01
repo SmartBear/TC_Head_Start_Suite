@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{DD1CA1DD-1494-4E7D-8CCE-5A69723295C8}" Tags="@Baseline @Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{DD1CA1DD-1494-4E7D-8CCE-5A69723295C8}" Tags="@Baseline" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -36,7 +36,7 @@
 						<Data GroupName="Visual Test Steps" />
 						<Children>
 							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="Visual_Baseline" FCaptureName="pageShop FullScreen Default" FCaptureType="8" FComparisonMode="3" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
+								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="Visual_Baseline" FCaptureName="pageShop FullScreen Default" FCaptureType="8" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
 									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
 								</Data>
 							</Operation>
