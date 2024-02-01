@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="This test attempts to logon to the Smartstore with an invalid password" Key="{7B2B08DC-7343-48B4-9EC4-04B507172FE4}" Tags="@Smoke" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="This test attempts to logon to the Smartstore with an invalid password" Key="{7B2B08DC-7343-48B4-9EC4-04B507172FE4}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
