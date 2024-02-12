@@ -330,6 +330,39 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="link" Key="{AB13D4E3-ADEF-4E1A-997D-CF63D83B66CF}">
+										<Image FileName="1673381129" Left="403" Top="205" Right="653" Bottom="236" />
+										<TypeInfo Item0="{F91DCB16-1493-4B89-BC91-27FEE107D12D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{AEEE4521-C88C-4253-99C7-AD1DD8DD3572}">
+										<Image FileName="1673381129" Left="403" Top="205" Right="653" Bottom="236" />
+										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
@@ -886,6 +919,9 @@
 					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}" />
 					<Child Name="panel" Owner="{606AF0BA-89E3-41BC-8F98-C0B3542E21F4}" />
 					<Child Name="panelUsd" Owner="{4A6D875A-5ADB-4447-B5CA-15F8C8CC9077}" />
+					<Child Name="link" Owner="{AB13D4E3-ADEF-4E1A-997D-CF63D83B66CF}">
+						<Child Name="imageSmartstore" Owner="{AEEE4521-C88C-4253-99C7-AD1DD8DD3572}" />
+					</Child>
 				</Child>
 				<Child Name="sectionContent" Owner="{33A01843-29A2-488C-80E9-FEB715FB9443}">
 					<Child Name="panelPhTitle6" Owner="{81B318D9-D5F8-4D10-965A-6925F24488E0}" />
