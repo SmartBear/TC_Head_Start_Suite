@@ -14,7 +14,7 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{5BF73F76-CDAF-4BE8-8932-4267396D1ED0}" version="14">
 		<children>
-			<testItem name="Configure Browsers" key="{2B0E3BD0-065B-4D16-8F4F-85A5DF5DBC2D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Configure Browsers" key="{2B0E3BD0-065B-4D16-8F4F-85A5DF5DBC2D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Configure_Chrome" key="{AB0DD3BE-B571-45AA-9F3E-9FBE61C3F06D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{427EAE33-F40A-448A-99A0-DB5F279C7723}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -49,12 +49,12 @@
 					</testItem>
 					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT" />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Debug Smartbear Issues" key="{CE2329D6-CA59-4888-B146-9536A1CCEBBD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Debug Smartbear Issues" key="{CE2329D6-CA59-4888-B146-9536A1CCEBBD}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Simple_Browser_Open_and_Close_All_Installed_Browsers" key="{F210A04D-2D55-4330-A9B6-2E3306209051}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6A1B2442-8750-456A-8E0F-9C683BCAB7CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -69,7 +69,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Zephyr_Demo" key="{8C4FB463-F7E5-4502-829B-F3491DABB8B8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Zephyr_Demo" key="{8C4FB463-F7E5-4502-829B-F3491DABB8B8}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Passing_Test" key="{59D5F936-36B9-48C5-A52B-5F196D5A5B64}" group="False" parallel="False" enabled="True" testMoniker="KDT\{148C02BE-021F-4312-B6EB-EA85D39C7155}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -89,7 +89,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="TestComplete_Utility" key="{EF4F9301-BD76-4CD5-BF61-108D311E64DE}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TestComplete_Utility" key="{EF4F9301-BD76-4CD5-BF61-108D311E64DE}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Get_TestComplete_Version_Information" key="{A701950C-DC53-4929-9F1D-3B439DEB5172}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9F11C07B-E834-4ACA-8861-078C34E6A857}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -135,7 +135,7 @@
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="Delete_History_Firefox" key="{897FA067-0D11-4F75-96DC-2B4464536272}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0D32220E-6306-4D0A-A882-8FA8DA5D785C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Delete_History_Firefox" key="{897FA067-0D11-4F75-96DC-2B4464536272}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0D32220E-6306-4D0A-A882-8FA8DA5D785C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
@@ -168,7 +168,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.60" />
+		<settingsVersion value="15.61" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -725,6 +725,7 @@
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

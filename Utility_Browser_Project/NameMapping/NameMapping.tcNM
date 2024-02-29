@@ -597,13 +597,36 @@
 							</Child>
 							<Child Name="pageClearAllHistory2" Key="{F2970B48-318C-4354-92B5-B1809AF466EA}">
 								<Image FileName="1381716129" Left="764" Top="88" Right="1172" Bottom="530" />
-								<TypeInfo Item0="{7DD494C6-6246-484C-B78C-C9B38CAEACBB}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
 										<Value Value="chrome://browser/content/sanitize.xhtml" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePrivacy" Key="{ADD16A6B-BC9B-44D0-95E6-6B582EB0DA1E}">
+								<Image FileName="-1044666745" Left="12" Top="112" Right="1924" Bottom="1036" />
+								<TypeInfo Item0="{097A5CC3-7F22-4B51-936A-49BB5D0474AA}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="edge://settings/privacy" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAboutBlank" Key="{3A473F02-D9CE-4E23-8E19-527A84F2B89E}">
+								<Image FileName="-1986531252" Left="8" Top="93" Right="1928" Bottom="1040" />
+								<TypeInfo Item0="{7A57CB4D-12D1-4E7D-96CA-E2F93FB58551}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="about:blank" />
 									</Property>
 								</Properties>
 							</Child>
@@ -694,6 +717,8 @@
 				</Child>
 			</Child>
 			<Child Name="pageClearAllHistory2" Owner="{F2970B48-318C-4354-92B5-B1809AF466EA}" />
+			<Child Name="pagePrivacy" Owner="{ADD16A6B-BC9B-44D0-95E6-6B582EB0DA1E}" />
+			<Child Name="pageAboutBlank" Owner="{3A473F02-D9CE-4E23-8E19-527A84F2B89E}" />
 		</Child>
 		<Child Name="TestExecute" Owner="{3AE89E80-3678-4D5E-99EF-2E6291C337B7}" />
 		<Child Name="TestComplete" Owner="{A92DAA2B-65EC-4E31-9530-841A7DDE7D88}" />

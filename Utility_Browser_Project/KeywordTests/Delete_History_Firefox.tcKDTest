@@ -49,34 +49,40 @@
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 								<Data GroupName="Clear History" />
 								<Children>
-									<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
-										<Data Description="Simulates a user action over the area that contains the recognized text." Action="Click" TBlockIntType="1">
+									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+										<Data Description="Delays the test execution for the specified time period.">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="OK" />
-												<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-15">
-													<Values>
-														<Value Type="1" Value="-10" Text="spNone" />
-														<Value Type="1" Value="-11" Text="spNearestToCenter" />
-														<Value Type="1" Value="-12" Text="spLeftMost" />
-														<Value Type="1" Value="-13" Text="spRightMost" />
-														<Value Type="1" Value="-14" Text="spTopMost" />
-														<Value Type="1" Value="-15" Text="spBottomMost" />
-														<Value Type="1" Value="-16" Text="spLargest" />
-														<Value Type="1" Value="-17" Text="spSmallest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="x" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-												<Parameter Name="y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-												<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-													<Values IsEnum="True">
-														<Value Type="1" Value="0" Text="skNoShift" />
-														<Value Type="1" Value="8192" Text="skShift" />
-														<Value Type="1" Value="32768" Text="skAlt" />
-														<Value Type="1" Value="16384" Text="skCtrl" />
-													</Values>
-												</Parameter>
+												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic Delay" />
 											</Parameters>
-											<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageClearAllHistory2;" />
+										</Data>
+									</Operation>
+									<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
+										<Data Description="Posts an image to the test log.">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.pageAboutBlank.Picture()" />
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+										<Data Description="Simulates one or several keypresses." Action="Keys">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
+											</Parameters>
+											<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.pageAboutBlank" />
 										</Data>
 									</Operation>
 									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
@@ -84,6 +90,26 @@
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
 												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic Delay" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
+										<Data Description="Posts an image to the test log.">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.pageAboutBlank.Picture()" />
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 											</Parameters>
 										</Data>
 									</Operation>
