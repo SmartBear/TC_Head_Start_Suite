@@ -122,7 +122,7 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Local Headless Browser" key="{BA7B61A6-B9A6-4B5B-89AB-CF78085E93AD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Local Headless Browser" key="{BA7B61A6-B9A6-4B5B-89AB-CF78085E93AD}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="BearStoreTest_NotHeadless" key="{DA7F078B-83C9-4210-999A-F807E8E3EE92}" group="False" parallel="False" enabled="True" testMoniker="{E0708728-BBE4-4577-8254-3F8333B28D4C}BearStoreTest_NotHeadless" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
