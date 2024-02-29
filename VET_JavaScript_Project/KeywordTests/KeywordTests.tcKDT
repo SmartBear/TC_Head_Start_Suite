@@ -39,6 +39,7 @@
 				<child name="Test_Headless_Edge" key="{5D700F95-FA42-4D29-9DF1-2CA6EE9B1CE0}" path="Test_Headless_Edge.tcKDTest" />
 				<child name="Test_Headless_Firefox" key="{96D6D650-1B4E-4A0C-A5F0-BBAABA5C9AD2}" path="Test_Headless_Firefox.tcKDTest" />
 				<child name="HeadLess_Browser" key="{F812C177-5FA6-4A49-8112-BDA7DE0D15C2}" path="HeadLess_Browser.tcKDTest" />
+				<child name="Simple_Test" key="{BED17A38-3C3C-48E2-8F19-DC31EC01C3E5}" path="Simple_Test.tcKDTest" />
 			</folder>
 			<folder name="OCR Samples">
 				<child name="Test_OCR_General" key="{B59CCE84-63C8-4F46-ACC1-EB0E8556662B}" path="Test_OCR_General.tcKDTest" />

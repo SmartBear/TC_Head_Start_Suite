@@ -237,7 +237,6 @@
 									</Child>
 									<Child Name="textnodeSampleuser001" Key="{00DF74A5-F056-4B02-832C-3B359E65EAFA}">
 										<Image FileName="836131801" Left="1365" Top="121" Right="1479" Bottom="138" />
-										<TypeInfo Item0="{B6D80AB7-B96D-4E55-B8AE-14D626426718}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;SampleUser_001!&apos;]" />
@@ -263,7 +262,6 @@
 									</Child>
 									<Child Name="textnodeLogOut" Key="{92870441-55CB-4A76-801A-D3CFFE6371E7}">
 										<Image FileName="2135678615" Left="1390" Top="313" Right="1441" Bottom="333" />
-										<TypeInfo Item0="{B6D80AB7-B96D-4E55-B8AE-14D626426718}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log out&apos;]" />
@@ -278,7 +276,6 @@
 									</Child>
 									<Child Name="navMenubarMyAccount" Key="{9A9440B6-CA14-418B-BAA6-24FE01A85DC9}">
 										<Image FileName="-1566625510" Left="1356" Top="129" Right="1515" Bottom="181" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#menubar-my-account" />
@@ -287,7 +284,6 @@
 									</Child>
 									<Child Name="linkOldsailor1960" Key="{763F8A60-1F24-456A-9C29-C9FDF3872DBB}">
 										<Image FileName="-1566625510" Left="1356" Top="129" Right="1515" Bottom="181" />
-										<TypeInfo Item0="{F91DCB16-1493-4B89-BC91-27FEE107D12D}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
@@ -305,7 +301,6 @@
 									</Child>
 									<Child Name="textnodeOldsailor1960" Key="{10FDB60D-77E2-48F5-AE88-6DEC52576E39}">
 										<Image FileName="1281959360" Left="1376" Top="138" Right="1478" Bottom="155" />
-										<TypeInfo Item0="{B6D80AB7-B96D-4E55-B8AE-14D626426718}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;OldSailor1960&apos;]" />
@@ -323,7 +318,6 @@
 									</Child>
 									<Child Name="panelUsd" Key="{4A6D875A-5ADB-4447-B5CA-15F8C8CC9077}">
 										<Image FileName="-1236591641" Left="8" Top="129" Right="1911" Bottom="182" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;menubar-section&apos;)]" />
@@ -332,7 +326,6 @@
 									</Child>
 									<Child Name="link" Key="{AB13D4E3-ADEF-4E1A-997D-CF63D83B66CF}">
 										<Image FileName="1673381129" Left="403" Top="205" Right="653" Bottom="236" />
-										<TypeInfo Item0="{F91DCB16-1493-4B89-BC91-27FEE107D12D}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -347,7 +340,6 @@
 									</Child>
 									<Child Name="imageSmartstore" Key="{AEEE4521-C88C-4253-99C7-AD1DD8DD3572}">
 										<Image FileName="1673381129" Left="403" Top="205" Right="653" Bottom="236" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -360,6 +352,27 @@
 											</Selector>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMenuMain" Key="{EE3B8094-F02D-41A2-81EC-C66F73253C57}">
+										<Image FileName="-1119975643" Left="406" Top="242" Right="1516" Bottom="292" />
+										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menu-main" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav//ul" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -478,13 +491,75 @@
 									</Child>
 									<Child Name="checkboxRememberMe" Key="{E6F83BE5-0929-4C78-9844-DA33BF0F0A22}">
 										<Image FileName="956836596" Left="1092" Top="645" Right="1105" Bottom="658" />
-										<TypeInfo Item0="{17CC290D-82FD-4D12-8D52-FA374923981A}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Remember me?&apos;]/@for)]" />
 											</Selector>
 											<Selector>
 												<Value Value="#RememberMe" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{A1C98BCB-95F3-4B3E-B3A9-3C8A84FB3C51}">
+										<Image FileName="-512434808" Left="405" Top="332" Right="1515" Bottom="380" />
+										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Sign In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{90755C95-4D77-4A4B-AF40-1C2F1799A1FC}">
+										<Image FileName="-1391032372" Left="8" Top="129" Right="1911" Bottom="308" />
+										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{148B5BBA-4C4A-43B6-BCAA-C38A1C6DBD96}">
+										<Image FileName="-1391032372" Left="403" Top="205" Right="653" Bottom="236" />
+										<TypeInfo Item0="{69E21864-765A-4F42-9226-46E6EF03A522}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{77A05FEB-44D7-423D-BC6B-8783C6E180B1}">
+										<Image FileName="-1391032372" Left="403" Top="205" Right="653" Bottom="236" />
+										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -703,7 +778,6 @@
 							</Child>
 							<Child Name="pageShopSearchResultForBall" Key="{5EF545F8-BB08-4560-915F-2962759CCE61}">
 								<Image FileName="899660413" Left="8" Top="129" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{7EA61B0C-F72C-4385-8A90-3275801F18EF}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -715,7 +789,6 @@
 								<Children>
 									<Child Name="sectionContent" Key="{DBC1656A-7D9E-4F26-99ED-2B59C4CC68E0}">
 										<Image FileName="899660413" Left="390" Top="332" Right="1530" Bottom="1645" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
@@ -736,7 +809,6 @@
 									</Child>
 									<Child Name="textnodeSearchResultFor" Key="{3519E1E1-F7D6-4621-A36F-0388B398EA52}">
 										<Image FileName="899660413" Left="690" Top="332" Right="1515" Bottom="366" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[contains(text(), &apos;Search result for&apos;)]" />
@@ -756,7 +828,6 @@
 							</Child>
 							<Child Name="page" Key="{9DACF80D-21FC-4552-94BB-E05DE372C087}">
 								<Image FileName="788901261" Left="12" Top="112" Right="1924" Bottom="1044" />
-								<TypeInfo Item0="{7EA61B0C-F72C-4385-8A90-3275801F18EF}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -768,7 +839,6 @@
 								<Children>
 									<Child Name="header" Key="{9A978BC0-D084-4047-A146-6BA357166032}">
 										<Image FileName="788901261" Left="12" Top="112" Right="1909" Bottom="291" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -783,7 +853,6 @@
 									</Child>
 									<Child Name="link" Key="{E9C277BD-2B8A-456B-8496-5B1D09E07E56}">
 										<Image FileName="788901261" Left="404" Top="188" Right="654" Bottom="219" />
-										<TypeInfo Item0="{F91DCB16-1493-4B89-BC91-27FEE107D12D}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -798,7 +867,6 @@
 									</Child>
 									<Child Name="imageSmartstore" Key="{7290477B-4D5F-42F5-BAA9-80761BA85B0A}">
 										<Image FileName="788901261" Left="404" Top="188" Right="654" Bottom="219" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -818,7 +886,6 @@
 							</Child>
 							<Child Name="pageShopWatches" Key="{E4EE7708-848E-449C-A0CE-6F6DC9A1B529}">
 								<Image FileName="1576786985" Left="8" Top="129" Right="1928" Bottom="1048" />
-								<TypeInfo Item0="{7EA61B0C-F72C-4385-8A90-3275801F18EF}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -830,7 +897,6 @@
 								<Children>
 									<Child Name="sectionContent" Key="{2E07977E-6123-4A9A-94B1-45AF73DAB5F0}">
 										<Image FileName="1576786985" Left="390" Top="332" Right="1530" Bottom="1420" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
@@ -851,7 +917,6 @@
 									</Child>
 									<Child Name="textnodeWatches" Key="{2E325BA5-DA47-49B2-8028-F7D2C7A6321C}">
 										<Image FileName="1576786985" Left="690" Top="383" Right="1515" Bottom="417" />
-										<TypeInfo Item0="{C52C71AB-3946-4478-8C8B-D1B35D050209}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[contains(text(), &apos;Watches&apos;)]" />
@@ -916,7 +981,9 @@
 							</Child>
 						</Child>
 					</Child>
-					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}" />
+					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}">
+						<Child Name="textnodeMenuMain" Owner="{EE3B8094-F02D-41A2-81EC-C66F73253C57}" />
+					</Child>
 					<Child Name="panel" Owner="{606AF0BA-89E3-41BC-8F98-C0B3542E21F4}" />
 					<Child Name="panelUsd" Owner="{4A6D875A-5ADB-4447-B5CA-15F8C8CC9077}" />
 					<Child Name="link" Owner="{AB13D4E3-ADEF-4E1A-997D-CF63D83B66CF}">
@@ -936,6 +1003,12 @@
 					<Child Name="panelLoginWasUnsuccessfulPlease" Owner="{61A7F29B-6FC8-4419-9599-A4679F61D55D}" />
 					<Child Name="buttonLogIn" Owner="{51D492F9-6A7A-449F-BDE8-CA4E1A13D1EF}" />
 					<Child Name="checkboxRememberMe" Owner="{E6F83BE5-0929-4C78-9844-DA33BF0F0A22}" />
+					<Child Name="textnodeSignIn" Owner="{A1C98BCB-95F3-4B3E-B3A9-3C8A84FB3C51}" />
+				</Child>
+				<Child Name="header" Owner="{90755C95-4D77-4A4B-AF40-1C2F1799A1FC}">
+					<Child Name="link" Owner="{148B5BBA-4C4A-43B6-BCAA-C38A1C6DBD96}">
+						<Child Name="imageSmartstore" Owner="{77A05FEB-44D7-423D-BC6B-8783C6E180B1}" />
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageContactus" Owner="{BF486871-D98E-44FF-AFCC-FB70B42FAB8B}">
