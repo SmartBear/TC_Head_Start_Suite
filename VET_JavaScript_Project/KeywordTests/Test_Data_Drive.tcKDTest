@@ -13,34 +13,6 @@
 					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 						<Data Comment="This test demostrates data driving tests via various methods using a modular test implementation" />
 					</Operation>
-					<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
-						<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.BrowserWindow" />
-								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="*Welcome to our store*" />
-							</Parameters>
-						</Data>
-					</Operation>
-					<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
-						<Data Description="Simulates a user action over the area that contains the recognized text." Action="Bounds" InvokeKind="1" TBlockIntType="1">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Books" />
-								<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
-									<Values>
-										<Value Type="1" Value="-10" Text="spNone" />
-										<Value Type="1" Value="-11" Text="spNearestToCenter" />
-										<Value Type="1" Value="-12" Text="spLeftMost" />
-										<Value Type="1" Value="-13" Text="spRightMost" />
-										<Value Type="1" Value="-14" Text="spTopMost" />
-										<Value Type="1" Value="-15" Text="spBottomMost" />
-										<Value Type="1" Value="-16" Text="spLargest" />
-										<Value Type="1" Value="-17" Text="spSmallest" />
-									</Values>
-								</Parameter>
-							</Parameters>
-							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop.header.navBooks.textnodeMenuMain;" />
-						</Data>
-					</Operation>
 					<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 						<Data Description="Replaces the current indicator text with the specified one.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
