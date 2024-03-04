@@ -30,7 +30,7 @@
 						</Data>
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Open_BearStore_Chrome" />
+						<Data Description="Runs a keyword test." TestName="Mod_Open_BitBar_Remote_Browser" />
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Mod_Login_SampleUser" />

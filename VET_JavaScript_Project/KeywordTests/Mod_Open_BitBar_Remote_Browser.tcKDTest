@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{84B4913C-63CA-4916-810C-83F799E40876}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{49AF9070-0560-4816-BC98-3989297837F3}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -8,12 +8,12 @@
 		</Data>
 		<Children>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Chrome" />
+				<Data GroupName="Mod_Open_BitBar_Remote_Browser" />
 				<Children>
 					<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 						<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Open Chrome" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Open_BitBar_Remote_Browser" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
@@ -31,15 +31,25 @@
 					</Operation>
 					<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
 						<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="chrome">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
 								<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
 						</Data>
 					</Operation>
+					<Operation Type="{1B5F17B2-4691-45F4-A91F-F5CFF1E09C4E}">
+						<Data>
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Server URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://us-west-desktop-hub.bitbar.com/wd/hub" />
+								<Parameter Name="Tested URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
+								<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;platform&quot;:&quot;Linux&quot;,&quot;osVersion&quot;:&quot;18.04&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;122&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" />
+							</Parameters>
+						</Data>
+					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Maximizes the specified Window object." Action="Maximize">
-							<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
 						</Data>
 					</Operation>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
@@ -76,8 +86,8 @@
 					<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
 						<Data Description="Posts an image to the test log.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.pageShop.Picture()" />
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Screenshot of pageShop" />
+								<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.BrowserWindow.Picture()" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Screenshot of BrowserWindow" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
@@ -100,5 +110,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{1A113EDB-C326-4DE2-A6F1-2B9C60842011}" />
+	<Parameters Key="{835D23CD-1062-4F26-BC7F-2D2EA5513082}" />
 </Root>

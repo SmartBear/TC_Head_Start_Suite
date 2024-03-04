@@ -16,6 +16,7 @@
 			<child name="Mod_Open_BearStore_FireFox" key="{00DCDDB0-9669-405E-81EC-8C4F7AD74B9A}" path="Mod_Open_BearStore_FireFox.tcKDTest" />
 			<child name="Mod_Logout_SampleUser" key="{07757C63-EA64-4283-BE5C-ADEE83141A3F}" path="Mod_Logout_SampleUser.tcKDTest" />
 			<child name="Mod_Login_SampleUser" key="{7CAE4F43-A4CF-4B4D-A2F5-D3137B885913}" path="Mod_Login_SampleUser.tcKDTest" />
+			<child name="Mod_Open_BitBar_Remote_Browser" key="{F5115784-50F9-44F3-B361-5F09A0BEAAD3}" path="Mod_Open_BitBar_Remote_Browser.tcKDTest" />
 		</folder>
 		<folder name="1 - Sanity">
 			<child name="Test_Browser_Acid_Test" key="{B4948858-9B0D-4EC9-B48D-528B8D4F0F33}" path="Test_Browser_Acid_Test.tcKDTest" />

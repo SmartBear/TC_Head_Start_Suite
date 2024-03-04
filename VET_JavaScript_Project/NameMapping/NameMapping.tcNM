@@ -376,6 +376,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelContentWrapper" Key="{DD7D790E-F36B-432C-A400-E4E90FB52FC4}">
+										<Image FileName="-2069451580" Left="8" Top="-954" Right="1911" Bottom="1217" />
+										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content-wrapper" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
@@ -995,6 +1004,7 @@
 					<Child Name="textnodeWelcomeToOurStore" Owner="{D040C9F6-F448-4788-8483-6874806B3B62}" />
 					<Child Name="textnodeWelcomeToOurStore2" Owner="{12842201-FF7D-4A59-AD0D-0E260F683FCC}" />
 				</Child>
+				<Child Name="panelContentWrapper" Owner="{DD7D790E-F36B-432C-A400-E4E90FB52FC4}" />
 			</Child>
 			<Child Name="pageLogin" Owner="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
 				<Child Name="sectionContent" Owner="{9C4A7027-D137-47F4-B8E0-0CCF792F8FFE}">
