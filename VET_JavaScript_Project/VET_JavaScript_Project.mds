@@ -108,15 +108,15 @@
 			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="BitBar_Basic_Safari" key="{36A9A6EB-9748-4799-9980-2CE5949FEF0C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="BitBar_Basic_Safari" key="{36A9A6EB-9748-4799-9980-2CE5949FEF0C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
-							<testItem name="BitBar_Basic_Parallel" key="{603FE467-E5A6-4F08-83E7-05F0412DD6CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="BitBar_Basic_Parallel" key="{603FE467-E5A6-4F08-83E7-05F0412DD6CB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT">
 									<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
@@ -261,7 +261,7 @@
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Visual_Demo" key="{4AAB6C15-CD2C-4152-919E-5F9F15E29C74}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" count="2" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -274,7 +274,7 @@
 								<environments activeCloud="LocalAppium" />
 								<children />
 							</testItem>
-							<testItem name="Visual_Demo_3" key="{E35B020D-BEC7-40B9-A3B2-0ACE45AC2A8A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CE9C9E78-F868-41AE-B0D7-E2AF03429CAA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Visual_Demo_3" key="{E35B020D-BEC7-40B9-A3B2-0ACE45AC2A8A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE9C9E78-F868-41AE-B0D7-E2AF03429CAA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
