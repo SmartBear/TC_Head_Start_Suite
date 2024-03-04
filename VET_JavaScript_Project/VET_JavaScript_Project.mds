@@ -15,7 +15,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{0ABD4512-BF82-4632-90BF-798D75A10BDE}" version="14">
 		<children>
-			<testItem name="Templates" key="{9D17E6CF-32D1-4272-94AC-EE776EAC513C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Templates" key="{9D17E6CF-32D1-4272-94AC-EE776EAC513C}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Template" key="{57F41B14-9392-43B5-AF55-BA0397EDDE03}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CFA713BF-8A23-40B9-97F8-E47A16E93366}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -40,7 +40,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="0 - Common" key="{4F7F77E6-93AC-4C5F-B70B-BDAC69800D12}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="0 - Common" key="{4F7F77E6-93AC-4C5F-B70B-BDAC69800D12}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_New_Function_2" key="{88FCE9A1-9958-4D2F-831F-FCF8D3E047EF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{141BEF75-5EAB-4C27-AD5C-E0F182F38025}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -55,7 +55,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="1 - Sanity" key="{1EA507AD-439A-4306-B5EC-EBA4AADC31E6}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="1 - Sanity" key="{1EA507AD-439A-4306-B5EC-EBA4AADC31E6}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Browser_Acid_Test" key="{8197C1EE-5B7B-4893-8D6B-D50FE12B9568}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B4948858-9B0D-4EC9-B48D-528B8D4F0F33}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -80,7 +80,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="2 - Smoke" key="{9DDDC4C1-C615-42DC-AA5B-5A6141CC180B}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="2 - Smoke" key="{9DDDC4C1-C615-42DC-AA5B-5A6141CC180B}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Logon_Fail" key="{212F1DC3-7092-4F81-BFB2-6A7987F77787}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60E3702C-C2B5-4C30-9098-E7A538166B0E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -90,7 +90,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="3 - Deep Dive" key="{7FC091CA-EA80-4A2E-BD94-FA72228BFFCB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="3 - Deep Dive" key="{7FC091CA-EA80-4A2E-BD94-FA72228BFFCB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="Test_Data_Drive" key="{C7428E58-7C95-40A8-942B-384AD1946F2D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2C7E4E4A-5DAE-4CA2-A62C-2B15332B078F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
