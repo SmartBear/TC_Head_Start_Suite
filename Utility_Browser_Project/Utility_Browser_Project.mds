@@ -135,7 +135,7 @@
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="Delete_History_Firefox" key="{897FA067-0D11-4F75-96DC-2B4464536272}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0D32220E-6306-4D0A-A882-8FA8DA5D785C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Delete_History_Firefox" key="{897FA067-0D11-4F75-96DC-2B4464536272}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0D32220E-6306-4D0A-A882-8FA8DA5D785C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
