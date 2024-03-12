@@ -12,7 +12,7 @@
 				<Children>
 					<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
 						<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
-							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Mod_Chrome_Open_Smartstore" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -31,7 +31,7 @@
 					</Operation>
 					<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
 						<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="chrome">
-							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
 								<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
@@ -44,7 +44,7 @@
 					</Operation>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an information message to the test log." MessageType="0">
-							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.FileVersionInfo" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -64,7 +64,7 @@
 					</Operation>
 					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
-							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop.sectionContent.panelPhTitle6" />
 								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
@@ -80,5 +80,12 @@
 			</Operation>
 		</Children>
 	</TestData>
+	<Variables Version="4" Key="{ACA03407-142C-4811-A2C6-1BA747E31577}">
+		<Items>
+			<Variable Name="Var1" Type="Password" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
 	<Parameters Key="{0217C8EF-84A9-4B27-8AD0-DA32487EDA1B}" />
 </Root>
