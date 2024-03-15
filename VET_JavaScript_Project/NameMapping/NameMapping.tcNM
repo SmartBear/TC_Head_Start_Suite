@@ -572,6 +572,47 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkMenu" Key="{0DFD7940-BAA1-48DB-AA7D-9E88F4C37DC4}">
+										<Image FileName="-841506898" Left="60" Top="352" Right="240" Bottom="516" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-menu&apos;]/a[contains(@class, &apos;shopbar-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-menu&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{888CFCC0-B15B-4BB6-BBFC-B354A9342C77}">
+										<Image FileName="-841506898" Left="120" Top="374" Right="180" Bottom="434" />
+										<TypeInfo Item0="{F4C62F14-93BA-4A45-BF83-7F24AC0D0750}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div[2]//div[@id=&apos;shopbar-menu&apos;]/a//i[contains(@class, &apos;icm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-menu&apos;]//i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[@id=&apos;shopbar-menu&apos;]/a//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMenu" Key="{FA5B5228-684A-4BF0-96A0-315DC43C61D7}">
+										<Image FileName="456969308" Left="8" Top="122" Right="1133" Bottom="3429" />
+										<TypeInfo Item0="{F4C62F14-93BA-4A45-BF83-7F24AC0D0750}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;page-main&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageContactus" Key="{BF486871-D98E-44FF-AFCC-FB70B42FAB8B}">
@@ -962,6 +1003,40 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="slack" Key="{892876DA-0401-45CD-AF26-EEBCD15BBB50}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="slack" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{8937F981-7872-4F31-B461-5CA258D71FCF}">
+								<Image FileName="-806627479" Left="-8" Top="-8" Right="1928" Bottom="1040" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Slack - DM: John Lucania, Mel Gage, Ryan Kane - SmartBear Org" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{12363F5B-3778-44D1-9293-2790B985CD50}">
+										<Image FileName="-806627479" Left="0" Top="0" Right="1920" Bottom="1032" />
+										<TypeInfo Item0="{83D6E7C0-EC9D-40D1-9FB4-A1A341902176}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -1019,7 +1094,11 @@
 					<Child Name="link" Owner="{148B5BBA-4C4A-43B6-BCAA-C38A1C6DBD96}">
 						<Child Name="imageSmartstore" Owner="{77A05FEB-44D7-423D-BC6B-8783C6E180B1}" />
 					</Child>
+					<Child Name="linkMenu" Owner="{0DFD7940-BAA1-48DB-AA7D-9E88F4C37DC4}">
+						<Child Name="textnode" Owner="{888CFCC0-B15B-4BB6-BBFC-B354A9342C77}" />
+					</Child>
 				</Child>
+				<Child Name="panelMenu" Owner="{FA5B5228-684A-4BF0-96A0-315DC43C61D7}" />
 			</Child>
 			<Child Name="pageContactus" Owner="{BF486871-D98E-44FF-AFCC-FB70B42FAB8B}">
 				<Child Name="sectionContent" Owner="{4D0A6347-F742-4B27-B663-BC8091148596}">
@@ -1059,6 +1138,11 @@
 		</Child>
 		<Child Name="Orders" Owner="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
 			<Child Name="MainForm" Owner="{22907E00-6826-4980-B265-89012D835EF5}" />
+		</Child>
+		<Child Name="slack" Owner="{892876DA-0401-45CD-AF26-EEBCD15BBB50}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{8937F981-7872-4F31-B461-5CA258D71FCF}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{12363F5B-3778-44D1-9293-2790B985CD50}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

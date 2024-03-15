@@ -109,16 +109,16 @@
 			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="BitBar_Basic" key="{603FE467-E5A6-4F08-83E7-05F0412DD6CB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="BitBar_Basic" key="{603FE467-E5A6-4F08-83E7-05F0412DD6CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT">
 									<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
-										<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Microsoft Edge&quot;,&quot;version&quot;:&quot;120&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Microsoft Edge 120" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-										<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;13&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;16&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 13" Browser="Safari 16" Resolution="2560x1920" CustomCapabilitiesInfo="" />
-										<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Linux&quot;,&quot;osVersion&quot;:&quot;18.04&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;122&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="Linux 18.04" Browser="Firefox 122" Resolution="2560x1920" CustomCapabilitiesInfo="" />
+										<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;13&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;16&quot;,&quot;resolution&quot;:&quot;1920x1200&quot;}" Platform="Desktop" OS="macOS 13" Browser="Safari 16" Resolution="1920x1200" CustomCapabilitiesInfo="" />
+										<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;123&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Firefox 123" Resolution="1920x1080" CustomCapabilitiesInfo="" />
+										<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Linux&quot;,&quot;osVersion&quot;:&quot;18.04&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;122&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="Linux 18.04" Browser="Chrome 122" Resolution="2560x1920" CustomCapabilitiesInfo="" />
 									</cloud>
 									<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
 										<capabilities Enabled="True" Browser="Chrome" Resolution="1920x1080" CustomJSON="" />
@@ -247,6 +247,16 @@
 							</testItem>
 						</children>
 					</testItem>
+					<testItem name="Mobile" key="{F0C08D74-0EE8-4104-8A75-EA48C193F431}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Mobile_Virtual_Test" key="{67C16ED4-0B8D-412A-B233-D68CAD0C6844}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F858E64-5C78-4B21-862F-D1ECAA8576AE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
 					<testItem name="OCR Samples" key="{CE85AF1F-F47D-4E85-9F64-C3FEEAAD1C76}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
@@ -307,6 +317,9 @@
 				</Variable>
 				<Variable Name="Password3" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310036003300440030004600340044003800380042004600330036004300390038004100370039003300330041004600410045003300370038004600360031004200440032003100380039003500350043003100450031004100" />
+				</Variable>
+				<Variable Name="Password4" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100360033004400320046003400440038003400420046003400360043003900420041003700390034003500410046003900380033003700450037003600310042004600410037004500380034003600320030003400360032003600430034004600" />
 				</Variable>
 			</Items>
 		</data>
