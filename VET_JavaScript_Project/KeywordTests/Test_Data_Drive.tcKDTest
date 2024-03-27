@@ -164,7 +164,9 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using Excel Data File" />
+								<Data GroupName="Loop Module Operations using Excel Data File">
+									<CommonData Disabled="True" />
+								</Data>
 								<Children>
 									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 										<Data Comment="Loop Module Operations using Excel Data File" />
