@@ -164,6 +164,129 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Loop Module Operations using Excel Data File" />
+								<Children>
+									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+										<Data Comment="Loop Module Operations using Excel Data File" />
+									</Operation>
+									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Excel Data File" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="8" ValueType="6" ValueValue="Project.Variables.LogAtrribInformation" />
+												<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Excel Data File" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="1" VariableName="EventControl" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+										<Data VariableType="4" VariableName="Contact_Info_XL">
+											<Records FromBegin="False" ToEnd="True" StartRecord="4" StopIndex="1" />
+										</Data>
+										<Children>
+											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+												<Data Description="Posts an information message to the test log." MessageType="0">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Counter" />
+														<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+												<Data VariableType="4" VariableName="Counter">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.Test_Data_Drive.Variables.Counter + 1" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+												<Data Description="Runs a keyword test." TestName="Mod_Data_Drive">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Name" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_XL">
+															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Name">
+																	<Values>
+																		<Value Type="6" Value="Name" Text="Name" />
+																		<Value Type="6" Value="Email" Text="Email" />
+																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
+																	</Values>
+																</Parameter>
+															</ArrayIndexes>
+														</Parameter>
+														<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info">
+															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Email">
+																	<Values>
+																		<Value Type="6" Value="Name" Text="Name" />
+																		<Value Type="6" Value="Email" Text="Email" />
+																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
+																	</Values>
+																</Parameter>
+															</ArrayIndexes>
+														</Parameter>
+														<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_XL">
+															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Enquiry">
+																	<Values>
+																		<Value Type="6" Value="Name" Text="Name" />
+																		<Value Type="6" Value="Email" Text="Email" />
+																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
+																	</Values>
+																</Parameter>
+															</ArrayIndexes>
+														</Parameter>
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+										<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 								<Data GroupName="Loop Module Operations using CSV data file" />
 								<Children>
 									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
@@ -260,9 +383,118 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using MS-SQL DB Table">
-									<CommonData Disabled="True" />
-								</Data>
+								<Data GroupName="Loop Module Operations using Data Generation" />
+								<Children>
+									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+										<Data Comment="Loop Module Operations using Data Generation" />
+									</Operation>
+									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Data Generation" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" VarType="8" ValueType="6" ValueValue="Project.Variables.LogAtrribInformation" />
+												<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+										<Data Description="Posts an information message to the test log." MessageType="0">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Data Generation" />
+												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+													<Values IsEnum="True">
+														<Value Type="1" Value="100" Text="pmLowest" />
+														<Value Type="1" Value="200" Text="pmLower" />
+														<Value Type="1" Value="300" Text="pmNormal" />
+														<Value Type="1" Value="400" Text="pmHigher" />
+														<Value Type="1" Value="500" Text="pmHighest" />
+													</Values>
+												</Parameter>
+												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+										<Data VariableType="4" VariableName="Contact_Info_DG">
+											<Records FromBegin="False" ToEnd="False" StartRecord="1" StopIndex="3" />
+										</Data>
+										<Children>
+											<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+												<Data VariableType="4" VariableName="Counter">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.Test_Data_Drive.Variables.Counter + 1" />
+													</Parameters>
+												</Data>
+											</Operation>
+											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+												<Data Description="Runs a keyword test." TestName="Mod_Data_Drive">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Name" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_DG">
+															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Name">
+																	<Values>
+																		<Value Type="6" Value="Name" Text="Name" />
+																		<Value Type="6" Value="EMail" Text="EMail" />
+																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
+																	</Values>
+																</Parameter>
+																<Parameter Name="Row" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Counter" />
+															</ArrayIndexes>
+														</Parameter>
+														<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_DB_Table">
+															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="email">
+																	<Values>
+																		<Value Type="6" Value="customer_id" Text="customer_id" />
+																		<Value Type="6" Value="first_name" Text="first_name" />
+																		<Value Type="6" Value="last_name" Text="last_name" />
+																		<Value Type="6" Value="phone" Text="phone" />
+																		<Value Type="6" Value="email" Text="email" />
+																		<Value Type="6" Value="street" Text="street" />
+																		<Value Type="6" Value="city" Text="city" />
+																		<Value Type="6" Value="state" Text="state" />
+																		<Value Type="6" Value="zip_code" Text="zip_code" />
+																	</Values>
+																</Parameter>
+															</ArrayIndexes>
+														</Parameter>
+														<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_DG">
+															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Enquiry">
+																	<Values>
+																		<Value Type="6" Value="Name" Text="Name" />
+																		<Value Type="6" Value="EMail" Text="EMail" />
+																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
+																	</Values>
+																</Parameter>
+																<Parameter Name="Row" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Counter" />
+															</ArrayIndexes>
+														</Parameter>
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+										<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+								<Data GroupName="Loop Module Operations using MS-SQL DB Table" />
 								<Children>
 									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 										<Data Comment="Loop Module Operations using MS-SQL DB Table" />
@@ -383,9 +615,7 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using MS-SQL DB Query">
-									<CommonData Disabled="True" />
-								</Data>
+								<Data GroupName="Loop Module Operations using MS-SQL DB Query" />
 								<Children>
 									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 										<Data Comment="Loop Module Operations using MS-SQL DB Query" />
@@ -491,244 +721,6 @@
 																		<Value Type="6" Value="city" Text="city" />
 																		<Value Type="6" Value="state" Text="state" />
 																		<Value Type="6" Value="zip_code" Text="zip_code" />
-																	</Values>
-																</Parameter>
-															</ArrayIndexes>
-														</Parameter>
-													</Parameters>
-												</Data>
-											</Operation>
-										</Children>
-									</Operation>
-									<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
-										<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
-									</Operation>
-								</Children>
-							</Operation>
-							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using Data Generation">
-									<CommonData Disabled="True" />
-								</Data>
-								<Children>
-									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-										<Data Comment="Loop Module Operations using Data Generation" />
-									</Operation>
-									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
-										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Data Generation" />
-												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-													<Values IsEnum="True">
-														<Value Type="1" Value="100" Text="pmLowest" />
-														<Value Type="1" Value="200" Text="pmLower" />
-														<Value Type="1" Value="300" Text="pmNormal" />
-														<Value Type="1" Value="400" Text="pmHigher" />
-														<Value Type="1" Value="500" Text="pmHighest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" VarType="8" ValueType="6" ValueValue="Project.Variables.LogAtrribInformation" />
-												<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-											</Parameters>
-										</Data>
-									</Operation>
-									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-										<Data Description="Posts an information message to the test log." MessageType="0">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Data Generation" />
-												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-													<Values IsEnum="True">
-														<Value Type="1" Value="100" Text="pmLowest" />
-														<Value Type="1" Value="200" Text="pmLower" />
-														<Value Type="1" Value="300" Text="pmNormal" />
-														<Value Type="1" Value="400" Text="pmHigher" />
-														<Value Type="1" Value="500" Text="pmHighest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
-												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-											</Parameters>
-										</Data>
-									</Operation>
-									<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
-										<Data VariableType="4" VariableName="Contact_Info_DG">
-											<Records FromBegin="False" ToEnd="False" StartRecord="1" StopIndex="3" />
-										</Data>
-										<Children>
-											<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
-												<Data VariableType="4" VariableName="Counter">
-													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-														<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.Test_Data_Drive.Variables.Counter + 1" />
-													</Parameters>
-												</Data>
-											</Operation>
-											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-												<Data Description="Runs a keyword test." TestName="Mod_Data_Drive">
-													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-														<Parameter Name="Name" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_DG">
-															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Name">
-																	<Values>
-																		<Value Type="6" Value="Name" Text="Name" />
-																		<Value Type="6" Value="EMail" Text="EMail" />
-																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
-																	</Values>
-																</Parameter>
-																<Parameter Name="Row" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Counter" />
-															</ArrayIndexes>
-														</Parameter>
-														<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_DB_Table">
-															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="email">
-																	<Values>
-																		<Value Type="6" Value="customer_id" Text="customer_id" />
-																		<Value Type="6" Value="first_name" Text="first_name" />
-																		<Value Type="6" Value="last_name" Text="last_name" />
-																		<Value Type="6" Value="phone" Text="phone" />
-																		<Value Type="6" Value="email" Text="email" />
-																		<Value Type="6" Value="street" Text="street" />
-																		<Value Type="6" Value="city" Text="city" />
-																		<Value Type="6" Value="state" Text="state" />
-																		<Value Type="6" Value="zip_code" Text="zip_code" />
-																	</Values>
-																</Parameter>
-															</ArrayIndexes>
-														</Parameter>
-														<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_DG">
-															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Enquiry">
-																	<Values>
-																		<Value Type="6" Value="Name" Text="Name" />
-																		<Value Type="6" Value="EMail" Text="EMail" />
-																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
-																	</Values>
-																</Parameter>
-																<Parameter Name="Row" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Counter" />
-															</ArrayIndexes>
-														</Parameter>
-													</Parameters>
-												</Data>
-											</Operation>
-										</Children>
-									</Operation>
-									<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
-										<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
-									</Operation>
-								</Children>
-							</Operation>
-							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-								<Data GroupName="Loop Module Operations using Excel Data File">
-									<CommonData Disabled="True" />
-								</Data>
-								<Children>
-									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-										<Data Comment="Loop Module Operations using Excel Data File" />
-									</Operation>
-									<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
-										<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Excel Data File" />
-												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-													<Values IsEnum="True">
-														<Value Type="1" Value="100" Text="pmLowest" />
-														<Value Type="1" Value="200" Text="pmLower" />
-														<Value Type="1" Value="300" Text="pmNormal" />
-														<Value Type="1" Value="400" Text="pmHigher" />
-														<Value Type="1" Value="500" Text="pmHighest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" VarType="8" ValueType="6" ValueValue="Project.Variables.LogAtrribInformation" />
-												<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-											</Parameters>
-										</Data>
-									</Operation>
-									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-										<Data Description="Posts an information message to the test log." MessageType="0">
-											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Loop Module Operations using Excel Data File" />
-												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-													<Values IsEnum="True">
-														<Value Type="1" Value="100" Text="pmLowest" />
-														<Value Type="1" Value="200" Text="pmLower" />
-														<Value Type="1" Value="300" Text="pmNormal" />
-														<Value Type="1" Value="400" Text="pmHigher" />
-														<Value Type="1" Value="500" Text="pmHighest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="1" VariableName="EventControl" />
-												<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-												<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-											</Parameters>
-										</Data>
-									</Operation>
-									<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
-										<Data VariableType="4" VariableName="Contact_Info_XL">
-											<Records FromBegin="False" ToEnd="True" StartRecord="4" StopIndex="1" />
-										</Data>
-										<Children>
-											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-												<Data Description="Posts an information message to the test log." MessageType="0">
-													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-														<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Counter" />
-														<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-															<Values IsEnum="True">
-																<Value Type="1" Value="100" Text="pmLowest" />
-																<Value Type="1" Value="200" Text="pmLower" />
-																<Value Type="1" Value="300" Text="pmNormal" />
-																<Value Type="1" Value="400" Text="pmHigher" />
-																<Value Type="1" Value="500" Text="pmHighest" />
-															</Values>
-														</Parameter>
-														<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
-														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-													</Parameters>
-												</Data>
-											</Operation>
-											<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
-												<Data VariableType="4" VariableName="Counter">
-													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-														<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.Test_Data_Drive.Variables.Counter + 1" />
-													</Parameters>
-												</Data>
-											</Operation>
-											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-												<Data Description="Runs a keyword test." TestName="Mod_Data_Drive">
-													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-														<Parameter Name="Name" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_XL">
-															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Name">
-																	<Values>
-																		<Value Type="6" Value="Name" Text="Name" />
-																		<Value Type="6" Value="Email" Text="Email" />
-																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
-																	</Values>
-																</Parameter>
-															</ArrayIndexes>
-														</Parameter>
-														<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info">
-															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Email">
-																	<Values>
-																		<Value Type="6" Value="Name" Text="Name" />
-																		<Value Type="6" Value="Email" Text="Email" />
-																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
-																	</Values>
-																</Parameter>
-															</ArrayIndexes>
-														</Parameter>
-														<Parameter Name="Enquiry" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Contact_Info_XL">
-															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Enquiry">
-																	<Values>
-																		<Value Type="6" Value="Name" Text="Name" />
-																		<Value Type="6" Value="Email" Text="Email" />
-																		<Value Type="6" Value="Enquiry" Text="Enquiry" />
 																	</Values>
 																</Parameter>
 															</ArrayIndexes>
