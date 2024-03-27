@@ -73,14 +73,6 @@
 							</Parameters>
 						</Data>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Closes the browser." Action="Close">
-							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-								<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="60000" VarType="3" ValueType="1" ValueValue="60000" />
-							</Parameters>
-							<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser" />
-						</Data>
-					</Operation>
 					<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
 						<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
 					</Operation>
