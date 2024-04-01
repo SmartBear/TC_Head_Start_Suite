@@ -87,6 +87,14 @@
 									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 										<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
 									</Operation>
+									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+										<Data Description="Delays the test execution for the specified time period.">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+											</Parameters>
+										</Data>
+									</Operation>
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
