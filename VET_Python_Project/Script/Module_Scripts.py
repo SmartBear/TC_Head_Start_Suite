@@ -83,3 +83,66 @@ def Test_Firefox_Headless():
   #Posts an image to the test log.
   Log.Picture(Aliases.browser.BrowserWindow.Picture(), "", "")
   Aliases.browser.pageContactus.header.link.imageSmartstore.Click()
+
+def Mod_Data_Drive_Script(Name, EMail, Enquiry):
+    #The beginning of the Mod_Data_Drive group
+    #This module attempts to log into the Smartstore with  invalid credentials
+    #Replaces the current indicator text with the specified one.
+    Indicator.PushText("Mod_Data_Drive")
+    #Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+    Log.AppendFolder("Mod_Data_Drive", "This module attempts to log into the Smartstore with  invalid credentials", pmNormal, Project.Variables.LogAtrribModTitle)
+    #The beginning of the Grouped Operations group
+    #Delays the test execution for the specified time period.
+    Delay(10000, "10 Second Wait for no real reason")
+    #Clicks the 'linkContactUs' link.
+    Aliases.browser.pageShop.header.navUsd.navContactUs.linkContactUs.Click()
+    #Waits until the browser loads the page and is ready to accept user input.
+    Aliases.browser.pageContactus.Wait()
+    #Clicks the 'textboxYourName' control.
+    Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName.Click()
+    #Sets the text in the 'textboxYourName' text editor.
+    Aliases.browser.pageContactus.sectionContent.formYourName.textboxYourName.SetText(Name)
+    #Sets the text in the 'emailinputYourEmail' text editor.
+    Aliases.browser.pageContactus.sectionContent.formYourName.emailinputYourEmail.SetText(EMail)
+    #Simulates a left-button single click in a window or control as specified (relative position, shift keys).
+    Aliases.browser.pageContactus.sectionContent.formYourName.textareaEnquiry.Click()
+    #Simulates one or several keypresses.
+    Aliases.browser.pageContactus.sectionContent.formYourName.textareaEnquiry.Keys(Enquiry)
+    #Simulates one or several keypresses.
+    Aliases.browser.pageContactus.sectionContent.formYourName.textareaEnquiry.Keys("-" + aqConvert.DateTimeToStr(aqDateTime.Now()))
+    #Clicks the 'buttonSendEmail' button.
+    Aliases.browser.pageContactus.sectionContent.formYourName.buttonSendEmail.ClickButton()
+    #Waits until the browser loads the page and is ready to accept user input.
+    Aliases.browser.pageContactus.Wait()
+    #Checks whether the 'contentText' property of the Aliases.browser.pageContactus.FindElement("//div[contains(text(), 'Your enquiry has been successfully sent to the store owner.')]") object equals 'Your enquiry has been successfully sent to the store owner.'.
+    aqObject.CheckProperty(Aliases.browser.pageContactus.FindElement("//div[contains(text(), 'Your enquiry has been successfully sent to the store owner.')]"), "contentText", cmpEqual, "Your enquiry has been successfully sent to the store owner.")
+    #Clicks the 'imageSmartstore' control.
+    Aliases.browser.pageContactus.header.link.imageSmartstore.Click()
+    #Delays the test execution for the specified time period.
+    Delay(5000, "5 Second delay to allow page to QUIESCE")
+    #Clicks the 'imageSmartstore' control.
+    Aliases.browser.pageShop2.header.link.imageSmartstore.Click()
+    #Checks whether the 'contentText' property of the Aliases.browser.pageShop.sectionContent.textnodeWelcomeToOurStore object equals 'Welcome to our store.'.
+    aqObject.CheckProperty(Aliases.browser.pageShop.sectionContent.textnodeWelcomeToOurStore, "contentText", cmpEqual, "Welcome to our store.")
+    #The end of the Grouped Operations group
+    #Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+    Log.PopLogFolder()
+    #Restores the previous indicator text.
+    Indicator.PopText()
+    #The end of the Mod_Data_Drive group
+
+def Mod_Chrome_Open_Smartstore_Script():
+    #The beginning of the Mod_Chrome_Open_Smartstore group
+    #Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+    Log.AppendFolder("Mod_Chrome_Open_Smartstore", "", pmNormal, Project.Variables.LogAtrribModTitle)
+    #Launches the specified browser and opens the specified URL in it.
+    Browsers.Item[btChrome].Run("https://bearstore-testsite.smartbear.com/")
+    #Maximizes the specified Window object.
+    Aliases.browser.BrowserWindow.Maximize()
+    #Posts an information message to the test log.
+    Log.Message(Aliases.browser.FileVersionInfo, "")
+    #Checks whether the 'contentText' property of the Aliases.browser.pageShop.sectionContent.panelPhTitle6 object equals 'Welcome to our store.'.
+    aqObject.CheckProperty(Aliases.browser.pageShop.sectionContent.panelPhTitle6, "contentText", cmpEqual, "Welcome to our store.")
+    #Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+    Log.PopLogFolder()
+    #The end of the Mod_Chrome_Open_Smartstore group

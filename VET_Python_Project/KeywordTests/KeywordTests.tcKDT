@@ -18,6 +18,7 @@
 			<child name="Mod_Open_BearStore_Chrome" key="{C115FC02-DA22-4633-8BBE-29971948A03E}" path="Mod_Open_BearStore_Chrome.tcKDTest" />
 			<child name="Mod_Open_BearStore_FireFox" key="{BA321AD8-E96F-4A62-B04F-77693AB19306}" path="Mod_Open_BearStore_FireFox.tcKDTest" />
 			<child name="Mod_Open_BearStore_Edge" key="{89586C16-6826-43E0-9507-2D3A2A821F8D}" path="Mod_Open_BearStore_Edge.tcKDTest" />
+			<child name="Test_Data_Drive_Convert" key="{9FBD8FC6-4D81-4557-A7A1-D7EAA8963E66}" path="Test_Data_Drive_Convert.tcKDTest" />
 		</folder>
 		<folder name="2 - Smoke">
 			<child name="Test_Logon_Fail" key="{26006C8A-B81B-4802-BD4E-45DC5BB0FF3F}" path="Test_Logon_Fail.tcKDTest" />
