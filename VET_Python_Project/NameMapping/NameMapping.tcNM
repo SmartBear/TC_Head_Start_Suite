@@ -29,6 +29,11 @@
 										<Value Value="0" Type="0" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="Item" Key="{DFB3FD82-8E94-46DF-8556-2870A349FEA0}">
+										<TypeInfo Item0="{C7D91611-4BC2-4B1B-9F11-15F8FF6BDD89}" />
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="pageShop" Key="{C98CB8CE-BD48-4CEA-9BBB-34CF459D423F}">
 								<Image FileName="1155834765" Left="0" Top="103" Right="3840" Bottom="2160" />
@@ -560,7 +565,6 @@
 						</Children>
 					</Child>
 					<Child Name="OUTLOOK" Key="{D6B23CD2-DDD1-4AA1-9917-EC33D5472926}">
-						<TypeInfo Item0="{CABD131A-E615-4EC6-9BE9-0A47D182AF17}" />
 						<Properties>
 							<Property Name="ProcessName">
 								<Value Value="OUTLOOK" />
@@ -569,7 +573,6 @@
 						<Children>
 							<Child Name="wndrctrl_renwnd32" Key="{5E300C10-CFA0-42E0-9F7B-47C91E4C14F1}">
 								<Image FileName="-304268686" Left="0" Top="0" Right="1936" Bottom="1056" />
-								<TypeInfo Item0="{826264CE-BD45-416D-B41D-1AB5F4C3F81B}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="rctrl_renwnd32" />
@@ -581,7 +584,6 @@
 								<Children>
 									<Child Name="DayViewWnd" Key="{961F9D19-DEFD-4AA3-9F13-81172E54C417}">
 										<Image FileName="-304268686" Left="288" Top="239" Right="1911" Bottom="1026" />
-										<TypeInfo Item0="{A1F0CB60-514F-4DD1-AA14-EC37B1936767}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="DayViewWnd" />
@@ -601,7 +603,9 @@
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{DB0F4D63-1F57-4F4C-97B0-0F84B8F663BE}">
-			<Child Name="BrowserWindow" Owner="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}" />
+			<Child Name="BrowserWindow" Owner="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}">
+				<Child Name="Item" Owner="{DFB3FD82-8E94-46DF-8556-2870A349FEA0}" />
+			</Child>
 			<Child Name="pageShop" Owner="{C98CB8CE-BD48-4CEA-9BBB-34CF459D423F}">
 				<Child Name="header" Owner="{ABC76A0C-2D09-48EF-8EC0-25FF3CB64359}">
 					<Child Name="navUsd" Owner="{4EB683EA-CC38-473C-B84C-36299A656308}">
