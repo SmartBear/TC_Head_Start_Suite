@@ -51,6 +51,8 @@
 				<child name="Test_Empty" key="{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" path="Test_Empty.tcKDTest" />
 				<child name="Test_Experiment" key="{0BF01E53-5E40-4118-A5CB-A2175744E05C}" path="Test_Experiment.tcKDTest" />
 				<child name="Test_Smoke_Anna" key="{402CEAA2-AA08-4A87-ADC1-3CBA50867F39}" path="Test_Smoke_Anna.tcKDTest" />
+				<child name="TestedAPP_pARMS" key="{7A26B07A-102E-4E8C-8870-52548D2D5389}" path="TestedAPP_pARMS.tcKDTest" />
+				<child name="Set_CLIParm_TestedApp" key="{D1EFCC08-09BA-47C5-A203-0D71148451BE}" path="Set_CLIParm_TestedApp.tcKDTest" />
 			</folder>
 			<folder name="Visual Test">
 				<child name="Visual_Demo" key="{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" path="Visual_Demo.tcKDTest" />

@@ -106,10 +106,10 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="BitBar_Basic" key="{603FE467-E5A6-4F08-83E7-05F0412DD6CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -232,7 +232,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Misc" key="{30A6574C-767B-459A-8F54-8FCE8772F265}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Misc" key="{30A6574C-767B-459A-8F54-8FCE8772F265}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Test_Empty" key="{EEDAAE5E-80C8-4C98-8D58-0196D038C778}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6CE3D24D-DFF5-48B8-9E14-040191E6672F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -245,9 +245,19 @@
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
+							<testItem name="Set_CLIParm_TestedApp" key="{6FA81703-1D98-4C98-88F4-B9DA5E14CBD3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D1EFCC08-09BA-47C5-A203-0D71148451BE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Set_CLIParm_TestedApp_Script" key="{314ABC15-0AA0-4543-8317-99EE04DBF3F0}" group="False" parallel="False" enabled="True" testMoniker="{E0708728-BBE4-4577-8254-3F8333B28D4C}Set_CLIParm_TestedApp_Script" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Mobile" key="{F0C08D74-0EE8-4104-8A75-EA48C193F431}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Mobile" key="{F0C08D74-0EE8-4104-8A75-EA48C193F431}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="Mobile_Virtual_Test" key="{67C16ED4-0B8D-412A-B233-D68CAD0C6844}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F858E64-5C78-4B21-862F-D1ECAA8576AE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

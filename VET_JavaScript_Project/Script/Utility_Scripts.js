@@ -98,3 +98,79 @@ function Simple_Test_Script()
   Log.PopLogFolder();
   //The end of the Simple_Test group
 }
+
+function Set_CLIParm_TestedApp_Script()
+{
+  var CLI_Var_String;
+  CLI_Var_String = "--incognito";
+  //The beginning of the Set_CLIParm_TestedApp group
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Set_CLIParm_TestedApp", "");
+  //The beginning of the Set Tested App Parm to Hardcoded Incognito  group
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Set Tested App Parm to Hardcoded Incognito ", "");
+  //Specifies command-line arguments for the tested application.
+  TestedApps.chrome.Params.ActiveParams.CommandLineParameters = "--incognito";
+  //Runs the "chrome" tested application.
+  TestedApps.chrome.Run();
+  //Maximizes the specified Window object.
+  Aliases.browser.BrowserWindow.Maximize();
+  //Posts an image to the test log.
+  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "Screenshot of Incognito Browser Window", "");
+  //Closes the browser.
+  Aliases.browser.Close();
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //The end of the Set Tested App Parm to Hardcoded Incognito  group
+  //The beginning of the Clear out Tested App Parm group
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Clear out Tested App Parm", "");
+  //Specifies command-line arguments for the tested application.
+  TestedApps.chrome.Params.ActiveParams.CommandLineParameters = "";
+  //Runs the "chrome" tested application.
+  TestedApps.chrome.Run();
+  //Maximizes the specified Window object.
+  Aliases.browser.BrowserWindow.Maximize();
+  //Posts an image to the test log.
+  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "Screenshot of Normal (Non-Incognito) Browser Window\r\n", "");
+  //Closes the browser.
+  Aliases.browser.Close();
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //The end of the Clear out Tested App Parm group
+  //The beginning of the Set Tested App Parm to Incognito via Test Variable group
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Set Tested App Parm to Incognito via Test Variable", "");
+  //Specifies command-line arguments for the tested application.
+  TestedApps.chrome.Params.ActiveParams.CommandLineParameters = CLI_Var_String;
+  //Runs the "chrome" tested application.
+  TestedApps.chrome.Run();
+  //Maximizes the specified Window object.
+  Aliases.browser.BrowserWindow.Maximize();
+  //Posts an image to the test log.
+  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "Screenshot of Normal (Non-Incognito) Browser Window\r\n", "");
+  //Closes the browser.
+  Aliases.browser.Close();
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //The end of the Set Tested App Parm to Incognito via Test Variable group
+  //The beginning of the Clear out Tested App Parm group
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Clear out Tested App Parm", "");
+  //Specifies command-line arguments for the tested application.
+  TestedApps.chrome.Params.ActiveParams.CommandLineParameters = "";
+  //Runs the "chrome" tested application.
+  TestedApps.chrome.Run();
+  //Maximizes the specified Window object.
+  Aliases.browser.BrowserWindow.Maximize();
+  //Posts an image to the test log.
+  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "Screenshot of Normal (Non-Incognito) Browser Window\r\n", "");
+  //Closes the browser.
+  Aliases.browser.Close();
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //The end of the Clear out Tested App Parm group
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+  //The end of the Set_CLIParm_TestedApp group
+}
