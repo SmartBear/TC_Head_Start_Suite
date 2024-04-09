@@ -54,6 +54,11 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="Chrome_Incognito" key="{ABC71E3A-F877-44F6-98D0-09EB65C660A9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6C04C433-433D-4D16-B4E5-05E4B599AFBA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="1 - Sanity" key="{1EA507AD-439A-4306-B5EC-EBA4AADC31E6}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -71,7 +76,7 @@
 					</testItem>
 					<testItem name="Test_Sample" key="{62251EEA-BC55-4A1E-837A-673BD51C7C5B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A4908CC5-AA32-4C0F-A23D-0DD829027394}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Test_Sanity" key="{C6CF785E-D8D4-4C60-96BE-B7791BDF8AAD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{52807BA1-0EB8-4D4E-B0B6-EE0DEC307FBF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

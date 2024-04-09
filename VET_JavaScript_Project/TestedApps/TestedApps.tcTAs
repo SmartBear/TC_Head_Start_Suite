@@ -28,5 +28,17 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{6A4FD16C-B371-41C9-B944-4354BE3E9799}">
+			<config nodeName="Chrome_Incognito" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="--incognito" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="--incognito" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="--incognito" workFolder="" />
+					<param name="Simple" fileName="chrome.exe" filePath="C:\Program Files\Google\Chrome\Application\" parameters="--incognito" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>

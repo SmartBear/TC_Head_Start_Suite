@@ -357,7 +357,6 @@
 									</Child>
 									<Child Name="textnodeMenuMain" Key="{EE3B8094-F02D-41A2-81EC-C66F73253C57}">
 										<Image FileName="-1119975643" Left="406" Top="242" Right="1516" Bottom="292" />
-										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#menu-main" />
@@ -378,7 +377,6 @@
 									</Child>
 									<Child Name="panelContentWrapper" Key="{DD7D790E-F36B-432C-A400-E4E90FB52FC4}">
 										<Image FileName="-2069451580" Left="8" Top="-954" Right="1911" Bottom="1217" />
-										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content-wrapper" />
@@ -511,7 +509,6 @@
 									</Child>
 									<Child Name="textnodeSignIn" Key="{A1C98BCB-95F3-4B3E-B3A9-3C8A84FB3C51}">
 										<Image FileName="-512434808" Left="405" Top="332" Right="1515" Bottom="380" />
-										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Sign In&apos;]" />
@@ -526,7 +523,6 @@
 									</Child>
 									<Child Name="header" Key="{90755C95-4D77-4A4B-AF40-1C2F1799A1FC}">
 										<Image FileName="-1391032372" Left="8" Top="129" Right="1911" Bottom="308" />
-										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -541,7 +537,6 @@
 									</Child>
 									<Child Name="link" Key="{148B5BBA-4C4A-43B6-BCAA-C38A1C6DBD96}">
 										<Image FileName="-1391032372" Left="403" Top="205" Right="653" Bottom="236" />
-										<TypeInfo Item0="{69E21864-765A-4F42-9226-46E6EF03A522}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -556,7 +551,6 @@
 									</Child>
 									<Child Name="imageSmartstore" Key="{77A05FEB-44D7-423D-BC6B-8783C6E180B1}">
 										<Image FileName="-1391032372" Left="403" Top="205" Right="653" Bottom="236" />
-										<TypeInfo Item0="{8F84E97B-FE66-4F1F-9862-BE3B0A473F05}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -591,7 +585,6 @@
 									</Child>
 									<Child Name="textnode" Key="{888CFCC0-B15B-4BB6-BBFC-B354A9342C77}">
 										<Image FileName="-841506898" Left="120" Top="374" Right="180" Bottom="434" />
-										<TypeInfo Item0="{F4C62F14-93BA-4A45-BF83-7F24AC0D0750}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//div[2]//div[@id=&apos;shopbar-menu&apos;]/a//i[contains(@class, &apos;icm&apos;)]" />
@@ -606,7 +599,6 @@
 									</Child>
 									<Child Name="panelMenu" Key="{FA5B5228-684A-4BF0-96A0-315DC43C61D7}">
 										<Image FileName="456969308" Left="8" Top="122" Right="1133" Bottom="3429" />
-										<TypeInfo Item0="{F4C62F14-93BA-4A45-BF83-7F24AC0D0750}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;page-main&apos;)]" />
@@ -1023,13 +1015,92 @@
 								<Children>
 									<Child Name="Chrome_RenderWidgetHostHWND" Key="{12363F5B-3778-44D1-9293-2790B985CD50}">
 										<Image FileName="-806627479" Left="0" Top="0" Right="1920" Bottom="1032" />
-										<TypeInfo Item0="{83D6E7C0-EC9D-40D1-9FB4-A1A341902176}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="Chrome_RenderWidgetHostHWND" />
 											</Property>
 											<Property Name="WndCaption">
 												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="chrome" Key="{D9403F19-D777-4C3A-8745-A9849BA39008}">
+						<TypeInfo Item0="{00FF744D-42BB-43F4-BE8B-9EDFCE488B85}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="chrome" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="page" Key="{4D9C2D4C-6F82-48CA-8DF6-75DFC83D892D}">
+								<Image FileName="729086638" Left="8" Top="129" Right="1928" Bottom="1086" />
+								<TypeInfo Item0="{6C13150A-B40C-4925-A1B9-057EBC6ADCA1}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Taskmgr" Key="{EB882AB2-8012-4689-92BE-37CA964FB12F}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Taskmgr" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTaskManagerWindow" Key="{D1F635CE-0D21-44F1-8D6E-E8E3A10587A1}">
+								<TypeInfo Item0="{356E5FFC-CD58-4577-9F0C-8977964D71ED}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskManagerWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Task Manager" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{C937D055-AB30-47F6-AECD-42BBE9E6311C}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{30BF4362-B008-4EBF-9475-1218AC4E7926}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{C6BE1017-0B93-4357-A573-4D0BD4E30E0A}">
+										<TypeInfo Item0="{D5EC5AC5-9C84-424D-95F2-2516494F7056}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
 											</Property>
 										</Properties>
 									</Child>
@@ -1142,6 +1213,17 @@
 		<Child Name="slack" Owner="{892876DA-0401-45CD-AF26-EEBCD15BBB50}">
 			<Child Name="wndChrome_WidgetWin_1" Owner="{8937F981-7872-4F31-B461-5CA258D71FCF}">
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{12363F5B-3778-44D1-9293-2790B985CD50}" />
+			</Child>
+		</Child>
+		<Child Name="chrome" Owner="{D9403F19-D777-4C3A-8745-A9849BA39008}">
+			<Child Name="page" Owner="{4D9C2D4C-6F82-48CA-8DF6-75DFC83D892D}" />
+		</Child>
+		<Child Name="Taskmgr" Owner="{EB882AB2-8012-4689-92BE-37CA964FB12F}">
+			<Child Name="wndTaskManagerWindow" Owner="{D1F635CE-0D21-44F1-8D6E-E8E3A10587A1}" />
+		</Child>
+		<Child Name="explorer" Owner="{C937D055-AB30-47F6-AECD-42BBE9E6311C}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{30BF4362-B008-4EBF-9475-1218AC4E7926}">
+				<Child Name="DesktopWindowXamlSource" Owner="{C6BE1017-0B93-4357-A573-4D0BD4E30E0A}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
