@@ -178,6 +178,20 @@
 										<Value Value="0" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{9AD89D9A-59AA-461F-AC5B-DCEFBD7B264F}">
+										<Image FileName="1781413172" Left="16" Top="220" Right="3446" Bottom="2095" />
+										<TypeInfo Item0="{235B8A6D-9AC9-48F8-8622-F01FF215A202}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="pageClearbrowserdata" Key="{6D423954-6D7C-429C-8654-4EAFF68F89CA}">
 								<Image FileName="1894454631" Left="8" Top="79" Right="1928" Bottom="1007" />
@@ -608,7 +622,6 @@
 							</Child>
 							<Child Name="pagePrivacy" Key="{ADD16A6B-BC9B-44D0-95E6-6B582EB0DA1E}">
 								<Image FileName="-1044666745" Left="12" Top="112" Right="1924" Bottom="1036" />
-								<TypeInfo Item0="{097A5CC3-7F22-4B51-936A-49BB5D0474AA}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -620,7 +633,6 @@
 							</Child>
 							<Child Name="pageAboutBlank" Key="{3A473F02-D9CE-4E23-8E19-527A84F2B89E}">
 								<Image FileName="-1986531252" Left="8" Top="93" Right="1928" Bottom="1040" />
-								<TypeInfo Item0="{7A57CB4D-12D1-4E7D-96CA-E2F93FB58551}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -675,7 +687,9 @@
 			</Child>
 			<Child Name="pageSettingsClearbrowserdata" Owner="{EF363187-1937-41D5-AD8C-ED22ECB26732}" />
 			<Child Name="pageSettings" Owner="{2D5B7AF6-1C6B-452A-B0DC-CFDBE2AAAD21}" />
-			<Child Name="BrowserWindow" Owner="{C183E187-FA79-4C74-959C-E9730F56ECC8}" />
+			<Child Name="BrowserWindow" Owner="{C183E187-FA79-4C74-959C-E9730F56ECC8}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{9AD89D9A-59AA-461F-AC5B-DCEFBD7B264F}" />
+			</Child>
 			<Child Name="pageClearbrowserdata" Owner="{6D423954-6D7C-429C-8654-4EAFF68F89CA}" />
 			<Child Name="pageShop" Owner="{99D07F65-19EA-42BE-916A-CC11F73693B2}">
 				<Child Name="header" Owner="{13DFBC36-C15C-4632-8526-33834DA13992}">
