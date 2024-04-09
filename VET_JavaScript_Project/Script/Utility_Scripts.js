@@ -99,6 +99,7 @@ function Simple_Test_Script()
   //The end of the Simple_Test group
 }
 
+//@Debug
 function Set_CLIParm_TestedApp_Script()
 {
   var CLI_Var_String;
