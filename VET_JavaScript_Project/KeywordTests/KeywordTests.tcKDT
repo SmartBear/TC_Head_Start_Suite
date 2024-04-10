@@ -71,6 +71,5 @@
 				<child name="Mobile_Record_Emulator" key="{F386EA28-008E-48B1-85E0-B4A7E394A372}" path="Mobile_Record_Emulator.tcKDTest" />
 			</folder>
 		</folder>
-		<child name="Test2" key="{F969368E-8261-488C-9A62-4F8FEBF8FEBA}" path="Test2.tcKDTest" />
 	</children>
 </Root>
