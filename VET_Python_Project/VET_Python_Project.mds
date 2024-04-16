@@ -63,7 +63,7 @@
 			<testItem name="2 - Smoke" key="{C668FCA3-6BDE-48E6-8655-0D6DE99F02BC}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Logon_Fail" key="{C0D6E077-C7B6-4DAA-9930-C13622463B28}" group="False" parallel="False" enabled="True" testMoniker="KDT\{26006C8A-B81B-4802-BD4E-45DC5BB0FF3F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Logon_Fail" key="{C0D6E077-C7B6-4DAA-9930-C13622463B28}" group="False" parallel="False" enabled="False" testMoniker="KDT\{26006C8A-B81B-4802-BD4E-45DC5BB0FF3F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -176,7 +176,7 @@
 		</data>
 	</variables>
 	<settings key="{DCC40435-CB55-4835-B784-878254660374}">
-		<settingsVersion value="15.62" />
+		<settingsVersion value="15.63" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

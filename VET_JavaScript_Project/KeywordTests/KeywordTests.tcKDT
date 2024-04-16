@@ -34,7 +34,6 @@
 			<child name="Mod_Data_Drive" key="{5E3FD945-E48E-47EF-9F6E-AA6FBE32977C}" path="Mod_Data_Drive.tcKDTest" />
 			<child name="Test_Data_Drive" key="{2C7E4E4A-5DAE-4CA2-A62C-2B15332B078F}" path="Test_Data_Drive.tcKDTest" />
 			<child name="Test_Browser_Version" key="{83100CCA-41AA-48A1-B4E7-72B7140475E6}" path="Test_Browser_Version.tcKDTest" />
-			<child name="Test1" key="{8D544AFB-E56D-42C5-89BA-58FC7D6040A9}" path="Test1.tcKDTest" />
 		</folder>
 		<folder name="4 - Debug">
 			<folder name="Local Headless Browser">
