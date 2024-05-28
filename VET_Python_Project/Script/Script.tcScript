@@ -5,5 +5,9 @@
 		<child name="Utility_Scripts" key="{77C6E390-E537-4FC8-8BB2-5D1A7917FA61}" path="Utility_Scripts.py" />
 		<child name="Module_Scripts" key="{44035AAA-3164-4C1A-9166-74FEEC6C594B}" path="Module_Scripts.py" />
 		<child name="Common_Modules" key="{64A07EA7-C8E4-4DAC-8B85-8A8F52BD88EF}" path="Common_Modules.py" />
+		<child name="Kill_All_Browsers" key="{B848A693-6736-44EB-B025-E96A7860A4AD}" path="Kill_All_Browsers.py" />
+		<child name="Kill_Process" key="{6DBE9AEB-4E48-4DD4-A1ED-CB0F1E3C6989}" path="Kill_Process.py" />
+		<child name="Open_All_Browsers" key="{AFFBA4CE-6D0E-4CF8-8C40-32561061D855}" path="Open_All_Browsers.py" />
+		<child name="String_Utilitites" key="{3E81CBC0-218A-4672-A66B-31AE073643D2}" path="String_Utilitites.py" />
 	</children>
 </Root>

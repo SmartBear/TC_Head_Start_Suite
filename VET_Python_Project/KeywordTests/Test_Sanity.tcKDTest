@@ -29,6 +29,9 @@
 							</Parameters>
 						</Data>
 					</Operation>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="Kill_All_Browsers" Unit="Kill_All_Browsers" />
+					</Operation>
 					<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
 						<Data GroupName="Chrome" />
 						<Children>
