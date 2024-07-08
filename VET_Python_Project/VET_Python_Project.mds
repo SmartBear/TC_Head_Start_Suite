@@ -78,7 +78,7 @@
 			<testItem name="3 - Deep Dive" key="{916422D1-8C92-4C0E-B7A7-7187B700AB30}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Test_Data_Drive" key="{EC30BECC-AB20-463A-B8B7-5B9FECFDF8B5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ADD73D95-4136-4398-BE57-44A968A7F274}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Data_Drive" key="{EC30BECC-AB20-463A-B8B7-5B9FECFDF8B5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{ADD73D95-4136-4398-BE57-44A968A7F274}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -176,7 +176,7 @@
 		</data>
 	</variables>
 	<settings key="{DCC40435-CB55-4835-B784-878254660374}">
-		<settingsVersion value="15.63" />
+		<settingsVersion value="15.65" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
