@@ -658,6 +658,53 @@
 							</Property>
 						</Properties>
 					</Child>
+					<Child Name="explorer" Key="{00346F5D-9FC5-4406-95F8-60CFA79405D5}">
+						<TypeInfo Item0="{5C3D8DA8-D237-495F-8D78-5B44C54E89CC}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndProgman" Key="{8133AE07-151F-4043-9FCC-A3D97AEA44E8}">
+								<Image FileName="1662210433" Left="0" Top="0" Right="5760" Bottom="1080" />
+								<TypeInfo Item0="{D7555DE6-1D1E-4CCE-836C-19EC04A56DED}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Progman" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Program Manager" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{42358083-55D5-48B9-9E9A-47594332105E}">
+										<Image FileName="1662210433" Left="0" Top="0" Right="5760" Bottom="1080" />
+										<TypeInfo Item0="{235B8A6D-9AC9-48F8-8622-F01FF215A202}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{466D55E3-9CB9-4277-9197-33E4187D281B}">
+												<Image FileName="1662210433" Left="0" Top="0" Right="5760" Bottom="1080" />
+												<TypeInfo Item0="{AFA957B5-A9AC-4D2D-A624-F2D8D2E3F509}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -736,5 +783,12 @@
 		</Child>
 		<Child Name="TestExecute" Owner="{3AE89E80-3678-4D5E-99EF-2E6291C337B7}" />
 		<Child Name="TestComplete" Owner="{A92DAA2B-65EC-4E31-9530-841A7DDE7D88}" />
+		<Child Name="explorer" Owner="{00346F5D-9FC5-4406-95F8-60CFA79405D5}">
+			<Child Name="wndProgman" Owner="{8133AE07-151F-4043-9FCC-A3D97AEA44E8}">
+				<Child Name="SHELLDLL_DefView" Owner="{42358083-55D5-48B9-9E9A-47594332105E}">
+					<Child Name="FolderView" Owner="{466D55E3-9CB9-4277-9197-33E4187D281B}" />
+				</Child>
+			</Child>
+		</Child>
 	</LogicalNodes>
 </Root>
