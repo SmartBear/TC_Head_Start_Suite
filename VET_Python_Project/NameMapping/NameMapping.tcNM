@@ -30,9 +30,7 @@
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="Item" Key="{DFB3FD82-8E94-46DF-8556-2870A349FEA0}">
-										<TypeInfo Item0="{C7D91611-4BC2-4B1B-9F11-15F8FF6BDD89}" />
-									</Child>
+									<Child Name="Item" Key="{DFB3FD82-8E94-46DF-8556-2870A349FEA0}" />
 								</Children>
 							</Child>
 							<Child Name="pageShop" Key="{C98CB8CE-BD48-4CEA-9BBB-34CF459D423F}">
@@ -562,6 +560,15 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="wndWindowsForms10Window8app0bb8560r9ad1" Key="{48E8158A-8B15-42DE-81E7-53DD636CF59D}">
+								<Image FileName="-2030085823" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{27CBA698-B478-4D44-A960-C0E5F6775A69}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WindowsForms10.Window.8.app.0.bb8560_r9_ad1" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="OUTLOOK" Key="{D6B23CD2-DDD1-4AA1-9917-EC33D5472926}">
@@ -657,6 +664,7 @@
 		</Child>
 		<Child Name="Orders" Owner="{DB2A076A-6525-4B55-8635-8E4B0CE3EBFB}">
 			<Child Name="MainForm" Owner="{22907E00-6826-4980-B265-89012D835EF5}" />
+			<Child Name="wndWindowsForms10Window8app0bb8560r9ad1" Owner="{48E8158A-8B15-42DE-81E7-53DD636CF59D}" />
 		</Child>
 		<Child Name="OUTLOOK" Owner="{D6B23CD2-DDD1-4AA1-9917-EC33D5472926}">
 			<Child Name="wndrctrl_renwnd32" Owner="{5E300C10-CFA0-42E0-9F7B-47C91E4C14F1}">

@@ -61,7 +61,7 @@
 					<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
 						<Data Description="Posts an image to the test log.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.chrome.page.Picture()" />
+								<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.chrome.wndChrome_WidgetWin_1" />
 								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Screenshot of Chrome Incognito Window" />
 								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -83,7 +83,7 @@
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="60000" VarType="3" ValueType="1" ValueValue="60000" />
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome;" />
 						</Data>
 					</Operation>
 					<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">

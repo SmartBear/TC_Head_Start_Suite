@@ -85,8 +85,17 @@
 											</Parameters>
 										</Data>
 									</Operation>
+									<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
+										<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
+											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+												<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageClearbrowserdata" />
+												<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="*Delete browsing data*" />
+											</Parameters>
+										</Data>
+									</Operation>
 									<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 										<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+											<CommonData Disabled="True" />
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 												<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.BrowserWindow" />
 												<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="WndCaption" />

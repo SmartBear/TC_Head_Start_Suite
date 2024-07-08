@@ -114,12 +114,10 @@ function Set_CLIParm_TestedApp_Script()
   TestedApps.chrome.Params.ActiveParams.CommandLineParameters = "--incognito";
   //Runs the "chrome" tested application.
   TestedApps.chrome.Run();
-  //Maximizes the specified Window object.
-  Aliases.browser.BrowserWindow.Maximize();
   //Posts an image to the test log.
-  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "Screenshot of Incognito Browser Window", "");
+  Log.Picture(Aliases.chrome.wndChrome_WidgetWin_1.Picture(), "Incognito Window", "Should be a screenshot of the Chrome Incognito Window", pmNormal, Project.Variables.LogAtrribInformation);
   //Closes the browser.
-  Aliases.browser.Close();
+  Aliases.chrome.Close();
   //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
   Log.PopLogFolder();
   //The end of the Set Tested App Parm to Hardcoded Incognito  group
@@ -146,12 +144,10 @@ function Set_CLIParm_TestedApp_Script()
   TestedApps.chrome.Params.ActiveParams.CommandLineParameters = CLI_Var_String;
   //Runs the "chrome" tested application.
   TestedApps.chrome.Run();
-  //Maximizes the specified Window object.
-  Aliases.browser.BrowserWindow.Maximize();
   //Posts an image to the test log.
-  Log.Picture(Aliases.browser.BrowserWindow.Picture(), "Screenshot of Normal (Non-Incognito) Browser Window\r\n", "");
+  Log.Picture(Aliases.chrome.wndChrome_WidgetWin_1, "Screenshot of Normal (Non-Incognito) Browser Window\r\n", "");
   //Closes the browser.
-  Aliases.browser.Close();
+  Aliases.chrome.Close();
   //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
   Log.PopLogFolder();
   //The end of the Set Tested App Parm to Incognito via Test Variable group
