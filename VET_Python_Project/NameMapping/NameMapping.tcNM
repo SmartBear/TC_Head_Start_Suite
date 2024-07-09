@@ -562,7 +562,6 @@
 							</Child>
 							<Child Name="wndWindowsForms10Window8app0bb8560r9ad1" Key="{48E8158A-8B15-42DE-81E7-53DD636CF59D}">
 								<Image FileName="-2030085823" Left="0" Top="0" Right="608" Bottom="408" />
-								<TypeInfo Item0="{27CBA698-B478-4D44-A960-C0E5F6775A69}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="WindowsForms10.Window.8.app.0.bb8560_r9_ad1" />
