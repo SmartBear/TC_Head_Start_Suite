@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{BBAD2DC1-6E38-465F-A4D8-41AC6B45E405}" Tags="@Debug" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{BBAD2DC1-6E38-465F-A4D8-41AC6B45E405}" Tags="@Debug_Fail" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
