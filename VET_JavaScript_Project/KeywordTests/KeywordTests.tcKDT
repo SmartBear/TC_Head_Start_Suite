@@ -61,6 +61,7 @@
 				<child name="Visual_Demo_3" key="{CE9C9E78-F868-41AE-B0D7-E2AF03429CAA}" path="Visual_Demo_3.tcKDTest" />
 				<child name="Visual_Test_4" key="{C7190A67-B903-40BA-822A-9E057FC8A338}" path="Visual_Test_4.tcKDTest" />
 				<child name="Visual_Baseline" key="{FC0E8297-72A6-429F-87E2-7C55684086E2}" path="Visual_Baseline.tcKDTest" />
+				<child name="Visual_Test5" key="{3A327721-BA44-4E40-9DBA-B42ADC1AE43F}" path="Visual_Test5.tcKDTest" />
 			</folder>
 			<folder name="BitBar">
 				<child name="BitBar_Basic" key="{D2C25F59-9F01-4358-9C22-3384A8509819}" path="BitBar_Basic.tcKDTest" />
