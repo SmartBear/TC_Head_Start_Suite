@@ -383,6 +383,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelBooks" Key="{D1666BF6-E2AA-4719-99A0-F9137A889A93}">
+										<Image FileName="-2077244466" Left="390" Top="277" Right="1530" Bottom="327" />
+										<TypeInfo Item0="{D1C89653-4A72-43F9-8161-C5AA3EA62087}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;megamenu-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/nav/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{71ED067B-42F9-453D-AA44-9D041999BE8C}">
@@ -995,7 +1010,6 @@
 							</Child>
 							<Child Name="wndWindowsForms10Window8app0bb8560r9ad1" Key="{4313355F-94D7-4CFC-A4F6-A611D3BC39E4}">
 								<Image FileName="1793448481" Left="0" Top="0" Right="608" Bottom="408" />
-								<TypeInfo Item0="{AAEE2146-4586-42A2-AADD-A4C0EA0D4412}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="WindowsForms10.Window.8.app.0.bb8560_r9_ad1" />
@@ -1060,7 +1074,6 @@
 							</Child>
 							<Child Name="wndChrome_WidgetWin_1" Key="{AF5A4A71-BFC8-4D7F-9226-2C3DE1C19C2B}">
 								<Image FileName="542324449" Left="0" Top="0" Right="1632" Bottom="965" />
-								<TypeInfo Item0="{AAEE2146-4586-42A2-AADD-A4C0EA0D4412}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="Chrome_WidgetWin_1" />
@@ -1152,6 +1165,7 @@
 					</Child>
 					<Child Name="navBooks" Owner="{DBF1E257-3852-42C6-8984-13C699EB6AB0}">
 						<Child Name="textnodeMenuMain" Owner="{EE3B8094-F02D-41A2-81EC-C66F73253C57}" />
+						<Child Name="panelBooks" Owner="{D1666BF6-E2AA-4719-99A0-F9137A889A93}" />
 					</Child>
 					<Child Name="panel" Owner="{606AF0BA-89E3-41BC-8F98-C0B3542E21F4}" />
 					<Child Name="panelUsd" Owner="{4A6D875A-5ADB-4447-B5CA-15F8C8CC9077}" />

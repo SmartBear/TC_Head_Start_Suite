@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+<<<<<<< HEAD
 	<TestData Description="" Key="{CB2F3167-A26C-4A4E-969C-2051EE24E95B}" Tags="@Bitbar" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+=======
+	<TestData Description="" Key="{CB2F3167-A26C-4A4E-969C-2051EE24E95B}" Tags="@BitBar" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+>>>>>>> 72105e234981efd2a9052a83b919525600598b03
 		<Data>
 			<Extenders>
 				<NodeBitmaps />

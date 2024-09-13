@@ -285,6 +285,11 @@
 					<testItem name="Visual Test" key="{7EB69D12-FCA4-4EA0-B93D-85772379BA7E}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
+							<testItem name="Visual_Baseline" key="{980CC15D-8AB3-425C-843B-E93424643EED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC0E8297-72A6-429F-87E2-7C55684086E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
 							<testItem name="Visual_Demo" key="{4AAB6C15-CD2C-4152-919E-5F9F15E29C74}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8CD55579-F1EC-4D7E-8DC0-172717148F6E}" count="2" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
@@ -295,7 +300,17 @@
 								<environments activeCloud="LocalAppium" />
 								<children />
 							</testItem>
-							<testItem name="Visual_Demo_3" key="{E35B020D-BEC7-40B9-A3B2-0ACE45AC2A8A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CE9C9E78-F868-41AE-B0D7-E2AF03429CAA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Visual_Demo_3" key="{E35B020D-BEC7-40B9-A3B2-0ACE45AC2A8A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE9C9E78-F868-41AE-B0D7-E2AF03429CAA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Visual_Test_4" key="{131171D0-8E86-48EB-96D6-E022A14D0592}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C7190A67-B903-40BA-822A-9E057FC8A338}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Visual_Test5" key="{8AD88B88-6087-479D-8681-9EEF67547D27}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3A327721-BA44-4E40-9DBA-B42ADC1AE43F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
