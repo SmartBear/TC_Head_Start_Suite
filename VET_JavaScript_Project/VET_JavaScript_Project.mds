@@ -1005,7 +1005,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
-		<setting name="VTAPIKey" type="5" value="" />
+		<setting name="VTAPIKey" type="5" value="AiIAVHJ8k2HJ4xEF" />
 		<setting name="WebCloudProvider" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
