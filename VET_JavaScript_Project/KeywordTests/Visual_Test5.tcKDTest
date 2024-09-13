@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{232D4F3C-78F4-434C-8C60-18DBA42C224C}" Tags="@Visual @Simple" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.chrome" Data="61717A6970000000010000003604000078016D925B48D3511CC7BD21A229D3CCD434E736E7BCCC6D6A62BAB9B92E6A53BAD9434146D0058AE825E8625AE48B2FB69989E53DBA40606F3D949597F2CAC07F3D091129BA792175538B82FFDFF3ED9CBF9B5878E073BEBFC3FFFFFB9C73E098CB72027CC49143671545E2C1D7474A2B3A3CDFD7175BCF41E10152D5C9C8CEAC6B319CA12E9EC475BD44E0F3AF13FE97EA6C7E1905A6ADBBA83AC84FA2381A6133D9A430D5AF63B42590BC263D427A7891609A81D4E31B226147DB18AC37FBFA2ECEDC2083B9414E612943E183F54CEA6A43580F4FC27A79960869B6739B1DCAF248ABB95146F635CAC9FE460518E68732C260B5A1B900D1DD93D8DE2720A28F4704F5045FAEB3B2038427059B0E342971F09112DE3CFDAC1083DFDF81FC5EC1F2DC383E3B4760795D8FA87E9E2260077530FC774AA5C927A2AC45CD2A147BA87861167B5C0D47B0705325B2DC528115EAC919E5114B1D318C8F022437DA3A8CB58A89E2D61452D29A8292D6547C9919C572CB192CDE4ADD441ADC0DC7F0668160F72741249E6654BB9DB3B4A7C3D29E2662AC3C4B5C535358BAADC662A51A4B0C5A8BD09ADD4736208824D2649475AA61E94C27871EE742B36F046B2E2796AA3422AE2A2D4D2F1AB87E38A01CE4A118E04912CDA4011EA61A2577F8A916862BB548CB9DC487FE5F58BE5F0A7775265C9B586D3F8F513741EA9020A21AE489FCD5B709DD85F88ED2A622680AC7A1CE9B42D17127DCD30EFCECB808F79D3D22AB4DA7E05E70A2784C807A9847C6B080F4219E445FADB30547064A0DE79E40A39F4646FE34C9C89F4271F92CEC637F440FBB73AF8BA08C5B836E8427BA1181012DCD6DBAF5F71C2BBB6BD51A9CF807BD83AE2934D579CC3BEDDD83ED8398C46AF1FDB037E41F102A51657573BA821992699A45A669063AE30CF311961ABD9368F48E0D94DAB71CEB61BDDEC1D6F1F27BD6ACC23930328DB31E17F379A0AE387AD6FF7BBD0E96A1923C539CA2C696BED73E916D9EA7AE79929AFD9E4B48B6750406C54937FFCBEABF1F320687" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Just trying things out" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="chrome">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Maximizes the specified Window object." Action="Maximize">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.wndChrome_WidgetWin_1;" />
+				</Data>
+			</Operation>
+			<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
+				<Data FTestRunName="Visual_Test5" FCaptureName="HomePage" FCaptureType="8" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageShop;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the browser." Action="Close">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="60000" VarType="3" ValueType="1" ValueValue="60000" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{101B6118-2090-49DF-AA2F-C146933B23D7}" />
+</Root>
