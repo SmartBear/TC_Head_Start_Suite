@@ -45,5 +45,6 @@
 			<child name="Warning_Test" key="{D030BBD3-9309-49DA-8A28-80186319B9F2}" path="Warning_Test.tcKDTest" />
 			<child name="Failing_Test" key="{AB76932E-4A2B-4749-B7CF-540C8A800EDF}" path="Failing_Test.tcKDTest" />
 		</folder>
+		<child name="Test1" key="{DA304B7E-E0FA-4A35-B60C-D578A1FCE65C}" path="Test1.tcKDTest" />
 	</children>
 </Root>

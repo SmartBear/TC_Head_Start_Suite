@@ -90,6 +90,7 @@ function Visual_Demo_2_Script()
   //The end of the Visual Demo 2 group
 }
 
+//@Visual
 function Visual_Demo_3_Script()
 {
   //The beginning of the Visual Demo 3 group
@@ -147,6 +148,7 @@ function Visual_Demo_3_Script()
   //The end of the Visual Demo 3 group
 }
 
+//@Visual
 function Visual_Test_4_Script()
 {
   //The beginning of the Visual Demo 4 group

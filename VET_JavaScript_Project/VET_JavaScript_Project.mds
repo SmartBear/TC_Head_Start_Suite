@@ -51,7 +51,7 @@
 					</testItem>
 					<testItem name="Test_Template_2" key="{F23BCF74-DA5F-40C3-BE79-E5AEDD00520A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CFA713BF-8A23-40B9-97F8-E47A16E93366}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 					<testItem name="Chrome_Incognito" key="{ABC71E3A-F877-44F6-98D0-09EB65C660A9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6C04C433-433D-4D16-B4E5-05E4B599AFBA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -114,7 +114,7 @@
 			<testItem name="4 - Debug" key="{CBB23783-D686-4986-8334-DF0BD02C8F77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="BitBar" key="{3F12E88E-8DE7-4008-B81E-BF87F2B776C7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
 							<testItem name="BitBar_Basic" key="{603FE467-E5A6-4F08-83E7-05F0412DD6CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2C25F59-9F01-4358-9C22-3384A8509819}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -340,7 +340,7 @@
 		</data>
 	</variables>
 	<settings key="{E5EDEEC4-B610-48D2-BF15-A461A715F89A}">
-		<settingsVersion value="15.62" />
+		<settingsVersion value="15.67" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -990,6 +990,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="VTAPIKey" type="5" value="" />
 		<setting name="WebCloudProvider" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
