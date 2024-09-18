@@ -1,5 +1,5 @@
 name: TestExecute Simple Test
-run-name: TestExecute run from GitHub Action (${{ github.actor }})
+run-name: TestExecute run from GitHub Action
 on:
   workflow_dispatch:
 jobs:
