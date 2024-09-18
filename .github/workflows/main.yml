@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: SB-MA-JBMVBY3
     steps:
     -name: Run a batch file to run TestComplete test via TestExecute
      working-directory:C:\TestRunner
