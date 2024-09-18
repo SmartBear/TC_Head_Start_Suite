@@ -3,7 +3,7 @@ run-name: TestExecute run from GitHub Action
 on:
   workflow_dispatch:
 jobs:
-  build:
+  Sanity:
     runs-on: SB-MA-JBMVBY3
     steps:
     -name: Run a batch file to run TestComplete test via TestExecute
