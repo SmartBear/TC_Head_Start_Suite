@@ -1,15 +1,14 @@
 name: TestExecuteSimpleTest
-
-run-name: TestExecute run from GitHub Action
-
 on:
-  workflow_dispatch:
-  
+	push:
+		branches:[ main ]
+	pull_request:
+		branches:[ main ]		
+	workflow_dispatch:
 jobs:
-  Sanity:
-    runs-on: SB-MA-JBMVBY3
-    
+  build:
+    runs-on:self-hosted
     steps:
-    -name: Run a batch file to run TestComplete test via TestExecute
-     working-directory:C:\TestRunner
-     run:./GitHub_Batch.bat
+      - name: run a batch file to trigger testcomplete tests via testexecute
+      working-directory: c:\testrunner
+      run: ./GitHub_Batch.bat
