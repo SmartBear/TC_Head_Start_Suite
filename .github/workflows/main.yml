@@ -8,7 +8,7 @@ on:
 jobs:
   Sanity:
     runs-on: SB-MA-JBMVBY3
-    steps:
-    -name: Run a batch file to run TestComplete test via TestExecute
-     working-directory:C:\TestRunner
-     run:./GitHub_Batch.bat
+     steps:
+     -name: Run a batch file to run TestComplete test via TestExecute
+      working-directory:C:\TestRunner
+      run:./GitHub_Batch.bat
