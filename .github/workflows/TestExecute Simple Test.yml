@@ -1,0 +1,51 @@
+name: TestExecute Simple Test
+run-name: TestExecute run from GitHub Action (${{ github.actor }})
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      project:
+        type: choice
+        description: Project to be executed
+        options:
+        - Mobile
+        - Web
+jobs:
+  DownloadInstallAndRunTE:
+    name: Install and Run TestExecute (${{ github.actor }})
+    timeout-minutes: 30
+    runs-on: windows-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+      - name: Job Startup
+       run: |
+        echo "Starting job [Event=${{ github.event_name }}]"
+        echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - name: Download TestExecute
+       run: |
+        Invoke-WebRequest -Uri "${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}" -OutFile ".\TE.exe"
+        echo "TestExecute downloaded - ${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}"
+      - name: Show working folder content
+       run: dir
+       shell: cmd
+      - name: Install TestExecute
+       run: .\TE.exe -SilentInstall
+       shell: cmd
+      - name: Env Variable for TestExecute bin folder
+       run: set PATH_TE="${{ vars.TEST_EXECUTE_BIN }}"
+       shell: cmd
+      - name: Launch TestExecute
+       run: .\test-runner.bat ${{ secrets.TEST_EXECUTE_ACCESS_KEY }} ${{ inputs.project || 'Web' }}
+       shell: cmd
+      - name: JUnit Report from TestExecute
+       uses: dorny/test-reporter@v1.6.0
+       if: always()
+       with:
+        name: TestComplete JUnit Report
+        path: logs/runlog.xml
+        reporter: java-junit
+      - name: GitHub Action Summary
+       if: always()
+       run: |
+        type summary.md | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append
