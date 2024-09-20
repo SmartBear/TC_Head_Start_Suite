@@ -4,7 +4,7 @@ name: BasicWorkflow
 run-name: ${{ github.actor }} is learning GitHub Actions
 
 # Controls when the workflow will run
-on: # Comment
+on:
     push:
         branches: [ main ]
     pull_request:
@@ -16,7 +16,6 @@ on: # Comment
 jobs:
   build:
     runs-on: self-hosted
-    #runs-on: SB-MA-JBMVBY3
     steps:
     - name:Run a batch file to trigger TestComplete Tests 
     working-directory: C:\TestRunner
