@@ -4,4 +4,6 @@ on: [workflow_dispatch]
 jobs:
   Explore-GitHub-Actions:
     runs-on: self-hosted
-    steps: working-directory: C:\TestRunner run: GitHub_Batch.bat
+     steps: 
+      working-directory: C:\TestRunner 
+      run: GitHub_Batch.bat
