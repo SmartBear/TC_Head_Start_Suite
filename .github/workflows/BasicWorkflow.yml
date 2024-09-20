@@ -3,16 +3,17 @@ name: BasicWorkflow
 run-name: ${{ github.actor }} is learning GitHub Actions
 
 # Controls when the workflow will run
-on: 
-    # Triggers the workflow on push or pull event, but only for the main branch
+on:
+# Triggers the workflow on push or pull event, but only for the main branch
     push:
       branches: [main]
     pull_request:
       branches: [main]
+      
      # Allows you to run this workflow manually from the actions tab
      workflow_dispatch:
 
-# Simple jpb to execute a simple batch routine that runs tests via testexecute
+# Basic job to execute a simple batch routine that runs tests via testexecute
 jobs:
   build:
     runs-on: self-hosted
