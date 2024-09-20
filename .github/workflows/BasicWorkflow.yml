@@ -1,10 +1,10 @@
+---
 # This is a basic workflow that run a simple testexecute batch routine
 name: BasicWorkflow
 run-name: ${{ github.actor }} is learning GitHub Actions
 
 # Controls when the workflow will run
-on:
-# Comment
+on: # Comment
     push:
         branches: [ main ]
     pull_request:
