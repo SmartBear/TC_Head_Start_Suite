@@ -4,12 +4,12 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 
 # Controls when the workflow will run
 on:
+# Comment
     push:
-      branches: [ main ]
+        branches: [ main ]
     pull_request:
-      branches: [ main ]
-      
-     # Allows you to run this workflow manually from the actions tab
+        branches: [ main ]
+# Allows you to run this workflow manually from the actions tab
      workflow_dispatch:
 
 # Basic job to execute a simple batch routine that runs tests via testexecute
