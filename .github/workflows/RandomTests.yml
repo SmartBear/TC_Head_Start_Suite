@@ -4,6 +4,6 @@ on: [workflow_dispatch]
 jobs:
   Explore-GitHub-Actions:
     runs-on: self-hosted
-    steps: - name:Run a batch file to trigger TestComplete Tests 
+    steps:
     working-directory: C:\TestRunner
     run: GitHub_Batch.bat
