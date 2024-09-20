@@ -4,8 +4,6 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 
 # Controls when the workflow will run
 on:
-
-# Triggers the workflow on push or pull event but only for the main branch
     push:
       branches: [ main ]
     pull_request:
