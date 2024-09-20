@@ -4,6 +4,4 @@ on: [workflow_dispatch]
 jobs:
   Explore-GitHub-Actions:
     runs-on: self-hosted
-    steps:
-    -echo "Hello world" > output.txt
-    
+    steps: run: C:\TestRunner\GITHUB_Batch.bat
