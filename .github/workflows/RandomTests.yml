@@ -5,4 +5,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: self-hosted
     steps: 
-    -run: "C:\TestRunner\GITHUB_Batch.bat"
+    -run: "C:\\TestRunner\\GITHUB_Batch.bat"
