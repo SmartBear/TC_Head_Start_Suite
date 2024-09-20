@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 on: [workflow_dispatch]
 jobs:
   first_demo_job:
-    runs-on: SB-MA-JBMVBY3
+    runs-on: self-hosted
     name: The first demo job
     steps:
       - name: Show the demo running
