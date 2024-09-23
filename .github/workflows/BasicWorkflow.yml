@@ -14,7 +14,7 @@ on:
 # Basic job to execute a simple batch routine that runs tests via testexecute
 jobs:
   build:
-  runs-on: self-hosted
+      runs-on: self-hosted
   steps:
   - name:Run a batch file to trigger TestComplete Tests
   working-directory: C:\TestRunner
