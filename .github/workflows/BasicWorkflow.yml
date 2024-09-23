@@ -9,13 +9,15 @@ on:
         branches: [ main ]
     pull_request:
         branches: [ main ]
+        
 # Allows you to run this workflow manually from the actions tab
     workflow_dispatch:
+    
 # Basic job to execute a simple batch routine that runs tests via testexecute
 jobs:
   build:
       runs-on: self-hosted
-  steps: 
-  - name: FreakinRunDammit
-  working-directory: C:\TestRunner
-  run: GitHub_Batch.bat
+      steps: 
+        - name: FreakinRunDammit
+          working-directory: C:\TestRunner
+          run: GitHub_Batch.bat
