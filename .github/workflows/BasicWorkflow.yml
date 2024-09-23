@@ -15,6 +15,7 @@ on:
 jobs:
   build:
       runs-on: self-hosted
-  steps: - name:Run a batch file to trigger TestComplete Tests
-      working-directory: C:\TestRunner
-      run: GitHub_Batch.bat
+  steps: 
+  - name:Run a batch file to trigger TestComplete Tests
+  working-directory: C:\TestRunner
+  run: GitHub_Batch.bat
