@@ -17,5 +17,5 @@ jobs:
       runs-on: self-hosted
   steps: 
   - name:"Run a batch file to trigger TestComplete Tests using TestExecute"
-  working-directory: C:\TestRunner
-  run: GitHub_Batch.bat
+  - working-directory: C:\TestRunner
+  - run: GitHub_Batch.bat
