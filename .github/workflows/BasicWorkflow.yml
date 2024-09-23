@@ -20,4 +20,4 @@ jobs:
       steps: 
         - name: FreakinRunDammit
           working-directory: C:\TestRunner
-          run: GitHub_Batch.bat
+          run: C:\TestRunner\GitHub_Batch.bat
