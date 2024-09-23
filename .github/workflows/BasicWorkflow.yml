@@ -11,12 +11,11 @@ on:
         branches: [ main ]
 # Allows you to run this workflow manually from the actions tab
      workflow_dispatch:
-
 # Basic job to execute a simple batch routine that runs tests via testexecute
 jobs:
   build:
-    runs-on: self-hosted
+  runs-on: self-hosted
     steps:
-    - name:Run a batch file to trigger TestComplete Tests 
+    - name:Run a batch file to trigger TestComplete Tests
     working-directory: C:\TestRunner
     run: GitHub_Batch.bat
