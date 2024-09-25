@@ -15,7 +15,7 @@ on:
     
 # Basic job to execute a simple batch routine that runs tests via testexecute
 jobs:
-  build:
+  BasicWorkflow:
       runs-on: self-hosted
       steps: 
         - name: BatchJobRun
