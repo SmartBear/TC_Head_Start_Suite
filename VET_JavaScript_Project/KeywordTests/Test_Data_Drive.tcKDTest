@@ -498,9 +498,13 @@
 								</Children>
 							</Operation>
 							<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
+<<<<<<< HEAD
 								<Data GroupName="Loop Module Operations using Data Generation">
 									<CommonData Disabled="True" />
 								</Data>
+=======
+								<Data GroupName="Loop Module Operations using Data Generation" />
+>>>>>>> 053cc1d6ad9d82cfd9d6b822b5648996ab0308b5
 								<Children>
 									<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 										<Data Comment="Loop Module Operations using Data Generation" />
