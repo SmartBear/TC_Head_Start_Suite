@@ -19,6 +19,8 @@
 			<child name="Mod_Open_BitBar_Remote_Browser" key="{F5115784-50F9-44F3-B361-5F09A0BEAAD3}" path="Mod_Open_BitBar_Remote_Browser.tcKDTest" />
 			<child name="Test_Browser_Loop" key="{8D1B75D9-F208-4424-9C58-1E69A021608F}" path="Test_Browser_Loop.tcKDTest" />
 			<child name="Chrome_Incognito" key="{6C04C433-433D-4D16-B4E5-05E4B599AFBA}" path="Chrome_Incognito.tcKDTest" />
+			<child name="Mod_Check_For_Logon" key="{595E503E-E57C-426A-A1FE-D31A1B490ECD}" path="Mod_Check_For_Logon.tcKDTest" />
+			<child name="Test_LogIn_Validation" key="{7AC5C10C-7EB5-464B-9F82-A74A32046379}" path="Test_LogIn_Validation.tcKDTest" />
 		</folder>
 		<folder name="1 - Sanity">
 			<child name="Test_Browser_Acid_Test" key="{B4948858-9B0D-4EC9-B48D-528B8D4F0F33}" path="Test_Browser_Acid_Test.tcKDTest" />

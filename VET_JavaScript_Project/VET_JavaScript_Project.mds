@@ -94,6 +94,11 @@
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
+					<testItem name="Test_LogIn_Validation" key="{BE2FC3CA-B7FB-496A-A265-A14B8A833884}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7AC5C10C-7EB5-464B-9F82-A74A32046379}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="3 - Deep Dive" key="{7FC091CA-EA80-4A2E-BD94-FA72228BFFCB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
