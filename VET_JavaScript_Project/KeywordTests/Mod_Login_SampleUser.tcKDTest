@@ -118,7 +118,7 @@
 									<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 										<Data Description="Posts an information message to the test log." MessageType="0">
 											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-												<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Not logged in" />
+												<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Not logged in -no user defined &quot; + Aliases.browser.pageShop.header.navUsd.linkLogIn.ObjectLabel" />
 												<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 												<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 													<Values IsEnum="True">
