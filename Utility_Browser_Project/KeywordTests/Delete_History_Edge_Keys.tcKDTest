@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{28F0438C-5CCD-404C-82D6-FEDEA1E42C9D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{001D11EF-785C-4CA3-BA26-AA283B4D9466}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -85,50 +85,23 @@
 											</Parameters>
 										</Data>
 									</Operation>
-									<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
-										<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
+									<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+										<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageClearbrowserdata" />
-												<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="*Delete browsing data*" />
+												<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.BrowserWindow" />
+												<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="WndCaption" />
+												<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+												<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="530065007400740069006E006700730020002D00200057006F0072006B0020002D0020004D006900630072006F0073006F00660074000B2020004500640067006500" />
+												<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 											</Parameters>
 										</Data>
 									</Operation>
-									<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
-										<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
+									<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+										<Data Description="Simulates one or several keypresses." Action="Keys">
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageClearbrowserdata" />
-												<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="*Your*" />
+												<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="![Tab][P3000]![Tab][P3000]![Tab][P3000][Enter]" />
 											</Parameters>
-										</Data>
-									</Operation>
-									<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
-										<Data Description="Simulates a user action over the area that contains the recognized text." Action="Click" TBlockIntType="1">
-											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-												<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Clear now" />
-												<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
-													<Values>
-														<Value Type="1" Value="-10" Text="spNone" />
-														<Value Type="1" Value="-11" Text="spNearestToCenter" />
-														<Value Type="1" Value="-12" Text="spLeftMost" />
-														<Value Type="1" Value="-13" Text="spRightMost" />
-														<Value Type="1" Value="-14" Text="spTopMost" />
-														<Value Type="1" Value="-15" Text="spBottomMost" />
-														<Value Type="1" Value="-16" Text="spLargest" />
-														<Value Type="1" Value="-17" Text="spSmallest" />
-													</Values>
-												</Parameter>
-												<Parameter Name="x" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-												<Parameter Name="y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-												<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-													<Values IsEnum="True">
-														<Value Type="1" Value="0" Text="skNoShift" />
-														<Value Type="1" Value="8192" Text="skShift" />
-														<Value Type="1" Value="32768" Text="skAlt" />
-														<Value Type="1" Value="16384" Text="skCtrl" />
-													</Values>
-												</Parameter>
-											</Parameters>
-											<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageClearbrowserdata;" />
+											<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
 										</Data>
 									</Operation>
 								</Children>
@@ -138,14 +111,6 @@
 									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 										<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
 										<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic Delay" />
-									</Parameters>
-								</Data>
-							</Operation>
-							<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
-								<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
-									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-										<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pagePrivacy" />
-										<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="9" ValueValue="2A0059006F00750072002000620072006F00770073006500720020006900730020006D0061006E006100670065006400200062007900200079006F007500720020006F007200670061006E0069007A006100740069006F006E000A002A00" />
 									</Parameters>
 								</Data>
 							</Operation>
@@ -161,5 +126,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{1E26608D-DCC9-4482-9D60-5D7104DFBDAC}" />
+	<Parameters Key="{D6DA9563-BA91-4B04-81CC-A5E46A76A125}" />
 </Root>

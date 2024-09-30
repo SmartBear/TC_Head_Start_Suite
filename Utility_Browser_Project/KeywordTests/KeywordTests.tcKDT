@@ -14,6 +14,7 @@
 			<child name="Delete_History_Edge" key="{FCBD4C42-EEF7-418E-A971-6E74ED3AECA4}" path="Delete_History_Edge.tcKDTest" />
 			<child name="Delete_History_Firefox" key="{0D32220E-6306-4D0A-A882-8FA8DA5D785C}" path="Delete_History_Firefox.tcKDTest" />
 			<child name="Open_Clear_History" key="{5D023A82-156B-44CB-BD9A-53A2AEF73377}" path="Open_Clear_History.tcKDTest" />
+			<child name="Delete_History_Edge_Keys" key="{B1A92856-1E6F-4972-A3BC-A4348E70BB7B}" path="Delete_History_Edge_Keys.tcKDTest" />
 		</folder>
 		<folder name="String_Parsing_Examples">
 			<child name="Parse_Number_From_String" key="{3CFB5094-0464-47DF-A3D4-FE3F719A598B}" path="Parse_Number_From_String.tcKDTest" />
