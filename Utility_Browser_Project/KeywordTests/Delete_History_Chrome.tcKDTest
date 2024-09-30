@@ -77,7 +77,7 @@
 							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 								<Data Description="Simulates one or several keypresses." Action="Keys">
 									<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-										<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
+										<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab][P5000][Enter]" />
 									</Parameters>
 									<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.BrowserWindow" />
 								</Data>

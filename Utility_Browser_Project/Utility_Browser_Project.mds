@@ -168,7 +168,7 @@
 		</data>
 	</variables>
 	<settings key="{C5386900-F5BD-4BC9-A28E-B1BB4791B0A8}">
-		<settingsVersion value="15.61" />
+		<settingsVersion value="15.67" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -816,6 +816,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="VTAPIKey" type="5" value="AiIAVHJ8k2HJ4xEF" />
 		<setting name="WebCloudProvider" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
