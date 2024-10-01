@@ -116,7 +116,7 @@
 					</testItem>
 					<testItem name="Test_Data_Drive_HaloAI" key="{B0D4A20B-D1AD-4BA8-A895-2D014AFC3B4F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{0D0DFEA2-E07D-4C05-B8FD-5F1FE0E6EB6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
-						<environments activeCloud="CBT" />
+						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
 				</children>
