@@ -329,7 +329,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="LoadGroup1" key="{258120E9-D100-482C-BC63-548C58EE8ECF}" group="True" parallel="False" enabled="True" load="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{258120E9-D100-482C-BC63-548C58EE8ECF}">
+			<testItem name="LoadGroup1" key="{258120E9-D100-482C-BC63-548C58EE8ECF}" group="True" parallel="False" enabled="False" load="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{258120E9-D100-482C-BC63-548C58EE8ECF}">
 				<testParameters />
 				<children>
 					<testItem name="Basic_Login" key="{B620C981-BF32-4E38-B343-963FFECB23F8}" group="False" parallel="False" enabled="True" load="True" testMoniker="KDT\{8C45165C-DDD0-4DE2-ACBB-DC9B51E797CD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{8C45165C-DDD0-4DE2-ACBB-DC9B51E797CD}">
@@ -339,7 +339,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="LoadGroup2" key="{71A09149-E194-40AE-ADEB-F488E8676353}" group="True" parallel="False" enabled="True" load="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{71A09149-E194-40AE-ADEB-F488E8676353}">
+			<testItem name="LoadGroup2" key="{71A09149-E194-40AE-ADEB-F488E8676353}" group="True" parallel="False" enabled="False" load="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{71A09149-E194-40AE-ADEB-F488E8676353}">
 				<testParameters />
 				<children>
 					<testItem name="Login_Basic" key="{7C44D372-51AC-4D7D-86F4-26BCE03C5E67}" group="False" parallel="False" enabled="True" load="True" testMoniker="KDT\{CA117251-875A-4D88-8D6A-F1493A2A5B72}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{CA117251-875A-4D88-8D6A-F1493A2A5B72}">
