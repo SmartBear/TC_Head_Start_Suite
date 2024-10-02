@@ -171,3 +171,15 @@ function Set_CLIParm_TestedApp_Script()
   Log.PopLogFolder();
   //The end of the Set_CLIParm_TestedApp group
 }
+
+function Basic_Test()
+{
+  //Launches the specified browser and opens the specified URL in it.
+  Browsers.Item(btChrome).Run("https://bearstore-testsite.smartbear.com/");
+  //Maximizes the specified Window object.
+  Aliases.chrome.wndChrome_WidgetWin_1.Maximize();
+  //Checks whether the 'contentText' property of the Aliases.browser.pageShop.sectionContent.textnodeWelcomeToOurStore object equals 'Welcome to our store.'.
+  aqObject.CheckProperty(Aliases.browser.pageShop.sectionContent.textnodeWelcomeToOurStore, "contentText", cmpEqual, "Welcome to our store.");
+  //Closes the browser.
+  Aliases.browser.Close();
+}

@@ -74,5 +74,8 @@
 				<child name="Mobile_Record_Emulator" key="{F386EA28-008E-48B1-85E0-B4A7E394A372}" path="Mobile_Record_Emulator.tcKDTest" />
 			</folder>
 		</folder>
+		<folder name="5 - LoadNinja">
+			<child name="Login_Basic" key="{CA117251-875A-4D88-8D6A-F1493A2A5B72}" path="Login_Basic.tcKDTest" />
+		</folder>
 	</children>
 </Root>
