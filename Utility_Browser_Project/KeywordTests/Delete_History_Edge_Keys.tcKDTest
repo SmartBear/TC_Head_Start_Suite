@@ -8,12 +8,12 @@
 		</Data>
 		<Children>
 			<Operation Type="{D993D251-65A9-4BED-A2EC-C2AC83739BAD}">
-				<Data GroupName="Delete_History_Edge" />
+				<Data GroupName="Delete_History_Edge_Keys" />
 				<Children>
 					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 						<Data Description="Posts an information message to the test log." MessageType="0">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Delete_History_Edge" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Delete_History_Edge_Keys" />
 								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 									<Values IsEnum="True">
@@ -33,7 +33,7 @@
 					<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
 						<Data Description="Replaces the current indicator text with the specified one.">
 							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-								<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Delete_History_Edge" />
+								<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Delete_History_Edge_Keys" />
 							</Parameters>
 						</Data>
 					</Operation>
@@ -90,8 +90,8 @@
 											<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
 												<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.BrowserWindow" />
 												<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="WndCaption" />
-												<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-												<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="530065007400740069006E006700730020002D00200057006F0072006B0020002D0020004D006900630072006F0073006F00660074000B2020004500640067006500" />
+												<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="8" />
+												<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Settings" />
 												<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 											</Parameters>
 										</Data>

@@ -132,7 +132,7 @@
 							</testItem>
 							<testItem name="Delete_History_Edge_Keys" key="{6448514D-4031-4902-8874-D55EB3948291}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{B1A92856-1E6F-4972-A3BC-A4348E70BB7B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
-								<environments activeCloud="SWT" />
+								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
 							<testItem name="Delete_History_Edge" key="{99A02F60-FD7C-44ED-B6D7-32AE8F71EE2F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{FCBD4C42-EEF7-418E-A971-6E74ED3AECA4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
