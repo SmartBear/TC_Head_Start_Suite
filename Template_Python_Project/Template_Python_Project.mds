@@ -14,35 +14,35 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{6B11647B-0EB8-4D85-8498-BB111A0D19E4}" version="14">
 		<children>
-			<testItem name="Templates" key="{3FCEF4C9-CDEC-4068-A454-A4894E34C59D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Templates" key="{3FCEF4C9-CDEC-4068-A454-A4894E34C59D}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<children>
-					<testItem name="Test_Sample_Web_App_Open" key="{6D9B751D-E714-425A-905A-1EB60FD66A17}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F6DF90C8-DD30-4322-B0B6-E066BE46E7BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Sample_Web_App_Open" key="{6D9B751D-E714-425A-905A-1EB60FD66A17}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{F6DF90C8-DD30-4322-B0B6-E066BE46E7BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Template" key="{BBF70BB7-310E-45A0-9A50-845D63EB21DA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DBAE9B8F-2EB5-4193-BBB3-CB10712305E3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Template" key="{BBF70BB7-310E-45A0-9A50-845D63EB21DA}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{DBAE9B8F-2EB5-4193-BBB3-CB10712305E3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Keyword_Calling_Script_Test_Template" key="{C8AECF9E-070E-45C2-B107-D90F92DF6E7E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F6D75C43-0763-48B5-9064-0A9BF2DE78FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Keyword_Calling_Script_Test_Template" key="{C8AECF9E-070E-45C2-B107-D90F92DF6E7E}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{F6D75C43-0763-48B5-9064-0A9BF2DE78FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Script_Test_Template" key="{F82EA0B5-C647-4218-89DE-3760FB863D9B}" group="False" parallel="False" enabled="True" testMoniker="{049AC4B1-D335-4E15-A33E-09A1185D298A}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Script_Test_Template" key="{F82EA0B5-C647-4218-89DE-3760FB863D9B}" group="False" parallel="False" enabled="True" load="False" testMoniker="{049AC4B1-D335-4E15-A33E-09A1185D298A}Script_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Script_Calling_Keyword_Test_Template" key="{5C6D06CE-13CD-40BC-9CAE-5C5586637E9D}" group="False" parallel="False" enabled="True" testMoniker="{049AC4B1-D335-4E15-A33E-09A1185D298A}Script_Calling_Keyword_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Script_Calling_Keyword_Test_Template" key="{5C6D06CE-13CD-40BC-9CAE-5C5586637E9D}" group="False" parallel="False" enabled="True" load="False" testMoniker="{049AC4B1-D335-4E15-A33E-09A1185D298A}Script_Calling_Keyword_Test_Template" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="Test_New_Function" key="{B5A8141B-C909-41C5-BE88-D9878C0DBEE3}" group="False" parallel="False" enabled="False" testMoniker="KDT\{99AA265B-6A75-4B59-8069-1BAD31CEE183}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_New_Function" key="{B5A8141B-C909-41C5-BE88-D9878C0DBEE3}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{99AA265B-6A75-4B59-8069-1BAD31CEE183}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -73,7 +73,7 @@
 		</data>
 	</variables>
 	<settings key="{60C1ABFD-EC5E-4D2A-A04D-B8DAF75C0389}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.68" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -251,6 +251,10 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="LoadTestAPIKey" type="5" value="4507e620-5651-11ef-a7a9-b1b2a9a56815" />
+		<setting name="LoadTestAPIKeyLogin" type="5" value="&lt;A&gt;Login to LoadNinja&lt;/A&gt; to get your API key." />
+		<setting name="LoadTestAPIKeySales" type="5" value="Want to know more &lt;A&gt;Contact Sales&lt;/A&gt;." />
+		<setting name="LoadTestAPIKeySignup" type="5" value="&lt;A&gt;Sign up for LN trial&lt;/A&gt;." />
 		<setting name="MobileSupportType" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -634,6 +638,7 @@
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -722,6 +727,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="VTAPIKey" type="5" value="AiIAVHJ8k2HJ4xEF" />
 		<setting name="WebCloudProvider" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

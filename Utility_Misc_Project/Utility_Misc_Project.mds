@@ -14,53 +14,53 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{6C1403FC-B734-443A-84BC-90D41A74AC51}" version="14">
 		<children>
-			<testItem name="Smoke Tests" key="{DF67F89C-071D-4B1A-838F-489AF7ED0025}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Smoke Tests" key="{DF67F89C-071D-4B1A-838F-489AF7ED0025}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<children>
-					<testItem name="Keyword Tests" key="{625B8C78-B519-44CA-865E-31EAEBF0D1EA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Keyword Tests" key="{625B8C78-B519-44CA-865E-31EAEBF0D1EA}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<children>
-							<testItem name="Passing_Test" key="{5E6F2C6E-FD22-4A6E-A6F4-784AB36FFAC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{20341139-7F33-4050-8C35-6E9AFED95BF2}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Passing_Test" key="{5E6F2C6E-FD22-4A6E-A6F4-784AB36FFAC6}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{20341139-7F33-4050-8C35-6E9AFED95BF2}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
-							<testItem name="Warning_Test" key="{E213A273-C07B-4A25-BDDF-B9CFF23E303A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BD68E1E7-74C3-46AA-B8A8-97C9C4DB75FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Warning_Test" key="{E213A273-C07B-4A25-BDDF-B9CFF23E303A}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{BD68E1E7-74C3-46AA-B8A8-97C9C4DB75FD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="Failing_Test" key="{0DC91CAD-B42B-4F5F-B785-40FADC47FC68}" group="False" parallel="False" enabled="False" testMoniker="KDT\{01B9EC25-626C-4474-BBE0-33373B208927}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Failing_Test" key="{0DC91CAD-B42B-4F5F-B785-40FADC47FC68}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{01B9EC25-626C-4474-BBE0-33373B208927}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="Event_Test" key="{C6CE79F5-6ADF-4D8B-A95B-B4691506E0E6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9AF3D4D3-A828-47A3-A9B8-1AEB0BB48235}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Event_Test" key="{C6CE79F5-6ADF-4D8B-A95B-B4691506E0E6}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9AF3D4D3-A828-47A3-A9B8-1AEB0BB48235}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
 						</children>
 					</testItem>
-					<testItem name="Script_Routines" key="{AD969A47-CE69-4D17-97BF-7DD06E102FF9}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Script_Routines" key="{AD969A47-CE69-4D17-97BF-7DD06E102FF9}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<children>
-							<testItem name="State_Passing" key="{9076DFFD-EF92-45C4-8CCE-4B04A2A92C26}" group="False" parallel="False" enabled="True" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Passing_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="State_Passing" key="{9076DFFD-EF92-45C4-8CCE-4B04A2A92C26}" group="False" parallel="False" enabled="True" load="False" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Passing_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="State_Warning" key="{578AC220-38AD-4ED2-BF7F-3284750B264E}" group="False" parallel="False" enabled="False" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Warning_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="State_Warning" key="{578AC220-38AD-4ED2-BF7F-3284750B264E}" group="False" parallel="False" enabled="False" load="False" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Warning_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="State_Failing" key="{FC693020-5DA4-407B-BF2F-E7CD1A29352B}" group="False" parallel="False" enabled="False" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Failing_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="State_Failing" key="{FC693020-5DA4-407B-BF2F-E7CD1A29352B}" group="False" parallel="False" enabled="False" load="False" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Failing_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
-							<testItem name="State_Event" key="{3C568E7D-2B82-4EE7-B3D2-68F743273290}" group="False" parallel="False" enabled="True" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Event_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="State_Event" key="{3C568E7D-2B82-4EE7-B3D2-68F743273290}" group="False" parallel="False" enabled="True" load="False" testMoniker="{71438AF5-A4E5-4A65-8E4A-4A7A52384A0A}Event_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
@@ -69,14 +69,14 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="TestComplete_Utility" key="{96D6F32A-9602-44BB-9ABF-BA8B2BDDA6A4}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TestComplete_Utility" key="{96D6F32A-9602-44BB-9ABF-BA8B2BDDA6A4}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<children>
-					<testItem name="Get_TestComplete_Version_Information" key="{9BA11C8C-9DCA-40F6-93DF-4E47B4D0DE6E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1C689367-5A43-4257-B377-D70489192A0D}" count="3" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Get_TestComplete_Version_Information" key="{9BA11C8C-9DCA-40F6-93DF-4E47B4D0DE6E}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{1C689367-5A43-4257-B377-D70489192A0D}" count="3" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children>
-							<testItem name="Get_TestExecute_Version_Information" key="{1B2C84E4-30EC-4CA7-98E6-A9915977081E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D6C1B6BD-D603-4F0D-B038-BF92FC0CC468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Get_TestExecute_Version_Information" key="{1B2C84E4-30EC-4CA7-98E6-A9915977081E}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{D6C1B6BD-D603-4F0D-B038-BF92FC0CC468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 								<testParameters />
 								<environments activeCloud="CBT" />
 								<children />
@@ -109,7 +109,7 @@
 		</data>
 	</variables>
 	<settings key="{A06D61E5-7AA0-416C-8EA1-9AF7448E7799}">
-		<settingsVersion value="15.50" />
+		<settingsVersion value="15.68" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -287,6 +287,10 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="LoadTestAPIKey" type="5" value="4507e620-5651-11ef-a7a9-b1b2a9a56815" />
+		<setting name="LoadTestAPIKeyLogin" type="5" value="&lt;A&gt;Login to LoadNinja&lt;/A&gt; to get your API key." />
+		<setting name="LoadTestAPIKeySales" type="5" value="Want to know more &lt;A&gt;Contact Sales&lt;/A&gt;." />
+		<setting name="LoadTestAPIKeySignup" type="5" value="&lt;A&gt;Sign up for LN trial&lt;/A&gt;." />
 		<setting name="MobileSupportType" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -666,6 +670,7 @@
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -756,6 +761,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="VTAPIKey" type="5" value="AiIAVHJ8k2HJ4xEF" />
 		<setting name="WebCloudProvider" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
