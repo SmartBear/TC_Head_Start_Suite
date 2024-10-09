@@ -8,8 +8,8 @@ on:
         type: choice
         description: Project to be executed
         options:
-        - Mobile
         - Web
+        - Mobile
 jobs:
   DownloadInstallAndRunTE:
     name: Install and Run TestExecute (${{ github.actor }})
