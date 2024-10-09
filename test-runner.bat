@@ -12,8 +12,7 @@ set AccessKey=%1
 REM By default we run web testing
 set ProjectPath="%cd%\WebTesting\WebTesting.pjs"
 
-IF "%2" == "Mobile" GOTO WebProjectRun 
-#MobileProjectRun
+IF "%2" == "Mobile" GOTO MobileProjectRun
 IF "%2" == "Web" GOTO WebProjectRun
 IF NOT %2.==. GOTO ParamProjectPath
 GOTO EchoProjectPath
