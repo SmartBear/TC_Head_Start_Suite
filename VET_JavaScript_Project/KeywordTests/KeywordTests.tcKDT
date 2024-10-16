@@ -37,7 +37,6 @@
 			<child name="Test_Data_Drive" key="{2C7E4E4A-5DAE-4CA2-A62C-2B15332B078F}" path="Test_Data_Drive.tcKDTest" />
 			<child name="Test_Browser_Version" key="{83100CCA-41AA-48A1-B4E7-72B7140475E6}" path="Test_Browser_Version.tcKDTest" />
 			<child name="Test_Data_Drive_HaloAI" key="{0D0DFEA2-E07D-4C05-B8FD-5F1FE0E6EB6D}" path="Test_Data_Drive_HaloAI.tcKDTest" />
-			<child name="Test_Waits" key="{03745C1A-CB8D-4E5D-A78A-17AD45FA0155}" path="Test_Waits.tcKDTest" />
 			<child name="Sample_Wait_Loop" key="{57254CA8-FFB8-45C4-A7DD-B6BAC92D5854}" path="Sample_Wait_Loop.tcKDTest" />
 		</folder>
 		<folder name="4 - Debug">
