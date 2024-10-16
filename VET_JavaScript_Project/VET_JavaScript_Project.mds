@@ -270,6 +270,16 @@
 								<environments activeCloud="CBT" />
 								<children />
 							</testItem>
+							<testItem name="Sample_Wait_Loop" key="{3DD19489-B70B-4B39-B31C-411226E68C64}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{57254CA8-FFB8-45C4-A7DD-B6BAC92D5854}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
+							<testItem name="Sample_Wait_Loop_2" key="{0634A2C0-487D-4747-A2A8-9A37D2B2E56A}" group="False" parallel="False" enabled="True" load="False" testMoniker="{B06CF61D-A778-404F-AF62-9E116DBCAB29}Sample_Wait_Loop" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="CBT" />
+								<children />
+							</testItem>
 						</children>
 					</testItem>
 					<testItem name="Mobile" key="{F0C08D74-0EE8-4104-8A75-EA48C193F431}" group="True" parallel="False" enabled="False" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
