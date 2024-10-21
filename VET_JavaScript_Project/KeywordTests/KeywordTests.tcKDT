@@ -79,5 +79,6 @@
 			<child name="Login_Basic" key="{CA117251-875A-4D88-8D6A-F1493A2A5B72}" path="Login_Basic.tcKDTest" />
 			<child name="Basic_Login" key="{8C45165C-DDD0-4DE2-ACBB-DC9B51E797CD}" path="Basic_Login.tcKDTest" />
 		</folder>
+		<child name="Test1" key="{3C5A48FB-5C2D-47CA-842F-51A885260C0D}" path="Test1.tcKDTest" />
 	</children>
 </Root>

@@ -36,17 +36,17 @@
 						<Data GroupName="Visual Test Steps" />
 						<Children>
 							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="DefaultFS" FCaptureName="pageShop FullScreen Default" FCaptureType="8" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
+								<Data Description="Evaluates the visual fidelity of user interface." FLangId="{00000000-0000-0000-0000-000000000000}" FTestRunName="DefaultFS" FCaptureName="pageShop FullScreen Default" FCaptureType="8" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
 									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
 								</Data>
 							</Operation>
 							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="DefaultVP" FCaptureName="pageShop Viewport Default" FCaptureType="7" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
+								<Data Description="Evaluates the visual fidelity of user interface." FLangId="{00000000-0000-0000-0000-000000000000}" FTestRunName="DefaultVP" FCaptureName="pageShop Viewport Default" FCaptureType="7" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
 									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop;" />
 								</Data>
 							</Operation>
 							<Operation Type="{0CDBF3D7-B531-46CC-9FCC-313D9B786F2D}">
-								<Data Description="Evaluates the visual fidelity of user interface." FTestRunName="RunElement" FCaptureName="pageShop Login Button" FCaptureType="6" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
+								<Data Description="Evaluates the visual fidelity of user interface." FLangId="{00000000-0000-0000-0000-000000000000}" FTestRunName="RunElement" FCaptureName="pageShop Login Button" FCaptureType="6" FComparisonMode="5" FSensitivity="2" FAllowedFails="0" FLoadDelay="0" FFreezePage="True" IgnoredElementsCount="0">
 									<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageShop.header.navUsd.linkLogIn;" />
 								</Data>
 							</Operation>
@@ -60,7 +60,7 @@
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
 									</Parameters>
-									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.ChromeWindow;" />
 								</Data>
 							</Operation>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">

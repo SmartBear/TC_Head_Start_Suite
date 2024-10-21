@@ -19,7 +19,7 @@
 							</Property>
 						</Properties>
 						<Children>
-							<Child Name="BrowserWindow" Key="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}">
+							<Child Name="ChromeWindow" Key="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}">
 								<Image FileName="329796899" Left="-8" Top="-8" Right="3848" Bottom="2168" />
 								<Properties>
 									<Property Name="ObjectType">
@@ -1134,7 +1134,6 @@
 									</Child>
 									<Child Name="textnodeLogIn" Key="{761A060A-26A3-4CC1-9B41-70A390F126A1}">
 										<Image FileName="-1813767822" Left="1448" Top="104" Right="1496" Bottom="121" />
-										<TypeInfo Item0="{A9F9F4F9-9A91-449B-AA9B-535BD533F474}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log in&apos;]" />
@@ -1151,7 +1150,6 @@
 							</Child>
 							<Child Name="pageLogin" Key="{DD5DC696-60D7-4BA9-B626-672A0C838DF9}">
 								<Image FileName="-273697577" Left="0" Top="87" Right="1920" Bottom="1152" />
-								<TypeInfo Item0="{FB1C07C1-14A7-4F33-9C56-2514E1CA742A}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -1183,7 +1181,6 @@
 									</Child>
 									<Child Name="textboxUsernameoremail" Key="{3C2CFB94-D30A-4548-92DA-A4AAC21D310A}">
 										<Image FileName="-2059259808" Left="1101" Top="472" Right="1484" Bottom="523" />
-										<TypeInfo Item0="{D0BE5A52-E274-4396-BB26-D912427CA051}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#UsernameOrEmail" />
@@ -1207,7 +1204,6 @@
 									</Child>
 									<Child Name="passwordboxPassword" Key="{CC4EE022-3168-4030-96F1-A4F82D8DB651}">
 										<Image FileName="-190144321" Left="1101" Top="539" Right="1484" Bottom="590" />
-										<TypeInfo Item0="{D0BE5A52-E274-4396-BB26-D912427CA051}" />
 										<Selectors>
 											<Selector>
 												<Value Value="#Password" />
@@ -1231,7 +1227,6 @@
 									</Child>
 									<Child Name="buttonLogIn" Key="{4F4FDBCD-C5DD-43D2-A754-7F0092009534}">
 										<Image FileName="-411156793" Left="1101" Top="648" Right="1484" Bottom="699" />
-										<TypeInfo Item0="{6062932B-5DD5-46D4-9F8A-BD11CE9F7614}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//button[contains(text(), &apos;Log in&apos;)]" />
@@ -1313,7 +1308,7 @@
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{DB0F4D63-1F57-4F4C-97B0-0F84B8F663BE}">
-			<Child Name="BrowserWindow" Owner="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}" />
+			<Child Name="ChromeWindow" Owner="{61BCE203-92ED-47EF-A82B-F34D0C5BFD45}" />
 			<Child Name="pageShop" Owner="{C98CB8CE-BD48-4CEA-9BBB-34CF459D423F}">
 				<Child Name="header" Owner="{ABC76A0C-2D09-48EF-8EC0-25FF3CB64359}">
 					<Child Name="navUsd" Owner="{4EB683EA-CC38-473C-B84C-36299A656308}">

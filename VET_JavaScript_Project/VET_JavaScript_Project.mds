@@ -349,6 +349,11 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Test_Browser_Version_2" key="{C72AC8CD-6243-4A3F-8FBB-A390E18C6917}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{83100CCA-41AA-48A1-B4E7-72B7140475E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{37EC0C34-4490-4711-8063-C11599961104}">
