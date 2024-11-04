@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{8CA58DD9-7BFE-41D5-A997-CE3E10F4AB1B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
+				<Data Description="Iterates through the specified browsers.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<Item>
+						<BrowserItem BrowserName="firefox" />
+						<BrowserItem BrowserName="chrome" />
+						<BrowserItem BrowserName="edge" />
+					</Item>
+				</Data>
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Browser Name = &quot; + Aliases.browser.Name + &quot; :Version = &quot; + aqConvert.VarToStr(Aliases.browser.FileVersionInfo) + &quot; :Process Type = &quot; + Aliases.browser.ProcessType" />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop.sectionContent.panelPhTitle6" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Welcome to our store." />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
+						<Data Description="Posts an image to the test log.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.pageShop.Picture()" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Screenshot of pageShop" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{A55111E7-7644-4DCD-8388-C21112181210}">
+				<Data Description="Iterates through the specified virtual browsers.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<Item>
+						<BrowserItem Name="Samsung Galaxy S9" />
+						<BrowserItem Name="Apple iPhone X" />
+						<BrowserItem Name="Google Pixel 2" />
+					</Item>
+				</Data>
+				<Children>
+					<Operation Type="{9E7D3226-E25B-40E4-B271-EF1ED67A4E1C}">
+						<Data Description="Sets the specified orientation for the current virtual browser." Orientation="0" />
+					</Operation>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;Browser Name = &quot; + Aliases.browser.Name + &quot; :Version = &quot; + aqConvert.VarToStr(Aliases.browser.FileVersionInfo) + &quot; :Process Type = &quot; + Aliases.browser.ProcessType" />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageShop.sectionContent.panelPhTitle6" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Welcome to our store." />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
+						<Data Description="Posts an image to the test log.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.pageShop.Picture()" />
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Screenshot of pageShop" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{B3703D1A-8900-4543-8390-674599B54050}" />
+</Root>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{232CFBA7-7FB4-4F8E-9618-4987974DA6B3}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Mod_Chrome_Open_Smartstore" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{CAA5A922-72A4-49D6-A2FA-767F7B76014A}" />
+</Root>

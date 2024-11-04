@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Template_Scripts" key="{F860A38E-5D9C-4917-BEBB-94E2E4D71905}" path="Template_Scripts.js" />
+		<child name="Module_Scripts" key="{642D4EDC-F960-4114-98D2-A9B9BD2FFD23}" path="Module_Scripts.js" />
+		<child name="Utility_Scripts" key="{66BCA1C4-518E-4C54-B95B-76FCCF1B06B0}" path="Utility_Scripts.js" />
+		<child name="Visual_Scripts" key="{8C3C4F59-D814-4A6E-B707-6018CCC1AE2A}" path="Visual_Scripts.js" />
+		<child name="Local_Headless_Browser" key="{37E18816-F6A0-4795-B235-6BFF2C8763FE}" path="Local_Headless_Browser.js" />
+		<child name="Wait_Samples" key="{78E3BF1E-FB78-467E-ABE3-4E29C4BA4FA2}" path="Wait_Samples.js" />
+		<child name="Frame_Elements" key="{7D014B83-7559-45CC-BD5F-26CD9370B7FC}" path="Frame_Elements.js" />
+	</children>
+</Root>
