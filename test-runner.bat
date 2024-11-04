@@ -9,22 +9,24 @@ set Error_Level=0
 IF %1.==. GOTO AccessKeyMissing
 set AccessKey=%1
 
-REM By default we run web testing
-REM set ProjectPath="%cd%\WebTesting\WebTesting.pjs"
+REM By default we run HeadStart Testing
 set ProjectPath="%cd%\TC_Head_Start_Suite.pjs"
 
 IF "%2" == "Mobile" GOTO MobileProjectRun
 IF "%2" == "Web" GOTO WebProjectRun
+IF "%2" == "HeadStart" GOTO HeadStartProjectRun
 IF NOT %2.==. GOTO ParamProjectPath
 GOTO EchoProjectPath
 
 :MobileProjectRun
-REM set ProjectPath="%cd%\MobileTesting\MobileTesting.pjs"
-set ProjectPath="%cd%\VET_JavaScript_Project\VET_JavaScript_Project.mds
+set ProjectPath="%cd%\MobileTestingSuite\MobileTestingSuite.pjs"
 GOTO EchoProjectPath
 
 :WebProjectRun
-REM set ProjectPath="%cd%\WebTesting\WebTesting.pjs"
+set ProjectPath="%cd%\WebTestingSuite\WebTestingSuite.pjs"
+GOTO EchoProjectPath
+
+:HeadStartProjectRun
 set ProjectPath="%cd%\TC_Head_Start_Suite.pjs"
 GOTO EchoProjectPath
 
