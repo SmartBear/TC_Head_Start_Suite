@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{9AE5B2D1-1100-49BE-A395-56974BFC2057}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{D87A62A0-D6C9-4E25-9C6D-0E9567A39DCB}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{1CD02560-63ED-4ACD-B251-725DBAAADE27}">
+								<Image FileName="-1200853798" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<TypeInfo Item0="{942DC526-6722-4B97-86E0-170E1EC5086E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLoginSalesforce" Key="{EAF5E6A3-1B89-4B6A-BF98-FDD690806905}">
+								<Image FileName="1726944356" Left="0" Top="103" Right="1873" Bottom="1078" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.my.salesforce.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginForm" Key="{5614B7D6-70E8-4D8B-9C03-DF1831B9D563}">
+										<Image FileName="1726944356" Left="299" Top="401" Right="637" Bottom="686" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;To access this page, you have to log in to Salesforce.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;smartbear.my.salesforce.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;theloginform&apos;]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formLoginForm2" Key="{36DA63EF-80BA-443C-8D91-FA00430E5BE8}">
+										<Image FileName="250030415" Left="299" Top="401" Right="637" Bottom="701" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Remember me&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;smartbear.my.salesforce.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;theloginform&apos;]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogInWithSSO" Key="{0D505BB2-1B64-4437-933D-BE0A9EDCC1E1}">
+										<Image FileName="-1742707634" Left="278" Top="828" Right="658" Bottom="878" />
+										<TypeInfo Item0="{6B8CCCCA-FFDA-4705-BEBC-01EE8FF6A917}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log in with&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;idp_section_buttons&apos;]/button[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;idp_section_buttons&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageView" Key="{BA2686F3-B097-4DBE-813D-56C8EFDFF181}">
+								<Image FileName="1726944356" Left="0" Top="103" Right="1873" Bottom="1078" />
+								<TypeInfo Item0="{2B59C010-C679-4DC8-AAE4-D9A1F2A5CB75}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.lightning.force.com/lightning/r/Report/00O5Y00000D9owYUAR/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{F129EAC1-A929-490E-AFCE-F5E2EEDD263D}">
+										<Image FileName="394097605" Left="0" Top="193" Right="1873" Bottom="1078" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frameBuilderReportViewer" Key="{022B2452-30A0-4B7B-9781-E7D87241CA00}">
+										<Image FileName="394097605" Left="12" Top="205" Right="1861" Bottom="1078" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[@title=&apos;Report Viewer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[contains(@class, &apos;isView&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="buttonFilters" Key="{3A1E6876-CCCD-4427-929D-251D508FD4B9}">
+												<Image FileName="-1993005706" Left="1687" Top="225" Right="1719" Bottom="257" />
+												<TypeInfo Item0="{11E6CB96-DC86-4646-BEE9-47DB411ECD07}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[3]//button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[contains(@class, &apos;action-bar-action-toggleFilter&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;VLhopTlYU_&apos;]//button" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeFilters" Key="{68D7D86C-329C-4A4E-BCB0-D92719ED29C8}">
+												<Image FileName="1762037596" Left="1603" Top="614" Right="1845" Bottom="1064" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;contains koen, marti lobos, kevin johnson, mcdonagh&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/ul[@role=&apos;listbox&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/ul[contains(@class, &apos;section-table-rows-container&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonRemove" Key="{225D1FF1-BBCE-495F-9120-0FBC0D65EAD0}">
+												<Image FileName="1762037596" Left="1820" Top="669" Right="1844" Bottom="693" />
+												<TypeInfo Item0="{6B8CCCCA-FFDA-4705-BEBC-01EE8FF6A917}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Remove&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul/li//button[@title=&apos;Remove&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li/div/div/div/div/div/button[contains(@class, &apos;slds-button&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li/div/div/div/div/div/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonRemove2" Key="{D4F1D426-3447-4E00-9648-DA2819AD5B0E}">
+												<Image FileName="1080399931" Left="1820" Top="712" Right="1844" Bottom="736" />
+												<TypeInfo Item0="{6B8CCCCA-FFDA-4705-BEBC-01EE8FF6A917}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul/li[2]//button[@title=&apos;Remove&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[2]/div/div/div/div/div/button[contains(@class, &apos;slds-button&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[2]/div/div/div/div/div/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonUserFilter" Key="{8457F8E9-FF9E-4F45-B2B0-1C1A7AFD2B43}">
+												<Image FileName="-1142903082" Left="1624" Top="619" Right="1820" Bottom="685" />
+												<TypeInfo Item0="{6B8CCCCA-FFDA-4705-BEBC-01EE8FF6A917}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[contains(., &apos;contains koen, marti lobos, kevin johnson, mcdonagh&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div[2]//ul/li//button[@type=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/ul/li/div//button[contains(@class, &apos;slds-button_reset&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div[2]//ul/li//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxUserList" Key="{08745F6B-6819-4F9F-9D5F-DD9F5FD6493D}">
+												<Image FileName="640777514" Left="1298" Top="674" Right="1584" Bottom="706" />
+												<TypeInfo Item0="{90460DD2-9FDA-4ED8-A956-FAF51A9605E4}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@value=&apos;koen,marti lobos,kevin johnson,mcdonagh&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[contains(@class, &apos;slds-input&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;mHpDQ3RTJPo-dialog-body&apos;]//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//section[@role=&apos;dialog&apos;]//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="footerCancel" Key="{5FA6EA66-1B41-404F-8A84-A7FB40694E1A}">
+												<Image FileName="-2042880559" Left="1294" Top="718" Right="1588" Bottom="746" />
+												<Selectors>
+													<Selector>
+														<Value Value="//footer[contains(., &apos;Cancel&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//footer[contains(@class, &apos;slds-m-top_small&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;mHpDQ3RTJPo-dialog-body&apos;]//footer" />
+													</Selector>
+													<Selector>
+														<Value Value="//footer" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonApply" Key="{467A7ED0-2C5B-442B-A31A-EF3F6E52481E}">
+												<Image FileName="-2042880559" Left="1531" Top="718" Right="1588" Bottom="746" />
+												<TypeInfo Item0="{6B8CCCCA-FFDA-4705-BEBC-01EE8FF6A917}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Apply&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[contains(@class, &apos;slds-button_brand&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{D87A62A0-D6C9-4E25-9C6D-0E9567A39DCB}">
+			<Child Name="BrowserWindow" Owner="{1CD02560-63ED-4ACD-B251-725DBAAADE27}" />
+			<Child Name="pageLoginSalesforce" Owner="{EAF5E6A3-1B89-4B6A-BF98-FDD690806905}">
+				<Child Name="formLoginForm" Owner="{5614B7D6-70E8-4D8B-9C03-DF1831B9D563}" />
+				<Child Name="formLoginForm2" Owner="{36DA63EF-80BA-443C-8D91-FA00430E5BE8}" />
+				<Child Name="buttonLogInWithSSO" Owner="{0D505BB2-1B64-4437-933D-BE0A9EDCC1E1}" />
+			</Child>
+			<Child Name="pageView" Owner="{BA2686F3-B097-4DBE-813D-56C8EFDFF181}">
+				<Child Name="sectionSkipToNavigation" Owner="{F129EAC1-A929-490E-AFCE-F5E2EEDD263D}">
+					<Child Name="frameBuilderReportViewer" Owner="{022B2452-30A0-4B7B-9781-E7D87241CA00}">
+						<Child Name="buttonFilters" Owner="{3A1E6876-CCCD-4427-929D-251D508FD4B9}" />
+						<Child Name="textnodeFilters" Owner="{68D7D86C-329C-4A4E-BCB0-D92719ED29C8}">
+							<Child Name="buttonRemove" Owner="{225D1FF1-BBCE-495F-9120-0FBC0D65EAD0}" />
+							<Child Name="buttonRemove2" Owner="{D4F1D426-3447-4E00-9648-DA2819AD5B0E}" />
+							<Child Name="buttonUserFilter" Owner="{8457F8E9-FF9E-4F45-B2B0-1C1A7AFD2B43}" />
+						</Child>
+						<Child Name="textboxUserList" Owner="{08745F6B-6819-4F9F-9D5F-DD9F5FD6493D}" />
+						<Child Name="footerCancel" Owner="{5FA6EA66-1B41-404F-8A84-A7FB40694E1A}">
+							<Child Name="buttonApply" Owner="{467A7ED0-2C5B-442B-A31A-EF3F6E52481E}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="EventControl_TestEngine_OnStartTest" key="{EB65D1E2-F52B-439F-A587-4D1A866BBF49}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
+		<child name="Test_Template" key="{AAB72834-5542-4BAC-B648-3D9FC88C31C7}" path="Test_Template.tcKDTest" />
+		<child name="Mod_Template" key="{6CE9B133-F56F-4F5D-A9D9-5E8966A118F2}" path="Mod_Template.tcKDTest" />
+		<child name="Keyword_Calling_Script_Test_Template" key="{95786425-5FD8-43DC-B14C-504164447F4A}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
+		<child name="Test_New_Function" key="{A46259DE-8AEA-4151-A0BA-CB61D669515E}" path="Test_New_Function.tcKDTest" />
+		<child name="VET_17_Salesforce_Sample" key="{6E4A074B-9D96-43A1-8175-3F3079EA6315}" path="VET_17_Salesforce_Sample.tcKDTest" />
+		<child name="Mod_Open_Salesforce" key="{9F14E2E8-0500-400A-9F1E-6FCD0BF013B4}" path="Mod_Open_Salesforce.tcKDTest" />
+		<child name="Mod_Filter_Specific_User" key="{189CD483-CA9D-41B5-83D5-7F8A0BF83CAB}" path="Mod_Filter_Specific_User.tcKDTest" />
+		<child name="Mod_Close_Browser" key="{6FE68D77-2659-41E6-987D-E560CBC710E2}" path="Mod_Close_Browser.tcKDTest" />
+	</children>
+</Root>
