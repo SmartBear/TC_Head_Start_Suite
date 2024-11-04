@@ -2,14 +2,10 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{0DBCC344-C267-4EC2-B414-E37ED085FD1F}">
 	<children>
 		<child name="WebTesting_Project" key="{A4BD8699-19A2-4D74-AF40-37A1BB7B9B49}" path="WebTesting_Project\WebTesting_Project.mds" />
-		<child name="Utility_Browser_Project" key="{7D57B4B3-C2FB-489A-B8FB-1B9FEC7C50CB}" path="..\..\Basic\Utility_Browser_Project\Utility_Browser_Project.mds" />
-		<child name="Utility_Browser_Project_1" key="{159BCE98-EA41-43A8-AAFD-CB4EBA3E6B07}" path="Utility_Browser_Project_1\Utility_Browser_Project_1.mds" />
 	</children>
 	<testItems key="{DBF64E0D-5093-4B55-9018-EF682403A867}">
 		<children>
 			<testItem key="{A4BD8699-19A2-4D74-AF40-37A1BB7B9B49}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{7D57B4B3-C2FB-489A-B8FB-1B9FEC7C50CB}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{159BCE98-EA41-43A8-AAFD-CB4EBA3E6B07}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{D7D896F5-76A9-4066-98B3-15A64C0A33C1}" />
