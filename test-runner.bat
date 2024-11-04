@@ -34,13 +34,11 @@ GOTO EchoProjectPath
 set ProjectPath=%2
 GOTO EchoProjectPath
 
-
 :EchoProjectPath
 ECHO Starting TestExecute for project %ProjectPath%
 ECHO ## TestExecute Run for %2 :rocket: | tee -a "%cd%\summary.md"
 ECHO: | tee -a "%cd%\summary.md"
 GOTO ExecuteTest
-
 
 :ExecuteTest
 REM Launches TestExecute
