@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="0 - Common">
+			<child name="EventControl_TestEngine_OnStartTest" key="{783B871B-451A-4FFF-B995-1F555F2687C8}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
+			<child name="Keyword_Calling_Script_Test_Template" key="{DC12BBAF-DF21-4FE5-804D-83F4C5A82919}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
+			<child name="Mod_Template" key="{379FDBB8-C144-46D0-A1D0-113385AE3D2E}" path="Mod_Template.tcKDTest" />
+			<child name="Test_New_Function" key="{F42041B8-280E-47D6-94CF-92F00B86C189}" path="Test_New_Function.tcKDTest" />
+			<child name="Test_Template" key="{34816429-DF1D-4B68-9AE1-392987AAE3F6}" path="Test_Template.tcKDTest" />
+			<child name="Mod_Chrome_Open_Smartstore" key="{0528BB20-68EF-46F6-8732-03FB675DBF52}" path="Mod_Chrome_Open_Smartstore.tcKDTest" />
+			<child name="Mod_Close_Browser" key="{854DEAE8-6E3C-4D6D-946B-AC1CB5393DE3}" path="Mod_Close_Browser.tcKDTest" />
+			<child name="Mod_Edge_Open_Smartstore" key="{3E90BB6E-4297-4708-9BD2-0E6C8F1FA618}" path="Mod_Edge_Open_Smartstore.tcKDTest" />
+			<child name="Mod_Firefox_Open_Smartstore" key="{C82B6A58-FE24-48A2-B0B7-D2AD91CD0D0E}" path="Mod_Firefox_Open_Smartstore.tcKDTest" />
+			<child name="Mod_Open_BearStore_Chrome" key="{200BDC66-B8C2-419F-80C7-AB47F50AD20D}" path="Mod_Open_BearStore_Chrome.tcKDTest" />
+			<child name="Mod_Open_BearStore_Edge" key="{619FBE98-1E1B-4B6C-8A55-21A4CB742278}" path="Mod_Open_BearStore_Edge.tcKDTest" />
+			<child name="Mod_Open_BearStore_FireFox" key="{B3A1ED44-5C6D-414F-B9CB-D6E41967EFC1}" path="Mod_Open_BearStore_FireFox.tcKDTest" />
+			<child name="Mod_Logout_SampleUser" key="{F2287FEA-A020-46F8-9BD2-3192B4737F0D}" path="Mod_Logout_SampleUser.tcKDTest" />
+			<child name="Mod_Login_SampleUser" key="{A2E0AFB4-A641-4D65-BB79-51836859026C}" path="Mod_Login_SampleUser.tcKDTest" />
+			<child name="Mod_Open_BitBar_Remote_Browser" key="{849D642B-BFF0-4A98-872F-F6E81E791F70}" path="Mod_Open_BitBar_Remote_Browser.tcKDTest" />
+			<child name="Test_Browser_Loop" key="{C28F8515-DF82-4E0D-B67D-169DC041B2E7}" path="Test_Browser_Loop.tcKDTest" />
+			<child name="Chrome_Incognito" key="{FDC67FDF-ECF6-4FAC-BC48-38BD8BBC2187}" path="Chrome_Incognito.tcKDTest" />
+			<child name="Mod_Check_For_Logon" key="{91AE859D-3071-49D1-BBFF-2A1D453B8307}" path="Mod_Check_For_Logon.tcKDTest" />
+			<child name="Test_LogIn_Validation" key="{AAAEC5C4-66FE-4B7E-BC52-4563A808B3A5}" path="Test_LogIn_Validation.tcKDTest" />
+		</folder>
+		<folder name="1 - Sanity">
+			<child name="Test_Browser_Acid_Test" key="{7A5BA48B-7865-4391-BAC7-341A75F37AE3}" path="Test_Browser_Acid_Test.tcKDTest" />
+			<child name="Test_Desktop_Acid_Test" key="{56821AED-EF03-4D0B-BD8B-6C28582F0E45}" path="Test_Desktop_Acid_Test.tcKDTest" />
+			<child name="Test_Sample" key="{02E13EAB-A5B9-4578-977B-EDE7E9994AA5}" path="Test_Sample.tcKDTest" />
+			<child name="Test_Sanity" key="{521EE106-9D13-4BE8-B109-0BD76C0DD892}" path="Test_Sanity.tcKDTest" />
+		</folder>
+		<folder name="2 - Smoke">
+			<child name="Mod_Logon_Fail" key="{0FCE0501-EB17-4A50-84DA-59E4227C1773}" path="Mod_Logon_Fail.tcKDTest" />
+			<child name="Test_Logon_Fail" key="{13E0531E-A214-489B-8880-33FB742D9C68}" path="Test_Logon_Fail.tcKDTest" />
+		</folder>
+		<folder name="3 - Deep Dive">
+			<child name="Mod_Data_Drive" key="{75760CAF-76FD-41C9-BF70-EFDFD215ECB7}" path="Mod_Data_Drive.tcKDTest" />
+			<child name="Test_Data_Drive" key="{09DF78AA-9E27-43F1-996D-B1B178F5A8BC}" path="Test_Data_Drive.tcKDTest" />
+			<child name="Test_Browser_Version" key="{2DA18272-82B5-4CEF-B8E9-3E359123F835}" path="Test_Browser_Version.tcKDTest" />
+			<child name="Test_Data_Drive_HaloAI" key="{946E8842-B68C-46A2-BCE9-59782880409C}" path="Test_Data_Drive_HaloAI.tcKDTest" />
+			<child name="Sample_Wait_Loop" key="{F771947D-D9F9-4643-BEBB-133D1F9F4360}" path="Sample_Wait_Loop.tcKDTest" />
+		</folder>
+		<folder name="4 - Debug">
+			<folder name="Local Headless Browser">
+				<child name="Test_Headless_Chrome" key="{80D9FEFF-F539-491B-98D8-1D95ED9A3521}" path="Test_Headless_Chrome.tcKDTest" />
+				<child name="Test_Headless_Edge" key="{A25B09F7-DF71-4163-A5FA-3B9DC0E1D91A}" path="Test_Headless_Edge.tcKDTest" />
+				<child name="Test_Headless_Firefox" key="{0D587197-2D71-4F06-BB08-A81F47FFCBDA}" path="Test_Headless_Firefox.tcKDTest" />
+				<child name="HeadLess_Browser" key="{5F2FA92F-337E-4F81-AABA-B3C7F5DB2AD8}" path="HeadLess_Browser.tcKDTest" />
+				<child name="Simple_Test" key="{03FCA12F-129B-4734-9A34-9724E97B7463}" path="Simple_Test.tcKDTest" />
+			</folder>
+			<folder name="OCR Samples">
+				<child name="Test_OCR_General" key="{E33A1D27-895F-4F8B-903B-5F1B6E3EA674}" path="Test_OCR_General.tcKDTest" />
+				<child name="Mod_OCR_Checkpoints" key="{0AFA219D-10AD-4E37-86D9-E27065C7BFB6}" path="Mod_OCR_Checkpoints.tcKDTest" />
+			</folder>
+			<folder name="Misc">
+				<child name="Test_Empty" key="{5461AB8D-33B0-4AD9-BEFF-D54F5F6F85B6}" path="Test_Empty.tcKDTest" />
+				<child name="Test_Experiment" key="{A5DF8739-B09B-417D-A027-3F2D6678F774}" path="Test_Experiment.tcKDTest" />
+				<child name="Test_Smoke_Anna" key="{A64F9258-DE62-406B-AF85-D014E01005FD}" path="Test_Smoke_Anna.tcKDTest" />
+				<child name="TestedAPP_pARMS" key="{D7BDCDF8-0D1F-4840-AA68-4B3C549CE119}" path="TestedAPP_pARMS.tcKDTest" />
+				<child name="Set_CLIParm_TestedApp" key="{1D2BFC59-E620-4D07-9577-606134856083}" path="Set_CLIParm_TestedApp.tcKDTest" />
+			</folder>
+			<folder name="Visual Test">
+				<child name="Visual_Demo" key="{0C660060-F0BF-441C-8B53-0A8F4A4A72AD}" path="Visual_Demo.tcKDTest" />
+				<child name="Visual_Demo_2" key="{CF8030D4-BE41-4357-AAE1-4910B32129DA}" path="Visual_Demo_2.tcKDTest" />
+				<child name="Visual_Demo_3" key="{FA0A658F-4E24-4C75-9F47-0217F6EFF861}" path="Visual_Demo_3.tcKDTest" />
+				<child name="Visual_Test_4" key="{A006E620-AA35-4CB9-8531-E7641BEF3AB7}" path="Visual_Test_4.tcKDTest" />
+				<child name="Visual_Baseline" key="{607A2FA2-0A6E-43E3-AC98-1D238375D220}" path="Visual_Baseline.tcKDTest" />
+				<child name="Visual_Test5" key="{B8943197-6F57-4263-9770-340B42EF334D}" path="Visual_Test5.tcKDTest" />
+			</folder>
+			<folder name="BitBar">
+				<child name="BitBar_Basic" key="{C53583C8-3CFC-4BB7-B50B-612E29276670}" path="BitBar_Basic.tcKDTest" />
+			</folder>
+			<folder name="Mobile">
+				<child name="Mobile_Virtual_Test" key="{B50EF23B-E221-4CD1-8224-2991E456C274}" path="Mobile_Virtual_Test.tcKDTest" />
+				<child name="Mod_Open_Virtual_Mobile" key="{E605991E-6036-44DC-87AC-415013396D12}" path="Mod_Open_Virtual_Mobile.tcKDTest" />
+				<child name="Mobile_Record_Emulator" key="{B19898FB-B628-4B49-9FA2-71AD97CD64F3}" path="Mobile_Record_Emulator.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="5 - LoadNinja">
+			<child name="Login_Basic" key="{7A11E779-DD6A-4D7A-9BEE-D2952243B892}" path="Login_Basic.tcKDTest" />
+			<child name="Basic_Login" key="{D5378B13-6BA7-4514-A3D4-42E2604A4BA1}" path="Basic_Login.tcKDTest" />
+		</folder>
+	</children>
+</Root>
