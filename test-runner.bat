@@ -10,7 +10,7 @@ IF %1.==. GOTO AccessKeyMissing
 set AccessKey=%1
 
 REM By default we run web testing
-set ProjectPath="%cd%\WebTesting\WebTesting.pjs"
+set ProjectPath="%cd%\TC_Head_Start_Suite.pjs"
 
 IF "%2" == "Mobile" GOTO MobileProjectRun
 IF "%2" == "Web" GOTO WebProjectRun
