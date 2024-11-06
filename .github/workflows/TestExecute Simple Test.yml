@@ -18,7 +18,7 @@ jobs:
     runs-on: windows-latest
     permissions: write-all
     steps:
-     - uses: actions/checkout@v3
+     - uses: actions/checkout@v4
      - name: Job Startup
        run: |
         echo "Starting job [Event=${{ github.event_name }}]"
@@ -40,7 +40,7 @@ jobs:
        run: .\test-runner.bat ${{ secrets.TEST_EXECUTE_ACCESS_KEY }} ${{ inputs.project || 'Web' }}
        shell: cmd
      - name: JUnit Report from TestExecute
-       uses: dorny/test-reporter@v1.6.0
+       uses: dorny/test-reporter@v1.9.1
        if: always()
        with:
         name: TestComplete JUnit Report
