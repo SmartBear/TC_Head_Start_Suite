@@ -1,15 +1,12 @@
 name: TestExecute Simple Test
 run-name: TestExecute run from GitHub Action (${{ github.actor }})
 on:
-  push:
   workflow_dispatch:
     inputs:
       project:
         type: choice
         description: Project to be executed
         options:
-        - Web
-        - Mobile
         - HeadStart
 jobs:
   DownloadInstallAndRunTE:

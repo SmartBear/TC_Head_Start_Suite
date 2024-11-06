@@ -12,18 +12,8 @@ set AccessKey=%1
 REM By default we run HeadStart Testing
 set ProjectPath="%cd%\TC_Head_Start_Suite.pjs"
 
-IF "%2" == "Mobile" GOTO MobileProjectRun
-IF "%2" == "Web" GOTO WebProjectRun
 IF "%2" == "HeadStart" GOTO HeadStartProjectRun
 IF NOT %2.==. GOTO ParamProjectPath
-GOTO EchoProjectPath
-
-:MobileProjectRun
-set ProjectPath="%cd%\MobileTesting_Suite\MobileTesting_Suite.pjs"
-GOTO EchoProjectPath
-
-:WebProjectRun
-set ProjectPath="%cd%\WebTesting_Suite\WebTesting_Suite.pjs"
 GOTO EchoProjectPath
 
 :HeadStartProjectRun
