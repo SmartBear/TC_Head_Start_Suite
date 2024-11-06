@@ -23,11 +23,11 @@ set ProjectPath="%cd%\TC_Head_Start_Suite.pjs"
 GOTO EchoProjectPath
 
 :MobileProjectRun
-set ProjectPath="%cd%\MobileTesting\MobileTesting.pjs"
+set ProjectPath="%cd%\MobileTesting_Suite\MobileTesting_Suite.pjs"
 GOTO EchoProjectPath
 
 :WebProjectRun
-set ProjectPath="%cd%\WebTesting\WebTesting.pjs"
+set ProjectPath="%cd%\WebTesting_Suite\WebTesting_Suite.pjs"
 GOTO EchoProjectPath
 
 :ParamProjectPath
