@@ -8,6 +8,8 @@ on:
         description: Project to be executed
         options:
         - HeadStart
+        - Web
+        - Mobile
 jobs:
   DownloadInstallAndRunTE:
     name: Install and Run TestExecute (${{ github.actor }})

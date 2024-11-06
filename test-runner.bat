@@ -13,11 +13,21 @@ REM By default we run HeadStart Testing
 set ProjectPath="%cd%\TC_Head_Start_Suite.pjs"
 
 IF "%2" == "HeadStart" GOTO HeadStartProjectRun
+IF "%2" == "Mobile" GOTO MobileProjectRun
+IF "%2" == "Web" GOTO WebProjectRun
 IF NOT %2.==. GOTO ParamProjectPath
 GOTO EchoProjectPath
 
 :HeadStartProjectRun
 set ProjectPath="%cd%\TC_Head_Start_Suite.pjs"
+GOTO EchoProjectPath
+
+:MobileProjectRun
+set ProjectPath="%cd%\MobileTesting\MobileTesting.pjs"
+GOTO EchoProjectPath
+
+:WebProjectRun
+set ProjectPath="%cd%\WebTesting\WebTesting.pjs"
 GOTO EchoProjectPath
 
 :ParamProjectPath
