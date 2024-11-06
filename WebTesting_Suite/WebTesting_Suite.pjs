@@ -3,13 +3,13 @@
 	<children>
 		<child name="WebTesting_Project" key="{A4BD8699-19A2-4D74-AF40-37A1BB7B9B49}" path="WebTesting_Project\WebTesting_Project.mds" />
 	</children>
-	<testItems key="{DBF64E0D-5093-4B55-9018-EF682403A867}">
+	<testItems key="{C319D14F-1D62-43C6-AAB9-714AAF8B6EE0}">
 		<children>
 			<testItem key="{A4BD8699-19A2-4D74-AF40-37A1BB7B9B49}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
-	<variables key="{D7D896F5-76A9-4066-98B3-15A64C0A33C1}" />
-	<analysis key="{951BF2FF-815F-4510-A240-469684AB7E3B}" />
+	<variables key="{29638C7C-130E-4BA8-BE0A-0F892E21D9DC}" />
+	<analysis key="{FC2EEDEB-7BE8-4BBD-A641-395F76F115C0}" />
 	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
 	</scc>
